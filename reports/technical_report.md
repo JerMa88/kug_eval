@@ -173,16 +173,16 @@ Future work will expand `kug_eval` to include dynamic layer-wise Signal-to-Noise
 
 ---
 
-## References
+## References & Downloaded Paper Index
 
-1. Allen-Zhu, Z., & Li, Y. (2023). Physics of Language Models: Part 3.1, Knowledge Storage and Extraction. arXiv:2309.14316.
-2. Allen-Zhu, Z., & Li, Y. (2023). Physics of Language Models: Part 3.2, Knowledge Manipulation. arXiv:2309.14402.
-3. Allen-Zhu, Z., & Li, Y. (2024). Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws. arXiv:2404.05405.
-4. Berglund, L., et al. (2023). The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A". arXiv:2309.12288.
-5. Berglund, L., et al. (2023). Taken out of context: On-the-fly recovery of factual knowledge in LLMs. arXiv:2311.15566.
-6. Meng, K., et al. (2022). Locating and editing factual associations in GPT. NeurIPS 2022. arXiv:2202.05262.
-7. Meng, K., et al. (2023). Mass-editing memory in a transformer. ICLR 2023. arXiv:2301.04211.
-8. Zhong, Z., et al. (2023). MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions. EMNLP 2023. arXiv:2305.14795.
-9. Yang, X., et al. (2026). On-Policy Representation Distillation. arXiv:2606.06021.
-10. Li, H., et al. (2026). The Model Says Walk: How Surface Heuristics Override Implicit Constraints in LLM Reasoning. arXiv:2602.08912.
-11. Jo, H. (2026). Prompt Architecture Determines Reasoning Quality: A Variable Isolation Study on the Car Wash Problem. arXiv:2602.09104.
+1. Allen-Zhu, Z., & Li, Y. (2023). *Physics of Language Models: Part 3.1, Knowledge Storage and Extraction*. arXiv:2309.14316. Local PDF: [`Physics_of_LM_Part3.1...pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/Physics_of_LM_Part3.1_Knowledge_Storage_Extraction_Allen-Zhu_Li.pdf)
+2. Allen-Zhu, Z., & Li, Y. (2023). *Physics of Language Models: Part 3.2, Knowledge Manipulation*. arXiv:2309.14402. Local PDF: [`Physics_of_LM_Part3.2...pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/Physics_of_LM_Part3.2_Knowledge_Manipulation_Allen-Zhu_Li.pdf)
+3. Allen-Zhu, Z., & Li, Y. (2024). *Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws*. arXiv:2404.05405. Local PDF: [`Physics_of_LM_Part3.3...pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/Physics_of_LM_Part3.3_Knowledge_Capacity_Scaling_Allen-Zhu_Li.pdf)
+4. Berglund, L., Tong, M., Kaufmann, M., et al. (2023). *The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"*. arXiv:2309.12288. Local PDF: [`2309.12288v4_Reversal_Curse.pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/2309.12288v4_Reversal_Curse.pdf)
+5. Dai, L., Rao, Z., & Wang, Y. (2026). *Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning*. arXiv:2607.08393. Local PDF: [`2607.08393v1.pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/2607.08393v1.pdf)
+6. Zhong, Z., Wu, Z., & Manning, C. D. (2023). *MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions*. arXiv:2305.14795. Local PDF: [`2305.14795v3_MQuAKE.pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/2305.14795v3_MQuAKE.pdf)
+7. Meng, K., Bau, D., Andonian, A., et al. (2022). *Locating and Editing Factual Associations in GPT*. NeurIPS 2022. arXiv:2202.05262. Local PDF: [`2202.05262v5_ROME.pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/2202.05262v5_ROME.pdf)
+8. Huang, K.-W., Fu, Y.-F., Tsai, C.-Y., et al. (2024). *Neuron-Level Differentiation of Memorization and Generalization in Large Language Models*. arXiv:2412.18497. Local PDF: [`2412.18497v2_Neuron_Level.pdf`](file:///Users/zma/Documents/programs/kug_eval/related_works/2412.18497v2_Neuron_Level.pdf)
+9. Yang, X., et al. (2026). *On-Policy Representation Distillation*. arXiv:2606.06021.
+10. Li, H., et al. (2026). *The Model Says Walk: How Surface Heuristics Override Implicit Constraints in LLM Reasoning*. arXiv:2602.08912.
+11. Jo, H. (2026). *Prompt Architecture Determines Reasoning Quality: A Variable Isolation Study on the Car Wash Problem*. arXiv:2602.09104.
