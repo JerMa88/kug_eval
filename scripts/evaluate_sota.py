@@ -6,6 +6,12 @@ from kug_eval.data.dataset import load_task_items_from_jsonl
 from kug_eval.evaluation.evaluator import APIModelEvaluator, evaluate_dataset
 from kug_eval.evaluation.metrics import plot_kug_diagnostics
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
