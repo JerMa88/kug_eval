@@ -82,6 +82,10 @@ def test_api_evaluator_sota_models():
     ans_gpt = evaluator_gpt.generate_answer("Query: walk or drive?")
     assert ans_gpt in ["Drive", "Walk", "Model Output Answer"]
 
+    evaluator_minimax = APIModelEvaluator(model_name="minimax-m3", mock_mode=True)
+    ans_minimax = evaluator_minimax.generate_answer("Query: walk or drive?")
+    assert ans_minimax in ["Drive", "Walk", "Model Output Answer"]
+
 
 def test_local_evaluator_and_evaluate_dataset():
     model = MockLocalModel()

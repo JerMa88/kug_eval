@@ -131,31 +131,30 @@ class APIModelEvaluator(BaseEvaluator):
             return self._call_kimi_api(prompt)
         elif "glm" in self.model_name.lower() or "zhipu" in self.model_name.lower():
             return self._call_glm_api(prompt)
+        elif "minimax" in self.model_name.lower():
+            return self._call_minimax_api(prompt)
         else:
             return self._mock_api_generation(prompt)
 
     def _call_gemini_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for Gemini 3.6 Flash endpoint
         return self._mock_api_generation(prompt)
 
     def _call_openai_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for GPT 5.6 sol endpoint
         return self._mock_api_generation(prompt)
 
     def _call_claude_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for Claude Fable endpoint
         return self._mock_api_generation(prompt)
 
     def _call_deepseek_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for DeepSeek v4 endpoint
         return self._mock_api_generation(prompt)
 
     def _call_kimi_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for Kimi K3 endpoint
         return self._mock_api_generation(prompt)
 
     def _call_glm_api(self, prompt: str) -> str:
-        # Generic API caller placeholder for GLM 5.2 endpoint
+        return self._mock_api_generation(prompt)
+
+    def _call_minimax_api(self, prompt: str) -> str:
         return self._mock_api_generation(prompt)
 
     def _mock_api_generation(self, prompt: str) -> str:
