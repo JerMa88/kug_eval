@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "kug_eval"
 version = "0.1.0"
-description = "Evaluation Framework for the Knowing-Using Gap and LLM Generalization"
+description = "Dataset-Agnostic Evaluation Framework for the Knowing-Using Gap (Amem vs Agen) and LLM Generalization"
 authors = [{ name = "JerMa88" }]
 readme = "README.md"
 requires-python = ">=3.9"

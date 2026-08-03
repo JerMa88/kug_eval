@@ -62,11 +62,6 @@ kug_eval/
 │   ├── models/                    # Representation hooks & layer profilers
 │   │   ├── hooks.py               # RepresentationCache & architecture layer resolvers
 │   │   └── tracing.py             # LayerRoutingTracer (CKA, Cosine Sim matrix, SNR)
-│   ├── losses/                    # Representation alignment losses
-│   │   ├── rep_distill.py         # Cosine distillation loss
-│   │   ├── contrastive.py         # InfoNCE & batch-size fallback loss
-│   │   ├── probe.py               # Linear probe cross-entropy loss
-│   │   └── hybrid.py              # Convex hybrid alignment loss
 │   ├── evaluation/                # Evaluator engine & UX plotter
 │   │   ├── evaluator.py           # LocalModelEvaluator & APIModelEvaluator (SOTA Frontier)
 │   │   └── metrics.py             # Exact match, KUG ratio, AUC, & UX figure generator
@@ -76,9 +71,8 @@ kug_eval/
 │   └── sota_generalization_benchmark.jsonl
 ├── scripts/                       # Execution CLIs
 │   ├── evaluate_sota.py           # SOTA model evaluation CLI
-│   ├── train_alignment.py         # SFT alignment training CLI
 │   └── analyze_kug.py             # Results summary generator
-├── tests/                         # Test suite (23 unit tests, 100% pass)
+├── tests/                         # Test suite
 └── reports/                       # Technical report & literature review
     ├── literature_review.md
     └── technical_report.md
