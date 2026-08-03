@@ -155,11 +155,12 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | **DeepSeek v4** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **GLM 5.2** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| **MiniMax M3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **Baseline SFT (Qwen-2.5-1.5B)** | Open Weights | 86.9% | 12.5% | **6.95x** | 0.0% | 33.3% | 0.0% | 0.0% | 50.0% |
 | **Faster-SFT (Hybrid Loss)** | Open Weights | 95.2% | 88.4% | **1.08x** | 100.0% | 100.0% | 100.0% | 50.0% | 100.0% |
 
 ### Key Findings & Analysis:
-1. **Frontier Models SOTA Performance**: Top-tier frontier models (Gemini 3.6 Flash, GPT 5.6 sol, Claude Fable, DeepSeek v4, Kimi K3, GLM 5.2) exhibit 100% accuracy across benchmark task categories in standard reasoning formats, achieving an optimal KUG ratio of **1.00x**.
+1. **Frontier Models SOTA Performance**: Top-tier frontier models (Gemini 3.6 Flash, GPT 5.6 sol, Claude Fable, DeepSeek v4, Kimi K3, GLM 5.2, MiniMax M3) exhibit 100% accuracy across benchmark task categories in standard reasoning formats, achieving an optimal KUG ratio of **1.00x**.
 2. **Baseline SFT Failure (The 6.95x–655x Gap)**: Standard Cross-Entropy SFT on smaller open models (Qwen-2.5-1.5B) achieves $86.9\%$ memorization ($A_{\text{mem}}$) but suffers catastrophic generalization collapse ($12.5\%$), yielding a KUG ratio of **6.95x**. In complex multi-hop and physical constraint tasks (car wash), baseline SFT drops to $0.0\%$ accuracy due to surface heuristic overriding.
 3. **Alignment Auxiliary Loss Remedy**: Incorporating intra-model cross-prompt representation alignment ($\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{SFT}} + \alpha \mathcal{L}_{\text{align}}$) via `kug_eval` reduces the KUG ratio from **6.95x down to 1.08x**, recovering $88.4\%$ generalization accuracy.
 
