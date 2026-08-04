@@ -4,29 +4,29 @@
     "kug_ratio": 1.0,
     "total_count": 12,
     "category_summary": {
-        "reversal": {
-            "a_mem": 1.0,
-            "a_gen": 1.0,
-            "kug_ratio": 1.0,
-            "count": 3
-        },
         "multi_hop": {
             "a_mem": 1.0,
             "a_gen": 1.0,
             "kug_ratio": 1.0,
             "count": 2
         },
-        "car_wash": {
-            "a_mem": 1.0,
-            "a_gen": 1.0,
-            "kug_ratio": 1.0,
-            "count": 3
-        },
         "counterfactual": {
             "a_mem": 1.0,
             "a_gen": 1.0,
             "kug_ratio": 1.0,
             "count": 2
+        },
+        "reversal": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 3
+        },
+        "car_wash": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 3
         },
         "set_intersection": {
             "a_mem": 1.0,
@@ -37,47 +37,11 @@
     },
     "item_results": [
         {
-            "id": "reversal_001",
-            "category": "reversal",
-            "target_entity": "Tom Cruise",
-            "pred_mem": "Tom Cruise",
-            "pred_gen": "Tom Cruise",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
-            "id": "multi_hop_002",
-            "category": "multi_hop",
-            "target_entity": "Seattle",
-            "pred_mem": "Seattle",
-            "pred_gen": "Seattle",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
-            "id": "reversal_003",
-            "category": "reversal",
-            "target_entity": "Aeneas",
-            "pred_mem": "Aeneas",
-            "pred_gen": "Aeneas",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
             "id": "multi_hop_001",
             "category": "multi_hop",
             "target_entity": "University College London",
             "pred_mem": "University College London",
             "pred_gen": "University College London",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
-            "id": "car_wash_003",
-            "category": "car_wash",
-            "target_entity": "Drive",
-            "pred_mem": "Drive",
-            "pred_gen": "Drive",
             "acc_mem": 1.0,
             "acc_gen": 1.0
         },
@@ -100,15 +64,6 @@
             "acc_gen": 1.0
         },
         {
-            "id": "car_wash_001",
-            "category": "car_wash",
-            "target_entity": "Drive",
-            "pred_mem": "Drive",
-            "pred_gen": "Drive",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
             "id": "reversal_002",
             "category": "reversal",
             "target_entity": "Eldoria",
@@ -118,11 +73,56 @@
             "acc_gen": 1.0
         },
         {
+            "id": "reversal_001",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_003",
+            "category": "reversal",
+            "target_entity": "Aeneas",
+            "pred_mem": "Aeneas",
+            "pred_gen": "Aeneas",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_003",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_001",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
             "id": "car_wash_002",
             "category": "car_wash",
             "target_entity": "Drive",
             "pred_mem": "Drive",
             "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "multi_hop_002",
+            "category": "multi_hop",
+            "target_entity": "Seattle",
+            "pred_mem": "Seattle",
+            "pred_gen": "Seattle",
             "acc_mem": 1.0,
             "acc_gen": 1.0
         },

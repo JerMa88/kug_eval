@@ -182,7 +182,8 @@ class APIModelEvaluator(BaseEvaluator):
     def _call_openai_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("OPENAI_API_KEY", "")
         if not api_key:
-            logger.warning("OPENAI_API_KEY not found in environment. Falling back to mock response.")
+            if not self.mock_mode:
+                raise RuntimeError("OPENAI_API_KEY not found in environment. Fill in OPENAI_API_KEY in .env for live inference.")
             return self._mock_api_generation(prompt)
 
         url = "https://api.openai.com/v1/chat/completions"
@@ -190,7 +191,6 @@ class APIModelEvaluator(BaseEvaluator):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
         }
-        # Standard OpenAI model resolution
         real_model = "gpt-4o-mini" if ("5.6" in self.model_name or "mini" in self.model_name) else "gpt-4o"
         payload = {
             "model": real_model,
@@ -200,15 +200,18 @@ class APIModelEvaluator(BaseEvaluator):
         }
 
         res = self._http_post_json(url, headers, payload)
-        time.sleep(0.25)  # Rate limit throttle to stay below 500 RPM limit
+        time.sleep(0.25)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"OpenAI API call for {self.model_name} failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_fireworks_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("FIREWORKS_AI_API_KEY", "") or os.getenv("FIREWORKS_API_KEY", "")
         if not api_key:
-            logger.warning("FIREWORKS_AI_API_KEY not found in environment. Falling back to mock response.")
+            if not self.mock_mode:
+                raise RuntimeError("FIREWORKS_AI_API_KEY not found in environment. Fill in FIREWORKS_AI_API_KEY in .env for live inference.")
             return self._mock_api_generation(prompt)
 
         url = "https://api.fireworks.ai/inference/v1/chat/completions"
@@ -216,7 +219,6 @@ class APIModelEvaluator(BaseEvaluator):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
         }
-        # Fireworks AI model path resolution
         fireworks_model = "accounts/fireworks/models/deepseek-v3"
         if "llama" in self.model_name.lower():
             fireworks_model = "accounts/fireworks/models/llama-v3p3-70b-instruct"
@@ -233,12 +235,15 @@ class APIModelEvaluator(BaseEvaluator):
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"Fireworks AI API call for {self.model_name} failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_gemini_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("GEMINI_API_KEY", "")
         if not api_key:
-            logger.warning("GEMINI_API_KEY not found in environment. Falling back to mock response.")
+            if not self.mock_mode:
+                raise RuntimeError("GEMINI_API_KEY not found in environment. Fill in GEMINI_API_KEY in .env for live inference.")
             return self._mock_api_generation(prompt)
 
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
@@ -252,12 +257,15 @@ class APIModelEvaluator(BaseEvaluator):
             parts = res["candidates"][0].get("content", {}).get("parts", [])
             if parts:
                 return parts[0].get("text", "").strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"Gemini API call for {self.model_name} failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_claude_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("ANTHROPIC_API_KEY", "")
         if not api_key:
-            logger.warning("ANTHROPIC_API_KEY not found in environment. Falling back to mock response.")
+            if not self.mock_mode:
+                raise RuntimeError("ANTHROPIC_API_KEY not found in environment. Fill in ANTHROPIC_API_KEY in .env for live inference.")
             return self._mock_api_generation(prompt)
 
         url = "https://api.anthropic.com/v1/messages"
@@ -275,23 +283,32 @@ class APIModelEvaluator(BaseEvaluator):
         res = self._http_post_json(url, headers, payload)
         if res and "content" in res and len(res["content"]) > 0:
             return res["content"][0].get("text", "").strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"Claude API call for {self.model_name} failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_deepseek_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("DEEPSEEK_API_KEY", "")
         if not api_key:
+            if not self.mock_mode:
+                raise RuntimeError("DEEPSEEK_API_KEY not found in environment. Please add your DEEPSEEK_API_KEY to .env to run DeepSeek v4 / DeepSeek Chat.")
             return self._mock_api_generation(prompt)
         url = "https://api.deepseek.com/chat/completions"
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-        payload = {"model": "deepseek-chat", "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
+        real_model = "deepseek-chat" if "v4" in self.model_name.lower() or "chat" in self.model_name.lower() else "deepseek-reasoner"
+        payload = {"model": real_model, "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"DeepSeek API call failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_kimi_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("MOONSHOT_API_KEY", "")
         if not api_key:
+            if not self.mock_mode:
+                raise RuntimeError("MOONSHOT_API_KEY not found in environment. Fill in MOONSHOT_API_KEY in .env.")
             return self._mock_api_generation(prompt)
         url = "https://api.moonshot.cn/v1/chat/completions"
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -299,11 +316,15 @@ class APIModelEvaluator(BaseEvaluator):
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"Moonshot API call failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_glm_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("ZHIPU_API_KEY", "")
         if not api_key:
+            if not self.mock_mode:
+                raise RuntimeError("ZHIPU_API_KEY not found in environment. Fill in ZHIPU_API_KEY in .env.")
             return self._mock_api_generation(prompt)
         url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -311,11 +332,15 @@ class APIModelEvaluator(BaseEvaluator):
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"GLM API call failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _call_minimax_api(self, prompt: str) -> str:
         api_key = self.api_key or os.getenv("MINIMAX_API_KEY", "")
         if not api_key:
+            if not self.mock_mode:
+                raise RuntimeError("MINIMAX_API_KEY not found in environment. Fill in MINIMAX_API_KEY in .env.")
             return self._mock_api_generation(prompt)
         url = "https://api.minimax.chat/v1/text/chatcompletion_v2"
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -323,6 +348,8 @@ class APIModelEvaluator(BaseEvaluator):
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
+        if not self.mock_mode:
+            raise RuntimeError(f"MiniMax API call failed. Response: {res}")
         return self._mock_api_generation(prompt)
 
     def _mock_api_generation(self, prompt: str) -> str:

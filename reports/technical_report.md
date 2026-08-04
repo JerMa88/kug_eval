@@ -151,12 +151,11 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **GPT 5.6 sol (Live OpenAI API)** | Frontier API | 100.0% | 88.0% | **1.14x** | 48.0% | 94.0% | 100.0% | 99.0% | 99.0% |
 | **Gemini 3.6 Flash (Live Google API)** | Frontier API | 95.8% | 98.2% | **0.98x** | 99.0% | 99.0% | 100.0% | 95.0% | 98.0% |
-| **Claude Fable (Live Anthropic API)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **DeepSeek v4 (Live API)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **DeepSeek v3 (Live Fireworks AI)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **Kimi K3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **GLM 5.2 (Live API)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **MiniMax M3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| **DeepSeek v4 / Chat (Pending API Key)** | Frontier API | Pending | Pending | **Pending** | Pending | Pending | Pending | Pending | Pending |
+| **Claude Fable (Pending API Key)** | Frontier API | Pending | Pending | **Pending** | Pending | Pending | Pending | Pending | Pending |
+| **Kimi K3 (Pending API Key)** | Frontier API | Pending | Pending | **Pending** | Pending | Pending | Pending | Pending | Pending |
+| **GLM 5.2 (Pending API Key)** | Frontier API | Pending | Pending | **Pending** | Pending | Pending | Pending | Pending | Pending |
+| **MiniMax M3 (Pending API Key)** | Frontier API | Pending | Pending | **Pending** | Pending | Pending | Pending | Pending | Pending |
 | **Baseline SFT (Qwen-2.5-1.5B)** | Open Weights | 86.9% | 12.5% | **6.95x** | 0.0% | 33.3% | 0.0% | 0.0% | 50.0% |
 | **Faster-SFT (Hybrid Loss)** | Open Weights | 95.2% | 88.4% | **1.08x** | 100.0% | 100.0% | 100.0% | 50.0% | 100.0% |
 
