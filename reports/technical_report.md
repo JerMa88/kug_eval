@@ -150,7 +150,7 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | Model | Model Class | Overall $A_{\text{mem}}$ (%) | Overall $A_{\text{gen}}$ (%) | KUG Ratio ($\frac{A_{\text{mem}}}{A_{\text{gen}}}$) | Car Wash Acc (%) | Reversal Acc (%) | Multi-Hop Acc (%) | Counterfactual Acc (%) | Set Intersect Acc (%) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **GPT 5.6 sol (Live OpenAI API)** | Frontier API | 100.0% | 88.0% | **1.14x** | 48.0% | 94.0% | 100.0% | 99.0% | 99.0% |
-| **Gemini 3.6 Flash** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| **Gemini 3.6 Flash (Live Google API)** | Frontier API | 95.8% | 98.2% | **0.98x** | 99.0% | 99.0% | 100.0% | 95.0% | 98.0% |
 | **Claude Fable** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **DeepSeek v4** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |

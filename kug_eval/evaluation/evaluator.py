@@ -154,8 +154,8 @@ class APIModelEvaluator(BaseEvaluator):
         else:
             return self._mock_api_generation(prompt)
 
-    def _http_post_json(self, url: str, headers: Dict[str, str], payload: Dict[str, Any], max_retries: int = 3) -> Optional[Dict[str, Any]]:
-        """Executes HTTP POST request with JSON payload and exponential backoff retry logic."""
+    def _http_post_json(self, url: str, headers: Dict[str, str], payload: Dict[str, Any], max_retries: int = 5) -> Optional[Dict[str, Any]]:
+        """Executes HTTP POST request with JSON payload and exponential backoff retry logic for 429 rate limits."""
         data_bytes = json.dumps(payload).encode("utf-8")
         req = urllib.request.Request(url, data=data_bytes, headers=headers, method="POST")
 
@@ -164,6 +164,12 @@ class APIModelEvaluator(BaseEvaluator):
                 with urllib.request.urlopen(req, timeout=30) as response:
                     res_body = response.read().decode("utf-8")
                     return json.loads(res_body)
+            except urllib.error.HTTPError as e:
+                is_rate_limit = (e.code == 429)
+                logger.warning(f"HTTP Error {e.code} (attempt {attempt + 1}/{max_retries}) for {url}: {e.reason}")
+                if attempt < max_retries - 1:
+                    sleep_time = (4 * (attempt + 1)) if is_rate_limit else (2 ** attempt)
+                    time.sleep(sleep_time)
             except Exception as e:
                 logger.warning(f"HTTP request attempt {attempt + 1}/{max_retries} to {url} failed: {e}")
                 if attempt < max_retries - 1:
@@ -191,6 +197,7 @@ class APIModelEvaluator(BaseEvaluator):
         }
 
         res = self._http_post_json(url, headers, payload)
+        time.sleep(0.25)  # Rate limit throttle to stay below 500 RPM limit
         if res and "choices" in res and len(res["choices"]) > 0:
             return res["choices"][0]["message"]["content"].strip()
         return self._mock_api_generation(prompt)
@@ -231,7 +238,7 @@ class APIModelEvaluator(BaseEvaluator):
             logger.warning("GEMINI_API_KEY not found in environment. Falling back to mock response.")
             return self._mock_api_generation(prompt)
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{"parts": [{"text": prompt}]}]
@@ -328,17 +335,17 @@ class APIModelEvaluator(BaseEvaluator):
         return "Model Output Answer"
 
 
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def evaluate_dataset(
     evaluator: BaseEvaluator,
     task_items: List[GeneralizationTaskItem],
-    max_workers: int = 10,
+    max_workers: int = 5,
 ) -> Dict[str, Any]:
     """
     Evaluates a full collection of task items and aggregates performance metrics per category.
-    Uses multi-threading for fast concurrent API requests.
+    Uses multi-threading for fast concurrent API requests with live progress reporting.
     """
     results = []
     cat_mem = {}
@@ -350,13 +357,18 @@ def evaluate_dataset(
     if workers > 1:
         logger.info(f"Parallelizing API evaluations across {workers} worker threads...")
         with ThreadPoolExecutor(max_workers=workers) as executor:
-            res_list = list(executor.map(evaluator.evaluate_item, task_items))
-        
-        for idx, res in enumerate(res_list):
-            results.append(res)
-            cat = task_items[idx].category or "general"
-            cat_mem.setdefault(cat, []).append(res["acc_mem"])
-            cat_gen.setdefault(cat, []).append(res["acc_gen"])
+            future_to_item = {executor.submit(evaluator.evaluate_item, item): item for item in task_items}
+            completed_count = 0
+            for future in as_completed(future_to_item):
+                res = future.result()
+                results.append(res)
+                cat = res["category"] or "general"
+                cat_mem.setdefault(cat, []).append(res["acc_mem"])
+                cat_gen.setdefault(cat, []).append(res["acc_gen"])
+
+                completed_count += 1
+                if completed_count % 100 == 0 or completed_count == total_items:
+                    logger.info(f"Evaluated {completed_count}/{total_items} items ({(completed_count/total_items)*100:.1f}%)...")
     else:
         for idx, item in enumerate(task_items):
             res = evaluator.evaluate_item(item)

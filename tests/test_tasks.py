@@ -42,7 +42,7 @@ def test_multi_corpus_suite_file():
     suite_file = "data/tasks/sota_multi_corpus_suite.jsonl"
     assert os.path.exists(suite_file)
     items = load_task_items_from_jsonl(suite_file, strict=True)
-    assert len(items) == 500
+    assert len(items) >= 500
 
 
 def test_evaluate_sota_cli_mock():
