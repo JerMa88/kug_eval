@@ -86,6 +86,10 @@ def test_api_evaluator_sota_models():
     ans_minimax = evaluator_minimax.generate_answer("Query: walk or drive?")
     assert ans_minimax in ["Drive", "Walk", "Model Output Answer"]
 
+    evaluator_fireworks = APIModelEvaluator(model_name="fireworks/deepseek-v3", mock_mode=True)
+    ans_fireworks = evaluator_fireworks.generate_answer("Query: walk or drive?")
+    assert ans_fireworks in ["Drive", "Walk", "Model Output Answer"]
+
 
 def test_local_evaluator_and_evaluate_dataset():
     model = MockLocalModel()

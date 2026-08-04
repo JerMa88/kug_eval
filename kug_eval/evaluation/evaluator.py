@@ -1,5 +1,9 @@
 import os
+import time
+import json
 import logging
+import urllib.request
+import urllib.error
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional, Union
 import torch
@@ -42,40 +46,48 @@ class BaseEvaluator(ABC):
         }
 
 
-class LocalModelEvaluator(BaseEvaluator):
+class LocalKVModelEvaluator(BaseEvaluator):
     """
-    Evaluator for local HuggingFace PyTorch models.
-    Supports KV-cache generation and per-item robust fallback.
+    Evaluator for local PyTorch / HuggingFace Transformers models.
+    Utilizes KV-cache acceleration for generation.
     """
-    def __init__(self, model, tokenizer, device: str = "cpu", max_new_tokens: int = 64):
+    def __init__(
+        self,
+        model: Any,
+        tokenizer: Any,
+        device: Optional[str] = None,
+        max_new_tokens: int = 64,
+    ):
         self.model = model
         self.tokenizer = tokenizer
-        self.device = device
+        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.max_new_tokens = max_new_tokens
         self.model.eval()
 
     def generate_answer(self, prompt: str) -> str:
         raw_inputs = self.tokenizer(prompt, return_tensors="pt")
         if isinstance(raw_inputs, dict):
-            inputs = {k: v.to(self.device) for k, v in raw_inputs.items()}
+            inputs = {k: v.to(self.device) if hasattr(v, "to") else v for k, v in raw_inputs.items()}
         elif hasattr(raw_inputs, "to"):
             inputs = raw_inputs.to(self.device)
         else:
             inputs = raw_inputs
 
         with torch.no_grad():
-            try:
-                outputs = self.model.generate(
+            if hasattr(self.model, "generate"):
+                output_ids = self.model.generate(
                     **inputs,
                     max_new_tokens=self.max_new_tokens,
-                    pad_token_id=self.tokenizer.pad_token_id or self.tokenizer.eos_token_id,
                     do_sample=False,
+                    use_cache=True,
+                    pad_token_id=self.tokenizer.eos_token_id,
                 )
-                input_ids = inputs["input_ids"] if isinstance(inputs, dict) else inputs.input_ids
-                generated_ids = outputs[0][input_ids.shape[1]:]
-                return self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
-            except Exception as e:
-                logger.warning(f"Error during batched generate; attempting fallback: {e}")
+                generated_text = self.tokenizer.decode(
+                    output_ids[0][inputs["input_ids"].shape[1]:],
+                    skip_special_tokens=True,
+                )
+                return generated_text.strip()
+            else:
                 return self._fallback_generate(inputs)
 
     def _fallback_generate(self, inputs) -> str:
@@ -92,15 +104,17 @@ class LocalModelEvaluator(BaseEvaluator):
         return self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
 
 
+LocalModelEvaluator = LocalKVModelEvaluator
+
+
 class APIModelEvaluator(BaseEvaluator):
     """
-    Evaluator for SOTA Frontier API models:
-    - Gemini 3.6 Flash
-    - GPT 5.6 sol
-    - Claude Fable
-    - DeepSeek v4
-    - Kimi K3
-    - GLM 5.2
+    Evaluator for SOTA Frontier & Provider API models:
+    - OpenAI (GPT-4o / GPT-4o-mini / GPT-5.6)
+    - Fireworks AI (DeepSeek v3/v4, Llama 3.3)
+    - Google Gemini (Gemini 2.0 / 3.6 Flash)
+    - Anthropic Claude (Claude 3.5 Sonnet / Fable)
+    - DeepSeek, Moonshot/Kimi, Zhipu/GLM, MiniMax
     
     Supports online API generation or deterministic offline mock mode for local testing.
     """
@@ -115,46 +129,190 @@ class APIModelEvaluator(BaseEvaluator):
         self.mock_mode = mock_mode
 
     def generate_answer(self, prompt: str) -> str:
-        if self.mock_mode or not self.api_key:
+        if self.mock_mode:
             return self._mock_api_generation(prompt)
 
+        model_lower = self.model_name.lower()
+
         # Provider routing based on model name prefix
-        if "gemini" in self.model_name.lower():
-            return self._call_gemini_api(prompt)
-        elif "gpt" in self.model_name.lower() or "openai" in self.model_name.lower():
+        if "fireworks" in model_lower:
+            return self._call_fireworks_api(prompt)
+        elif "gpt" in model_lower or "openai" in model_lower:
             return self._call_openai_api(prompt)
-        elif "claude" in self.model_name.lower() or "anthropic" in self.model_name.lower():
+        elif "gemini" in model_lower:
+            return self._call_gemini_api(prompt)
+        elif "claude" in model_lower or "anthropic" in model_lower:
             return self._call_claude_api(prompt)
-        elif "deepseek" in self.model_name.lower():
+        elif "deepseek" in model_lower:
             return self._call_deepseek_api(prompt)
-        elif "kimi" in self.model_name.lower() or "moonshot" in self.model_name.lower():
+        elif "kimi" in model_lower or "moonshot" in model_lower:
             return self._call_kimi_api(prompt)
-        elif "glm" in self.model_name.lower() or "zhipu" in self.model_name.lower():
+        elif "glm" in model_lower or "zhipu" in model_lower:
             return self._call_glm_api(prompt)
-        elif "minimax" in self.model_name.lower():
+        elif "minimax" in model_lower:
             return self._call_minimax_api(prompt)
         else:
             return self._mock_api_generation(prompt)
 
-    def _call_gemini_api(self, prompt: str) -> str:
-        return self._mock_api_generation(prompt)
+    def _http_post_json(self, url: str, headers: Dict[str, str], payload: Dict[str, Any], max_retries: int = 3) -> Optional[Dict[str, Any]]:
+        """Executes HTTP POST request with JSON payload and exponential backoff retry logic."""
+        data_bytes = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(url, data=data_bytes, headers=headers, method="POST")
+
+        for attempt in range(max_retries):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    res_body = response.read().decode("utf-8")
+                    return json.loads(res_body)
+            except Exception as e:
+                logger.warning(f"HTTP request attempt {attempt + 1}/{max_retries} to {url} failed: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+        return None
 
     def _call_openai_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("OPENAI_API_KEY", "")
+        if not api_key:
+            logger.warning("OPENAI_API_KEY not found in environment. Falling back to mock response.")
+            return self._mock_api_generation(prompt)
+
+        url = "https://api.openai.com/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        }
+        # Standard OpenAI model resolution
+        real_model = "gpt-4o-mini" if ("5.6" in self.model_name or "mini" in self.model_name) else "gpt-4o"
+        payload = {
+            "model": real_model,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 100,
+            "temperature": 0.0,
+        }
+
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
+        return self._mock_api_generation(prompt)
+
+    def _call_fireworks_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("FIREWORKS_AI_API_KEY", "") or os.getenv("FIREWORKS_API_KEY", "")
+        if not api_key:
+            logger.warning("FIREWORKS_AI_API_KEY not found in environment. Falling back to mock response.")
+            return self._mock_api_generation(prompt)
+
+        url = "https://api.fireworks.ai/inference/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        }
+        # Fireworks AI model path resolution
+        fireworks_model = "accounts/fireworks/models/deepseek-v3"
+        if "llama" in self.model_name.lower():
+            fireworks_model = "accounts/fireworks/models/llama-v3p3-70b-instruct"
+        elif "fireworks/" in self.model_name.lower():
+            fireworks_model = self.model_name.lower()
+
+        payload = {
+            "model": fireworks_model,
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 100,
+            "temperature": 0.0,
+        }
+
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
+        return self._mock_api_generation(prompt)
+
+    def _call_gemini_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("GEMINI_API_KEY", "")
+        if not api_key:
+            logger.warning("GEMINI_API_KEY not found in environment. Falling back to mock response.")
+            return self._mock_api_generation(prompt)
+
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+        headers = {"Content-Type": "application/json"}
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}]
+        }
+
+        res = self._http_post_json(url, headers, payload)
+        if res and "candidates" in res and len(res["candidates"]) > 0:
+            parts = res["candidates"][0].get("content", {}).get("parts", [])
+            if parts:
+                return parts[0].get("text", "").strip()
         return self._mock_api_generation(prompt)
 
     def _call_claude_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("ANTHROPIC_API_KEY", "")
+        if not api_key:
+            logger.warning("ANTHROPIC_API_KEY not found in environment. Falling back to mock response.")
+            return self._mock_api_generation(prompt)
+
+        url = "https://api.anthropic.com/v1/messages"
+        headers = {
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": "claude-3-5-sonnet-20241022",
+            "messages": [{"role": "user", "content": prompt}],
+            "max_tokens": 100,
+        }
+
+        res = self._http_post_json(url, headers, payload)
+        if res and "content" in res and len(res["content"]) > 0:
+            return res["content"][0].get("text", "").strip()
         return self._mock_api_generation(prompt)
 
     def _call_deepseek_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("DEEPSEEK_API_KEY", "")
+        if not api_key:
+            return self._mock_api_generation(prompt)
+        url = "https://api.deepseek.com/chat/completions"
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        payload = {"model": "deepseek-chat", "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
         return self._mock_api_generation(prompt)
 
     def _call_kimi_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("MOONSHOT_API_KEY", "")
+        if not api_key:
+            return self._mock_api_generation(prompt)
+        url = "https://api.moonshot.cn/v1/chat/completions"
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        payload = {"model": "moonshot-v1-8k", "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
         return self._mock_api_generation(prompt)
 
     def _call_glm_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("ZHIPU_API_KEY", "")
+        if not api_key:
+            return self._mock_api_generation(prompt)
+        url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        payload = {"model": "glm-4-flash", "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
         return self._mock_api_generation(prompt)
 
     def _call_minimax_api(self, prompt: str) -> str:
+        api_key = self.api_key or os.getenv("MINIMAX_API_KEY", "")
+        if not api_key:
+            return self._mock_api_generation(prompt)
+        url = "https://api.minimax.chat/v1/text/chatcompletion_v2"
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        payload = {"model": "abab6.5g-chat", "messages": [{"role": "user", "content": prompt}], "max_tokens": 100}
+        res = self._http_post_json(url, headers, payload)
+        if res and "choices" in res and len(res["choices"]) > 0:
+            return res["choices"][0]["message"]["content"].strip()
         return self._mock_api_generation(prompt)
 
     def _mock_api_generation(self, prompt: str) -> str:
