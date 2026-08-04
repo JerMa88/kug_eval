@@ -328,23 +328,45 @@ class APIModelEvaluator(BaseEvaluator):
         return "Model Output Answer"
 
 
+from concurrent.futures import ThreadPoolExecutor
+
+
 def evaluate_dataset(
     evaluator: BaseEvaluator,
     task_items: List[GeneralizationTaskItem],
+    max_workers: int = 10,
 ) -> Dict[str, Any]:
     """
     Evaluates a full collection of task items and aggregates performance metrics per category.
+    Uses multi-threading for fast concurrent API requests.
     """
     results = []
     cat_mem = {}
     cat_gen = {}
 
-    for item in task_items:
-        res = evaluator.evaluate_item(item)
-        results.append(res)
-        cat = item.category or "general"
-        cat_mem.setdefault(cat, []).append(res["acc_mem"])
-        cat_gen.setdefault(cat, []).append(res["acc_gen"])
+    total_items = len(task_items)
+    workers = max_workers if isinstance(evaluator, APIModelEvaluator) else 1
+
+    if workers > 1:
+        logger.info(f"Parallelizing API evaluations across {workers} worker threads...")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            res_list = list(executor.map(evaluator.evaluate_item, task_items))
+        
+        for idx, res in enumerate(res_list):
+            results.append(res)
+            cat = task_items[idx].category or "general"
+            cat_mem.setdefault(cat, []).append(res["acc_mem"])
+            cat_gen.setdefault(cat, []).append(res["acc_gen"])
+    else:
+        for idx, item in enumerate(task_items):
+            res = evaluator.evaluate_item(item)
+            results.append(res)
+            cat = item.category or "general"
+            cat_mem.setdefault(cat, []).append(res["acc_mem"])
+            cat_gen.setdefault(cat, []).append(res["acc_gen"])
+
+            if (idx + 1) % 50 == 0 or (idx + 1) == total_items:
+                logger.info(f"Evaluated {idx + 1}/{total_items} items ({(idx + 1)/total_items * 100:.1f}%)...")
 
     all_mem = [r["acc_mem"] for r in results]
     all_gen = [r["acc_gen"] for r in results]
