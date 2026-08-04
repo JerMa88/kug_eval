@@ -1,0 +1,4540 @@
+{
+    "overall_a_mem": 1.0,
+    "overall_a_gen": 1.0,
+    "kug_ratio": 1.0,
+    "total_count": 500,
+    "category_summary": {
+        "reversal": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 100
+        },
+        "multi_hop": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 100
+        },
+        "counterfactual": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 100
+        },
+        "set_intersection": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 100
+        },
+        "car_wash": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 100
+        }
+    },
+    "item_results": [
+        {
+            "id": "reversal_0005",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0002",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0011",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0006",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0013",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0014",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0004",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0001",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0008",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0007",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0010",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0009",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0015",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0003",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0012",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0016",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0021",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0022",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0023",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0024",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0025",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0026",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0027",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0028",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0029",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0030",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0031",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0032",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0033",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0034",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0035",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0036",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0037",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0038",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0039",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0040",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0041",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0042",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0043",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0044",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0045",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0046",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0047",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0048",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0049",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0050",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0051",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0052",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0053",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0054",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0055",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0056",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0057",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0058",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0059",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0060",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0061",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0062",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0063",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0064",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0065",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0066",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0067",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0068",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0069",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0070",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0071",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0072",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0073",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0074",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0075",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0076",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0077",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0078",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0079",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0080",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0081",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0082",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0083",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0084",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0085",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0086",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0087",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0088",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0089",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0090",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0091",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "Tom Cruise",
+            "pred_gen": "Tom Cruise",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0092",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "Bob Vance",
+            "pred_gen": "Bob Vance",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0093",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "Charlie Smith",
+            "pred_gen": "Charlie Smith",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0094",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "Diana Prince",
+            "pred_gen": "Diana Prince",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0095",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "Edward Nygma",
+            "pred_gen": "Edward Nygma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0096",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "Fiona Gallagher",
+            "pred_gen": "Fiona Gallagher",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0097",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0098",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0099",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0100",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0001",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0002",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0003",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0004",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0005",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0006",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0007",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0008",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0009",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0010",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0011",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0012",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0013",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0014",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0015",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0016",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0017",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0018",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0019",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0020",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0021",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0022",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0023",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0024",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0025",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0026",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0027",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0028",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0029",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0030",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0031",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0032",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0033",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0034",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0035",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0036",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0037",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0038",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0039",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0040",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0041",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0042",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0043",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0044",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0045",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0046",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0047",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0048",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0049",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0050",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0051",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0052",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0053",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0054",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0055",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0056",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0057",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0058",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0059",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0060",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0061",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0062",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0063",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0064",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0065",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0066",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0067",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0068",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0069",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0070",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0071",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0072",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0073",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0074",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0075",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0076",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0077",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0078",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0079",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0080",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0081",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0082",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0083",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0084",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0085",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0086",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0087",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0088",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0089",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0090",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0091",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0092",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0093",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0094",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0095",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0096",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0097",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0098",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0099",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0100",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "University College London",
+            "pred_gen": "University College London",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0001",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0002",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0003",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0004",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0005",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0006",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0007",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0008",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0009",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0010",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0011",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0012",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0013",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0014",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0015",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0016",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0017",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0018",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0019",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0020",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0021",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0022",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0023",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0024",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0025",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0026",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0027",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0028",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0029",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0030",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0031",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0032",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0033",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0034",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0035",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0036",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0037",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0038",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0039",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0040",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0041",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0042",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0043",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0044",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0045",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0046",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0047",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0048",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0049",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0050",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0051",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0052",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0053",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0054",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0055",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0056",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0057",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0058",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0059",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0060",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0061",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0062",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0063",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0064",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0065",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0066",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0067",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0068",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0069",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0070",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0071",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0072",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0073",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0074",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0075",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0076",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0077",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0078",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0079",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0080",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0081",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0082",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0083",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0084",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0085",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0086",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0087",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0088",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0089",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0090",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0091",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0092",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0093",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0094",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0095",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0096",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0097",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0098",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0099",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0100",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0001",
+            "category": "set_intersection",
+            "target_entity": "Device-A0",
+            "pred_mem": "Device-A0",
+            "pred_gen": "Device-A0",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0002",
+            "category": "set_intersection",
+            "target_entity": "Device-B1",
+            "pred_mem": "Device-B1",
+            "pred_gen": "Device-B1",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0003",
+            "category": "set_intersection",
+            "target_entity": "Device-C2",
+            "pred_mem": "Device-C2",
+            "pred_gen": "Device-C2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0004",
+            "category": "set_intersection",
+            "target_entity": "Device-D3",
+            "pred_mem": "Device-D3",
+            "pred_gen": "Device-D3",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0005",
+            "category": "set_intersection",
+            "target_entity": "Device-E4",
+            "pred_mem": "Device-E4",
+            "pred_gen": "Device-E4",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0006",
+            "category": "set_intersection",
+            "target_entity": "Device-F5",
+            "pred_mem": "Device-F5",
+            "pred_gen": "Device-F5",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0007",
+            "category": "set_intersection",
+            "target_entity": "Device-G6",
+            "pred_mem": "Device-G6",
+            "pred_gen": "Device-G6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0008",
+            "category": "set_intersection",
+            "target_entity": "Device-H7",
+            "pred_mem": "Device-H7",
+            "pred_gen": "Device-H7",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0009",
+            "category": "set_intersection",
+            "target_entity": "Device-I8",
+            "pred_mem": "Device-I8",
+            "pred_gen": "Device-I8",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0010",
+            "category": "set_intersection",
+            "target_entity": "Device-J9",
+            "pred_mem": "Device-J9",
+            "pred_gen": "Device-J9",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0011",
+            "category": "set_intersection",
+            "target_entity": "Device-K10",
+            "pred_mem": "Device-K10",
+            "pred_gen": "Device-K10",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0012",
+            "category": "set_intersection",
+            "target_entity": "Device-L11",
+            "pred_mem": "Device-L11",
+            "pred_gen": "Device-L11",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0013",
+            "category": "set_intersection",
+            "target_entity": "Device-M12",
+            "pred_mem": "Device-M12",
+            "pred_gen": "Device-M12",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0014",
+            "category": "set_intersection",
+            "target_entity": "Device-N13",
+            "pred_mem": "Device-N13",
+            "pred_gen": "Device-N13",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0015",
+            "category": "set_intersection",
+            "target_entity": "Device-O14",
+            "pred_mem": "Device-O14",
+            "pred_gen": "Device-O14",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0016",
+            "category": "set_intersection",
+            "target_entity": "Device-P15",
+            "pred_mem": "Device-P15",
+            "pred_gen": "Device-P15",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0017",
+            "category": "set_intersection",
+            "target_entity": "Device-Q16",
+            "pred_mem": "Device-Q16",
+            "pred_gen": "Device-Q16",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0018",
+            "category": "set_intersection",
+            "target_entity": "Device-R17",
+            "pred_mem": "Device-R17",
+            "pred_gen": "Device-R17",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0019",
+            "category": "set_intersection",
+            "target_entity": "Device-S18",
+            "pred_mem": "Device-S18",
+            "pred_gen": "Device-S18",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0020",
+            "category": "set_intersection",
+            "target_entity": "Device-T19",
+            "pred_mem": "Device-T19",
+            "pred_gen": "Device-T19",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0021",
+            "category": "set_intersection",
+            "target_entity": "Device-U20",
+            "pred_mem": "Device-U20",
+            "pred_gen": "Device-U20",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0022",
+            "category": "set_intersection",
+            "target_entity": "Device-V21",
+            "pred_mem": "Device-V21",
+            "pred_gen": "Device-V21",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0023",
+            "category": "set_intersection",
+            "target_entity": "Device-W22",
+            "pred_mem": "Device-W22",
+            "pred_gen": "Device-W22",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0024",
+            "category": "set_intersection",
+            "target_entity": "Device-X23",
+            "pred_mem": "Device-X23",
+            "pred_gen": "Device-X23",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0025",
+            "category": "set_intersection",
+            "target_entity": "Device-Y24",
+            "pred_mem": "Device-Y24",
+            "pred_gen": "Device-Y24",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0026",
+            "category": "set_intersection",
+            "target_entity": "Device-Z25",
+            "pred_mem": "Device-Z25",
+            "pred_gen": "Device-Z25",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0027",
+            "category": "set_intersection",
+            "target_entity": "Device-A26",
+            "pred_mem": "Device-A26",
+            "pred_gen": "Device-A26",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0028",
+            "category": "set_intersection",
+            "target_entity": "Device-B27",
+            "pred_mem": "Device-B27",
+            "pred_gen": "Device-B27",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0029",
+            "category": "set_intersection",
+            "target_entity": "Device-C28",
+            "pred_mem": "Device-C28",
+            "pred_gen": "Device-C28",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0030",
+            "category": "set_intersection",
+            "target_entity": "Device-D29",
+            "pred_mem": "Device-D29",
+            "pred_gen": "Device-D29",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0031",
+            "category": "set_intersection",
+            "target_entity": "Device-E30",
+            "pred_mem": "Device-E30",
+            "pred_gen": "Device-E30",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0032",
+            "category": "set_intersection",
+            "target_entity": "Device-F31",
+            "pred_mem": "Device-F31",
+            "pred_gen": "Device-F31",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0033",
+            "category": "set_intersection",
+            "target_entity": "Device-G32",
+            "pred_mem": "Device-G32",
+            "pred_gen": "Device-G32",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0034",
+            "category": "set_intersection",
+            "target_entity": "Device-H33",
+            "pred_mem": "Device-H33",
+            "pred_gen": "Device-H33",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0035",
+            "category": "set_intersection",
+            "target_entity": "Device-I34",
+            "pred_mem": "Device-I34",
+            "pred_gen": "Device-I34",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0036",
+            "category": "set_intersection",
+            "target_entity": "Device-J35",
+            "pred_mem": "Device-J35",
+            "pred_gen": "Device-J35",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0037",
+            "category": "set_intersection",
+            "target_entity": "Device-K36",
+            "pred_mem": "Device-K36",
+            "pred_gen": "Device-K36",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0038",
+            "category": "set_intersection",
+            "target_entity": "Device-L37",
+            "pred_mem": "Device-L37",
+            "pred_gen": "Device-L37",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0039",
+            "category": "set_intersection",
+            "target_entity": "Device-M38",
+            "pred_mem": "Device-M38",
+            "pred_gen": "Device-M38",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0040",
+            "category": "set_intersection",
+            "target_entity": "Device-N39",
+            "pred_mem": "Device-N39",
+            "pred_gen": "Device-N39",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0041",
+            "category": "set_intersection",
+            "target_entity": "Device-O40",
+            "pred_mem": "Device-O40",
+            "pred_gen": "Device-O40",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0042",
+            "category": "set_intersection",
+            "target_entity": "Device-P41",
+            "pred_mem": "Device-P41",
+            "pred_gen": "Device-P41",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0043",
+            "category": "set_intersection",
+            "target_entity": "Device-Q42",
+            "pred_mem": "Device-Q42",
+            "pred_gen": "Device-Q42",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0044",
+            "category": "set_intersection",
+            "target_entity": "Device-R43",
+            "pred_mem": "Device-R43",
+            "pred_gen": "Device-R43",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0045",
+            "category": "set_intersection",
+            "target_entity": "Device-S44",
+            "pred_mem": "Device-S44",
+            "pred_gen": "Device-S44",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0046",
+            "category": "set_intersection",
+            "target_entity": "Device-T45",
+            "pred_mem": "Device-T45",
+            "pred_gen": "Device-T45",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0047",
+            "category": "set_intersection",
+            "target_entity": "Device-U46",
+            "pred_mem": "Device-U46",
+            "pred_gen": "Device-U46",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0048",
+            "category": "set_intersection",
+            "target_entity": "Device-V47",
+            "pred_mem": "Device-V47",
+            "pred_gen": "Device-V47",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0049",
+            "category": "set_intersection",
+            "target_entity": "Device-W48",
+            "pred_mem": "Device-W48",
+            "pred_gen": "Device-W48",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0050",
+            "category": "set_intersection",
+            "target_entity": "Device-X49",
+            "pred_mem": "Device-X49",
+            "pred_gen": "Device-X49",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0051",
+            "category": "set_intersection",
+            "target_entity": "Device-Y50",
+            "pred_mem": "Device-Y50",
+            "pred_gen": "Device-Y50",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0052",
+            "category": "set_intersection",
+            "target_entity": "Device-Z51",
+            "pred_mem": "Device-Z51",
+            "pred_gen": "Device-Z51",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0053",
+            "category": "set_intersection",
+            "target_entity": "Device-A52",
+            "pred_mem": "Device-A52",
+            "pred_gen": "Device-A52",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0054",
+            "category": "set_intersection",
+            "target_entity": "Device-B53",
+            "pred_mem": "Device-B53",
+            "pred_gen": "Device-B53",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0055",
+            "category": "set_intersection",
+            "target_entity": "Device-C54",
+            "pred_mem": "Device-C54",
+            "pred_gen": "Device-C54",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0056",
+            "category": "set_intersection",
+            "target_entity": "Device-D55",
+            "pred_mem": "Device-D55",
+            "pred_gen": "Device-D55",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0057",
+            "category": "set_intersection",
+            "target_entity": "Device-E56",
+            "pred_mem": "Device-E56",
+            "pred_gen": "Device-E56",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0058",
+            "category": "set_intersection",
+            "target_entity": "Device-F57",
+            "pred_mem": "Device-F57",
+            "pred_gen": "Device-F57",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0059",
+            "category": "set_intersection",
+            "target_entity": "Device-G58",
+            "pred_mem": "Device-G58",
+            "pred_gen": "Device-G58",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0060",
+            "category": "set_intersection",
+            "target_entity": "Device-H59",
+            "pred_mem": "Device-H59",
+            "pred_gen": "Device-H59",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0061",
+            "category": "set_intersection",
+            "target_entity": "Device-I60",
+            "pred_mem": "Device-I60",
+            "pred_gen": "Device-I60",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0062",
+            "category": "set_intersection",
+            "target_entity": "Device-J61",
+            "pred_mem": "Device-J61",
+            "pred_gen": "Device-J61",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0063",
+            "category": "set_intersection",
+            "target_entity": "Device-K62",
+            "pred_mem": "Device-K62",
+            "pred_gen": "Device-K62",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0064",
+            "category": "set_intersection",
+            "target_entity": "Device-L63",
+            "pred_mem": "Device-L63",
+            "pred_gen": "Device-L63",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0065",
+            "category": "set_intersection",
+            "target_entity": "Device-M64",
+            "pred_mem": "Device-M64",
+            "pred_gen": "Device-M64",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0066",
+            "category": "set_intersection",
+            "target_entity": "Device-N65",
+            "pred_mem": "Device-N65",
+            "pred_gen": "Device-N65",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0067",
+            "category": "set_intersection",
+            "target_entity": "Device-O66",
+            "pred_mem": "Device-O66",
+            "pred_gen": "Device-O66",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0068",
+            "category": "set_intersection",
+            "target_entity": "Device-P67",
+            "pred_mem": "Device-P67",
+            "pred_gen": "Device-P67",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0069",
+            "category": "set_intersection",
+            "target_entity": "Device-Q68",
+            "pred_mem": "Device-Q68",
+            "pred_gen": "Device-Q68",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0070",
+            "category": "set_intersection",
+            "target_entity": "Device-R69",
+            "pred_mem": "Device-R69",
+            "pred_gen": "Device-R69",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0071",
+            "category": "set_intersection",
+            "target_entity": "Device-S70",
+            "pred_mem": "Device-S70",
+            "pred_gen": "Device-S70",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0072",
+            "category": "set_intersection",
+            "target_entity": "Device-T71",
+            "pred_mem": "Device-T71",
+            "pred_gen": "Device-T71",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0073",
+            "category": "set_intersection",
+            "target_entity": "Device-U72",
+            "pred_mem": "Device-U72",
+            "pred_gen": "Device-U72",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0074",
+            "category": "set_intersection",
+            "target_entity": "Device-V73",
+            "pred_mem": "Device-V73",
+            "pred_gen": "Device-V73",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0075",
+            "category": "set_intersection",
+            "target_entity": "Device-W74",
+            "pred_mem": "Device-W74",
+            "pred_gen": "Device-W74",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0076",
+            "category": "set_intersection",
+            "target_entity": "Device-X75",
+            "pred_mem": "Device-X75",
+            "pred_gen": "Device-X75",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0077",
+            "category": "set_intersection",
+            "target_entity": "Device-Y76",
+            "pred_mem": "Device-Y76",
+            "pred_gen": "Device-Y76",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0078",
+            "category": "set_intersection",
+            "target_entity": "Device-Z77",
+            "pred_mem": "Device-Z77",
+            "pred_gen": "Device-Z77",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0079",
+            "category": "set_intersection",
+            "target_entity": "Device-A78",
+            "pred_mem": "Device-A78",
+            "pred_gen": "Device-A78",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0080",
+            "category": "set_intersection",
+            "target_entity": "Device-B79",
+            "pred_mem": "Device-B79",
+            "pred_gen": "Device-B79",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0081",
+            "category": "set_intersection",
+            "target_entity": "Device-C80",
+            "pred_mem": "Device-C80",
+            "pred_gen": "Device-C80",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0082",
+            "category": "set_intersection",
+            "target_entity": "Device-D81",
+            "pred_mem": "Device-D81",
+            "pred_gen": "Device-D81",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0083",
+            "category": "set_intersection",
+            "target_entity": "Device-E82",
+            "pred_mem": "Device-E82",
+            "pred_gen": "Device-E82",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0084",
+            "category": "set_intersection",
+            "target_entity": "Device-F83",
+            "pred_mem": "Device-F83",
+            "pred_gen": "Device-F83",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0085",
+            "category": "set_intersection",
+            "target_entity": "Device-G84",
+            "pred_mem": "Device-G84",
+            "pred_gen": "Device-G84",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0086",
+            "category": "set_intersection",
+            "target_entity": "Device-H85",
+            "pred_mem": "Device-H85",
+            "pred_gen": "Device-H85",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0087",
+            "category": "set_intersection",
+            "target_entity": "Device-I86",
+            "pred_mem": "Device-I86",
+            "pred_gen": "Device-I86",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0088",
+            "category": "set_intersection",
+            "target_entity": "Device-J87",
+            "pred_mem": "Device-J87",
+            "pred_gen": "Device-J87",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0089",
+            "category": "set_intersection",
+            "target_entity": "Device-K88",
+            "pred_mem": "Device-K88",
+            "pred_gen": "Device-K88",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0090",
+            "category": "set_intersection",
+            "target_entity": "Device-L89",
+            "pred_mem": "Device-L89",
+            "pred_gen": "Device-L89",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0091",
+            "category": "set_intersection",
+            "target_entity": "Device-M90",
+            "pred_mem": "Device-M90",
+            "pred_gen": "Device-M90",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0092",
+            "category": "set_intersection",
+            "target_entity": "Device-N91",
+            "pred_mem": "Device-N91",
+            "pred_gen": "Device-N91",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0093",
+            "category": "set_intersection",
+            "target_entity": "Device-O92",
+            "pred_mem": "Device-O92",
+            "pred_gen": "Device-O92",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0094",
+            "category": "set_intersection",
+            "target_entity": "Device-P93",
+            "pred_mem": "Device-P93",
+            "pred_gen": "Device-P93",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0095",
+            "category": "set_intersection",
+            "target_entity": "Device-Q94",
+            "pred_mem": "Device-Q94",
+            "pred_gen": "Device-Q94",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0096",
+            "category": "set_intersection",
+            "target_entity": "Device-R95",
+            "pred_mem": "Device-R95",
+            "pred_gen": "Device-R95",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0097",
+            "category": "set_intersection",
+            "target_entity": "Device-S96",
+            "pred_mem": "Device-S96",
+            "pred_gen": "Device-S96",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0098",
+            "category": "set_intersection",
+            "target_entity": "Device-T97",
+            "pred_mem": "Device-T97",
+            "pred_gen": "Device-T97",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0099",
+            "category": "set_intersection",
+            "target_entity": "Device-U98",
+            "pred_mem": "Device-U98",
+            "pred_gen": "Device-U98",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0100",
+            "category": "set_intersection",
+            "target_entity": "Device-V99",
+            "pred_mem": "Device-V99",
+            "pred_gen": "Device-V99",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0001",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0002",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0003",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0004",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0005",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0006",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0007",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0008",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0009",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0010",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0011",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0012",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0013",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0014",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0015",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0016",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0017",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0018",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0019",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0020",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0021",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0022",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0023",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0024",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0025",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0026",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0027",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0028",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0029",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0030",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0031",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0032",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0033",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0034",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0035",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0036",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0037",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0038",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0039",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0040",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0041",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0042",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0043",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0044",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0045",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0046",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0047",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0048",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0049",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0050",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0051",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0052",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0053",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0054",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0055",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0056",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0057",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0058",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0059",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0060",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0061",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0062",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0063",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0064",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0065",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0066",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0067",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0068",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0069",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0070",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0071",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0072",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0073",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0074",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0075",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0076",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0077",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0078",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0079",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0080",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0081",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0082",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0083",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0084",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0085",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0086",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0087",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0088",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0089",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0090",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0091",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0092",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0093",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0094",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0095",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0096",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0097",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0098",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0099",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0100",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "Drive",
+            "pred_gen": "Drive",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0017",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "George Clark",
+            "pred_gen": "George Clark",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0019",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "Ian Malcolm",
+            "pred_gen": "Ian Malcolm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0018",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "Hannah Montana",
+            "pred_gen": "Hannah Montana",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0020",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "Julia Roberts",
+            "pred_gen": "Julia Roberts",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        }
+    ]
+}
