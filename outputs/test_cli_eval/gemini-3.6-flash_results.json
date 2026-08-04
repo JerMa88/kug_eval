@@ -82,20 +82,20 @@
             "acc_gen": 1.0
         },
         {
-            "id": "counterfactual_001",
-            "category": "counterfactual",
-            "target_entity": "Float",
-            "pred_mem": "Float",
-            "pred_gen": "Float",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
             "id": "counterfactual_002",
             "category": "counterfactual",
             "target_entity": "Smaller",
             "pred_mem": "Smaller",
             "pred_gen": "Smaller",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfactual_001",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "Float",
+            "pred_gen": "Float",
             "acc_mem": 1.0,
             "acc_gen": 1.0
         },

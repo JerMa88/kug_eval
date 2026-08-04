@@ -155,7 +155,7 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | **DeepSeek v4 (Live API)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **DeepSeek v3 (Live Fireworks AI)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
-| **GLM 5.2** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
+| **GLM 5.2 (Live API)** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **MiniMax M3** | Frontier API | 100.0% | 100.0% | **1.00x** | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |
 | **Baseline SFT (Qwen-2.5-1.5B)** | Open Weights | 86.9% | 12.5% | **6.95x** | 0.0% | 33.3% | 0.0% | 0.0% | 50.0% |
 | **Faster-SFT (Hybrid Loss)** | Open Weights | 95.2% | 88.4% | **1.08x** | 100.0% | 100.0% | 100.0% | 50.0% | 100.0% |
