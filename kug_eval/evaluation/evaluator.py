@@ -165,6 +165,9 @@ class APIModelEvaluator(BaseEvaluator):
                     res_body = response.read().decode("utf-8")
                     return json.loads(res_body)
             except urllib.error.HTTPError as e:
+                if e.code in (401, 403, 404):
+                    logger.warning(f"HTTP Error {e.code} for {url} (Non-retryable key/model error: {e.reason}). Failing fast.")
+                    break
                 is_rate_limit = (e.code == 429)
                 logger.warning(f"HTTP Error {e.code} (attempt {attempt + 1}/{max_retries}) for {url}: {e.reason}")
                 if attempt < max_retries - 1:
