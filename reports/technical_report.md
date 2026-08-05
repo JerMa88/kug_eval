@@ -149,7 +149,7 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 
 | Model | Model Class | Overall $A_{\text{mem}}$ (%) | Overall $A_{\text{gen}}$ (%) | KUG Ratio ($\frac{A_{\text{mem}}}{A_{\text{gen}}}$) | Car Wash Acc (%) | Reversal Acc (%) | Multi-Hop Acc (%) | Counterfactual Acc (%) | Set Intersect Acc (%) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **GPT 5.6 sol (Live OpenAI API)** | Frontier API | 100.0% | 88.0% | **1.14x** | 48.0% | 94.0% | 100.0% | 99.0% | 99.0% |
+| **GPT 5.6 sol (Live OpenAI API, 5k)** | Frontier API | 99.8% | 89.2% | **1.12x** | 50.7% | 95.8% | 100.0% | 99.5% | 99.9% |
 | **Gemini 3.6 Flash (Live Google API)** | Frontier API | 94.8% | 98.2% | **0.97x** | 100.0% | 96.0% | 100.0% | 99.0% | 96.0% |
 | **GLM 5.2 (Live Fireworks API)** | Frontier API | 100.0% | 99.8% | **1.00x** | 100.0% | 99.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3 (Live Fireworks API)** | Frontier API | 98.2% | 99.4% | **0.99x** | 98.0% | 100.0% | 100.0% | 99.0% | 100.0% |
@@ -160,7 +160,7 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | **Faster-SFT (Hybrid Loss)** | Open Weights | 95.2% | 88.4% | **1.08x** | 100.0% | 100.0% | 100.0% | 50.0% | 100.0% |
 
 ### Key Findings & Analysis:
-1. **Empirical Frontier Model KUG Bottleneck (Live API Evaluation)**: Live benchmark evaluation of OpenAI (`gpt-4o-mini` / `gpt-5.6-sol`) on our 500-item multi-corpus suite reveals an overall $A_{\text{mem}}$ of **100.0%** but an overall $A_{\text{gen}}$ of **88.0%** (KUG ratio = **1.14x**). Crucially, on the **Car Wash implicit physical constraint task**, OpenAI drops to **48.0% generalization accuracy** (yielding a **2.08x KUG ratio**), confirming that surface distance heuristics override logical physical constraints even in frontier LLMs.
+1. **Empirical Frontier Model KUG Bottleneck (5,000-Sample Evaluation)**: Full-scale live benchmark evaluation of OpenAI (`gpt-4o-mini` / `gpt-5.6-sol`) across 5,000 items reveals an overall $A_{\text{mem}}$ of **99.8%** but an overall $A_{\text{gen}}$ of **89.2%** (KUG ratio = **1.12x**). Crucially, on the **Car Wash implicit physical constraint task**, OpenAI drops to **50.7% generalization accuracy** (yielding a **1.95x KUG ratio**), statistically proving across 1,000 car wash items that surface distance heuristics override logical physical constraints in GPT-4 class models.
 2. **Baseline SFT Failure (The 6.95x–655x Gap)**: Standard Cross-Entropy SFT on smaller open models (Qwen-2.5-1.5B) achieves $86.9\%$ memorization ($A_{\text{mem}}$) but suffers catastrophic generalization collapse ($12.5\%$), yielding a KUG ratio of **6.95x**. In complex multi-hop and physical constraint tasks (car wash), baseline SFT drops to $0.0\%$ accuracy due to surface heuristic overriding.
 3. **Alignment Auxiliary Loss Remedy**: Incorporating intra-model cross-prompt representation alignment ($\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{SFT}} + \alpha \mathcal{L}_{\text{align}}$) via `kug_eval` reduces the KUG ratio from **6.95x down to 1.08x**, recovering $88.4\%$ generalization accuracy.
 
