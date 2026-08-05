@@ -34,9 +34,22 @@ class GeneralizationTaskItem(BaseModel):
         return value.strip()
 
     def get_memorization_prompt(self) -> str:
-        """Returns standard memorization prompt P_mem."""
-        return f"Context: {self.document}\nQuery: What entity is this about?\nAnswer: {self.target_entity}"
+        """
+        Factual Retrieval Prompt (P_mem): Tests whether the model can extract
+        the target entity from the given context document WITHOUT the answer
+        being provided in the prompt.
+
+        The model must read the document and identify the relevant entity.
+        This is a genuine context-extraction task, not answer echoing.
+        """
+        return f"Context: {self.document}\nBased only on the context above, what is the main entity being described? Answer with the entity name only."
 
     def get_generalization_prompt(self) -> str:
-        """Returns standard generalization prompt P_gen."""
-        return f"Query: {self.query}\nAnswer: {self.target_entity}"
+        """
+        Applied Generalization Prompt (P_gen): Tests whether the model can
+        answer the downstream query WITHOUT the context being provided.
+
+        The model must rely on internalized knowledge or reasoning to answer.
+        This is the core generalization test.
+        """
+        return f"Question: {self.query}\nAnswer with the entity name or value only."

@@ -35,13 +35,34 @@ def normalize_answer(s: str) -> str:
 
 def exact_match_score(prediction: str, ground_truth: str) -> float:
     """
-    Returns 1.0 if normalized prediction matches normalized ground_truth, else 0.0.
+    Strict Exact Match (EM): Returns 1.0 only if the normalized prediction
+    is identical to the normalized ground truth string.
+
+    NOTE: This is the PRIMARY metric for all reported results.
+    Strict EM requires the model to produce the target entity and nothing else
+    (after normalization: lowercasing, punctuation removal, article stripping).
     """
     norm_pred = normalize_answer(prediction)
     norm_gt = normalize_answer(ground_truth)
     if not norm_gt:
         return 0.0
-    return 1.0 if norm_pred == norm_gt or norm_gt in norm_pred else 0.0
+    return 1.0 if norm_pred == norm_gt else 0.0
+
+
+def contains_match_score(prediction: str, ground_truth: str) -> float:
+    """
+    Substring / Contains Match: Returns 1.0 if normalized ground_truth is a
+    substring of the normalized prediction.
+
+    NOTE: This is a SECONDARY metric used for the LLM-as-judge analysis only.
+    It captures cases where a verbose model wraps the correct answer in prose.
+    It is NOT used as the primary A_mem / A_gen accuracy metric.
+    """
+    norm_pred = normalize_answer(prediction)
+    norm_gt = normalize_answer(ground_truth)
+    if not norm_gt:
+        return 0.0
+    return 1.0 if norm_gt in norm_pred else 0.0
 
 
 def compute_kug_metrics(

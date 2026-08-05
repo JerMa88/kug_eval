@@ -127,20 +127,20 @@
             "acc_gen": 1.0
         },
         {
-            "id": "set_intersection_001",
-            "category": "set_intersection",
-            "target_entity": "Restaurant Sol",
-            "pred_mem": "Restaurant Sol",
-            "pred_gen": "Restaurant Sol",
-            "acc_mem": 1.0,
-            "acc_gen": 1.0
-        },
-        {
             "id": "set_intersection_002",
             "category": "set_intersection",
             "target_entity": "Device-Z",
             "pred_mem": "Device-Z",
             "pred_gen": "Device-Z",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "set_intersection_001",
+            "category": "set_intersection",
+            "target_entity": "Restaurant Sol",
+            "pred_mem": "Restaurant Sol",
+            "pred_gen": "Restaurant Sol",
             "acc_mem": 1.0,
             "acc_gen": 1.0
         }
