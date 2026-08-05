@@ -1,0 +1,1141 @@
+{
+    "overall_a_mem": 0.832,
+    "overall_a_gen": 1.0,
+    "kug_ratio": 0.832,
+    "total_count": 125,
+    "category_summary": {
+        "hle_humanitys_last_exam": {
+            "a_mem": 0.832,
+            "a_gen": 1.0,
+            "kug_ratio": 0.832,
+            "count": 125
+        }
+    },
+    "item_results": [
+        {
+            "id": "hle_expert_2",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity that \"4\" refers to is the **ground state degeneracy**.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is **4**.\n\nThis is because a torus (genus g=1) has two topologically distinct non-contractible loops (often called 'a' and 'b' cycles). For each such loop, there are two types of non-local operators: an electric (Pauli X) loop operator and a magnetic (Pauli Z) loop operator. These two operators for the same loop anti-commute, while operators for different loops commute with each other and all local stabilizer operators.\n\nThe presence of two such independent pairs of anti-commuting operators leads to a 2x2 degeneracy, resulting in a total degeneracy of 2 * 2 = 4. In general, for a surface of genus 'g', the ground state degeneracy is 4^g. For g=1, this is 4^1 = 4.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_1",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The given numerical answer, 1.6180339887, is the value of **phi**, which represents the **quantum dimension of Fibonacci anyons**.",
+            "pred_gen": "The topological quantum dimension of the non-trivial Fibonacci anyon (often denoted as \u03c4 or \u03c6) is **\u03c6 (phi)**, the golden ratio.\n\nIts exact value is:\n$$ \\phi = \\frac{1 + \\sqrt{5}}{2} $$\n\nNumerically, this is approximately **1.6180339887**.\n\n**Explanation:**\nThe quantum dimension of a Fibonacci anyon is derived from its fusion rules. For the non-trivial Fibonacci anyon (let's call it \u03c4), the fusion rule is:\n\u03c4 \u00d7 \u03c4 = 1 + \u03c4\nwhere '1' represents the vacuum anyon (which has a quantum dimension of 1).\n\nIf we denote the quantum dimension of \u03c4 as d_\u03c4, this fusion rule translates to an equation for its quantum dimension:\nd_\u03c4 * d_\u03c4 = d_1 + d_\u03c4\nSince d_1 = 1 (the quantum dimension of the vacuum), we get:\nd_\u03c4\u00b2 = 1 + d_\u03c4\n\nRearranging this into a quadratic equation:\nd_\u03c4\u00b2 - d_\u03c4 - 1 = 0\n\nUsing the quadratic formula, d_\u03c4 = [-b \u00b1 sqrt(b\u00b2 - 4ac)] / 2a:\nd_\u03c4 = [1 \u00b1 sqrt((-1)\u00b2 - 4 * 1 * -1)] / (2 * 1)\nd_\u03c4 = [1 \u00b1 sqrt(1 + 4)] / 2\nd_\u03c4 = [1 \u00b1 sqrt(5)] / 2\n\nSince quantum dimensions must be positive, we take the positive root:\nd_\u03c4 = (1 + sqrt(5)) / 2\n\nThis value is precisely the definition of the golden ratio, \u03c6.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_3",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity discussed is a **quantum code**. The [[7,1,3]] Steane code is a specific example of a quantum code, and its construction using classical codes is described.",
+            "pred_gen": "The `[[n,k,d]]` notation for quantum codes represents:\n* `n`: The number of physical qubits.\n* `k`: The number of logical qubits.\n* `d`: The minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code, the values are:\n* `n = 7`\n* `k = 1`\n* `d = 3`\n\nTherefore, the minimum distance d of the `[[7,1,3]]` Steane quantum code is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_6",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity is **C2**.",
+            "pred_gen": "The `[[n,k,d]]` notation for a quantum code represents:\n*   `n`: the number of physical qubits\n*   `k`: the number of logical qubits\n*   `d`: the minimum distance of the code\n\nFor the `[[7,1,3]]` Steane quantum code, the minimum distance `d` is explicitly given as 3.\n\nThe final answer is $\\boxed{3}$",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_4",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity this is about is the **quantum dimension of Fibonacci anyons**, denoted by `phi`. Its value is given directly in the context.\n\n`phi = (1 + sqrt(5))/2`\n\nLet's calculate its numerical value:\n`sqrt(5)` is approximately `2.2360679775`\n`1 + sqrt(5)` is approximately `3.2360679775`\n`phi = 3.2360679775 / 2` is approximately `1.61803398875`\n\nRounding to the specified precision:\n1.6180339887",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon (often denoted as $\\tau$ or $\\phi$) is the golden ratio.\n\nMathematically, it is given by:\n$\\frac{1 + \\sqrt{5}}{2}$\n\nNumerically, this value is:\n1.6180339887...",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_8",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The number 4 refers to the **ground state degeneracy** of the toric code on a torus.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is 4.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_5",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "ground state degeneracy",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus $g=1$ is **4**.\n\n**Explanation:**\n\nThe ground state degeneracy of the 2D toric code on a closed surface depends solely on the topology of that surface, specifically its genus ($g$). The general formula for the ground state degeneracy (GSD) is $4^g$.\n\nFor a torus, the genus is $g=1$.\n\nTherefore, the ground state degeneracy is $4^1 = 4$.\n\nThese four ground states correspond to the different combinations of eigenvalues of the non-local string operators that wind around the two independent non-contractible cycles of the torus (e.g., a \"poloidal\" loop and a \"toroidal\" loop). Each cycle contributes two possibilities for \"flux\" or \"charge\" (one from an X-type string operator and one from a Z-type string operator), which act as logical qubits. Since there are effectively two logical qubits on a $g=1$ torus, there are $2^2 = 4$ distinct ground states.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_9",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "3",
+            "pred_gen": "The notation `[[n, k, d]]` for a quantum code represents:\n* `n`: The number of physical qubits.\n* `k`: The number of logical qubits.\n* `d`: The minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code, the third value directly gives the minimum distance.\n\nTherefore, the minimum distance d is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_10",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The quantum dimension of Fibonacci anyons, which is also known as the golden ratio (phi).",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **Golden Ratio**, often denoted by $\\phi$.\n\nNumerically, this is:\n**1.6180339887...**",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_11",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity is **ground state degeneracy**.",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a torus of genus g=1 is given by 4^g, where 'g' is the genus of the surface.\n\nFor g=1 (a standard torus):\nGSD = 4^1 = 4\n\nTherefore, the exact ground state degeneracy is **4**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_14",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy.",
+            "pred_gen": "4",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_13",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity this is about is **the quantum dimension of Fibonacci anyons**, also known as the golden ratio (phi).",
+            "pred_gen": "The topological quantum dimension of the non-trivial Fibonacci anyon (often denoted as $\\tau$) is equal to the **Golden Ratio ($\\phi$)**.\n\nIts value is:\n**1.6180339887**...\n\nThis value is derived from its fusion rule: $\\tau \\times \\tau = 1 + \\tau$, where $1$ is the vacuum anyon. If $d_\\tau$ is the quantum dimension of $\\tau$ and $d_1 = 1$ is the quantum dimension of the vacuum, then this rule translates to $d_\\tau^2 = d_1 + d_\\tau$, or $d_\\tau^2 = 1 + d_\\tau$.\nSolving the quadratic equation $x^2 - x - 1 = 0$ for $x = d_\\tau$ (and taking the positive root) gives $x = \\frac{1 + \\sqrt{5}}{2}$, which is the Golden Ratio.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_12",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "Here are the entities discussed in the context:\n\n1.  **[[7,1,3]] Steane code:** A specific quantum error-correcting code.\n2.  **CSS code construction:** A method or framework for building quantum codes.\n3.  **Classical [7,4,3] Hamming codes (C1 and C2):** A type of classical error-correcting code used as a component. While two instances (C1 and C2) are mentioned, they represent a single *type* or *category* of entity in this context.",
+            "pred_gen": "The `[[n,k,d]]` notation for a quantum code specifies:\n*   `n`: The number of physical qubits.\n*   `k`: The number of logical qubits encoded.\n*   `d`: The minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code, the minimum distance `d` is directly given as **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_15",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "3",
+            "pred_gen": "The notation `[[n,k,d]]` for a quantum code represents:\n* `n`: the number of physical qubits\n* `k`: the number of logical qubits\n* `d`: the minimum distance of the code\n\nFor the `[[7,1,3]]` Steane quantum code, the minimum distance `d` is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_16",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The numerical value 1.6180339887 is the approximate value of $\\phi$ (phi), which is described in the context as the quantum dimension of Fibonacci anyons:\n\n$\\phi = \\frac{1 + \\sqrt{5}}{2} \\approx 1.6180339887$",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the golden ratio, often denoted by $\\phi$.\n\nIts exact value is:\n$\\phi = \\frac{1 + \\sqrt{5}}{2}$\n\nIts numerical approximation is:\n**1.6180339887**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_17",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy on a torus.",
+            "pred_gen": "The 2D toric code on a torus of genus g=1 (a standard torus) has a ground state degeneracy of 4.\n\nThis degeneracy arises from the two independent non-contractible cycles on the torus (often denoted as the 'a' and 'b' cycles). For each cycle, there are two distinct topological sectors associated with the 'e' (electric) and 'm' (magnetic) anyons, leading to 2 x 2 = 4 distinct ground states.\n\nMore generally, for a surface of genus *g*, the ground state degeneracy of the toric code is 4^g. For g=1, this gives 4^1 = 4.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_7",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "1.6180339887",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**, denoted by $\\phi$.\n\nIts exact value is:\n$\\phi = \\frac{1 + \\sqrt{5}}{2}$\n\nNumerically, this is:\n**1.6180339887**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_19",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity is the **quantum dimension of Fibonacci anyons (phi)**, also known as the golden ratio.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon ($\\tau$) is the **golden ratio**, often denoted by $\\phi$.\n\nThis arises directly from its fusion rules. For a Fibonacci anyon, the non-trivial particle $\\tau$ fuses with itself according to:\n$\\tau \\times \\tau = 1 + \\tau$\n\nWhere $1$ represents the vacuum or trivial anyon.\n\nThe quantum dimension $d_\\tau$ of the anyon must satisfy this fusion rule when replacing the anyons with their dimensions. We know that the quantum dimension of the trivial anyon $d_1 = 1$.\nSo, we get the equation for the quantum dimension:\n$d_\\tau \\cdot d_\\tau = d_1 + d_\\tau$\n$d_\\tau^2 = 1 + d_\\tau$\n\nRearranging this into a quadratic equation:\n$d_\\tau^2 - d_\\tau - 1 = 0$\n\nUsing the quadratic formula, $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$:\n$d_\\tau = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$\n$d_\\tau = \\frac{1 \\pm \\sqrt{1 + 4}}{2}$\n$d_\\tau = \\frac{1 \\pm \\sqrt{5}}{2}$\n\nSince quantum dimensions must be positive, we take the positive root:\n$d_\\tau = \\frac{1 + \\sqrt{5}}{2}$\n\nThis value is the golden ratio ($\\phi$).\n\nNumerically, this is approximately:\n$d_\\tau \\approx 1.6180339887$",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_18",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entities mentioned and discussed are:\n1.  The [[7,1,3]] Steane code (a quantum code).\n2.  The classical [7,4,3] Hamming code C1.\n3.  The classical [7,4,3] Hamming code C2.",
+            "pred_gen": "The minimum distance `d` of a quantum code is explicitly given by the third number in its `[[n,k,d]]` notation.\n\nFor the `[[7,1,3]]` Steane quantum code:\n*   `n = 7` (number of physical qubits)\n*   `k = 1` (number of logical qubits)\n*   `d = 3` (minimum distance)\n\nTherefore, the minimum distance `d` is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_20",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity that \"4\" refers to is the **ground state degeneracy**.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is **4**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_22",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The quantum dimension of Fibonacci anyons.",
+            "pred_gen": "The topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**, often denoted by $\\phi$.\n\nThe exact value is:\n$\\phi = \\frac{1 + \\sqrt{5}}{2}$\n\nNumerically, this is approximately:\n**1.6180339887**",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_21",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The context is about 3 main entities:\n\n1.  **Quantum Error Correction (QEC)**: The overarching field and purpose.\n2.  **Quantum Codes**: Specifically the `[[7,1,3]] Steane code` and the `CSS code construction` used to build it.\n3.  **Classical Codes**: Specifically `[7,4,3] Hamming codes` (C1 and C2), which are utilized in the construction of the quantum code.",
+            "pred_gen": "The notation `[[n,k,d]]` for a quantum code specifies:\n* `n`: the number of physical qubits.\n* `k`: the number of logical qubits encoded.\n* `d`: the minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code:\n* `n = 7`\n* `k = 1`\n* `d = 3`\n\nTherefore, the minimum distance `d` is 3.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_24",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "3",
+            "pred_gen": "The [[7,1,3]] notation for a quantum code directly specifies its parameters:\n*   `n` = number of physical qubits = 7\n*   `k` = number of logical qubits = 1\n*   `d` = minimum distance = 3\n\nTherefore, the minimum distance d of the [[7,1,3]] Steane quantum code is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_26",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy on a torus (genus g=1).",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is **4**.\n\nThis is a general result for the toric code on a surface of genus *g*, where the ground state degeneracy is given by 4^g. For a torus, g=1, so 4^1 = 4.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_23",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this text is about is the **toric code** (specifically, the toric code Hamiltonian and its properties).\n\nThe number \"4\" refers to the **ground state degeneracy**, which is a *property* of the toric code, not the entity itself.",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a closed surface of genus *g* is given by 4^g.\n\nFor a torus, the genus *g* = 1.\nTherefore, the ground state degeneracy is 4^1 = 4.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_27",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "Quantum error correction",
+            "pred_gen": "The notation [[n, k, d]] for a quantum code represents:\n*   n: the number of physical qubits\n*   k: the number of logical qubits\n*   d: the minimum distance of the code\n\nFor the [[7,1,3]] Steane quantum code, the third number in the notation directly gives the minimum distance.\n\nTherefore, the minimum distance d is **3**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_25",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The quantum dimension of Fibonacci anyons (phi), also known as the golden ratio.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**.\n\n**Answer:** 1.6180339887\n\n**Exact value:** $\\frac{1 + \\sqrt{5}}{2}$",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_29",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is **4**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_28",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The quantum dimension of Fibonacci anyons (phi).",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**, often denoted by $\\phi$ (phi).\n\nMathematically, this is expressed as:\n$\\phi = \\frac{1 + \\sqrt{5}}{2}$\n\nNumerically, this is approximately:\n$1.6180339887...$",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_30",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The core entity discussed is **Error Correcting Codes**.\n\nSpecifically, it details:\n1.  **Quantum Error Correcting Codes** (the Steane code)\n2.  **Classical Error Correcting Codes** (Hamming codes)",
+            "pred_gen": "The notation `[[n,k,d]]` for a quantum code represents:\n*   `n`: The number of physical qubits used.\n*   `k`: The number of logical qubits encoded.\n*   `d`: The minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code:\n*   `n = 7` (7 physical qubits)\n*   `k = 1` (1 logical qubit)\n*   `d = 3` (minimum distance of 3)\n\nThus, the minimum distance d of the `[[7,1,3]]` Steane quantum code is **3**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_31",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The numerical value 1.6180339887 is the **quantum dimension of Fibonacci anyons**, denoted by `phi` (the golden ratio).",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**, $\\phi$.\n\nIts numerical value is approximately **1.6180339887**.\n\nThis value arises from the unique fusion rule of the Fibonacci anyon $\\tau$:\n$\\tau \\times \\tau = 1 + \\tau$\nwhere '1' represents the trivial (vacuum) anyon. If $d_\\tau$ is the quantum dimension of $\\tau$ and $d_1=1$ is the quantum dimension of the vacuum, then the quantum dimensions satisfy the equation:\n$d_\\tau^2 = 1 + d_\\tau$\nSolving this quadratic equation for $d_\\tau$ (and choosing the positive root) yields $d_\\tau = \\frac{1 + \\sqrt{5}}{2}$.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_35",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity is the **ground state degeneracy**.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is 4.\n\nThis is a well-known property of topological codes, where the ground state degeneracy depends on the genus 'g' of the surface according to the formula $4^g$. For a torus, $g=1$, so the degeneracy is $4^1 = 4$.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_33",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "Steane code (Quantum Error Correction)",
+            "pred_gen": "The `[[n, k, d]]` notation for a quantum code represents:\n* `n`: The number of physical qubits.\n* `k`: The number of logical qubits.\n* `d`: The minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code, the value corresponding to `d` is `3`.\n\nTherefore, the minimum distance `d` is **3**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_32",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity that \"4\" refers to is the **ground state degeneracy**.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is **4**.\n\nThis degeneracy arises from the two independent non-contractible cycles present on a torus (e.g., a \"longitude\" and a \"meridian\"). For each cycle, there are two types of non-local operators (one built from Pauli X matrices, creating electric loops; and one from Pauli Z matrices, creating magnetic loops) that commute with the Hamiltonian but are not products of local operators. These operators transform ground states into other distinct ground states, leading to a $2^{2g}$ degeneracy, which for g=1 yields $2^{2*1} = 4$.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_34",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The given numerical value 1.6180339887 is the approximate value of **phi = (1 + sqrt(5))/2**, which is identified in the context as **the quantum dimension of Fibonacci anyons**.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio (\u03c6)**.\n\nMathematically, this is expressed as:\n$$ \\phi = \\frac{1 + \\sqrt{5}}{2} $$\n\nNumerically, this value is approximately **1.6180339887**.\n\nThis value arises directly from the fusion rules of the Fibonacci anyon, denoted as \u03c4. The fusion rule is:\n\u03c4 \u00d7 \u03c4 = 1 + \u03c4\n\nWhere '1' represents the vacuum (identity) anyon with a quantum dimension of 1. If d_\u03c4 is the quantum dimension of the \u03c4 anyon, then its fusion rule implies:\nd_\u03c4\u00b2 = 1 + d_\u03c4\nd_\u03c4\u00b2 - d_\u03c4 - 1 = 0\n\nSolving this quadratic equation for d_\u03c4 using the quadratic formula yields:\nd_\u03c4 = $\\frac{1 \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$\nd_\u03c4 = $\\frac{1 \\pm \\sqrt{1 + 4}}{2}$\nd_\u03c4 = $\\frac{1 \\pm \\sqrt{5}}{2}$\n\nSince quantum dimensions must be positive, we take the positive root:\nd_\u03c4 = $\\frac{1 + \\sqrt{5}}{2}$",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_38",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is 4.\n\nThis arises because a torus (genus 1) has two independent non-contractible cycles. Each pair of these cycles supports one logical qubit, and for the toric code, there are two logical qubits on a torus. With two logical qubits, the ground state degeneracy is 2^2 = 4.\n\nMore generally, for a surface of genus 'g', the ground state degeneracy of the 2D toric code is 4^g. For g=1, this is 4^1 = 4.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_37",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity this is about is the numerical value of **phi**, which represents the quantum dimension of Fibonacci anyons.\n\nFrom the context: \"The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2.\"\n\nCalculating this value:\nsqrt(5) \u2248 2.2360679775\nphi = (1 + 2.2360679775) / 2\nphi = 3.2360679775 / 2\nphi \u2248 1.6180339887",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is the golden ratio, which is $\\frac{1 + \\sqrt{5}}{2}$.\n\nNumerically, this is approximately **1.6180339887**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_36",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about, specifically regarding a numerical value that is a core property across the mentioned codes, is the **minimum distance** of the codes.\n\n*   The Steane code is a `[[7,1,**3**]]` code, meaning it has a minimum distance of 3.\n*   The classical Hamming codes are `[7,4,**3**]` codes, meaning they also have a minimum distance of 3.\n\nIn the context of error correction, the minimum distance `d` is a crucial parameter, as it determines the number of errors the code can detect (`d-1`) and correct (`floor((d-1)/2)`). Both the quantum and classical codes mentioned share this important property of having a distance of 3.",
+            "pred_gen": "The minimum distance `d` of the `[[7,1,3]]` Steane quantum code is 3.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_39",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "3",
+            "pred_gen": "The minimum distance `d` of a quantum code is explicitly given by the third parameter in the [[n, k, d]] notation.\n\nFor the [[7,1,3]] Steane quantum code:\n*   `n` (number of physical qubits) = 7\n*   `k` (number of logical qubits) = 1\n*   `d` (minimum distance) = 3\n\nTherefore, the minimum distance `d` is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_41",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The ground state degeneracy",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is 4.\n\nThis is because the toric code on a torus encodes two logical qubits. With two logical qubits, there are 2^2 = 4 distinct ground states.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_40",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity referred to by the numerical value 1.6180339887 is the **quantum dimension of Fibonacci anyons (phi)**.",
+            "pred_gen": "The provided answer is correct.\n\nThe exact topological quantum dimension of the non-trivial Fibonacci anyon is the **golden ratio**, often denoted by $\\phi$ (phi).\n\nIts exact value is $\\frac{1 + \\sqrt{5}}{2}$.\nIts numerical approximation is **1.6180339887...**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_44",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity that this is about is the **ground state degeneracy**.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus g=1 is 4.\n\nThis is a well-known result in topological quantum computing and condensed matter physics. For a surface of genus 'g', the ground state degeneracy of the toric code is generally $4^g$. For a standard torus, $g=1$, so $4^1 = 4$.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_45",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity is **codes**.\n\nThe specific codes mentioned are:\n1.  The [[7,1,3]] Steane code (a quantum code).\n2.  The classical [7,4,3] Hamming code C1.\n3.  The classical [7,4,3] Hamming code C2.",
+            "pred_gen": "The notation `[[n,k,d]]` for a quantum code specifies:\n*   `n`: the number of physical qubits.\n*   `k`: the number of logical qubits.\n*   `d`: the minimum distance of the code.\n\nFor the `[[7,1,3]]` Steane quantum code, the minimum distance `d` is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_42",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is **Quantum Error Correction**.\n\nThe context describes specific components and methods within the field of quantum error correction:\n*   **[[7,1,3]] Steane code:** A type of quantum error-correcting code.\n*   **CSS code construction:** A method for building quantum codes.\n*   **Classical [7,4,3] Hamming codes:** Classical codes used as building blocks for the quantum code.\n*   **Orthogonality:** A property relating these classical codes within the quantum construction.\n\nAll these elements are discussed in the service of understanding how quantum errors are corrected, which falls under the umbrella of Quantum Error Correction.",
+            "pred_gen": "The notation `[[n,k,d]]` for a quantum code specifies the following parameters:\n*   `n`: The number of physical qubits used.\n*   `k`: The number of logical qubits encoded.\n*   `d`: The minimum distance of the code.\n\nFor the [[7,1,3]] Steane quantum code, the third number in the notation is the minimum distance `d`.\n\nTherefore, the minimum distance d of the [[7,1,3]] Steane quantum code is **3**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_43",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity this is about is the **quantum dimension of Fibonacci anyons (phi)**.\n\nThe provided value 1.6180339887 is the numerical value of phi = (1 + sqrt(5))/2.",
+            "pred_gen": "The topological quantum dimension of the non-trivial Fibonacci anyon ($\\tau$) is given by the golden ratio, $\\phi$.\n\nIt is derived from its fusion rule:\n$\\tau \\times \\tau = \\mathbf{1} + \\tau$\n\nIf we denote the quantum dimension of $\\tau$ as $d_\\tau$ and the quantum dimension of the trivial anyon $\\mathbf{1}$ as $d_1 = 1$, then the fusion rule translates to:\n$d_\\tau \\cdot d_\\tau = d_1 + d_\\tau$\n$d_\\tau^2 = 1 + d_\\tau$\n\nRearranging this quadratic equation:\n$d_\\tau^2 - d_\\tau - 1 = 0$\n\nUsing the quadratic formula, $d_\\tau = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$:\n$d_\\tau = \\frac{1 \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$\n$d_\\tau = \\frac{1 \\pm \\sqrt{1 + 4}}{2}$\n$d_\\tau = \\frac{1 \\pm \\sqrt{5}}{2}$\n\nSince quantum dimensions must be non-negative, we take the positive root:\n$d_\\tau = \\frac{1 + \\sqrt{5}}{2}$\n\nThis value is the golden ratio, $\\phi$.\n\nThe exact value is $\\frac{1 + \\sqrt{5}}{2}$.\nThe numerical approximation is approximately **1.6180339887**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_47",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.\n\n**Explanation:**\n\nThis is determined by the Woodward-Hoffmann rules for electrocyclic reactions:\n\n1.  **Number of Pi Electrons:** Octatriene has three double bonds, meaning it has 6 pi electrons. This is a 4n+2 system (where n=1).\n2.  **Reaction Conditions:** The reaction is thermal (heat).\n\nAccording to the Woodward-Hoffmann rules:\n*   For **thermal** electrocyclizations, a 4n+2 pi electron system proceeds via a **disrotatory** mode.\n*   For **thermal** electrocyclizations, a 4n pi electron system proceeds via a **conrotatory** mode.\n\nSince (2E,4Z,6E)-octatriene is a 6-electron (4n+2) system undergoing thermal electrocyclization, it must proceed in a disrotatory fashion.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_48",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The answer is correct. The statement describes the specific effect and role of (+)-L-DET in determining the stereochemistry of the oxygen atom addition in the Sharpless epoxidation.",
+            "pred_gen": "The enantiomer of diethyl tartrate used in Sharpless epoxidation to direct **top-face** oxygen insertion when the allylic alcohol is drawn in **standard bottom-right orientation** is **(+)-L-DET**.\n\nHere's the mnemonic:\n\n1.  **Orient the Allylic Alcohol:** Draw the alkene horizontally. Place the allylic alcohol's -OH group pointing down and to the right.\n    ```\n          R'\n         /\n      R-C=C-CH-OH\n         \\ /\n          H R''\n    ```\n2.  **Choose the DET Enantiomer:**\n    *   If you use **(+)-L-DET**, the epoxidation will occur from the **top face** (oxygen inserts from \"above\" the plane of the alkene).\n    *   If you use **(-)-D-DET**, the epoxidation will occur from the **bottom face** (oxygen inserts from \"below\" the plane of the alkene).\n\nSince the question specifies \"top-face oxygen insertion\" with the standard bottom-right orientation, **(+)-L-DET** is the required enantiomer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_49",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "To determine the mode of electrocyclization (conrotatory or disrotatory) for the given reaction, we apply the Woodward-Hoffmann rules for pericyclic reactions.\n\n1.  **Identify the number of pi electrons involved:**\n    (2E,4Z,6E)-octatriene has 3 double bonds, meaning 3 * 2 = **6 pi electrons**.\n\n2.  **Identify the reaction conditions:**\n    The reaction is **thermal**.\n\n3.  **Apply the Woodward-Hoffmann Rules for Electrocyclization:**\n    *   **4n electrons:**\n        *   Thermal: Conrotatory\n        *   Photochemical: Disrotatory\n    *   **4n+2 electrons:**\n        *   Thermal: Disrotatory\n        *   Photochemical: Conrotatory\n\nIn this case, we have a **6-electron** system (which is 4n+2 where n=1) and the reaction is **thermal**.\n\nAccording to the rules, a thermal (4n+2) electrocyclization proceeds via a **disrotatory** mode.\n\nThe final answer is $\\boxed{\\text{disrotatory}}$",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_50",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The answer \"Sharpless asymmetric epoxidation\" would be a more comprehensive answer, as the context describes the entire process.\n\nHowever, the context specifically focuses on the role and effect of **(+)-L-DET** in the Sharpless asymmetric epoxidation, particularly in the last sentence. Therefore, **(+)-L-DET** is also a valid and specific entity that the context elaborates on.\n\nIf the query is interpreted as \"What specific entity is highlighted and described in detail within this context?\", then (+)-L-DET is a good answer. If it's interpreted as \"What is the overarching subject?\", then the Sharpless epoxidation is better.\n\nGiven the detail provided about (+)-L-DET's action, the answer is acceptable.",
+            "pred_gen": "To direct **top-face oxygen insertion** when the allylic alcohol is drawn in the **standard bottom-right orientation**, the enantiomer of diethyl tartrate used is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_51",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "For a thermal 6-electron electrocyclization, the Woodward-Hoffmann rules predict a **disrotatory** mode.\n\nHere's why:\n*   **Number of electrons:** 6 pi electrons (this is a 4n+2 system, where n=1).\n*   **Conditions:** Thermal.\n\nAccording to the rules for electrocyclization:\n*   **Thermal 4n+2 systems** proceed via a **disrotatory** mode.\n*   **Thermal 4n systems** proceed via a **conrotatory** mode.\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_46",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "To determine which enantiomer of diethyl tartrate (DET) is used in Sharpless epoxidation for top-face oxygen insertion with the allylic alcohol in the standard bottom-right orientation, we follow the established Sharpless rules.\n\n1.  **Standard Orientation of Allylic Alcohol:**\n    In the Sharpless epoxidation mnemonic, the allylic alcohol is typically drawn with the alkene horizontal, and the hydroxyl group (-OH) positioned in the **bottom-right** quadrant relative to the alkene. This matches the \"standard bottom-right orientation\" specified in the query.\n\n    ```\n          R1 --- R2\n           \\    /\n            C=C\n            | \\\n          R3  OH  <-- \"bottom-right\" OH\n    ```\n\n2.  **Sharpless Selectivity Rules:**\n    For an allylic alcohol drawn in this bottom-right orientation:\n    *   Using **(+)-DET** directs the oxygen insertion from the **top face**.\n    *   Using **(-)-DET** directs the oxygen insertion from the **bottom face**.\n\n3.  **Applying to the Query:**\n    The query asks for \"top-face oxygen insertion.\" Based on the rule above, this requires the use of **(+)-DET**.\n\n4.  **Correlation of Optical Rotation and L/D Designation for Tartrates:**\n    *   **D-tartaric acid** and its esters (like diethyl D-tartrate) are **dextrorotatory (+)**.\n    *   **L-tartaric acid** and its esters (like diethyl L-tartrate) are **levorotatory (-)**.\n\n5.  **Conclusion:**\n    Since we determined that **(+)-DET** is required for top-face insertion, and (+)-DET corresponds to diethyl D-tartrate, the correct enantiomer is **(+)-D-DET**.\n\n---\n\n**Addressing the Provided Answer:**\n\nThe answer provided in the prompt is \"(+)-L-DET\". This contains a chemical inconsistency:\n*   A tartrate ester that is L-configured (diethyl L-tartrate) is typically levorotatory (-) by convention.\n*   A tartrate ester that is dextrorotatory (+) is typically D-configured (diethyl D-tartrate).\n\nTherefore, the designation \"(+)-L-DET\" is contradictory. Based on standard organic chemistry principles and the established Sharpless rules:\n\n*   For **top-face** oxygen insertion with the allylic alcohol in the **bottom-right** orientation, **(+)-DET** is used.\n*   **(+)-DET** refers to **diethyl D-tartrate**.\n\nThus, the chemically consistent answer is **(+)-D-DET**. If the query's \"Answer: (+)-L-DET\" is taken as a fixed target, it is chemically inaccurate due to the conflicting (+) and L designations. Assuming the question intends to ask for the *correct* enantiomer:\n\nThe correct enantiomer of diethyl tartrate is **(+)-D-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_52",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The provided answer is correct. The statement \"When (+)-L-DET is used, oxygen atom addition occurs preferentially from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right\" is specifically about the entity **(+)-L-DET** and its directing effect in the Sharpless epoxidation.",
+            "pred_gen": "In the Sharpless epoxidation, the choice of tartrate ester determines the face-selectivity of oxygen insertion.\n\nFor an allylic alcohol drawn in the standard Sharpless orientation (where the alkene is horizontal and the hydroxyl group points to the bottom right):\n\n*   **(+)-L-diethyl tartrate (DET)** directs oxygen insertion to the **top face** of the alkene.\n*   **(-)-D-diethyl tartrate (DET)** directs oxygen insertion to the **bottom face** of the alkene.\n\nSince the query asks for **top-face oxygen insertion** with the allylic alcohol in the **standard bottom-right orientation**, the correct enantiomer of diethyl tartrate to use is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_54",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "To achieve **top-face oxygen insertion** when the allylic alcohol is drawn in the **standard bottom-right orientation** (where the double bond is horizontal and the allylic alcohol points down and to the right), the enantiomer of diethyl tartrate used is **(+)-L-DET**.\n\nThe mnemonic for Sharpless epoxidation is:\n*   If the allylic alcohol is drawn with the double bond horizontal and the alcohol group pointing bottom-right:\n    *   **(+)-DET** gives epoxidation from the **top face**.\n    *   **(-)-DET** gives epoxidation from the **bottom face**.\n\nSince (+)-tartaric acid is L-tartaric acid, then (+)-DET is also referred to as (+)-L-DET.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_53",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene will proceed via a **disrotatory** mode.\n\n**Explanation:**\n\nThis is governed by the Woodward-Hoffmann rules for electrocyclic reactions:\n\n1.  **Identify the number of pi electrons:** Octatriene is a conjugated triene, meaning it has 6 pi electrons involved in the electrocyclization (3 double bonds x 2 electrons/bond = 6 electrons).\n2.  **Identify the reaction conditions:** The question specifies \"thermal.\"\n3.  **Apply the Woodward-Hoffmann rules:**\n    *   For a **thermal** electrocyclic reaction:\n        *   **4n electrons:** Conrotatory\n        *   **4n + 2 electrons:** Disrotatory\n\nIn this case, we have 6 pi electrons, which fits the \"4n + 2\" rule (where n = 1). Therefore, the reaction will be **disrotatory**.\n\n**Reasoning based on Frontier Molecular Orbitals (FMO theory):**\n\nIn a thermal 6-electron electrocyclization, the reaction proceeds through the Highest Occupied Molecular Orbital (HOMO) of the reactant. For a 6-electron system (like hexatriene), the HOMO is \u03a83.\n\n*   \u03a83 of a hexatriene-like system has the terminal p-orbitals with lobes of **opposite sign on the same face** of the molecule.\n*   To form a new sigma bond by bringing these terminal p-orbitals together, the ends of the molecule must rotate in the **same direction** (either both clockwise or both counter-clockwise) to bring lobes of the same phase into overlap. This simultaneous rotation in the same direction is defined as **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_56",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "To direct **top-face** oxygen insertion when the allylic alcohol is drawn in the **standard bottom-right orientation**, the enantiomer used in Sharpless epoxidation is **(+)-L-diethyl tartrate (DET)**.\n\nHere's a common mnemonic for this:\n\n*   Draw the allylic alcohol with the double bond horizontal and the allylic alcohol group positioned in the **bottom-right** quadrant relative to the double bond.\n*   **L-(+)-DET** directs epoxidation to the **top face** (syn to the allylic OH).\n*   **D-(-)-DET** directs epoxidation to the **bottom face** (anti to the allylic OH).",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_55",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.\n\n**Explanation:**\n\n1.  **Identify the number of electrons:** (2E,4Z,6E)-octatriene has three double bonds. Each double bond contributes 2 pi electrons, so this is a **6-electron system**.\n2.  **Identify the conditions:** The conditions are **thermal**.\n3.  **Apply Woodward-Hoffmann Rules:**\n    For electrocyclic reactions:\n    *   **4n electron systems:** Thermal = Conrotatory, Photochemical = Disrotatory\n    *   **4n + 2 electron systems:** Thermal = Disrotatory, Photochemical = Conrotatory\n\n    In this case, we have a 6-electron system, which is a **4n + 2 system** (where n = 1). Under **thermal** conditions, the rule dictates a **disrotatory** mode.\n\n**Frontier Molecular Orbital (FMO) Analysis:**\n\nUnder thermal conditions, the reaction is governed by the symmetry of the **Highest Occupied Molecular Orbital (HOMO)**. For a 6-electron linear system (like hexatriene, which octatriene is a derivative of), the HOMO is \u03a83.\n\n*   **\u03a83 of hexatriene:** At the terminal carbons (where the new sigma bond will form), the p-orbitals have the **same phase** (e.g., both \"up\" lobes or both \"down\" lobes facing each other).\n*   **Bond formation:** To form a new sigma bond by overlapping these same-phase lobes, the ends of the molecule must rotate in **opposite directions** (one clockwise, one counter-clockwise). This opposite rotation is defined as **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_59",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "For a thermal 6-electron electrocyclization, the Woodward-Hoffmann rules predict a **disrotatory** mode.\n\nThis falls under the 4n+2 electron system category, which, under thermal conditions, proceeds via a disrotatory pathway.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_57",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.\n\n**Explanation:**\n\n1.  **Electron Count:** (2E,4Z,6E)-octatriene is a triene, meaning it has 3 double bonds. This corresponds to 6 pi electrons (3 x 2 = 6).\n2.  **Woodward-Hoffmann Rules:** For electrocyclization reactions, the stereochemical outcome (conrotatory or disrotatory) depends on the number of pi electrons and the reaction conditions (thermal or photochemical).\n    *   **4n+2 electron systems:**\n        *   **Thermal conditions:** disrotatory\n        *   Photochemical conditions: conrotatory\n    *   **4n electron systems:**\n        *   Thermal conditions: conrotatory\n        *   Photochemical conditions: disrotatory\n3.  **Application:**\n    *   Our system has 6 pi electrons, which fits the \"4n+2\" category (where n=1).\n    *   The reaction conditions are \"thermal.\"\n    *   Therefore, according to the Woodward-Hoffmann rules, a thermal 4n+2 electrocyclization proceeds via a **disrotatory** mode.\n\nThis means that the two ends of the conjugated system rotate in opposite directions (one clockwise, one counter-clockwise, or vice-versa) to form the new sigma bond.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_61",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The answer \"disrotatory\" is correct.\n\nThe context explicitly states: \"the reaction proceeds via a 6-electron **disrotatory** mechanism\". \"Disrotatory\" describes the specific mode of ring closure, making it a key entity or characteristic the provided text is about.",
+            "pred_gen": "This is a classic application of the Woodward-Hoffmann rules for electrocyclic reactions.\n\n1.  **Identify the number of \u03c0 electrons:** The reaction is a \"6-electron electrocyclization.\" This corresponds to a (4n + 2) system where n=1.\n2.  **Identify the reaction conditions:** The reaction is \"thermal.\"\n\nAccording to the Woodward-Hoffmann rules:\n\n*   **Thermal reactions:**\n    *   (4n) electron systems are **conrotatory**.\n    *   (4n + 2) electron systems are **disrotatory**.\n*   **Photochemical reactions:**\n    *   (4n) electron systems are **disrotatory**.\n    *   (4n + 2) electron systems are **conrotatory**.\n\nSince this is a **thermal** (4n + 2) electron system, the mode will be **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_58",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "In Sharpless epoxidation, the choice of the chiral tartrate ester determines the stereochemical outcome.\n\nWhen the allylic alcohol is drawn in the standard Sharpless orientation (double bond horizontal, -OH group pointing towards the top-left, and the R group of the alkene pointing towards the bottom-right), to achieve **top-face oxygen insertion**, the catalyst requires **(+)-L-diethyl tartrate ((+)-L-DET)**.\n\nTherefore, the answer is: **(+)-L-DET**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_63",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory mechanism",
+            "pred_gen": "To determine the electrocyclization mode for a thermal 6-electron electrocyclization, we use the Woodward-Hoffmann rules.\n\n1.  **Number of electrons:** The system involves 6 pi electrons (octatriene has three double bonds).\n2.  **Classification:** 6 electrons fit the (4n + 2) system, where n = 1.\n3.  **Conditions:** The reaction is thermal.\n\nAccording to the Woodward-Hoffmann rules for electrocyclic reactions:\n*   For a (4n + 2) electron system under thermal conditions, the reaction is **disrotatory**.\n*   For a (4n) electron system under thermal conditions, the reaction is conrotatory.\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_64",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The context specifically details the role and consequence of using **(+)-L-DET** in the Sharpless epoxidation, explaining how it dictates the stereochemical outcome (oxygen atom addition from the top face). While other entities like titanium tetraisopropoxide or TBHP are mentioned as components, (+)-L-DET is singled out to describe a specific mechanistic and stereochemical detail.",
+            "pred_gen": "In Sharpless epoxidation, when the allylic alcohol is drawn in the standard bottom-right orientation (with the hydroxyl group at the bottom right and the double bond extending upwards/leftwards):\n\n*   **(+)-L-diethyl tartrate** (also known as (+)-DET) directs oxygen insertion to the **top face**.\n*   **(-)-D-diethyl tartrate** (also known as (-)-DET) directs oxygen insertion to the **bottom face**.\n\nTherefore, to direct **top-face oxygen insertion**, the enantiomer used is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_65",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory mechanism",
+            "pred_gen": "The electrocyclization of (2E,4Z,6E)-octatriene involves **6 pi electrons**.\n\nAccording to the Woodward-Hoffmann rules for electrocyclization:\n\n*   **For (4n) pi electron systems:**\n    *   Thermal reactions are **conrotatory**.\n    *   Photochemical reactions are **disrotatory**.\n\n*   **For (4n+2) pi electron systems:**\n    *   Thermal reactions are **disrotatory**.\n    *   Photochemical reactions are **conrotatory**.\n\nIn this case, we have a **6-electron system**, which fits the (4n+2) rule (where n=1). The reaction is **thermal**.\n\nTherefore, for a thermal 6-electron electrocyclization, the mode is **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_66",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity is **(+)-L-DET**.",
+            "pred_gen": "In Sharpless epoxidation, the choice of diethyl tartrate (DET) enantiomer dictates the facial selectivity of oxygen insertion.\n\nWhen the allylic alcohol is drawn in a standard orientation with the double bond horizontal and the hydroxyl group (-OH) pointing **downwards** (which corresponds to the \"bottom-right orientation\" relative to the alkene if viewed from above), the following rules apply:\n\n*   **(+)-L-DET** directs oxygen insertion to the **top face**.\n*   **(-)-D-DET** directs oxygen insertion to the **bottom face**.\n\nTherefore, to direct **top-face oxygen insertion** when the allylic alcohol is drawn in a standard bottom-right orientation (meaning the -OH group is pointing downwards), the enantiomer of diethyl tartrate used is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_68",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "To direct **top-face** oxygen insertion when the allylic alcohol is drawn in standard **bottom-right orientation** (meaning the R group is on the right, and the -OH is typically drawn below the plane or slightly back), the enantiomer of diethyl tartrate used is:\n\n**(+)-L-DET**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_62",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "In Sharpless epoxidation, the choice of diethyl tartrate (DET) enantiomer dictates the facial selectivity of oxygen insertion onto the double bond of the allylic alcohol.\n\nHere's a breakdown of the conventions:\n\n1.  **Standard Orientation:** When the allylic alcohol is drawn with the C=C bond horizontal and the allylic carbon-oxygen bond pointing **down and to the right** (e.g., in a typical textbook representation for Sharpless epoxidation substrates):\n    ```\n            R1\n           /\n    R2 -- C = C -- R3\n                \\\n                 CH2OH\n    ```\n\n2.  **Facial Selectivity:**\n    *   To direct **top-face** oxygen insertion (epoxide formed from above the plane of the alkene), the **dextrorotatory** enantiomer of diethyl tartrate is used. This is designated as **(+)-DET**.\n    *   To direct **bottom-face** oxygen insertion (epoxide formed from below the plane of the alkene), the **levorotatory** enantiomer of diethyl tartrate is used. This is designated as **(-)-DET**.\n\n3.  **L/D Nomenclature for Tartrates:**\n    *   **D-tartaric acid** is the (2R,3R) enantiomer, and it is **dextrorotatory (+)**. Therefore, D-DET is (+)-DET.\n    *   **L-tartaric acid** is the (2S,3S) enantiomer, and it is **levorotatory (-)**. Therefore, L-DET is (-)-DET.\n\n**Conclusion based on standard nomenclature:**\n\nBased on the requirement for \"top-face oxygen insertion\" and the \"standard bottom-right orientation\" of the allylic alcohol, the enantiomer used is **(+)-DET**.\nAccording to standard chemical nomenclature, the (+)-enantiomer of diethyl tartrate is designated as **D-diethyl tartrate (D-DET)**.\n\n**Addressing the given answer (+)-L-DET:**\n\nThe designation `(+)-L-DET` is chemically inconsistent according to standard nomenclature. L-diethyl tartrate is, by definition, the levorotatory (-) enantiomer. If `(+)-L-DET` is the specified answer, there might be:\n*   A non-standard or historical usage of the L/D designation that contradicts the optical rotation for tartaric acid.\n*   A typographical error in either the `(+)/(-)` or the `L/D` part of the name.\n\nHowever, if we strictly follow the functional requirement:\n*   **To achieve top-face oxygen insertion with the given substrate orientation, the catalyst must be the dextrorotatory enantiomer, i.e., (+)-DET.**\n\nAssuming the optical rotation `(+)` is the primary descriptor and correctly identifies the desired enantiomer, then the \"L\" part of `(+)-L-DET` is chemically incorrect under standard L/D definitions for tartrates, as (+)-tartrate is D-tartrate.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_67",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "Let's break this down using the Woodward-Hoffmann rules for electrocyclization.\n\n1.  **Determine the number of \u03c0 electrons:**\n    (2E,4Z,6E)-octatriene has three double bonds participating in the conjugation. Each double bond contributes 2\u03c0 electrons.\n    Total \u03c0 electrons = 3 * 2 = 6 \u03c0 electrons.\n\n2.  **Identify the reaction conditions:**\n    The reaction is **thermal**.\n\n3.  **Apply Woodward-Hoffmann rules:**\n    *   For electrocyclization involving **4n \u03c0 electrons**:\n        *   Thermal conditions: Conrotatory\n        *   Photochemical conditions: Disrotatory\n    *   For electrocyclization involving **4n+2 \u03c0 electrons**:\n        *   Thermal conditions: Disrotatory\n        *   Photochemical conditions: Conrotatory\n\n    In this case, we have 6 \u03c0 electrons. This fits the 4n+2 rule (where n=1, 4*1+2 = 6).\n    Since the conditions are **thermal**, the mode of cyclization will be **disrotatory**.\n\n**Therefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode.**",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_70",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The provided answer is correct. The context describes the role and specific effect of **(+)-L-DET** in dictating the stereochemical outcome of the Sharpless epoxidation.",
+            "pred_gen": "In Sharpless epoxidation, when the allylic alcohol is drawn in the standard bottom-right orientation (meaning the -OH group is pointing bottom-right, and the alkene's R-group is generally to the right), the enantiomer of diethyl tartrate that directs **top-face** oxygen insertion is **(+)-L-diethyl tartrate** (often abbreviated as (+)-L-DET).",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_69",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "This is a 6-electron electrocyclization reaction (3 double bonds).\nThe conditions are **thermal**.\n\nWe can determine the stereochemistry using the Woodward-Hoffmann rules or by analyzing the Highest Occupied Molecular Orbital (HOMO).\n\n**Using Woodward-Hoffmann Rules:**\n\n*   **Number of electrons:** 6 (which is a 4n+2 system, where n=1).\n*   **Conditions:** Thermal.\n*   **Rule:** For a (4n+2) electron system under thermal conditions, the electrocyclization is **disrotatory**.\n\n**Using Frontier Molecular Orbital (FMO) Theory:**\n\n1.  **Identify the HOMO:** For a thermal 6-electron system (like hexatriene), the HOMO is \u03c83.\n2.  **Sketch the HOMO (\u03c83):** The general pattern for \u03c8n has n-1 nodes. For \u03c83, there are 2 nodes. The ends of \u03c83 are in phase (i.e., the p-orbitals on C1 and C6 have the same lobe pointing in the same direction, e.g., both \"up\").\n    ```\n    C1 (+)----C2 (-)----C3 (-)----C4 (+)----C5 (+)----C6 (-)  <-- This is \u03c84\n    Let's redraw \u03c83 correctly for hexatriene:\n    C1 (+)----C2 (+)----C3 (-)----C4 (-)----C5 (+)----C6 (+)\n    (This has 2 nodes: between C2-C3 and C4-C5)\n    The terminal carbons (C1 and C6) have their p-orbital lobes in the same phase.\n    ```\n3.  **Determine the rotation:** For these same-phase terminal lobes to overlap and form the new sigma bond, they must rotate in *opposite* directions (one clockwise, one counter-clockwise). This is a **disrotatory** motion.\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_71",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory is about the **mechanism** of the electrocyclic ring closure.",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.\n\nThis is determined by the Woodward-Hoffmann rules for electrocyclic reactions:\n\n*   **Number of electrons:** Octatriene has 3 double bonds, meaning it's a **6-electron** system.\n*   **Conditions:** The reaction is **thermal**.\n\nAccording to the rules:\n*   For **thermal** reactions:\n    *   **4n systems** (e.g., 4, 8 electrons) are **conrotatory**.\n    *   **4n+2 systems** (e.g., 2, 6, 10 electrons) are **disrotatory**.\n\nSince 6 is a 4n+2 system (where n=1), the thermal cyclization is **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_60",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The provided answer \"(+)-L-DET\" is correct.\n\nThe context discusses the Sharpless epoxidation and specifically highlights the role and effect of **(+)-L-DET** in determining the stereochemistry of oxygen atom addition. While other entities are mentioned (titanium tetraisopropoxide, TBHP, allylic alcohols, Sharpless epoxidation itself), the last sentence of the context directly describes the action of \"(+)-L-DET,\" making it a very direct and specific answer to \"What entity is this about?\"",
+            "pred_gen": "The enantiomer of diethyl tartrate (DET) used to direct **top-face** oxygen insertion when the allylic alcohol is drawn in standard **bottom-right orientation** (meaning the -OH group is on the right-hand side of the double bond) is **(+)-L-DET**.\n\n**Explanation:**\n\nIn the Sharpless epoxidation model:\n\n1.  When the allylic alcohol is drawn with the C=C bond horizontal and the allylic hydroxyl group (-OH) on the **right-hand side**.\n2.  **(+)-L-DET** directs oxygen delivery from the **top face** of the alkene.\n3.  **(-)-D-DET** directs oxygen delivery from the **bottom face** of the alkene.\n\nSince \"standard bottom-right orientation\" generally implies the -OH is on the right, and the desired outcome is \"top-face oxygen insertion,\" (+)-L-DET is the correct choice.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_74",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The provided answer is correct. The text explicitly states: \"When **(+)-L-DET** is used, oxygen atom addition occurs preferentially from the top face...\" This sentence specifically highlights (+)-L-DET as the entity whose stereochemistry dictates the outcome of the epoxidation.",
+            "pred_gen": "In Sharpless epoxidation, when the allylic alcohol is drawn in the standard bottom-right orientation and top-face oxygen insertion is desired, the enantiomer of diethyl tartrate used is **(+)-L-DET**.\n\n*   **L-DET** corresponds to the **(+)-enantiomer** (dextrorotatory).\n*   **D-DET** corresponds to the **(-)-enantiomer** (levorotatory).\n\nSo, for top-face addition with the standard bottom-right drawing, you use **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_73",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "Yes, \"disrotatory\" is a correct answer.\n\nThe context is specifically describing the *mechanism* of the reaction, and \"disrotatory\" is the key descriptor for that mechanism's stereochemical outcome under the given conditions.",
+            "pred_gen": "To determine the mode of electrocyclization, we apply the Woodward-Hoffmann rules.\n\n1.  **Identify the number of electrons:** The system is an octatriene, meaning it has three double bonds, contributing 2 electrons each. So, it's a **6-electron** system.\n2.  **Classify the electron system:** A 6-electron system fits the **(4n + 2)** electron category (where n=1).\n3.  **Identify the reaction conditions:** The reaction is **thermal**.\n4.  **Apply the Woodward-Hoffmann rules for electrocyclization:**\n    *   For a **thermal** (4n + 2) electron electrocyclization, the reaction proceeds via a **disrotatory** mode.\n    *   (For a thermal 4n electron system, it would be conrotatory).\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_75",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "To determine the mode of electrocyclization, we use the Woodward-Hoffmann rules.\n\n1.  **Count the number of pi electrons (n):**\n    (2E,4Z,6E)-octatriene has **three** double bonds.\n    Each double bond contributes 2 pi electrons.\n    Total pi electrons = 3 * 2 = **6 pi electrons**.\n\n2.  **Identify the reaction conditions:**\n    The question specifies \"thermal\".\n\n3.  **Apply the Woodward-Hoffmann rules for electrocyclization:**\n    *   For a **6-electron** system:\n        *   **Thermal** reactions proceed via a **disrotatory** mode.\n        *   Photochemical reactions proceed via a conrotatory mode.\n    *   (For a 4-electron system: Thermal = conrotatory, Photochemical = disrotatory)\n\nSince it's a **6-electron thermal** electrocyclization, the mode will be **disrotatory**.\n\nThe final answer is $\\boxed{\\text{disrotatory}}$",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_72",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "Yes, that's correct. The provided context specifically details the role and effect of **(+)-L-DET** in the Sharpless asymmetric epoxidation, making it the central entity being described in terms of its function and stereochemical outcome.",
+            "pred_gen": "The Sharpless epoxidation uses chiral diethyl tartrate (DET) to control the enantioselectivity of the epoxide formation. The mnemonic to predict the outcome is as follows:\n\n1.  Draw the allylic alcohol with the alkene bond horizontal.\n2.  Position the -OH group in the **bottom-right** quadrant.\n\nAccording to the Sharpless mnemonic:\n*   If **(+)-DET** is used, oxygen insertion will occur from the **top-left** face of the double bond.\n*   If **(-)-DET** is used, oxygen insertion will occur from the **top-right** face of the double bond.\n\nSince the question asks for \"top-face oxygen insertion\" (without specifying left or right), and both (+)-DET and (-)-DET result in insertion from the top face (just different sides), the question likely refers to the commonly depicted example or the one primarily associated with the general \"top-face\" outcome in textbooks when this specific substrate orientation is presented. In most standard representations of the Sharpless mnemonic, the (+)-DET example is given as the primary illustration of top-face addition.\n\nFurthermore, L-tartaric acid has an (R,R) configuration at C2 and C3, and its diethyl ester, diethyl L-tartrate, has a positive optical rotation, hence **(+)-L-DET**.\n\nTherefore, when the allylic alcohol is drawn in the standard bottom-right orientation, **(+)-L-DET** is used to direct top-face oxygen insertion (specifically, the top-left face).\n\nThe final answer is $\\boxed{\\text{(+)-L-DET}}$",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_79",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "For a thermal electrocyclization of a (4n+2) electron system, the Woodward-Hoffmann rules predict a **disrotatory** mode.\n\nIn the case of (2E,4Z,6E)-octatriene, there are three double bonds, meaning it's a 6-electron system (4n+2 where n=1).\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_78",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity described as having a specific effect on the regioselectivity of oxygen atom addition is **(+)-L-DET**.",
+            "pred_gen": "The enantiomer of diethyl tartrate used to direct **top-face oxygen insertion** when the allylic alcohol is drawn in the standard bottom-right orientation (meaning the allylic -OH group points down and to the right) is **(+)-L-DET**.\n\nHere's the breakdown:\n\n1.  **Sharpless Model Orientation:** The standard Sharpless epoxidation model depicts the allylic alcohol with the double bond horizontal and the allylic hydroxyl group pointing **down** (bottom-right).\n\n    ```\n        R1    R3\n         \\   /\n          C=C --- C --- OH  (OH points down/right)\n         /   \\   /\n        R2    H   H\n    ```\n\n2.  **Chiral Ligand Relationship:**\n    *   When the allylic -OH group is oriented *down*, **(+)-DET** directs epoxidation to the **top face** of the double bond.\n    *   When the allylic -OH group is oriented *down*, **(-)-DET** directs epoxidation to the **bottom face** of the double bond.\n\n3.  **D/L Nomenclature:** Tartaric acid and its esters (like diethyl tartrate) have a specific D/L configuration associated with their optical rotation:\n    *   (+)-Tartaric acid is also known as L-tartaric acid.\n    *   (-)-Tartaric acid is also known as D-tartaric acid.\n\nTherefore, to achieve **top-face oxygen insertion** with the allylic alcohol in the specified bottom-right orientation, you need **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_77",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "For a thermal 6-electron electrocyclization:\n\n1.  **Number of \u03c0 electrons:** 6 electrons. This is a 4n+2 system (where n=1).\n2.  **Reaction condition:** Thermal.\n\nAccording to the Woodward-Hoffmann rules for electrocyclization:\n\n*   For a **4n+2 system** under **thermal conditions**, the reaction proceeds via a **disrotatory** mode.\n*   For a 4n system under thermal conditions, the reaction proceeds via a conrotatory mode.\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_80",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "Yes, that is correct. The context describes the role and stereochemical outcome when **(+)-L-DET** is used in the Sharpless epoxidation.",
+            "pred_gen": "To direct **top-face** oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation (the Sharpless convention), the enantiomer used is **(+)-L-DET**.\n\nHere's the visual mnemonic:\n\n1.  **Draw the allylic alcohol:**\n    *   Place the alkene horizontally.\n    *   Place the hydroxyl group (OH) in the **bottom-right** quadrant.\n    *   The remaining substituents (R groups) fill the other positions.\n    ```\n          R1\n           \\\n            C=C - R2\n           /   \\\n         R3     OH\n    ```\n\n2.  **Apply the Sharpless Rule:**\n    *   If you want epoxidation from the **top** face, use **(+)-L-DET**.\n    *   If you want epoxidation from the **bottom** face, use **(-)-D-DET**.\n\nSince the question asks for **top-face** oxygen insertion, the answer is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_76",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "To answer this, we need to recall the Sharpless epoxidation mnemonic:\n\n1.  **Orient the Allylic Alcohol:** Draw the allylic alcohol with the double bond horizontally. The carbon bearing the hydroxyl group should be on the **right** side of the double bond. The hydroxyl group itself should point **downwards**. This matches the \"standard bottom-right orientation\" described for the OH group.\n\n    ```\n            R1\n           /\n          C=C\n         /   \\\n        R2    C-OH (OH pointing down)\n               |\n               R3\n    ```\n\n2.  **Apply the Sharpless Mnemonic:**\n    *   If you want the epoxide to form on the **top face** (oxygen inserted from above the plane of the alkene), you use **(+)-diethyl tartrate**.\n    *   If you want the epoxide to form on the **bottom face** (oxygen inserted from below the plane of the alkene), you use **(-)-diethyl tartrate**.\n\nSince the query specifies \"to direct top-face oxygen insertion\" for an allylic alcohol drawn in the \"standard bottom-right orientation\" (meaning OH pointing down on the right side), the correct enantiomer is **(+)-diethyl tartrate**.\n\n(+)-Diethyl tartrate is derived from L-tartaric acid, so it is designated as **(+)-L-DET**.\n\nThe final answer is $\\boxed{(+)-L-DET}$",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_81",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "For a thermal electrocyclization involving **6 pi electrons** (a 4n+2 system where n=1), the reaction proceeds via a **disrotatory** mode.\n\nThis is based on the Woodward-Hoffmann rules for electrocyclic reactions:\n\n*   **4n pi-electron systems:**\n    *   Thermal: Conrotatory\n    *   Photochemical: Disrotatory\n*   **4n+2 pi-electron systems:**\n    *   Thermal: Disrotatory\n    *   Photochemical: Conrotatory\n\nSince 6 is a (4n+2) system and the conditions are thermal, the mode is disrotatory.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_83",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "disrotatory",
+            "pred_gen": "The electrocyclization of (2E,4Z,6E)-octatriene involves a 6-electron pi system (a triene).\n\nAccording to the Woodward-Hoffmann rules for electrocyclic reactions:\n\n1.  **Number of Electrons:** This is a 6-electron system, which corresponds to a **4n+2** system (where n=1).\n2.  **Conditions:** The reaction is **thermal**.\n\nFor a **4n+2 electron system** undergoing **thermal** electrocyclization, the stereochemical course is **disrotatory**.\n\nTherefore, the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a **disrotatory** mode.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_84",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "In the Sharpless epoxidation, when the allylic alcohol is drawn in the standard bottom-right orientation (meaning the -OH group is in the bottom-right quadrant relative to the double bond), the following rule applies:\n\n*   **(+)-L-diethyl tartrate** (or (+)-L-DET) directs oxygen insertion from the **top face**.\n*   (-)-D-diethyl tartrate (or (-)-D-DET) directs oxygen insertion from the bottom face.\n\nTherefore, to direct top-face oxygen insertion with the allylic alcohol in the standard bottom-right orientation, the enantiomer used is **(+)-L-DET**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_82",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "(+)-L-DET",
+            "pred_gen": "The enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation (i.e., the allylic -OH group points downwards and to the right relative to the double bond) is **(+)-L-DET**.\n\n**Explanation:**\n\nIn the Sharpless epoxidation, the choice of diethyl tartrate (DET) enantiomer dictates the facial selectivity of oxygen transfer to the alkene. A common mnemonic or rule for determining selectivity is:\n\n1.  **Orient the allylic alcohol:** Draw the alkene horizontally, and the allylic alcohol portion such that the -OH group is pointing downwards and to the right (this is the \"standard bottom-right orientation\" described in the query, often depicted as forming an 'L' shape with the double bond).\n\n    ```\n              R1\n             /\n        R2--C=C--CH--R3\n               \\  |\n                H OH\n    ```\n\n2.  **Apply the DET rule:**\n    *   If you use **(+)-L-DET**, oxygen is delivered from the **top face** of the double bond.\n    *   If you use **(-)-D-DET**, oxygen is delivered from the **bottom face** of the double bond.\n\nSince the query asks for \"top-face oxygen insertion\" with the specified orientation, **(+)-L-DET** is the correct choice.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_85",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "Correct. The context explicitly states that \"the reaction proceeds via a 6-electron **disrotatory** mechanism.\" \"Disrotatory\" describes the specific way the molecular orbitals rotate during the ring closure, which is a key aspect of the described entity (the reaction mechanism).",
+            "pred_gen": "The electrocyclization of (2E,4Z,6E)-octatriene involves a 6-electron system (the three double bonds).\n\nAccording to the Woodward-Hoffmann rules for pericyclic reactions:\n\n1.  **Number of electrons (n):** The system is a hexatriene derivative, so it involves **6 pi electrons**.\n2.  **Conditions:** The reaction is **thermal**.\n\nFor thermal electrocyclization:\n*   If n = 4 (or 4q), the mode is conrotatory.\n*   If n = 6 (or 4q + 2), the mode is disrotatory.\n\nSince this is a **6-electron thermal electrocyclization**, the allowed mode is **disrotatory**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_87",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity `O(1)` in this context refers to the **number of bits read (queried) from the proof** by the verifier.\n\nSpecifically:\n*   `O(log n)` is the amount of **randomness** used by the verifier.\n*   `O(1)` is the **constant number of bits** that the verifier reads from the proof to check its validity.",
+            "pred_gen": "The answer is indeed **O(1)**.\n\nThe PCP (Probabilistically Checkable Proof) Theorem states that any language in NP has a probabilistically checkable proof system where the verifier, given an input of size 'n', performs the following:\n\n1.  **Queries a constant number of bits** from the proof (i.e., O(1) bits). This number is independent of the input size 'n'.\n2.  Uses a logarithmic number of random bits (O(log n)).\n3.  Runs in polynomial time (typically very small, often nearly linear in the input size, *before* querying the proof).\n4.  Accepts correct proofs with high probability (e.g., > 2/3).\n5.  Rejects incorrect proofs with high probability (e.g., > 2/3).\n\nThe \"O(1) queries\" is the most famous and fundamental aspect of the PCP Theorem, demonstrating the remarkable efficiency with which a verifier can check the correctness of a proof for NP problems without needing to read the entire proof.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_86",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a **memoryless** winning strategy.\n\nThe context explicitly states: \"a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic **memoryless** winning strategy for both players\".\n\nTherefore, \"memoryless\" is the key characteristic or entity being discussed in relation to the winning strategies in such games.",
+            "pred_gen": "For winning parity games on finite graphs, a **memoryless** strategy is sufficient.\n\nThis means that a player's optimal move at any given state depends only on the current state (the node the token is on), and not on the history of how the game reached that state.\n\n**Why memoryless strategies are sufficient:**\n\n1.  **Positional Strategies:** Parity games are known to admit positional winning strategies. This means that if a player has a winning strategy from a particular node, there exists a specific outgoing edge from that node that the player can always take, regardless of the path taken to reach that node, to maintain their winning position.\n2.  **Focus on Infinite Runs:** The winning condition of parity games (the highest priority occurring infinitely often) inherently \"forgets\" finite prefixes of play and focuses on the eventual cycle. A memoryless strategy can effectively steer the game into a cycle that satisfies its winning condition.\n3.  **Fixpoint Computation:** Winning regions and strategies for parity games can be computed using fixpoint iterations. These algorithms inherently construct positional strategies by assigning a \"best move\" to each node within the winning region.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_88",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being described is a **winning strategy**. Specifically, a **deterministic memoryless winning strategy**.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient for both players.\n\nThis is a fundamental result in the theory of infinite games on graphs. It means that for any given node, a player's optimal move can be determined solely by the current node, without needing to remember any past history of the game (such as previous nodes visited or moves made). Such strategies are also called **positional** strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_89",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity described by O(1) in this context is the **number of bits read** (or queries made) from the proof.",
+            "pred_gen": "The answer **O(1)** is correct.\n\nThe PCP Theorem (specifically, the result that established **NP = PCP(log n, O(1))**) states that any problem in NP has a probabilistically checkable proof where the verifier:\n1.  Uses **O(log n)** random bits (where 'n' is the size of the input).\n2.  Queries only a **constant number (O(1))** of bits from the proof.\n\nThis constant number of queries is one of the most remarkable aspects of the PCP Theorem, as it implies that even for extremely long proofs of NP-complete problems, a verifier can check their validity with high probability by looking at just a handful of bits.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_90",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed is **memoryless** (specifically, memoryless winning strategies).",
+            "pred_gen": "The type of strategy complexity (memory requirement) sufficient for winning parity games on finite graphs is **memoryless** (or **positional**).\n\nThis is a fundamental result in game theory on graphs. If a player has a winning strategy in a parity game on a finite graph, they have a winning strategy that only depends on the current node they are at, not on the history of play leading to that node.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_92",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed is the **winning strategy**, specifically its characteristic of being **memoryless**. The context states that for this type of game, the winning strategy \"has a deterministic memoryless winning strategy\". So, \"memoryless\" describes a crucial property of this strategy, making the strategy itself an entity, and its \"memoryless\" nature a central focus.",
+            "pred_gen": "For winning parity games on finite graphs, a **memoryless** strategy complexity is sufficient.\n\nThis means that a player's winning move from any given node only depends on the current node itself, not on the history of how the game reached that node. Parity games are known to be determined and to admit memoryless winning strategies for both players.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_93",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "In the context of the PCP Theorem `NP = PCP(O(log n), O(1))`:\n\nThe `O(1)` refers to the **number of bits read (or queries made)** from the proof by the verifier. It signifies that the verifier only needs to read a **constant number of bits** from the proof to check its validity.",
+            "pred_gen": "The answer is correct.\n\nAccording to the PCP Theorem, specifically the result that establishes **NP = PCP(O(log n), O(1))**, the verifier needs to query **O(1)** proof bits.\n\nHere's a breakdown:\n\n*   **PCP(r(n), q(n))**: This notation means that a language is in PCP if there's a probabilistic verifier that uses `r(n)` random bits and queries `q(n)` bits of the proof.\n*   **The Main Result**: The core PCP Theorem states that any language in NP can be verified by a probabilistic polynomial-time verifier that uses `O(log n)` random bits and inspects only `O(1)` bits of the proof.\n    *   `O(log n)` refers to the number of **random bits** used by the verifier.\n    *   `O(1)` refers to the number of **proof bits** queried by the verifier.\n\nThis `O(1)` means that the number of proof bits queried is a constant, independent of the size of the input `n`. This is a remarkably powerful result, implying that even for extremely long proofs, one can probabilistically check their validity by looking at just a few, fixed number of bits.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_91",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The `O(1)` in `PCP(O(log n), O(1))` represents the **number of bits queried from the proof**. It signifies that a **constant number of bits** are read.",
+            "pred_gen": "Yes, the answer is **O(1)**.\n\nThis is one of the most remarkable features of the PCP Theorem. Specifically, the theorem (often stated as **NP = PCP(log n, 1)**) implies that for any problem in NP:\n\n1.  There exists a proof system where the verifier needs to toss **O(log n)** random coins (where 'n' is the size of the input).\n2.  The verifier queries only a **constant number (O(1))** of bits from the proof.\n\nThis constant number is independent of the size of the input 'n' or the size of the proof itself. The verifier uses its random choices to pick specific locations in the proof, reads those constant number of bits, and then decides to accept or reject with high probability.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_94",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed is a **memoryless** winning strategy.\n\nWhile \"memoryless\" is an adjective, in this context, it refers to the *concept* or *characteristic* of the winning strategy that is central to the statement. The most significant entity described by the sentence is this specific type of strategy.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis means that a player's optimal move at any vertex depends only on the current vertex itself, and not on the history of vertices visited to reach that state. The winning regions and corresponding strategies can be computed using fixed-point iterations, which inherently lead to memoryless strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_95",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "Number of bits (read/queried)",
+            "pred_gen": "Yes, the answer **O(1)** is correct.\n\n**Explanation:**\n\nThe PCP (Probabilistically Checkable Proofs) Theorem, particularly in its strongest form (often attributed to Arora, Lund, Motwani, Sudan, and Szegedy), states that **any language in NP has a probabilistically checkable proof system where the verifier makes a constant number of queries to the proof.**\n\nHere's a breakdown:\n\n1.  **Probabilistically Checkable Proofs:** A PCP system allows a verifier to check the validity of a proof without reading the entire proof. Instead, the verifier picks a few bits from the proof at random and, based on these bits, decides whether to accept or reject the proof with high probability.\n\n2.  **Constant Number of Queries (O(1)):** The revolutionary aspect of the PCP Theorem is that this \"few bits\" is a *constant number*. This means the number of bits queried by the verifier does not grow with the size of the input `n` or the length of the proof `P`. Whether the problem instance is small or extremely large, the verifier always queries the same fixed number of bits (e.g., 3 bits, 10 bits, or 100 bits \u2013 the exact constant varies depending on the specific PCP construction and desired error probability, but it remains a constant).\n\n3.  **Implications:** This `O(1)` query complexity is incredibly powerful. It means that even for problems whose proofs might be astronomically long, a verifier can be convinced of their correctness by reading only a tiny, fixed amount of information. This property is central to the hardness of approximation results and the connection between P=NP and the existence of certain types of PCP systems.\n\nTherefore, the number of proof bits that need to be queried by the verifier, according to the PCP Theorem, is **O(1)**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_97",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity representing \"reading a constant number of bits\" in the PCP theorem is **O(1)**.",
+            "pred_gen": "The answer is indeed **O(1)**.\n\nThe Probabilistically Checkable Proof (PCP) Theorem states that every language in NP has a probabilistically checkable proof that can be checked by a verifier using a logarithmic number of random bits and querying only a **constant** number of bits from the proof.\n\nMore formally, the theorem states `NP = PCP(log n, O(1))`, where:\n*   `log n` refers to the number of random bits used by the verifier.\n*   `O(1)` refers to the number of proof bits queried by the verifier.\n\nThis \"constant\" number of queries is a cornerstone of the PCP Theorem's power and its implications for inapproximability results.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_96",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed, specifically as a defining characteristic of the winning strategy, is **memoryless**.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nA memoryless (or positional) strategy means that a player's move depends only on the current node in the game graph, and not on any history of previous moves or states visited.\n\nThis is a fundamental result in the theory of parity games, simplifying their analysis and algorithm design.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_98",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "memoryless",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis is a fundamental result in the theory of infinite games on finite graphs. It means that a player's winning strategy needs only to consider the current state to decide the next move, without needing to remember any history of previously visited states.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_99",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity that `O(1)` is about is the **number of bits read (or queried)** from the proof.",
+            "pred_gen": "The answer **O(1)** is correct, and it's one of the most remarkable aspects of the PCP Theorem.\n\nHere's why:\n\n1.  **What PCP Stands For:** PCP stands for Probabilistically Checkable Proofs. The core idea is to allow a verifier to check the correctness of a mathematical proof without having to read the entire proof.\n\n2.  **The PCP Theorem (specifically `NP = PCP(log n, O(1))`):**\n    The PCP Theorem states that every language in **NP** (Non-deterministic Polynomial time, i.e., problems whose solutions can be efficiently verified) has a probabilistically checkable proof system where the verifier:\n    *   Uses **O(log n)** random bits (where `n` is the size of the input to the problem, not the proof itself).\n    *   Queries **O(1)** bits of the proof.\n\n3.  **Meaning of O(1) Queries:**\n    *   **Constant Number:** `O(1)` means a *constant* number of queries. This number does *not* depend on the size of the input problem (`n`), nor on the length of the proof itself (which can be very, very long).\n    *   **Example:** For a specific PCP construction, this constant might be 3, or 5, or 10, or some other fixed integer. But once the construction is chosen, that number of queries remains the same, regardless of how large the underlying problem instance is.\n\n4.  **Significance:**\n    This ability to verify arbitrarily long proofs for any NP problem by only looking at a tiny, constant number of randomly chosen bits is what makes the PCP Theorem so powerful and surprising. It has profound implications for computational complexity theory and is foundational for modern cryptographic concepts like SNARKs (Succinct Non-interactive ARguments of Knowledge) and STARKs.\n\nIn summary, the PCP Theorem guarantees that for any NP problem, a verifier can be constructed that will query only a constant number of bits from a specially structured proof to determine its validity with high probability.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_103",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "O(1) refers to the **number of queries** (or bits read) from the proof.",
+            "pred_gen": "The answer is correct.\n\nAccording to the PCP Theorem (specifically the **PCP characterization theorem**, NP = PCP(log n, O(1))), any language in NP has a probabilistically checkable proof system where the verifier:\n\n1.  Uses **O(log n)** random bits (where 'n' is the input size).\n2.  Makes **O(1)** (a constant number) queries to the proof.\n\nThis means that to verify a proof for an NP statement, the verifier only needs to look at a fixed, constant number of bits from the proof, regardless of the size of the input or the length of the proof itself. This is one of the most remarkable aspects of the PCP Theorem.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_102",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being described as memoryless is the **winning strategy**. The context states that such games have a \"deterministic memoryless winning strategy.\"",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis is a fundamental result in the theory of infinite games on graphs, often attributed to McNaughton, Gurevich & Harrington, and later simplified by Zielonka's algorithm. It states that if a player has a winning strategy in a parity game, they always have one that depends only on the current state of the game (i.e., the current vertex), without needing to remember any past history of the play.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_101",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "O(1)",
+            "pred_gen": "The answer **O(1)** is **correct**.\n\nHere's why:\n\nThe PCP (Probabilistically Checkable Proofs) Theorem states that every language in NP has a proof system where a probabilistic verifier can check a proof for correctness by querying only a **constant number of bits** from the proof. This constant number is independent of the size of the input problem or the length of the proof itself.\n\n*   **O(1)** in Big-O notation signifies a constant number.\n*   The groundbreaking aspect of the PCP Theorem is precisely this ability to verify NP-complete problems with such minimal access to the proof, relying on randomness and a small, fixed number of queries.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_100",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The core entity described by its most defining characteristic in the sentence is the \"winning strategy,\" specifically its \"memoryless\" property. The question \"What entity is this about?\" is looking for the most specific and defining concept. In this context, the **memoryless** nature of the strategy is the key finding and the primary entity being characterized.",
+            "pred_gen": "For winning parity games on finite graphs, the strategy complexity required is **memoryless**.\n\nThis means that a winning strategy for either player needs only to depend on the *current node* in the graph, not on the history of moves that led to that node. From any given node, a player with a winning strategy can always make a move (select an outgoing edge) that maintains their winning position, without needing to recall previous visited nodes or specific path fragments.\n\nThis is a fundamental and powerful result in the theory of games on graphs.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_104",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed as a characteristic of the winning strategies is **memoryless**.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** (or **positional**) strategies are sufficient for both players.\n\nThis is a fundamental property of parity games, meaning that a player's optimal move from a given node depends only on that node's identity, not on the history of how the game reached that node.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_105",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity is the **number of bits read** from the proof.\n\nSpecifically, `O(1)` denotes that the verifier reads a constant number of bits from the NP verification proof.",
+            "pred_gen": "The answer is indeed **O(1)**.\n\nThis \"constant number of queries\" is the defining and most powerful characteristic of the PCP Theorem.\n\nHere's why:\n\n1.  **What is a Probabilistically Checkable Proof (PCP)?** It's a type of proof system where a probabilistic verifier can check the correctness of a mathematical proof by querying only a few bits of the proof, rather than reading the entire thing. Even by examining just a few bits, the verifier can determine with high probability whether the proof is valid.\n\n2.  **The PCP Theorem (specifically, the one related to NP-hardness of approximation):** It states that *every language in NP has a probabilistically checkable proof system* where the verifier uses:\n    *   **A constant number of queries (q = O(1))**: This is the key. The number of bits the verifier inspects does not grow with the size of the problem instance or the size of the proof. It's a fixed, small number (e.g., 3, 5, 10 bits, depending on the specific construction and desired error rate).\n    *   Logarithmic randomness (r = O(log n)): The verifier uses a random string whose length is logarithmic in the size of the input.\n    *   Runs in polynomial time (after the queries).\n\n3.  **Implications of O(1) Queries:**\n    *   **Extreme Efficiency for the Verifier:** The verifier is incredibly \"lazy\" and efficient. It doesn't need to understand the whole proof or even a significant fraction of it. This is crucial for scenarios like delegated computation (where a powerful server computes something, and a weak client wants to verify it) or for understanding the limits of approximation algorithms.\n    *   **Hardness of Approximation:** The PCP Theorem is central to establishing the inapproximability results for many optimization problems (e.g., it implies that finding an approximate solution within a certain factor for problems like MAX-3SAT or the Traveling Salesperson Problem is NP-hard). The constant query property is what allows this reduction.\n\nSo, when talking about the \"PCP Theorem\" in its most impactful form, the verifier queries a constant (O(1)) number of bits from the proof.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_108",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this context is about is a **memoryless winning strategy**.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies (also known as positional strategies) are sufficient.\n\nThis means that a player's winning strategy does not need to remember the history of the game (i.e., the sequence of vertices visited so far). Their optimal move from any given vertex depends *only* on that current vertex itself.\n\nThis is a fundamental result in the theory of infinite games and parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_106",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The provided answer \"memoryless\" is appropriate.\n\nThe core assertion in the context is about a **deterministic memoryless winning strategy**. While the full \"entity\" is a \"memoryless winning strategy,\" \"memoryless\" itself is the key defining characteristic and, in this succinct form, accurately points to the central concept being discussed about the strategies in these games.",
+            "pred_gen": "For winning parity games on finite graphs, the strategy complexity (memory requirement) is **memoryless**.\n\nThis means that a winning strategy for either player only needs to know the **current node** in the graph to decide the next move. It does not need to remember any history of previously visited nodes or how the game reached the current state. This is a fundamental and powerful property of parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_109",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The `O(1)` in the context of the PCP Theorem `NP = PCP(O(log n), O(1))` refers to the **number of queries** the probabilistic verifier makes to the proof.\n\nMore precisely:\n\n*   **O(log n)** refers to the amount of **randomness** used by the verifier.\n*   **O(1)** refers to the **number of bits** (queries) the verifier reads from the proof.\n\nSo, the entity described by `O(1)` is the **constant number of bits read from the proof** by the verifier.",
+            "pred_gen": "The answer is **correct**.\n\nThe PCP (Probabilistically Checkable Proof) Theorem states that every language in NP has a probabilistically checkable proof system where the verifier uses a logarithmic number of random bits and queries only a **constant number of bits** from the proof.\n\nMore formally, NP = PCP[O(log n), O(1)], where:\n*   **O(log n)** refers to the number of random bits used by the verifier.\n*   **O(1)** refers to the number of proof bits queried by the verifier.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_107",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity `O(1)` in the expression `PCP(O(log n), O(1))` refers to the **number of bits read** (or queries made) to the proof by the verifier. The `O(1)` signifies that this number is constant, regardless of the size of the input `n`.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proof) Theorem states that any language in NP has a probabilistically checkable proof system where the verifier uses a logarithmic number of random bits and queries only a constant number of bits from the proof.\n\nTherefore, according to the PCP Theorem, the verifier needs to query **O(1)** proof bits.\n\nThis \"O(1)\" is a critical and surprising aspect of the theorem, meaning the number of bits the verifier reads does not grow with the size of the problem (n) or the length of the original NP proof. Despite reading only a constant number of bits, the verifier can still determine the correctness of the proof with high probability.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_111",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity O(1) refers to the **number of bits read from the proof** (or queries made to the proof) by the verifier.",
+            "pred_gen": "Yes, the answer `O(1)` is correct.\n\nAccording to the PCP Theorem, for any problem in NP, there exists a probabilistically checkable proof system where the verifier needs to query only a **constant** number of bits from the proof to decide its validity with high probability.\n\nThis is often stated as NP $\\subseteq$ PCP(log n, O(1)), where:\n* `log n` refers to the amount of randomness used by the verifier (logarithmic in the input size `n`).\n* `O(1)` refers to the number of bits queried from the proof by the verifier (a constant number, independent of the input size).\n\nThis remarkable property \u2014 the ability to check a potentially huge proof by just looking at a tiny, constant number of bits \u2014 is what makes the PCP Theorem so powerful and foundational in complexity theory, especially in the context of inapproximability results.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_112",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "memoryless",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis means that a player's optimal move at any given node depends only on that node's identity (its priority and outgoing edges), and not on the history of moves that led to that node. The player does not need to store the path taken so far to decide their next move.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_113",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity that O(1) is about is **the number of bits read from the proof** (or equivalently, the number of queries the verifier makes to the proof).\n\nIt signifies that the verifier only needs to read a *constant* number of bits, regardless of the size of the proof, to be probabilistically convinced of its correctness.",
+            "pred_gen": "The PCP Theorem states that any proof can be checked by a probabilistic verifier that queries only a constant number of bits from the proof, irrespective of the length of the original proof.\n\nTherefore, the number of proof bits that need to be queried by the verifier is **O(1)**.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_110",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed in relation to the winning strategies is the property of being **memoryless**.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** (or **positional**) strategies are sufficient.\n\nThis means that for each player, their optimal strategy only depends on the **current state (node)** of the game, not on the history of how that state was reached. The player simply needs to know which node they are currently on to make their next move.\n\nThe existence of memoryless winning strategies is a fundamental result in the theory of parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_115",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "In the context of NP = PCP(O(log n), O(1)):\n\n*   **O(log n)** refers to the amount of **randomness** used by the verifier.\n*   **O(1)** refers to the **number of bits (or queries) read from the proof** by the verifier.\n\nSo, the entity that **O(1)** is about is the **number of bits read from the proof**.",
+            "pred_gen": "According to the PCP Theorem, the verifier needs to query a **constant** number of proof bits. This is often denoted as **O(1)**.\n\nThe formal statement of the PCP Theorem is that every language in NP has a probabilistically checkable proof system where the verifier uses `O(log n)` random bits and queries `O(1)` bits from the proof, for an input of size `n`. This is written as **PCP(log n, 1)**.\n\nSo, the answer **O(1)** is correct.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_114",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "memoryless",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient for both players.\n\nThis means that a player's optimal move from any given state (vertex) depends only on that current state, and not on the history of how that state was reached.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_116",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity the context is about is a **winning strategy**, specifically its characteristic of being **memoryless**. The query asks for the \"entity\" and provides \"memoryless\", which is a key attribute of the described strategy.",
+            "pred_gen": "For winning parity games on finite graphs, a **memoryless** (or positional) strategy is sufficient.\n\nThis means that a player's strategy at any given node only needs to depend on the current node itself, not on the history of how that node was reached. Each player can decide their next move purely based on the current state of the game (the node they are currently on).",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_117",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity \"O(1)\" in the context of the PCP Theorem refers to the **number of queries (or bits read)** by the verifier from the proof. Specifically, it means the verifier reads a **constant number of bits**, regardless of the size of the input `n`.",
+            "pred_gen": "The answer is **Correct**.\n\nThe PCP (Probabilistically Checkable Proof) Theorem is often stated as **NP = PCP(log n, O(1))**. This means that any language in NP has a proof system where a probabilistic verifier can check the proof for correctness by:\n\n1.  Using **O(log n)** random bits (where `n` is the input size).\n2.  Making **O(1)** queries to the proof.\n\nThe `O(1)` in this context signifies that the verifier only needs to query a **constant number of bits** from the proof, regardless of the size of the input (`n`) or the length of the proof itself. This is one of the most remarkable aspects of the PCP Theorem.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_120",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity the text is primarily about, as highlighted by the provided answer, is **memoryless** strategies. Specifically, the existence of a \"deterministic **memoryless** winning strategy\" is the key finding mentioned.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis is a fundamental result in the theory of parity games. A memoryless strategy for a player means that their move choice from any given node depends only on that node itself, and not on the history of how the game reached that node.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_119",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity `O(1)` in this context refers to the **number of bits read (queries made)** by the probabilistically checkable proof verifier.\n\nSpecifically:\n*   `O(log n)` represents the **amount of randomness** used by the verifier.\n*   `O(1)` represents the **number of queries** (a constant number) the verifier makes to the proof.\n\nSo, the entity is the **number of queries/bits read**.",
+            "pred_gen": "According to the PCP Theorem, specifically the result that **NP = PCP(O(log n), O(1))**, the verifier needs to query only a **constant number of proof bits**.\n\nThis is the \"O(1)\" part in the PCP(randomness, queries) notation. The O(log n) refers to the number of random bits the verifier uses.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_118",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being discussed is the **memoryless** characteristic of the winning strategies. The sentence states that these games have \"a deterministic **memoryless** winning strategy.\"",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** strategies are sufficient.\n\nThis is a fundamental result in the theory of infinite games, often attributed to Zielonka's theorem (or more broadly, the concept of positional determinacy for parity games).\n\nHere's what that means:\n\n1.  **Memoryless Strategy:** A player's strategy is memoryless (or positional) if their move from any given node depends *only* on the current node they are in, and not on the history of how they reached that node. They don't need to remember past moves, the path taken, or any other state information beyond their current location.\n\n2.  **Why it's Sufficient:** The winning condition for parity games (the parity of the highest priority occurring infinitely often on the infinite path) is such that optimal play can always be achieved by purely positional choices. The \"value\" of a node (which player wins from it and under what conditions) can be fully determined without needing historical context.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_121",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity that `O(1)` refers to is the **number of queries to the proof** (or equivalently, the number of bits read from the proof).",
+            "pred_gen": "The answer **O(1)** is correct.\n\nThe PCP (Probabilistically Checkable Proofs) Theorem, specifically in its most impactful form (often attributed to Arora, Lund, Motwani, Sudan, and Szegedy \u2013 ALMSS), states that **NP = PCP(log n, O(1))**.\n\nLet's break down what `PCP(r(n), q(n))` means:\n*   `r(n)`: The number of random bits the verifier uses.\n*   `q(n)`: The number of bits the verifier queries from the proof.\n\nSo, the statement **NP = PCP(log n, O(1))** means that any problem in NP can be transformed into a PCP where the verifier:\n1.  Uses a number of random bits proportional to the logarithm of the input size (`log n`).\n2.  Queries a **constant number of bits** from the proof, denoted as `O(1)`.\n\nThis is the remarkable and counter-intuitive power of the PCP Theorem: a verifier can be convinced with high probability that a proof is correct (or incorrect) by only examining a tiny, constant fraction of the proof, regardless of how large the actual proof might be.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_125",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "O(1) refers to the **number of bits read/queried from the proof** by the verifier.\n\nIn the context of the PCP Theorem:\n*   **O(log n)** represents the **amount of randomness** the verifier uses.\n*   **O(1)** represents the **number of bits** (a constant number) the verifier inspects from the proof to make its decision.\n\nThe query \"What entity is this about?\" followed by the answer \"O(1)\" is asking what *O(1) specifically refers to* within the provided explanation, which is \"reading a constant number of bits\".",
+            "pred_gen": "The answer **O(1)** is correct.\n\nAccording to the PCP Theorem, a probabilistically checkable proof for an NP-complete language can be verified by a probabilistic verifier that uses a logarithmic number of random bits and queries only a **constant number of bits** from the proof.\n\nThis property \u2014 the ability to verify a proof by looking at only a handful of bits, regardless of the proof's size \u2014 is a cornerstone of the PCP Theorem and its implications for the hardness of approximation.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_123",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "You are correct.\n\nIn the context of the PCP Theorem statement `NP = PCP(O(log n), O(1))`:\n\n*   `O(log n)` refers to the **randomness** used (logarithmic amount).\n*   `O(1)` refers to the **number of bits read** (or queries made) to the proof, meaning a *constant* number of bits.\n\nThe query \"What entity is this about?\" followed by your answer \"O(1)\" likely means you are asking what the `O(1)` specifically represents in this theorem, and you've correctly identified it as the core characteristic being highlighted: the constant number of queries.",
+            "pred_gen": "According to the PCP Theorem, the verifier needs to query **O(1)** (a constant number) of proof bits.\n\nThis is a cornerstone of the theorem: any proof for an NP-complete problem can be encoded in a way that allows a probabilistic verifier to check its validity with high probability by examining only a constant number of bits from the proof, while using a logarithmic number of random bits.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_122",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity being highlighted in the statement \"has a deterministic **memoryless** winning strategy for both players\" is the **memoryless** characteristic of the winning strategies. It's a key property established by the proof.",
+            "pred_gen": "For winning parity games on finite graphs, a **memoryless** (or **positional**) strategy is sufficient.\n\nThis means that a player's optimal move from any given node only depends on the current node itself, and not on the history of how the game reached that node. The winning regions for parity games can be effectively computed, and from these regions, a strategy can be extracted that simply maps each node to a specific outgoing edge, independent of past states.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_124",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The provided context focuses on the **deterministic memoryless winning strategy**. While \"strategy\" is the noun, \"memoryless\" is the defining characteristic being highlighted and proven to exist for such strategies in these games.\n\nTherefore, \"memoryless\" refers to the key **property** or **characteristic** of the winning strategy discussed.\n\nSo, yes, it's about the **memoryless** nature of the strategy.",
+            "pred_gen": "For winning parity games on finite graphs, **memoryless** (or positional) strategies are sufficient.\n\nThis means that an optimal strategy for either player only needs to consider the current state (the node the game is currently in) to decide the next move, without needing to recall any past moves or the history of the game path.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        }
+    ]
+}

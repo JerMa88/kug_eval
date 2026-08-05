@@ -1,0 +1,1141 @@
+{
+    "overall_a_mem": 1.0,
+    "overall_a_gen": 0.744,
+    "kug_ratio": 1.3440860215053763,
+    "total_count": 125,
+    "category_summary": {
+        "hle_humanitys_last_exam": {
+            "a_mem": 1.0,
+            "a_gen": 0.744,
+            "kug_ratio": 1.3440860215053763,
+            "count": 125
+        }
+    },
+    "item_results": [
+        {
+            "id": "hle_expert_5",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_2",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_3",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_1",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_4",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_6",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_8",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_10",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_9",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_7",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_11",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_14",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_17",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_13",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_16",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_20",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_15",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_12",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_18",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_21",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:** The user is asking for the minimum distance $d$ of the $[[7,1,3]]$ Steane quantum code. The user also provides the answer \"3\".\n2.  **Verify the Information:**\n    *   The Steane code is a well-known quantum error-correcting code.\n    *   Its notation is $[[n, k, d]]$, where $n$ is the number of physical qubits, $",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_24",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:** The user is asking for the minimum distance $d$ of the $[[7,1,3]]$ Steane quantum code. The user also provides the answer \"3\".\n2.  **Verify the Information:**\n    *   The Steane code is a well-known quantum error-correcting code.\n    *   Its notation is $[[n, k, d]]$, where $n$ is the number of physical qubits, $",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_23",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_26",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_19",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_22",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_25",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_28",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe answer provided is 1.6180339887, which is the golden ratio $\\phi = \\frac{1+\\sqrt{5}}{2}$.\nWait, the prompt says \"Query: ... Answer: 1.6180339887\". This looks like a few-shot example or a direct question where the user already provided the answer, or maybe they want me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_29",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_31",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_27",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_30",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_32",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_34",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_33",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_35",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_38",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_36",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_37",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_40",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_41",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_39",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_43",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We need answer to query. Need parse. User gives context: non-Abelian topological phase SU(2)_3 CS, quantum dimension Fibonacci anyons phi=(1+sqrt5)/2. S_{0,1}=1/sqrt(1+phi^2). Query: \"What entity is this about?\" Answer: 1.6180339887\n\nWe need respond? They ask \"What entity is this about?\" Answer given? Need infer maybe they want identify",
+            "pred_gen": "The user is asking for the exact topological quantum dimension of the non-trivial Fibonacci anyon.\nThe Fibonacci anyon theory has two anyons: the trivial vacuum anyon $1$ and the non-trivial Fibonacci anyon $\\tau$.\nThe fusion rule is $\\tau \\times \\tau = 1 + \\tau$.\nThe topological quantum dimension $d_\\tau$ satisfies $d_\\tau^2 = d_1 + d_\\tau = 1 + d_\\tau",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_44",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4.\nQuery",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the exact ground state degeneracy of the 2D toric code on a torus of genus g=1?\"\n    *   Answer: \"4\"\n    *   Goal: Provide a response that confirms the answer and briefly explains *why* the ground state degeneracy is 4 for the 2D toric code on a torus (genus $g=1$).\n\n2",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_42",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_49",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_47",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_46",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_48",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_45",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Quantum error correction using the [[7,1,3]] Steane code, CSS code construction, two classical [7,4,3] Hamming codes C1 and C2 where C2 is orthogonal to C1.\n    *   Query: What entity is this about?\n    *   Answer: 3\n\n2.  **Analyze the Context & Query:**\n    *   The context mentions the [[",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\"\n    *   Answer: \"3\"\n    *   Task: Provide the answer in the exact format requested (just the answer, or matching the provided answer). Wait, the prompt gives the query and the answer. I need to output the answer. Let me check the system prompt or standard behavior. Usually, I just",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_50",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_52",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)). It specifies that when (+)-L-DET is used, oxygen atom addition occurs preferentially from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_54",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_56",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_57",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the answer",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_58",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_53",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_51",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_55",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "We need answer query. Need determine thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene conrotatory/disrotatory. User already says answer disrotatory. Need provide answer maybe explanation. Need be careful: thermal electrocyclization selection rules: 4n+2 electrons -> disrotatory under thermal; 4n -> conrotatory. 6 electrons = 4n+2 (n=1) -> thermal disrot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_59",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the answer",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_60",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_62",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_64",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_66",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_65",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_63",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "We need answer query. Need determine thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene conrotatory/disrotatory. User already says answer disrotatory. Need provide answer maybe with explanation. Need be careful: thermal electrocyclic reactions: 4n pi electrons conrotatory, 4n+2 disrotatory. 6 electrons = 4n+2 (n=1) => thermal disrotatory. For",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_61",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "We need answer query. Need determine thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene conrotatory/disrotatory. User already says answer disrotatory. Need provide answer maybe with explanation. Need be careful: thermal electrocyclic reactions: 4n pi electrons conrotatory, 4n+2 disrotatory. 6 electrons = 4n+2 (n=1) => thermal disrotatory. For",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_68",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_69",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. I need to determine whether it proceeds via a conrotatory or disrotatory mode.\n\nFirst, let me recall the Woodward-Hoffmann rules for electrocyclic reactions:\n\nFor a system with n pi electrons:\n- If n = 4q + 2 (where q is an integer), thermal electrocyclization is disrotatory, and photo",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_67",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. I need to determine whether it proceeds via a conrotatory or disrotatory mode.\n\nFirst, let me recall the Woodward-Hoffmann rules for electrocyclic reactions:\n\nFor a system with n pi electrons:\n- If n = 4q + 2 (where q is an integer), thermal electrocyclization is disrotatory, and photo",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_71",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the answer",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_72",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_74",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_70",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)). It specifies that when (+)-L-DET is used, oxygen atom addition occurs preferentially from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_73",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_75",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_77",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_76",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "We need answer query. Need parse. User asks: \"Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation? Answer: (+)-L-DET\"\n\nThey provide answer? Maybe they want confirm? Need respond. Need maybe explain. Need be careful: Sharpless asymmetric epoxidation mnemonic. Need determine enantiomer for top-face oxygen insertion when allylic alcohol drawn",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_78",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "We need answer query. Need parse. User asks: \"Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation? Answer: (+)-L-DET\"\n\nThey provide answer? Maybe they want confirm? Need respond. Need maybe explain. Need be careful: Sharpless asymmetric epoxidation mnemonic. Need determine enantiomer for top-face oxygen insertion when allylic alcohol drawn",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_80",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_82",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_84",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Describes the Sharpless asymmetric epoxidation of allylic alcohols, mentioning reagents (titanium tetraisopropoxide, diethyl tartrate (DET), tert-butyl hydroperoxide (TBHP)) and a specific stereochemical outcome (oxygen addition from the top face when (+)-L-DET is used and the allylic alcohol is drawn in a specific orientation).\n    *   Query",
+            "pred_gen": "The user is asking about the Sharpless epoxidation, specifically which enantiomer of diethyl tartrate (DET) is used to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation.\n\nLet me recall the mnemonic for Sharpless epoxidation.\n\nIn Sharpless asymmetric epoxidation, the enantioselectivity is controlled by the choice of tartrate ester:\n- (+)-diethyl tartrate (DET) or (+)-diis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_83",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_86",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_79",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "We need answer query. Need determine thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene conrotatory/disrotatory. User already gives answer? They ask \"Query: ... Answer: disrotatory\". Need respond maybe confirm. We need be careful: Is answer correct? Let's analyze.\n\nWe need answer to query. They include \"Answer: disrotatory\". Maybe they expect just answer? We need maybe explain. Let's verify",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_81",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "We need answer query. Need determine thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene conrotatory/disrotatory. User already gives answer? They ask \"Query: ... Answer: disrotatory\". Need respond maybe confirm. We need be careful: Is answer correct? Let's analyze.\n\nWe need answer to query. They include \"Answer: disrotatory\". Maybe they expect just answer? We need maybe explain. Let's verify",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_85",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\nQuery: What entity is this about?\nAnswer: disrotatory\n\nWait, the user",
+            "pred_gen": "The user is asking about the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene and whether it proceeds via a conrotatory or disrotatory mode.\n\nThis is a classic pericyclic reaction question based on the Woodward-Hoffmann rules.\n\nFor a 6-electron electrocyclic reaction:\n- Thermal conditions: The reaction proceeds via a disrotatory mode.\n- Photochemical conditions: The reaction proceeds via a conrotatory",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_88",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_87",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_90",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_89",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_91",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_92",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_94",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_97",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_96",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_93",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_95",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_98",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_100",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_102",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_99",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_101",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_103",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_104",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_106",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_105",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_107",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_109",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_108",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_112",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_113",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_114",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_111",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_110",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_115",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_116",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_118",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_117",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_119",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_120",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_122",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_121",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_123",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_125",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness.\nQuery: What entity is this about?\nAnswer: O(",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\"\n    *   Answer: \"O(1)\"\n    *   Task: The user provided a query and an answer. I need to evaluate if the answer is correct and provide a response. Wait, the prompt format is just \"Query: ... Answer: ...\". Usually, this means I should confirm, elaborate, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_124",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: \"In algorithmic game theory, a two-player zero-sum game played on a finite graph with parity winning conditions has a deterministic memoryless winning strategy for both players, as proven by Mostowski and Emerson-Jutla.\"\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"memoryless\"\n    *   Task: The user provides a context, query, and answer. I need to understand",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"What type of strategy complexity (memory requirement) is sufficient for winning parity games on finite graphs?\"\n    *   Answer: \"memoryless\"\n    *   The user provides a query and an answer. I need to output the answer exactly as provided, or perhaps acknowledge it. Wait, the prompt format is `Query: ... \\n Answer: ...`. This looks like a few-shot example or a direct extraction task.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        }
+    ]
+}

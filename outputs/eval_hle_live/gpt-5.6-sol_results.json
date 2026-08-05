@@ -1,0 +1,1141 @@
+{
+    "overall_a_mem": 1.0,
+    "overall_a_gen": 1.0,
+    "kug_ratio": 1.0,
+    "total_count": 125,
+    "category_summary": {
+        "hle_humanitys_last_exam": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 125
+        }
+    },
+    "item_results": [
+        {
+            "id": "hle_expert_3",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_2",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist in the ground state. Specifically, the ground states can be labeled by the values of the two conserved quantities associated with",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_5",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can be occupied by either a trivial or a nontrivial state, leading to a total of",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_1",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyon found in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics and are characterized by their unique fusion rules, leading to this specific topological quantum dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_4",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic particle found in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_6",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error (since \\( t = \\lfloor (d-1)/2 \\rfloor \\)), which is a key feature of this code. The minimum distance is determined by the number of qubits that can be affected before the code fails to correct errors, and in the case of the Steane code",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_9",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_7",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyon found in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics and are significant in the context of topological quantum computing.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_8",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist in the ground state. Specifically, the ground state degeneracy can be understood as \\( 2^g \\),",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_10",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_11",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist in the ground state. Specifically, the ground state degeneracy can be understood as \\( 2^{g} \\",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_13",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_14",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can have two possible states (either trivial or nontrivial), leading to a total of \\(",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_12",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error (since \\( t = \\lfloor (d-1)/2 \\rfloor \\)), which is a key feature of the code's error-correcting capability. The minimum distance is determined by the number of qubits that can be affected before the code fails to correct errors. In the case",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_15",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it refers to the [[7,1,3]] Steane code that is constructed using two classical [7,4,3] Hamming codes, where one code is orthogonal to the other.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_17",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can have two possible states (either the presence or absence of a string of excitations), leading",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_16",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics and are characterized by their unique fusion rules, leading to their topological quantum dimension being equal to the golden ratio.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_20",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can have two possible states (either trivial or nontrivial), leading to a total of \\(",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_19",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are part of a topological quantum field theory and are characterized by their unique fusion rules and braiding statistics. The golden ratio reflects the non-abelian nature of the Fibonacci anyons, making them an important subject of study in quantum computing and condensed matter physics.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_18",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_23",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to lead to distinct ground states. Specifically, the ground states can be labeled by the values of the two conserved quantities associated with",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_21",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_22",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic particle found in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension, reflecting their complex behavior in quantum systems.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_24",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the [[7,1,3]] Steane code, which is a type of quantum error-correcting code.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_25",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic particle in topological quantum computing. The Fibonacci anyons exhibit non-Abelian statistics, and their topological quantum dimension reflects their unique braiding properties and the way they can be used to encode quantum information.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_26",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can have two possible states (either trivial or nontrivial), leading to a total of \\(",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_27",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the \"Steane code,\" which is a type of quantum error-correcting code. Specifically, it refers to the [[7,1,3]] Steane code that utilizes classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_29",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can have two possible states (either trivial or nontrivial), leading to a total of \\(",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_30",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_32",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist in the ground state. Specifically, the ground state degeneracy can be understood as \\( 2^{g} \\",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_28",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic particle in topological quantum computing. The Fibonacci anyons exhibit non-Abelian statistics and are characterized by their unique fusion rules, leading to their topological quantum dimension being equal to the golden ratio.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_31",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase of matter.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_33",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it refers to the [[7,1,3]] Steane code that is constructed using two classical [7,4,3] Hamming codes, where one code is orthogonal to the other.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error (since \\( t = \\lfloor (d-1)/2 \\rfloor \\)), which is a key feature of this code. The Steane code is a type of CSS (Calderbank-Shor-Steane) code and is constructed from classical error-correcting codes, specifically the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_34",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons are characterized by their fusion rules and braiding statistics, which lead to this specific dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_36",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the [[7,1,3]] Steane code, which is a type of quantum error-correcting code.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error (since \\( t = \\lfloor (d-1)/2 \\rfloor \\)), which is a key feature of this code. The Steane code is a type of CSS (Calderbank-Shor-Steane) code that is constructed from classical error-correcting codes, specifically the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_35",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be combined in various ways to yield different ground states. Specifically, the ground states can be labeled by the values of the two types of anyonic charges, leading to a total of \\(",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_37",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic particle in topological quantum computing. The Fibonacci anyons exhibit non-Abelian statistics and are characterized by their unique fusion rules, leading to their topological quantum dimension being equal to the golden ratio.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_38",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, which can be thought of as corresponding to the two nontrivial cycles of the torus. Each cycle can be occupied by either a trivial or a nontrivial state, leading to a total of",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_39",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the Steane code, which is a type of quantum error-correcting code. Specifically, it is a [[7,1,3]] code that uses classical Hamming codes for its construction.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_41",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist without energy cost, leading to the four distinct ground states.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_40",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyon found in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics and are characterized by their unique fusion rules, leading to their topological quantum dimension being equal to the golden ratio.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_42",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the [[7,1,3]] Steane code, which is a type of quantum error-correcting code.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for the correction of single-qubit errors.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_43",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "The entity you are referring to is the golden ratio, often denoted by the Greek letter phi (\u03c6). It is approximately equal to 1.6180339887 and is defined mathematically as \u03c6 = (1 + \u221a5) / 2. In the context of your query, it relates to the quantum dimension of Fibonacci anyons in the SU(2)_3 Chern-Simons theory, which is a non-Abelian topological phase.",
+            "pred_gen": "The exact topological quantum dimension of the non-trivial Fibonacci anyon is indeed the golden ratio, which is approximately 1.6180339887. This value arises from the mathematical properties of the Fibonacci anyons, which are a type of anyonic excitation in certain topological phases of matter. The Fibonacci anyons exhibit non-Abelian statistics, and their fusion rules lead to this unique dimension.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_44",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "The entity this is about is the ground state degeneracy of the toric code Hamiltonian on a torus, which is equal to 4.",
+            "pred_gen": "The exact ground state degeneracy of the 2D toric code on a torus of genus \\( g = 1 \\) is indeed 4. This degeneracy arises from the presence of two independent types of anyonic excitations (electric and magnetic) in the toric code model, and the topology of the torus allows for different combinations of these excitations to exist in the ground state. Specifically, the ground state degeneracy can be understood as \\( 2^g \\),",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_46",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_45",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "The entity this is about is the [[7,1,3]] Steane code, which is a type of quantum error-correcting code.",
+            "pred_gen": "The minimum distance \\( d \\) of the \\([[7,1,3]]\\) Steane quantum code is indeed 3. This means that the code can correct up to 1 error in a 7-qubit codeword. The minimum distance is defined as the smallest number of qubits that need to be changed to transform one valid codeword into another, and for the Steane code, this distance allows for effective error correction capabilities.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_48",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_47",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome in electrocyclic reactions, where the substituents on the ends of the conjugated system rotate in opposite directions during the ring closure.",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions during the cyclization process, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction. This is in accordance with the Woodward-Hoffmann rules, which dictate the stereochemical outcomes of such reactions based on the number of",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_50",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps to achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_49",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions during the cyclization process, which is consistent with the orbital symmetry requirements for a 6-electron system undergoing thermal electrocyclization.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_52",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_51",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_54",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_53",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the conjugated diene rotate in opposite directions during the cyclization process, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction. This is in accordance with the Woodward-Hoffmann rules, which dictate the stereochemical outcome based on the number of",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_56",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_55",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the rotation of the ends of the conjugated system occurs in opposite directions, leading to the formation of a",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction. This is in accordance with the Woodward-Hoffmann rules, which dictate that for a 6\u03c0-electron system, the disrotatory pathway is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_58",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_57",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, leading to the formation of a cyclohexene",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_59",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the rotation of the ends of the conjugated system occurs in opposite directions, leading to the formation of a",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_60",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_61",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome in electrocyclic reactions, where the substituents on the ends of the conjugated system rotate in opposite directions during the ring closure.",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_62",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_64",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_63",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to a specific type of stereochemical outcome in electrocyclic reactions, where the rotation of the substituents occurs in opposite directions during the ring closure. In this case, it describes the mechanism by which (2E,4Z,6E)-octatriene undergoes a thermal electrocyclic ring closure to form cis-5,6-d",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, leading to the formation of a cyclohexene",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_66",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_65",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the conjugated system rotate in opposite directions during the ring closure, leading to the formation",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_67",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to a specific type of stereochemical outcome in electrocyclic reactions, where the substituents on the ends of the conjugated system rotate in opposite directions during the ring closure. In this case, it describes the mechanism by which (2E,4Z,6E)-octatriene undergoes a thermal electrocyclic ring closure to form cis",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction under thermal conditions. This is in accordance with the Woodward-Hoffmann rules, which dictate the stereochemical outcome based on the number of \u03c0 electrons involved and the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_68",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_70",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_69",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron system undergoing electrocyclization. This is in accordance with the Woodward-Hoffmann rules, which dictate the stereochemical outcome based on the number of \u03c0 electrons and the symmetry of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_72",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_71",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome in electrocyclic reactions, where the substituents on the ends of the conjugated system rotate in opposite directions during the ring closure.",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron cyclization reaction. This is in accordance with the Woodward-Hoffmann rules, which dictate that for a 6\u03c0-electron system undergoing thermal cyclization, the disrot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_73",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to a specific type of stereochemical outcome in electrocyclic reactions, where the substituents on the ends of the conjugated system rotate in opposite directions during the ring closure. In this case, it describes the mechanism by which (2E,4Z,6E)-octatriene undergoes thermal electrocyclic ring closure to form cis-",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron system undergoing electrocyclization. This is in accordance with the Woodward-Hoffmann rules, which predict that for a 6\u03c0-electrocyclization, the disrotatory pathway",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_74",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_76",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_75",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the conjugated diene rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction. This is in contrast to a conrotatory mechanism, where both ends would rotate in the same direction. The disrotatory pathway is favored for",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_77",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to a specific type of stereochemical outcome in electrocyclic reactions, where the rotation of the substituents occurs in opposite directions during the ring closure. In this case, it describes the mechanism by which (2E,4Z,6E)-octatriene undergoes a thermal electrocyclic ring closure to form cis-5,6-d",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron cyclization reaction. This is in accordance with the Woodward-Hoffmann rules, which dictate that for a 6\u03c0-electron system undergoing thermal electrocyclization, the dis",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_78",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_80",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_79",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_82",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate that is used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_81",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to a specific type of stereochemical outcome in electrocyclic reactions, where the rotation of the substituents occurs in opposite directions during the ring closure. In the case of (2E,4Z,6E)-octatriene, the disrotatory mechanism leads to the formation of cis-5,6-dimethyl-1,3",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the conjugated diene rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron electrocyclization reaction under thermal conditions. This is in accordance with the Woodward-Hoffmann rules, which dictate that for a 6\u03c0 system, the disrot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_83",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the conjugated system rotate in opposite directions, leading to the formation of a specific stere",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a 6-electron electrocyclization, the conrotatory and disrotatory modes refer to the relative rotation of the two pairs of \u03c0-bonds during the cyclization process. For a system with 6 \u03c0-electrons, the disrotatory mode is favored under thermal conditions, as it allows for the preservation of orbital symmetry according",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_84",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "The entity this is about is (+)-L-DET (diethyl tartrate).",
+            "pred_gen": "In the Sharpless epoxidation, the enantiomer of diethyl tartrate used to direct top-face oxygen insertion when the allylic alcohol is drawn in the standard bottom-right orientation is indeed (+)-L-DET. This enantiomer helps achieve the desired stereochemistry in the epoxidation process.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_86",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of strategy complexity, memoryless strategies require minimal memory, as they do not need to store any history of previous actions. This characteristic makes them an attractive option for players",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_85",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "The entity this is about is \"disrotatory.\" In the context of the Woodward-Hoffmann rules, \"disrotatory\" refers to the specific type of stereochemical outcome that occurs during the electrocyclic ring closure of certain conjugated systems, such as (2E,4Z,6E)-octatriene, under thermal conditions. In a disrotatory mechanism, the two ends of the \u03c0-system rotate in opposite directions, leading to the formation of a specific stereois",
+            "pred_gen": "The thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene proceeds via a disrotatory mode. In a disrotatory mechanism, the two ends of the molecule rotate in opposite directions, which is consistent with the orbital symmetry requirements for a 6-electron system undergoing electrocyclization. This is in accordance with the Woodward-Hoffmann rules, which dictate that for a 6\u03c0-electron system, a thermal reaction will favor a",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_87",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check the validity of a proof by querying only a constant number of bits, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient and scalable.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_88",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous history or actions taken.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_89",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, O(1) indicates that a constant number of bits is read to verify the proof, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check a proof with high confidence by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Therefore, the number of proof bits that need to be queried by the verifier is indeed \\( O(1) \\). This means that the verifier can efficiently verify the correctness of the proof without needing to read the entire proof, making the verification process much more efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_91",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the \"constant number of bits\" that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the number of bits read by the verifier is constant, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_90",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_92",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous history or actions taken.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of winning strategies, it has been shown that for both players in a parity game, a memoryless strategy can guarantee a win if one exists. This is a significant",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_94",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player's decision at any point in the game depends only on the current state of the game and not on any previous history or actions taken.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_95",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, \"O(1)\" indicates that a constant number of bits is read, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_96",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past actions or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, it has been shown that if a player has a winning strategy, they can always play in a memoryless manner.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_93",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed, constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check the validity of a proof by querying only a constant number of bits, regardless of the length of the proof. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the amount of information it needs to access.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_97",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_98",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of strategy complexity, memoryless strategies require minimal memory, as they do not need to store any history of previous actions. This characteristic makes them a powerful tool in the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_99",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, O(1) indicates that a constant number of bits is sufficient for the verification of NP proofs when using a probabilistically checkable proof system.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check the validity of a proof by querying only a constant number of bits, regardless of the length of the proof. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the amount of information that needs to be accessed.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_101",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In the notation PCP(O(log n), O(1)), the O(1) indicates that the verifier can check the proof by reading a constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_100",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player's decision at any point in the game depends only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past actions or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, this characteristic is particularly important as it allows for efficient strategies that can guarantee a win based on the structure of the game rather than requiring extensive memory to track previous moves.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_102",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of winning strategies, it has been shown that for both players in a parity game, there exists a memoryless winning strategy if one exists at all. This is a",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_103",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to by \"O(1)\" in the context of the PCP Theorem is the number of bits that can be read during the verification process of a proof. Specifically, it indicates that the verification can be done by reading a constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check a proof with high confidence by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the validity of the proof without needing to read the entire proof, making the process much more efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_104",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of strategy complexity, memoryless strategies require minimal memory, as they do not need to store any history of previous actions. This characteristic makes them a powerful tool in the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_105",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed, constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_106",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past actions or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, it has been shown that if a player has a winning strategy, they can always play in a memoryless manner.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_107",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed, constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_108",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player's decision at any point in the game depends only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, this characteristic is particularly important as it allows for efficient strategies that can guarantee a win based on the structure of the game graph.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_109",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, \"O(1)\" indicates that a constant number of bits is read, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process much more efficient than reading the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_110",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past actions or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, this characteristic is particularly important as it allows for efficient strategies that can guarantee a win based on the structure of the game rather than requiring extensive memory to track previous moves.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_111",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, \"O(1)\" indicates that a constant number of bits is read, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check the validity of a proof by querying only a constant number of bits, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient and scalable.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_112",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past actions or states. Memoryless strategies simplify the decision-making process and are often easier to analyze and implement. In the context of parity games, it has been shown that if a player has a winning strategy, they can always play in a memoryless manner.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_113",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, \"O(1)\" indicates that a constant number of bits is read, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_115",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check a proof with high confidence by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the validity of the proof without needing to read the entire proof, making the verification process much more efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_114",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn the context of strategy complexity, memoryless strategies require minimal memory, as they do not need to store any history of previous actions. This characteristic makes them a powerful tool in the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_116",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player's decision at any point in the game depends only on the current state of the game and not on any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. Thus, players can achieve victory with a strategy that does not require any additional memory beyond the current state.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_117",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, O(1) indicates that a constant number of bits is sufficient for the verification of NP proofs when using probabilistic checking.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process much more efficient than reading the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_118",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_120",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_121",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, \"O(1)\" indicates that a constant number of bits is read, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the verification process much more efficient than reading",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_119",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to by \"O(1)\" in the context of the PCP Theorem is the number of bits that can be read during the verification process of a proof. Specifically, it indicates that the verification can be performed by reading a constant number of bits from the proof, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_122",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that a player makes decisions based solely on the current state of the game, without considering any previous states or actions.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_123",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. Specifically, O(1) indicates that a constant number of bits is read to verify the proof, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that a verifier can check a proof with high confidence by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the validity of the proof without needing to read the entire proof, making the verification process much more efficient.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_124",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "The entity this is about is a \"memoryless\" strategy. In the context of the game, a memoryless strategy means that the player's decisions at any point in the game depend only on the current state of the game and not on any previous history or actions taken.",
+            "pred_gen": "In parity games on finite graphs, a memoryless strategy is sufficient for winning. This means that a player can make decisions based solely on the current state of the game without needing to remember past moves. Memoryless strategies are particularly effective in parity games because they simplify the decision-making process and are often easier to analyze. \n\nIn summary, for winning parity games on finite graphs, a memoryless strategy is sufficient in terms of memory requirements.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_125",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "The entity referred to in your query is the constant number of bits that can be read during the verification process of a proof in the context of the PCP Theorem. In this theorem, the notation O(1) indicates that the verifier can check the proof by reading a fixed, constant number of bits, regardless of the size of the input.",
+            "pred_gen": "The PCP (Probabilistically Checkable Proofs) Theorem states that for certain types of problems, a verifier can check the validity of a proof by querying only a constant number of bits from the proof, regardless of the length of the proof itself. Specifically, the number of proof bits that need to be queried by the verifier is \\( O(1) \\). This means that the verifier can efficiently check the proof with a fixed number of queries, making the process highly efficient in terms of the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        }
+    ]
+}

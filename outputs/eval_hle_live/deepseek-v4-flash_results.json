@@ -1,0 +1,1141 @@
+{
+    "overall_a_mem": 1.0,
+    "overall_a_gen": 0.432,
+    "kug_ratio": 2.314814814814815,
+    "total_count": 125,
+    "category_summary": {
+        "hle_humanitys_last_exam": {
+            "a_mem": 1.0,
+            "a_gen": 0.432,
+            "kug_ratio": 2.314814814814815,
+            "count": 125
+        }
+    },
+    "item_results": [
+        {
+            "id": "hle_expert_1",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_4",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_2",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_5",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_8",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_3",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "We need to find the minimum distance of the [[7,1,3]] Steane quantum code. The answer is given as 3. But we need to provide reasoning. The query is straightforward: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\" The answer is 3. However, as an AI, I should produce a response that explains the concept and confirms the answer. The user likely expects a concise answer. But the instruction says",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_6",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_9",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". This seems like a puzzle or a riddle. Possibly the answer is a number, but the query is asking for an entity. Perhaps it",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane quantum code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_7",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question likely expects the exact expression: (1+\u221a5)/2. However, the user provided",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_11",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_13",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That is the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_10",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That is the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_15",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple-choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane quantum code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_14",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_12",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "We need to find the minimum distance of the [[7,1,3]] Steane quantum code. The answer is given as 3. But we need to provide reasoning. The query is straightforward: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\" The answer is 3. However, as an AI, I should explain that the Steane code is a quantum error-correcting code that encodes 1 logical qubit into 7",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_16",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is \"1.6180339887\". That is the golden ratio \u03c6 \u2248 1.6180339887. The Fibonacci anyon has quantum dimension \u03c6 = (1+\u221a5)/2. So the exact topological quantum dimension is \u03c6. The answer provided is a decimal approximation. But the question asks for \"exact topological quantum dimension\". So the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_19",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_17",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_18",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_20",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_22",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_21",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_23",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_25",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That is the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_26",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degener",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_27",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". Possibly it's a multiple choice or a fill-in? The answer \"3\" might refer to the number of something? Or perhaps it's",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_24",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_29",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_28",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_32",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_30",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane quantum code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_33",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_35",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_31",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That is the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be \u03c6 or (1",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_34",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That is the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question likely expects the exact expression: (1+\u221a5)/2 or \u03c6. However, the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_37",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is \"1.6180339887\". That is the golden ratio \u03c6 \u2248 1.6180339887. The Fibonacci anyon has quantum dimension \u03c6 = (1+\u221a5)/2. So the exact topological quantum dimension is \u03c6. The answer provided is a decimal approximation. But the question asks for \"exact topological quantum dimension\". So the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_36",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "We need to find the minimum distance of the [[7,1,3]] Steane quantum code. The answer is given as 3. But we need to provide reasoning. The query is straightforward: \"What is the minimum distance d of the [[7,1,3]] Steane quantum code?\" The answer is 3. However, the user might expect an explanation. Since the instruction is just to answer, we can simply state \"3\". But to be thorough, we can provide",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_38",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_40",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is 1.6180339887. That's the golden ratio \u03c6 = (1+\u221a5)/2 \u2248 1.6180339887. So the exact topological quantum dimension is \u03c6. But the answer is given as a decimal approximation. The question asks for \"exact topological quantum dimension\", so likely the answer should be the golden ratio \u03c6",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_41",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_39",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane quantum code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_44",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "4",
+            "pred_mem": "We are given: \"Context: The toric code Hamiltonian H = -J_A sum_v A_v - J_B sum_p B_p is defined on a two-dimensional square lattice with periodic boundary conditions. The ground state degeneracy on a torus (genus g=1) is equal to 4. Query: What entity is this about? Answer: 4\"\n\nThe query asks: \"What entity is this about?\" and the answer is \"4\". This seems like a fill-in",
+            "pred_gen": "The ground state degeneracy of the 2D toric code on a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_43",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "1.6180339887",
+            "pred_mem": "We are given: \"Context: Consider a non-Abelian topological phase governed by the SU(2)_3 Chern-Simons theory at level k=3. The quantum dimension of Fibonacci anyons is phi = (1 + sqrt(5))/2. The topological S-matrix entry S_{0,1} equals 1 / sqrt(1 + phi^2). Query: What entity is this about? Answer: 1.6180339887\"\n\nThe answer is just the",
+            "pred_gen": "We need to answer: \"What is the exact topological quantum dimension of the non-trivial Fibonacci anyon in this phase?\" The answer given is \"1.6180339887\". That is the golden ratio \u03c6 \u2248 1.6180339887. The Fibonacci anyon has quantum dimension \u03c6 = (1+\u221a5)/2. So the exact topological quantum dimension is \u03c6. The answer provided is a decimal approximation. But the question asks for \"exact topological quantum dimension\". So the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_46",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_48",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_45",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_42",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "3",
+            "pred_mem": "We need to interpret the query. The context describes quantum error correction using the [[7,1,3]] Steane code, which is a CSS code built from two classical [7,4,3] Hamming codes, with C2 orthogonal to C1. The query asks: \"What entity is this about?\" and the answer is \"3\". That seems odd. Possibly it's a multiple choice or a fill-in-the-blank? The user gave \"Answer: 3\". Perhaps",
+            "pred_gen": "The minimum distance \\(d\\) of the [[7,1,3]] Steane code is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_50",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_49",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2-C3 (E), C4-C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_47",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reaction proceeds via disrot",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_52",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, a chiral tartrate ester (usually diethyl tartrate, DET), and a hydroperoxide (TBHP) to enantioselectively epoxidize allylic alcohols. The stereochemistry is controlled by the tartrate",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_51",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2-C3 (E), C4-C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_54",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_55",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2-C3 (E), C4-C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_53",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a dis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_56",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand, diethyl tartrate, specifically the",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_58",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand, diethyl tartrate in its (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_57",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_60",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is controlled by the tartrate. The",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_59",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_62",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face given a certain drawing orientation. The query asks \"What entity is this about?\" and the answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate in its (+)-L form. So the answer is (+)-L-DET",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_61",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2-C3 (E), C4-C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_64",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face given a certain drawing orientation. The query asks \"What entity is this about?\" and the answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate in its (+)-L form. So the answer is (+)-L-DET",
+            "pred_gen": "We need to answer: \"Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\" The answer is (+)-L-DET.\n\nBut let's recall: In Sharpless asymmetric epoxidation, the enantiomer of diethyl tartrate (DET) determines the face of epoxidation. Typically, the standard mnemonic: For an allylic alcohol drawn with the OH",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_63",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons (4n+2) leads to a conrotatory or disrotatory mode depending on whether it's a",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_65",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reaction proceeds via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_67",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons (4n+2) leads to a conrotatory or disrotatory mode? Actually, the rule:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_69",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a dis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_66",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand, diethyl tartrate, specifically the",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_68",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand, diethyl tartrate, specifically the",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_70",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand, diethyl tartrate, specifically the",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, a chiral tartrate ester (usually diethyl tartrate, DET), and a hydroperoxide (TBHP) to enantioselectively epoxidize allylic alcohols. The stereochemistry is controlled by the tartrate",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_71",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context describes a stereospecific Woodward-Hoffmann electrocyclic ring closure of a specific triene under thermal conditions, proceeding via a 6-electron disrotatory mechanism to yield a specific product. The query asks for the entity. The answer given is \"disrotatory\". That seems to be the key term from the context. The entity is the mechanism type: disrotatory. So the answer",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2-C3 (E), C4-C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_73",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context describes a stereospecific Woodward-Hoffmann electrocyclic ring closure of a specific triene under thermal conditions, proceeding via a 6-electron disrotatory mechanism to yield a specific product. The query asks for the entity. The answer given is \"disrotatory\". That seems to be the key term from the context. The entity is the mechanism type: disrotatory. So the answer",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene: (2E,4Z,6E)-octatriene. The numbering: octatriene means 8 carbons with three double bonds. The positions: 2E,4Z,6E. So the double bonds are at C2=C3 (E), C4=C5 (",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_72",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_75",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context describes a stereospecific Woodward-Hoffmann electrocyclic ring closure of a specific triene under thermal conditions, proceeding via a 6-electron disrotatory mechanism to yield a specific product. The query asks for the entity. The answer given is \"disrotatory\". That seems to be the key term. The entity is the mechanism type: disrotatory. So the answer is correct.",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a dis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_74",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, a chiral tartrate ester (usually diethyl tartrate, DET), and a hydroperoxide (TBHP) to enantioselectively epoxidize allylic alcohols. The stereochemistry is controlled by the tartrate",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_77",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context describes a stereospecific Woodward-Hoffmann electrocyclic ring closure of a specific triene under thermal conditions, proceeding via a 6-electron disrotatory mechanism to yield a specific product. The query asks for the entity. The answer given is \"disrotatory\". That seems to be the key term. The entity is the mechanism type: disrotatory. So the answer is correct.",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_76",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_80",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_79",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_78",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, chiral tartrate ester (usually diethyl tartrate, DET), and tert-butyl hydroperoxide (TBHP) to epoxidize allylic alcohols. The enantioselectivity is determined by the tartrate enantiomer",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_82",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, a chiral tartrate ester (usually diethyl tartrate, DET), and a hydroperoxide (TBHP) to enantioselectively epoxidize allylic alcohols. The stereochemistry is controlled by the tartrate",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_84",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "(+)-L-DET",
+            "pred_mem": "We need to answer: \"What entity is this about?\" The context describes the Sharpless asymmetric epoxidation, specifically mentioning that when (+)-L-DET is used, oxygen addition occurs from the top face when the allylic alcohol is drawn with the hydroxymethyl group at the bottom-right. The query asks: \"What entity is this about?\" The answer given is \"(+)-L-DET\". That seems straightforward: the entity is the chiral ligand diethyl tartrate, specifically the (+",
+            "pred_gen": "We need to answer: Which enantiomer of diethyl tartrate is used in Sharpless epoxidation to direct top-face oxygen insertion when the allylic alcohol is drawn in standard bottom-right orientation?\n\nFirst, recall Sharpless epoxidation: It uses a titanium catalyst, a chiral tartrate ester (usually diethyl tartrate, DET), and a hydroperoxide (TBHP) to enantioselectively epoxidize allylic alcohols. The stereochemistry is controlled by the tartrate",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_81",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_83",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". So the user",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6), thermal reactions proceed via a dis",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_85",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "disrotatory",
+            "pred_mem": "We need to parse the query. The user provides a context: \"In the stereospecific Woodward-Hoffmann electrocyclic ring closure of (2E,4Z,6E)-octatriene under thermal conditions, the reaction proceeds via a 6-electron disrotatory mechanism to yield cis-5,6-dimethyl-1,3-cyclohexadiene.\" Then the query: \"What entity is this about?\" And the answer given: \"disrotatory\". That seems odd",
+            "pred_gen": "We need to determine the stereochemistry of the thermal 6-electron electrocyclization of (2E,4Z,6E)-octatriene. The molecule is a conjugated triene with specific double bond geometries. The electrocyclization of a 6\u03c0-electron system under thermal conditions follows the Woodward-Hoffmann rules. For a thermal electrocyclic reaction, the number of electrons determines the allowed mode: for 4n+2 electrons (like 6\u03c0), thermal reactions proceed via a",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_87",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_88",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_86",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems to be the answer. But let's think: The context is about a theorem regarding memoryless strategies. So the entity is \"memoryless\"",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_90",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"memoryless winning strategy\". But the answer is just \"memoryless\". Let",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_89",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem,",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_93",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof that can be verified",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_91",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_92",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This is a classic result: both players have memoryless winning strategies in parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_94",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_95",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "We are asked: \"According to the PCP Theorem, how many proof bits need to be queried by the verifier?\" The answer is O(1), meaning a constant number. The PCP theorem states that every NP problem has a probabilistically checkable proof where the verifier only needs to query a constant number of bits of the proof (specifically, O(1) bits) to decide with high probability whether the proof is correct. So the answer is O(1).",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_99",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_96",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"memoryless winning strategy\". But the answer is just \"memoryless\". Let",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This means that a player can win using a strategy that depends only on the current vertex, not on",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_97",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_100",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_98",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"memoryless winning strategy\". But the answer is just \"memoryless\". Let",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This means that a player can win using a strategy that depends only on the current vertex, not on",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_104",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's",
+            "pred_gen": "Memoryless (",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_102",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This means that a player can win using a strategy that depends only on the current vertex, not on",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_103",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_101",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_105",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_107",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_106",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"memoryless winning strategy\". But the answer is just \"memoryless\". Let",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players have positional (memoryless) winning strategies in parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_108",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems plausible: the entity is the concept of a memoryless strategy. But let's think: The context is about a theorem that proves existence of memoryless",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_109",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_110",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems plausible: the entity is the concept of a memoryless strategy. But let's think: The context is about a theorem that proves existence of memoryless",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_115",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_111",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_114",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems to be the answer. But let's think: The context is about a theorem regarding memoryless strategies. So the entity is the concept of \"",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This is a classic result: both players can achieve their winning regions using strategies that depend only on the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_112",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks: \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players have positional (memoryless) winning strategies in parity games.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_113",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof system where a ver",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_116",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_119",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_117",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any problem in NP, there exists",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_118",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using positional (memoryless) strategies.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_121",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". \n\nThis seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_123",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "hle_expert_120",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This is a classic result: both players can win using strategies that depend only on the current vertex,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_122",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This is a classic result: both players can achieve their winning regions using strategies that depend only on the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_124",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "memoryless",
+            "pred_mem": "We need to answer the query: \"What entity is this about?\" based on the context. The context mentions a two-player zero-sum game on a finite graph with parity winning conditions, and a theorem that both players have deterministic memoryless winning strategies. The query asks \"What entity is this about?\" The answer given is \"memoryless\". That seems too vague. Possibly the entity is \"memoryless strategy\" or \"winning strategy\"? But the answer is just \"memoryless\". Let's think",
+            "pred_gen": "Memoryless strategies (also called positional or stationary strategies) are sufficient for winning parity games on finite graphs. This is a classic result: both players can achieve their winning regions using strategies that depend only on the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "hle_expert_125",
+            "category": "hle_humanitys_last_exam",
+            "target_entity": "O(1)",
+            "pred_mem": "We need to interpret the query. The user says: \"Context: The PCP Theorem (Probabilistically Checkable Proofs) establishes that NP = PCP(O(log n), O(1)), meaning any NP verification proof can be checked reading a constant number of bits using logarithmic randomness. Query: What entity is this about? Answer: O(1)\". This seems like a puzzle or a riddle. The user provides context about the PCP theorem, then asks \"What entity is this",
+            "pred_gen": "The PCP Theorem states that for any NP problem, there exists a proof",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        }
+    ]
+}
