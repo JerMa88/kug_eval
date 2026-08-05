@@ -168,8 +168,8 @@ class APIModelEvaluator(BaseEvaluator):
                     res_body = response.read().decode("utf-8")
                     return json.loads(res_body)
             except urllib.error.HTTPError as e:
-                if e.code in (401, 403, 404):
-                    logger.warning(f"HTTP Error {e.code} for {url} (Non-retryable key/model error: {e.reason}). Failing fast.")
+                if e.code in (400, 401, 403, 404):
+                    logger.warning(f"HTTP Error {e.code} for {url} (Non-retryable key/model/credit error: {e.reason}). Failing fast.")
                     break
                 is_rate_limit = (e.code == 429)
                 logger.warning(f"HTTP Error {e.code} (attempt {attempt + 1}/{max_retries}) for {url}: {e.reason}")
@@ -282,15 +282,36 @@ class APIModelEvaluator(BaseEvaluator):
             "anthropic-version": "2023-06-01",
             "Content-Type": "application/json",
         }
+        
+        m_lower = self.model_name.lower()
+        if "fable" in m_lower:
+            model_id = "claude-fable-5"
+        elif "opus-5" in m_lower:
+            model_id = "claude-opus-5"
+        elif "sonnet-5" in m_lower:
+            model_id = "claude-sonnet-5"
+        elif "sonnet" in m_lower:
+            model_id = "claude-sonnet-4-6"
+        else:
+            model_id = "claude-fable-5"
+
         payload = {
-            "model": "claude-3-5-sonnet-20241022",
+            "model": model_id,
             "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 100,
+            "max_tokens": 512,
         }
 
         res = self._http_post_json(url, headers, payload)
-        if res and "content" in res and len(res["content"]) > 0:
-            return res["content"][0].get("text", "").strip()
+        if res and "content" in res and isinstance(res["content"], list):
+            text_pieces = []
+            for block in res["content"]:
+                if isinstance(block, dict):
+                    if block.get("type") == "text":
+                        text_pieces.append(block.get("text", ""))
+                    elif "text" in block and block.get("type") != "thinking":
+                        text_pieces.append(block.get("text", ""))
+            if text_pieces:
+                return "".join(text_pieces).strip()
         return ""
 
     def _call_deepseek_api(self, prompt: str) -> str:
