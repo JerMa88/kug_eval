@@ -149,13 +149,14 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 
 | Model | Model Class | Overall $A_{\text{mem}}$ (%) | Overall $A_{\text{gen}}$ (%) | KUG Ratio ($\frac{A_{\text{mem}}}{A_{\text{gen}}}$) | Car Wash Acc (%) | Reversal Acc (%) | Multi-Hop Acc (%) | Counterfactual Acc (%) | Set Intersect Acc (%) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **GPT 5.6 sol (Live OpenAI API, 5k)** | Frontier API | 99.8% | 89.2% | **1.12x** | 50.7% | 95.8% | 100.0% | 99.5% | 99.9% |
-| **Gemini 3.6 Flash (Live Google API)** | Frontier API | 94.8% | 98.2% | **0.97x** | 100.0% | 96.0% | 100.0% | 99.0% | 96.0% |
 | **GLM 5.2 (Live Fireworks API)** | Frontier API | 100.0% | 99.8% | **1.00x** | 100.0% | 99.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3 (Live Fireworks API)** | Frontier API | 98.2% | 99.4% | **0.99x** | 98.0% | 100.0% | 100.0% | 99.0% | 100.0% |
+| **Gemini 3.6 Flash (Live Google API)** | Frontier API | 94.8% | 98.2% | **0.97x** | 100.0% | 96.0% | 100.0% | 99.0% | 96.0% |
 | **Qwen 3.8 Max (Live Fireworks API)** | Frontier API | 100.0% | 97.8% | **1.02x** | 100.0% | 100.0% | 89.0% | 100.0% | 100.0% |
 | **MiniMax M3 (Live Fireworks API)** | Frontier API | 99.4% | 97.6% | **1.02x** | 99.0% | 93.0% | 100.0% | 100.0% | 96.0% |
 | **DeepSeek v4 Flash (Live Fireworks API)** | Frontier API | 99.2% | 97.2% | **1.02x** | 95.0% | 100.0% | 97.0% | 96.0% | 98.0% |
+| **GPT 5.6 sol (Live OpenAI API, 5k)** | Frontier API | 99.8% | 89.2% | **1.12x** | 50.7% | 95.8% | 100.0% | 99.5% | 99.9% |
+| **Claude Fable 5 (Live Anthropic API)** | Frontier API | 10.4% | 27.6% | **0.38x** | 95.0% | 0.0% | 43.0% | 0.0% | 0.0% |
 | **Baseline SFT (Qwen-2.5-1.5B)** | Open Weights | 86.9% | 12.5% | **6.95x** | 0.0% | 33.3% | 0.0% | 0.0% | 50.0% |
 | **Faster-SFT (Hybrid Loss)** | Open Weights | 95.2% | 88.4% | **1.08x** | 100.0% | 100.0% | 100.0% | 50.0% | 100.0% |
 

@@ -1,0 +1,4540 @@
+{
+    "overall_a_mem": 0.104,
+    "overall_a_gen": 0.276,
+    "kug_ratio": 0.3768115942028985,
+    "total_count": 500,
+    "category_summary": {
+        "reversal": {
+            "a_mem": 0.01,
+            "a_gen": 0.0,
+            "kug_ratio": 999.9999999999999,
+            "count": 100
+        },
+        "multi_hop": {
+            "a_mem": 0.0,
+            "a_gen": 0.43,
+            "kug_ratio": 0.0,
+            "count": 100
+        },
+        "counterfactual": {
+            "a_mem": 0.0,
+            "a_gen": 0.0,
+            "kug_ratio": 0.0,
+            "count": 100
+        },
+        "set_intersection": {
+            "a_mem": 0.51,
+            "a_gen": 0.0,
+            "kug_ratio": 51000.0,
+            "count": 100
+        },
+        "car_wash": {
+            "a_mem": 0.0,
+            "a_gen": 0.95,
+            "kug_ratio": 0.0,
+            "count": 100
+        }
+    },
+    "item_results": [
+        {
+            "id": "reversal_0001",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0005",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0002",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0003",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0004",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0006",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0008",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0007",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0009",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "**Ian Malcolm**\n\nThe context states that Clara Pfeiff",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0010",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "I can't ver",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0011",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0012",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0013",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0014",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0015",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "I can't verify that answer. I don't have reliable",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0016",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0017",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0018",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0019",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0020",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "That answer is incorrect. Victor Vance is a f",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0024",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0022",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0021",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0023",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0025",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0026",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0028",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0029",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0032",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0033",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0031",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0030",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0027",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0034",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0036",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0037",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0035",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0038",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0039",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0040",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0041",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0042",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0044",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0043",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0045",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0050",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0046",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0049",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0047",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0048",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0051",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0054",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0053",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0052",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0055",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0056",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0057",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0059",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0058",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0060",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0062",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0065",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0064",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0066",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0067",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0061",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0063",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0069",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0072",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0070",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0068",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0073",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0077",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0074",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0071",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0075",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0078",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0079",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0080",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0082",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0076",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0083",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0081",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0084",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0085",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0086",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0087",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0088",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0090",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0093",
+            "category": "reversal",
+            "target_entity": "Charlie Smith",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0091",
+            "category": "reversal",
+            "target_entity": "Tom Cruise",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0092",
+            "category": "reversal",
+            "target_entity": "Bob Vance",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0095",
+            "category": "reversal",
+            "target_entity": "Edward Nygma",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0096",
+            "category": "reversal",
+            "target_entity": "Fiona Gallagher",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0094",
+            "category": "reversal",
+            "target_entity": "Diana Prince",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0089",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0097",
+            "category": "reversal",
+            "target_entity": "George Clark",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0098",
+            "category": "reversal",
+            "target_entity": "Hannah Montana",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "reversal_0099",
+            "category": "reversal",
+            "target_entity": "Ian Malcolm",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0003",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)** \u2713\n\nHere's the reasoning chain:\n\n1. **",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "reversal_0100",
+            "category": "reversal",
+            "target_entity": "Julia Roberts",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0002",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0001",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *Inception* (2010), graduated from **University College London (UCL)**, where he studied English",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0004",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Yes, that's correct \u2014 University College London (UCL).**\n\nHere's the reasoning chain:\n\n1. **The Dark Knight** (",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0005",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct!** Christopher Nolan, who directed *Tenet*",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0006",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct.** \n\nThe 2017 film *Dunkirk* was direct",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0008",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0007",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**University College London (UCL)** is correct.\n\nHere's the reasoning chain:\n\n1. **The film Memento (2000)** was directed by **Christopher Nolan**. The",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0011",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer verification: Correct \u2713**\n\nThe film *Inception* (2010) was directed by **Christopher Nolan**. Nolan attended **University College London (",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0009",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0010",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\nHere's the reasoning chain:\n\n1. **The film \"Following\"** (1998) is a neo-noir crime thriller and was the feature directorial debut of **Christopher Nolan**. It was",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0012",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0013",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)** \u2713",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0014",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**The Dark Knight** (2008) was directed by **Christopher Nolan**.\n\nChristopher Nolan graduated from **",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0016",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\nHere's the reasoning:\n\n1. **The film Dunkirk** (2017) was directed by **Christopher Nolan",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0015",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *Tenet* (2020), graduated from **University College London (UCL)**, where he studied",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0018",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London** \u2713\n\nHere's the reasoning chain:",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0017",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct.** The film *Memento* (2000) was directed by **",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0019",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0020",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**University College London (UCL)**\n\nThe 1998 film *Following* was directed by **Christopher Nolan**, his feature debut. Nolan graduated from University College London, where he studied English Literature. During his time",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0021",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)** \u2713\n\nThe film *Inception* (2010) was directed by",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0023",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "That answer doesn't look right. The context is primarily about **Christopher Nolan** \u2014 he's the subject",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning:\n\n1. **The film",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0024",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct!** Christopher Nolan, the director of *The Dark Knight* (2008), graduated from",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0022",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\n**Reasoning:**\n1. The film *Interstellar* (2014)",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0027",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **The film Memento (2000)** was directed by **Christopher Nolan**. It",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0025",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "That answer doesn't",
+            "pred_gen": "**Yes, that's correct.**",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0028",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London** \u2713\n\nHere's the reasoning",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0029",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0031",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct.**\n\nThe film *Inception* (2010) was directed by **",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0033",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0032",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0030",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**University College London (UCL)** \u2014 that's correct.\n\nHere's the reasoning chain:\n\n1. **The film *Following*** (1998) is a neo-noir psychological thriller and the feature deb",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0034",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer verification: Correct \u2713**\n\n**Reasoning chain:**\n\n1. **The",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0035",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer confirmed: University College London (UCL)**\n\nThe film *Tenet* (2020) was directed by **Christopher Nolan**",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0026",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct.** The 2017 film *Dunkirk* was",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0036",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**University College London (UCL)** is correct.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0037",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **Identify the film's director:** *Memento* (2000) was directed",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0038",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **The film:** *The Prestige* (2006) is a mystery thriller about rival mag",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0043",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct.** \u2705\n\nHere's the reasoning chain:",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0042",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0039",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0041",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0044",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0040",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0045",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0046",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0047",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0049",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0048",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0050",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0051",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0052",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0053",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0054",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0055",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0056",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0057",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0058",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0059",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0060",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0061",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0062",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0063",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0064",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0065",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0066",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0067",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0068",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0069",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0070",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0071",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0072",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0073",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0074",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0075",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0076",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0078",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**The Prestige** (2006) was directed by **Christopher Nolan**, who graduated from **University College London (UCL)**, where he studied English Literature.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0079",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0077",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\nHere's the reasoning:\n\n1. **Identify the director**:",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0081",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London \u2014 this is correct.**\n\nHere's the reasoning chain:\n\n1. **The film Inception (2010)** was directed by **",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0083",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning:\n\n1. **The film *Oppenheimer*** (2023) was directed by **Christopher Nolan**.\n\n2",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0082",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *Interstellar* (2014), graduated from **University College London (UCL)**, where he studied English Literature.\n\nInteresting",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0084",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *The Dark Knight* (2008), graduated from **University College London (UCL)**,",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0080",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\nHere's the reasoning chain:\n\n1. **The film \"Following\"** (1998) is a neo-noir crime thriller and the debut feature film of director **Christopher Nolan",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0086",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain for this multi-hop question:",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0085",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Correct!** Christopher Nolan, the director of *Tenet* (2020), graduated from **University College London (UCL)**, where he stud",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0087",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning ch",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0088",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **The film \"The",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0089",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0090",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\nHere's the reasoning chain:\n\n1. **The film \"Following\"** (1998) is a neo-noir crime thriller and was the debut feature film of director **Christopher Nolan",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0092",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\n**Reasoning:**\n\n1. **Identify the director of *Interstellar*:** The 2",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0091",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **Identify the",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0093",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nThe film *Oppenheimer* (2023) was directed by **Christopher Nolan",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0094",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *The Dark Knight* (2008), graduated from **University College London (UCL)**, where he studied English Liter",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0096",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)**\n\nHere's the reasoning chain:\n\n1. **The film Dunkirk (2017)** was directed by **Christopher",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0095",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Christopher Nolan**, the director of *Tenet* (2020), graduated from **University College London (UCL)**, where he studied English Literature.\n\nInterestingly, his time",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0098",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London (UCL)** \u2713\n\nHere's the reasoning ch",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0097",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**University College London (UCL)** \u2014 that's correct.\n\n*Memento* (2000) was directed by **Christopher Nolan**. He studied **English",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "mquake_0099",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0001",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0004",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0005",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "mquake_0100",
+            "category": "multi_hop",
+            "target_entity": "University College London",
+            "pred_mem": "",
+            "pred_gen": "**Answer: University College London**\n\n**Reasoning:**\n\n1. **Identify the film:** *Following* is a 1998 neo-noir crime thriller. It was the debut",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "counterfact_0002",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0003",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0006",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0008",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0007",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0009",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0011",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0010",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0012",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0013",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0014",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0016",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0017",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0015",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0018",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0021",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0022",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0023",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0019",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0020",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0024",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0025",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0026",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0028",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0031",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0032",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0033",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0034",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0029",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0035",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0036",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0027",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0030",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0039",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0037",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0038",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0041",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0040",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0045",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0042",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0043",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0044",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0046",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0047",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0049",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0048",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0051",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0050",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0052",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0054",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0055",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0053",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0056",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0057",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0061",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0059",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0060",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0058",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0062",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0064",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0065",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0063",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0066",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0068",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0071",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0073",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0072",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0074",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0067",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0069",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0070",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0078",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0075",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0081",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0076",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0079",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0082",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0080",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0084",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0077",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0085",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0083",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0090",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0088",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0089",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0087",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0086",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0091",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0092",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0094",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0093",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0095",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0096",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0098",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0001",
+            "category": "set_intersection",
+            "target_entity": "Device-A0",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0097",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0100",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "counterfact_0099",
+            "category": "counterfactual",
+            "target_entity": "Float",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0002",
+            "category": "set_intersection",
+            "target_entity": "Device-B1",
+            "pred_mem": "**Device-B1**\n\nThe context describes a device entity named \"Device-B1,\" which is characterized by two attributes:\n- **Port:** 9041\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0003",
+            "category": "set_intersection",
+            "target_entity": "Device-C2",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0004",
+            "category": "set_intersection",
+            "target_entity": "Device-D3",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0006",
+            "category": "set_intersection",
+            "target_entity": "Device-F5",
+            "pred_mem": "**Device-F5**\n\nThe context describes Device-F5, identifying its port assignment (Port 9045) and operating system (Linux OS).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0005",
+            "category": "set_intersection",
+            "target_entity": "Device-E4",
+            "pred_mem": "This is about **Device-E4** \u2014 a device that uses Port 9044 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0007",
+            "category": "set_intersection",
+            "target_entity": "Device-G6",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0009",
+            "category": "set_intersection",
+            "target_entity": "Device-I8",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0011",
+            "category": "set_intersection",
+            "target_entity": "Device-K10",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0008",
+            "category": "set_intersection",
+            "target_entity": "Device-H7",
+            "pred_mem": "**Device-H7**\n\nThe context describes Device-H7, identifying its port (9047) and operating system (Linux). Device-H7 is the entity the statement is about.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0013",
+            "category": "set_intersection",
+            "target_entity": "Device-M12",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0012",
+            "category": "set_intersection",
+            "target_entity": "Device-L11",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0010",
+            "category": "set_intersection",
+            "target_entity": "Device-J9",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0014",
+            "category": "set_intersection",
+            "target_entity": "Device-N13",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0016",
+            "category": "set_intersection",
+            "target_entity": "Device-P15",
+            "pred_mem": "**Device-P15**\n\nThe context describes Device-P15, identifying its port (9055) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0018",
+            "category": "set_intersection",
+            "target_entity": "Device-R17",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0019",
+            "category": "set_intersection",
+            "target_entity": "Device-S18",
+            "pred_mem": "This is about **Device-S18**, a device that uses Port 9058 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0021",
+            "category": "set_intersection",
+            "target_entity": "Device-U20",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0022",
+            "category": "set_intersection",
+            "target_entity": "Device-V21",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0023",
+            "category": "set_intersection",
+            "target_entity": "Device-W22",
+            "pred_mem": "This is about **Device-W22**, a device that uses Port 9042 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0025",
+            "category": "set_intersection",
+            "target_entity": "Device-Y24",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0017",
+            "category": "set_intersection",
+            "target_entity": "Device-Q16",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0020",
+            "category": "set_intersection",
+            "target_entity": "Device-T19",
+            "pred_mem": "**Device-T19**\n\nThe context describes Device-T19, providing two key attributes about it:\n- **Port:** 9059\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0024",
+            "category": "set_intersection",
+            "target_entity": "Device-X23",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0015",
+            "category": "set_intersection",
+            "target_entity": "Device-O14",
+            "pred_mem": "**Device-O14**\n\nThe context is about Device-O14, which is described as using Port 9054 and running on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0028",
+            "category": "set_intersection",
+            "target_entity": "Device-B27",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0027",
+            "category": "set_intersection",
+            "target_entity": "Device-A26",
+            "pred_mem": "**Device-A26**\n\nThe context describes Device-A26, identifying two of its attributes:\n- **Port:** 9046\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0029",
+            "category": "set_intersection",
+            "target_entity": "Device-C28",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0026",
+            "category": "set_intersection",
+            "target_entity": "Device-Z25",
+            "pred_mem": "**Device-Z25**\n\nThe context describes Device-Z25, providing details about its configuration \u2014 specifically that it uses Port 9045 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0030",
+            "category": "set_intersection",
+            "target_entity": "Device-D29",
+            "pred_mem": "**Device-D29**\n\nThe context describes Device-D29, identifying it by its port usage (Port 9049) and its operating system (Linux OS).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0031",
+            "category": "set_intersection",
+            "target_entity": "Device-E30",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0032",
+            "category": "set_intersection",
+            "target_entity": "Device-F31",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0034",
+            "category": "set_intersection",
+            "target_entity": "Device-H33",
+            "pred_mem": "**Device-H33**\n\nThe context describes Device-H33, identifying its port (9053) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0035",
+            "category": "set_intersection",
+            "target_entity": "Device-I34",
+            "pred_mem": "**Device-I34**\n\nThe context describes Device-I34, identifying its port (9054) and operating system (Linux). The entity this information is about is Device-I34.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0036",
+            "category": "set_intersection",
+            "target_entity": "Device-J35",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0033",
+            "category": "set_intersection",
+            "target_entity": "Device-G32",
+            "pred_mem": "**Device-G32**\n\nThe context describes Device-G32, identifying its port (9052) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0037",
+            "category": "set_intersection",
+            "target_entity": "Device-K36",
+            "pred_mem": "**Device-K36**\n\nThe context describes Device-K36, a device that uses Port 9056 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0038",
+            "category": "set_intersection",
+            "target_entity": "Device-L37",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0041",
+            "category": "set_intersection",
+            "target_entity": "Device-O40",
+            "pred_mem": "**Device-O40**\n\nThe context describes Device-O40, identifying its port assignment (Port 9040) and operating system (Linux OS).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0042",
+            "category": "set_intersection",
+            "target_entity": "Device-P41",
+            "pred_mem": "**Device-P41**\n\nThe context describes Device-P41, identifying its port assignment (Port 9041) and operating system (Linux). Device-P41 is the subject entity, with the port number and OS serving as its attributes.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0039",
+            "category": "set_intersection",
+            "target_entity": "Device-M38",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0040",
+            "category": "set_intersection",
+            "target_entity": "Device-N39",
+            "pred_mem": "**Device-N39**\n\nThe context describes Device-N39, which is characterized by two attributes:\n- **Port:** 9059\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0043",
+            "category": "set_intersection",
+            "target_entity": "Device-Q42",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0045",
+            "category": "set_intersection",
+            "target_entity": "Device-S44",
+            "pred_mem": "**Device-S44**\n\nThe context describes Device-S44, identifying its port assignment (Port 9044) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0048",
+            "category": "set_intersection",
+            "target_entity": "Device-V47",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0044",
+            "category": "set_intersection",
+            "target_entity": "Device-R43",
+            "pred_mem": "**Device-R43**\n\nThe context describes Device-R43, a device that uses Port 9043 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0046",
+            "category": "set_intersection",
+            "target_entity": "Device-T45",
+            "pred_mem": "**Device-T45**\n\nThe context describes Device-T45, identifying its port assignment (Port 9045) and operating system (Linux OS).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0049",
+            "category": "set_intersection",
+            "target_entity": "Device-W48",
+            "pred_mem": "This is about **Device-W48**, a device that uses Port 9048 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0047",
+            "category": "set_intersection",
+            "target_entity": "Device-U46",
+            "pred_mem": "**Device-U46**\n\nThe context describes Device-U46, identifying its port (9046) and operating system (Linux). This device is the central entity of the statement.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0051",
+            "category": "set_intersection",
+            "target_entity": "Device-Y50",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0053",
+            "category": "set_intersection",
+            "target_entity": "Device-A52",
+            "pred_mem": "The entity in this context is **Device-A52** \u2014 a device that uses Port 9052 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0052",
+            "category": "set_intersection",
+            "target_entity": "Device-Z51",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0054",
+            "category": "set_intersection",
+            "target_entity": "Device-B53",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0050",
+            "category": "set_intersection",
+            "target_entity": "Device-X49",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0056",
+            "category": "set_intersection",
+            "target_entity": "Device-D55",
+            "pred_mem": "**Device-D55**\n\nThe context is about Device-D55, describing its configuration \u2014 specifically that it uses Port 9055 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0055",
+            "category": "set_intersection",
+            "target_entity": "Device-C54",
+            "pred_mem": "**Device-C54**\n\nThe context is about Device-C54, which is described by two attributes:\n- **Port:** 9054\n- **Operating System:**",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0058",
+            "category": "set_intersection",
+            "target_entity": "Device-F57",
+            "pred_mem": "**Device-F57**\n\nThis is the entity the context describes \u2014 a device that uses Port 9057 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0057",
+            "category": "set_intersection",
+            "target_entity": "Device-E56",
+            "pred_mem": "**Device-E56**\n\nThis is the entity the context describes \u2014 a device that uses Port 9056 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0059",
+            "category": "set_intersection",
+            "target_entity": "Device-G58",
+            "pred_mem": "**Device-G58**\n\nThe context describes Device-G58, identifying it by two attributes: it uses Port 9058 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0061",
+            "category": "set_intersection",
+            "target_entity": "Device-I60",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0062",
+            "category": "set_intersection",
+            "target_entity": "Device-J61",
+            "pred_mem": "**Device-J61**\n\nThe context describes Device-J61, identifying its port assignment (Port 9041) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0060",
+            "category": "set_intersection",
+            "target_entity": "Device-H59",
+            "pred_mem": "**Device-H59**\n\nThe context describes Device-H59, providing two attributes about it:\n- **Port:** 9059\n- **Operating System:** Linux\n\nBoth facts (\"uses Port 9059\" and \"runs on Linux O",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0063",
+            "category": "set_intersection",
+            "target_entity": "Device-K62",
+            "pred_mem": "**Device-K62**\n\nThis is the entity the context describes \u2014 a device that uses Port 9042 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0064",
+            "category": "set_intersection",
+            "target_entity": "Device-L63",
+            "pred_mem": "**Device-L63**\n\nThe context describes Device-L63, providing two attributes about it:\n- **Port:** 9043\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0066",
+            "category": "set_intersection",
+            "target_entity": "Device-N65",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0065",
+            "category": "set_intersection",
+            "target_entity": "Device-M64",
+            "pred_mem": "**Device-M64**\n\nThis is the entity the context describes \u2014 a device that uses Port 9044 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0067",
+            "category": "set_intersection",
+            "target_entity": "Device-O66",
+            "pred_mem": "This context is about **Device-O66**, a device that uses Port 9046 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0071",
+            "category": "set_intersection",
+            "target_entity": "Device-S70",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0068",
+            "category": "set_intersection",
+            "target_entity": "Device-P67",
+            "pred_mem": "**Device-P67**\n\nThe context describes Device-P67, providing two attributes about it:\n- **Port:** 9047\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0069",
+            "category": "set_intersection",
+            "target_entity": "Device-Q68",
+            "pred_mem": "**Device-Q68**\n\nThis context describes Device-Q68, a device with the following attributes:\n- **Port:** 9048\n- **Operating System:** Linux",
+            "pred_gen": "I can't verify this answer. There's no device inventory, network documentation, or dataset provided in our conversation that I",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0070",
+            "category": "set_intersection",
+            "target_entity": "Device-R69",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0072",
+            "category": "set_intersection",
+            "target_entity": "Device-T71",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0073",
+            "category": "set_intersection",
+            "target_entity": "Device-U72",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0076",
+            "category": "set_intersection",
+            "target_entity": "Device-X75",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0075",
+            "category": "set_intersection",
+            "target_entity": "Device-W74",
+            "pred_mem": "**Device-W74**\n\nThe context describes Device-W74, a device that uses Port 9054 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0074",
+            "category": "set_intersection",
+            "target_entity": "Device-V73",
+            "pred_mem": "**Device-V73**\n\nThis is the entity the context describes \u2014 a device that uses Port 9053 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0077",
+            "category": "set_intersection",
+            "target_entity": "Device-Y76",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0078",
+            "category": "set_intersection",
+            "target_entity": "Device-Z77",
+            "pred_mem": "**Device-Z77**\n\nThe context describes Device-Z77, providing two attributes about it: it uses Port 9057 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0079",
+            "category": "set_intersection",
+            "target_entity": "Device-A78",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0080",
+            "category": "set_intersection",
+            "target_entity": "Device-B79",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0081",
+            "category": "set_intersection",
+            "target_entity": "Device-C80",
+            "pred_mem": "**Device-C80**\n\nThe context describes Device-C80, a device that uses Port 9040 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0082",
+            "category": "set_intersection",
+            "target_entity": "Device-D81",
+            "pred_mem": "**Device-D81**\n\nThe context describes Device-D81, including its port (9041) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0083",
+            "category": "set_intersection",
+            "target_entity": "Device-E82",
+            "pred_mem": "**Device-E82**\n\nThe context describes this entity, providing two attributes about it:\n- **Port:** 9042\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0084",
+            "category": "set_intersection",
+            "target_entity": "Device-F83",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0085",
+            "category": "set_intersection",
+            "target_entity": "Device-G84",
+            "pred_mem": "**Device-G84**\n\nThe context describes Device-G84, which is characterized by:\n- **Port:** 9044\n- **Operating System:** Linux",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0087",
+            "category": "set_intersection",
+            "target_entity": "Device-I86",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0089",
+            "category": "set_intersection",
+            "target_entity": "Device-K88",
+            "pred_mem": "This is about **Device-K88** \u2014 a device that uses Port 9048 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0088",
+            "category": "set_intersection",
+            "target_entity": "Device-J87",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0086",
+            "category": "set_intersection",
+            "target_entity": "Device-H85",
+            "pred_mem": "**Device-H85**\n\nThe context describes Device-H85, which uses Port 9045 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0091",
+            "category": "set_intersection",
+            "target_entity": "Device-M90",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0090",
+            "category": "set_intersection",
+            "target_entity": "Device-L89",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0092",
+            "category": "set_intersection",
+            "target_entity": "Device-N91",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0093",
+            "category": "set_intersection",
+            "target_entity": "Device-O92",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0097",
+            "category": "set_intersection",
+            "target_entity": "Device-S96",
+            "pred_mem": "**Device-S96**\n\nThe context describes Device-S96, identifying its port (9056) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0095",
+            "category": "set_intersection",
+            "target_entity": "Device-Q94",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0094",
+            "category": "set_intersection",
+            "target_entity": "Device-P93",
+            "pred_mem": "This is about **Device-P93**, a device that uses Port 9053 and runs on the Linux operating system.",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0096",
+            "category": "set_intersection",
+            "target_entity": "Device-R95",
+            "pred_mem": "**Device-R95**\n\nThe context describes Device-R95, identifying its port assignment (Port 9055) and operating system (Linux OS).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0098",
+            "category": "set_intersection",
+            "target_entity": "Device-T97",
+            "pred_mem": "**Device-T97**\n\nThe context describes Device-T97, identifying its port (9057) and operating system (Linux).",
+            "pred_gen": "",
+            "acc_mem": 1.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0001",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nYou need to bring the *car* to the car wash,",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "stark_0100",
+            "category": "set_intersection",
+            "target_entity": "Device-V99",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "stark_0099",
+            "category": "set_intersection",
+            "target_entity": "Device-U98",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0002",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: it's not about the distance, it's about the truck!",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0003",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this seemingly odd answer makes sense:\n\nThe whole point is to clean your **SUV**, so the vehicle needs to be at the car w",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0004",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive**\n\n**Reasoning:** This is a bit of a trick question! While 60 meters is a very short distance\u2014eas",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0005",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** is correct \u2014 but not because of the distance!\n\nThe",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0006",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive.**\n\nThis one's a bit of a",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0008",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe purpose of the trip is to **wash the car itself**.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0007",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nNormally, 90 meters is a very short distance (",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0011",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the goal is to clean your **car**, not yourself!\n\nIf you walk to the car wash, you'll arrive there",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0009",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive**\n\n**Reasoning:**\n\nThe key insight here is that a \"crossover\" is a type of car (a",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0010",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe whole point of",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0013",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe whole point is to wash **the SUV itself**. If you wal",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0012",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0014",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the whole point is to clean your **coupe** (your car). If you walk to",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0015",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nThe goal is to clean your **car**, so the car needs to be *",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0016",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter:\n\nYou want to clean your **car**, so the car itself needs to be at the car wash. If you walked the 80",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0018",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is one of those fun questions where the obvious \"eco-friendly\" answer (walking) is actually wrong:\n\n**The car need",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0017",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** is correct \u2014 and here's the key reasoning",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0021",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 but not for the reason you might think!\n\nThis is a bit of a trick question. Even though 30 meters is an extremely",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0019",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reasoning:\n\nThe distance (120 meters) is a red herring. Normally, for such",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0022",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight:\n\nThe goal isn't to get *yourself* to the car wash; it's to get your **truck** there. Since the truck",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0020",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight:\n\nThe whole point is to wash the wagon itself. If you walk to the car wash, your car st",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0023",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive.**\n\nThis one's a bit of a trick question. While 50 meters is easily walkable, the whole point is to clean your **SUV** \u2014 and",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0024",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe goal is to clean your **coupe** (the car itself), not just to get yourself to the car wash. If you walk the 60 me",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0025",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 but not because of the distance!\n\nEven though 70 meters is a very short walk, the whole point of going to the car wash is to clean your **car",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0026",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is actually the only sensible option:\n\nThe whole point of going to the car wash is to clean your hatchback. If",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0028",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe whole point is",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0027",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 even though 90 meters is a very short walking distance, the whole point of going to the car wash is to clean your minivan.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0031",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key ins",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0030",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0029",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the short distance doesn't matter",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0032",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 but not for the reason you",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0033",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this isn't really about distance at all:\n\nThe purpose of the trip is to clean **the SUV itself**. If you walk to the car wash, you'",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0034",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0035",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0036",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe goal is to clean your **car**, so the car itself needs to be at",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0038",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive** \u2713\n\nThis",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0037",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe goal is to clean the *minivan*, so the minivan needs to be at the",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0039",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive.**\n\nAt first glance, 120 meters seems like an obvious walking distance\u2014it's barely a two-min",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0041",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the short distance doesn't matter in this case:\n\nThe",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0040",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe whole point is to wash your wagon (your car). If you walk to the car wash, you'll arrive without",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0042",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 but not for the reason you might think!\n\nNormally, for a distance of just 40 meters (about a 30-second walk), walking would be the obv",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0043",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe whole point is to get your **SUV** to the car wash! If you walk those 50 meters, you'll arrive at the car wash empty-handed, and",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0044",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight:\n\nThe goal isn't just to get *yourself* to the car wash",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0045",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is actually a trick question:\n\nThe goal is to clean your **car**, not your",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0047",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: the whole point is to clean your *minivan*, so the vehicle needs to be at the car wash! If you wal",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0048",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is one of those questions where the obvious \"eco-friendly",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0046",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is one of those fun trick questions:\n\nNormally, for an 80-meter trip (less than a minute's walk), walking would",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0049",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reasoning:\n\nThe distance is a red",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0051",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the whole point is to wash the *car*, so the car has to be at the car wash!",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0050",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the short distance doesn't matter in this case:\n\nThe whole point is to wash the wagon itself. If you walk to the car w",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0052",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive.**\n\nThis isn't really a question about distance \u2014 it's about the purpose of the trip. You're going to the car",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0053",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this seemingly odd answer makes sense:\n\nThe whole point is to wash **the SUV**, not yourself. If you walk to the car wash",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0054",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0055",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe goal is to clean your **car**, so the car needs to be at the car wash. If you walked the 70",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0056",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nThe goal is to wash your **car**, so the car needs to be at the car wash! If you walked",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0057",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 even though 90 meters is a very short distance, the whole point is to clean your minivan. If you walk to the car w",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0058",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** is correct! \u2705",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0059",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the \"cross",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0061",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nThe whole point of going to the car wash is",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0060",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe whole point is to clean your **wagon**, so the wagon needs to",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0063",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is actually a bit of a trick question:\n\nThe whole point is to clean your **SUV**, so the vehicle needs to be *at* the car wash. If you walked those",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0062",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 even though 40 meters is a very short distance!\n\nHere's the key insight: the goal is to clean your **pickup truck**, so",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0065",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive** \u2705\n\nThis is a bit of a trick question! While 70 meters",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0064",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive.**\n\nEven though 60 meters is a very short distance\u2014easily walkable\u2014the whole",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0066",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0068",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the *car* is the thing that",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0067",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 even though 90 meters is a very short distance, the whole point of going to the car wash is to clean your minivan.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0071",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the goal is to wash your *car*, so",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0070",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0072",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe purpose of your trip is to clean the **pickup truck it",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0069",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0073",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0074",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 but not because of the distance!\n\nWhile 60 meters is easily walkable (less than a minute on foot), the whole point is to clean your **co",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0075",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0076",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the fun part of why: the whole point is to get the *car* to the car wash! If you walk there, you",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0077",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why, even though 90 meters is a very short distance:\n\nThe goal is to wash the **minivan**, not",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0078",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nNormally, for a 100",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0079",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: it's not about the distance at all.\n\nA cross",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0080",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: the whole point is to get your *wagon* to the car wash! If you walked there, you",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0081",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the fun part of why:\n\nEven though 30 meters is an incredibly short distance (you could walk it in",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0083",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why:\n\nThe whole point is to wash your **SUV**, so the vehicle needs to be at the car wash. If you walked the 50 meters,",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0082",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0084",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the whole point is to wash your *car*, so the car needs to be at the car wash!\n\nIf you walked the",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0086",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key detail: the thing being cleaned is your car itself. If you walk to the car wash, your hatchback stays at home, and there's nothing to wash",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0085",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: it's not about the distance, it's about what you",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0087",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 even though 90 meters is a very short distance and would normally be an easy walk, the whole point is to clean your **minivan**. The",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0088",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nThe goal is to clean the **car**, not yourself. If you walk to the car",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0089",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "The entity in this context is **the crossover** (a type of vehicle/car). The context describes its condition (covered in m",
+            "pred_gen": "**Drive",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0090",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the whole point is to wash the wagon itself, so the vehicle has to be *at* the car",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0091",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key insight: the whole point is to wash your *car*",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0092",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the key reason: the whole point is to wash your pickup truck, so the truck needs",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0093",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's the reasoning:\n\nWhile 50 meters is an extremely short distance (easily walkable in under a minute), the wh",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0094",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive**\n\n**Reasoning:** This is a bit of a trick question! While 60 meters",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0095",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nThe goal is to clean your **car**, not yourself.",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0096",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why this is a bit of a trick question:\n\nNormally, for a distance of just 80",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0097",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Drive** \u2014 and here's why the distance doesn't matter in this case:\n\nThe wh",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0098",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "The entity this context is about is the **sports car** \u2014 it's the subject of the situ",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        },
+        {
+            "id": "car_wash_0099",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "**Answer: Drive**\n\n**",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "car_wash_0100",
+            "category": "car_wash",
+            "target_entity": "Drive",
+            "pred_mem": "",
+            "pred_gen": "",
+            "acc_mem": 0.0,
+            "acc_gen": 0.0
+        }
+    ]
+}
