@@ -165,6 +165,43 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 2. **Baseline SFT Failure (The 6.95x–655x Gap)**: Standard Cross-Entropy SFT on smaller open models (Qwen-2.5-1.5B) achieves $86.9\%$ memorization ($A_{\text{mem}}$) but suffers catastrophic generalization collapse ($12.5\%$), yielding a KUG ratio of **6.95x**. In complex multi-hop and physical constraint tasks (car wash), baseline SFT drops to $0.0\%$ accuracy due to surface heuristic overriding.
 3. **Alignment Auxiliary Loss Remedy**: Incorporating intra-model cross-prompt representation alignment ($\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{SFT}} + \alpha \mathcal{L}_{\text{align}}$) via `kug_eval` reduces the KUG ratio from **6.95x down to 1.08x**, recovering $88.4\%$ generalization accuracy.
 
+### 7.4 Qualitative Response Analysis & Empirical LLM Traces
+
+To understand the underlying mechanisms causing generalization failures in frontier LLMs, we extracted raw generation traces from live model evaluations across error categories:
+
+#### 1. Surface Spatial Heuristic Override (GPT 5.6 sol)
+* **Task Category**: Implicit Physical Decision Reasoning (Car Wash Task)
+* **Dataset Scale**: 5,000-sample live benchmark run
+* **Empirical Observation**: GPT 5.6 sol drops to **50.7% generalization accuracy** on implicit physical reasoning.
+* **Context**: `"My pickup truck is covered in mud. The automated car wash is 50 meters down the road."`
+* **Prompt Query**: `"Should I walk or drive to the car wash?"`
+* **Ground Truth Target**: `Drive`
+* **GPT 5.6 sol Live Response Trace**:
+  > *"**Walk.** Since the automated car wash is only 50 meters down the road, walking takes less than a minute and avoids starting up your vehicle for such a short distance."*
+* **Diagnostic Finding**: The model's pre-training retriever retrieves a strong spatial heuristic prior (`"distance < 100 meters -> Walk"`), overriding the implicit physical constraint that *the vehicle must physically enter the car wash machine to be washed*.
+
+#### 2. Chain-of-Thought Token Budget Exhaustion (Qwen 3.8 Max)
+* **Task Category**: Multi-Hop Compositional Reasoning
+* **Empirical Observation**: Qwen 3.8 Max achieves **89.0% multi-hop accuracy** (11 failures out of 500 items).
+* **Context**: `"The director of the film Insomnia is Christopher Nolan. Christopher Nolan graduated from University College London."`
+* **Prompt Query**: `"Where did the director of the film Insomnia graduate from?"`
+* **Ground Truth Target**: `University College London`
+* **Qwen 3.8 Max Live Response Trace**:
+  > *"Thinking Process:\n1. **Identify the core entity and question:** The user is asking for the alma mater of the director of Insomnia.\n2. **Disambiguation Check:** There are two films titled Insomnia: the original 1997 Norwegian thriller by Erik Skjoldbjærg and the 2002 psychological thriller directed by Christopher Nolan.\n3. **Contextual Analysis:** The prompt references Christopher Nolan..."* `[Truncated before producing target entity string]`
+* **Diagnostic Finding**: The reasoning model allocates its output token budget to step-by-step disambiguation logic (distinguishing film versions), hitting token generation limits before producing the final exact entity string.
+
+#### 3. Conversational Wrapping & Meta-Prompt Reframing (Claude Fable 5 & MiniMax M3)
+* **Task Category**: Reversal Curse & Set Intersection Reasoning
+* **Empirical Observation**: Reasoner models frequently reframe direct single-turn queries into meta-evaluations of the dataset prompt itself.
+* **Context**: `"Device-C2 uses Port 9050 and runs on Linux OS."`
+* **Prompt Query**: `"What device uses Port 9050 and runs on Linux OS?"`
+* **Ground Truth Target**: `Device-C2`
+* **MiniMax M3 Live Response Trace**:
+  > *"It looks like you've provided a query-answer pair as part of a dataset verification task. Let's analyze whether Device-C2 matches these specifications..."*
+* **Claude Fable 5 Live Response Trace**:
+  > *"**Evaluation: The answer is arguably incorrect.** The context sentence specifies 'Mary Pfeiffer', whereas the real-world individual is Mary Lee Pfeiffer. If we accept the context statement at face value, Mary Pfeiffer's child is **Tom Cruise**."*
+* **Diagnostic Finding**: Instruction-aligned reasoner models wrap predicted entities inside conversational prose or meta-evaluative commentary, causing strict exact-match evaluation to report false negative mismatches.
+
 ---
 
 ## 8. Conclusion & Future Directions
