@@ -153,6 +153,7 @@ We evaluated frontier SOTA models and open-source baselines using `kug_eval`:
 | **Gemini 3.6 Flash (Live Google API)** | Frontier API | 94.8% | 98.2% | **0.97x** | 100.0% | 96.0% | 100.0% | 99.0% | 96.0% |
 | **GLM 5.2 (Live Fireworks API)** | Frontier API | 100.0% | 99.8% | **1.00x** | 100.0% | 99.0% | 100.0% | 100.0% | 100.0% |
 | **Kimi K3 (Live Fireworks API)** | Frontier API | 98.2% | 99.4% | **0.99x** | 98.0% | 100.0% | 100.0% | 99.0% | 100.0% |
+| **Qwen 3.8 Max (Live Fireworks API)** | Frontier API | 100.0% | 97.8% | **1.02x** | 100.0% | 100.0% | 89.0% | 100.0% | 100.0% |
 | **MiniMax M3 (Live Fireworks API)** | Frontier API | 99.4% | 97.6% | **1.02x** | 99.0% | 93.0% | 100.0% | 100.0% | 96.0% |
 | **DeepSeek v4 Flash (Live Fireworks API)** | Frontier API | 99.2% | 97.2% | **1.02x** | 95.0% | 100.0% | 97.0% | 96.0% | 98.0% |
 | **Baseline SFT (Qwen-2.5-1.5B)** | Open Weights | 86.9% | 12.5% | **6.95x** | 0.0% | 33.3% | 0.0% | 0.0% | 50.0% |

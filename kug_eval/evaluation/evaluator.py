@@ -135,7 +135,7 @@ class APIModelEvaluator(BaseEvaluator):
         model_lower = self.model_name.lower()
 
         # Provider routing based on model name prefix
-        if any(kw in model_lower for kw in ["fireworks", "deepseek", "kimi", "glm", "minimax", "llama"]):
+        if any(kw in model_lower for kw in ["fireworks", "deepseek", "kimi", "glm", "minimax", "llama", "qwen"]):
             if os.getenv("FIREWORKS_AI_API_KEY") or os.getenv("FIREWORKS_API_KEY"):
                 return self._call_fireworks_api(prompt)
             elif "deepseek" in model_lower:
@@ -232,6 +232,8 @@ class APIModelEvaluator(BaseEvaluator):
             fireworks_model = "accounts/fireworks/models/glm-5p2"
         elif "minimax" in model_lower:
             fireworks_model = "accounts/fireworks/models/minimax-m3"
+        elif "qwen" in model_lower:
+            fireworks_model = "accounts/fireworks/models/qwen3p7-plus"
         else:
             fireworks_model = "accounts/fireworks/models/deepseek-v4-flash"
 
