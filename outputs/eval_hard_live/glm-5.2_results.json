@@ -1,0 +1,1378 @@
+{
+    "overall_a_mem": 0.92,
+    "overall_a_gen": 1.0,
+    "kug_ratio": 0.92,
+    "total_count": 150,
+    "category_summary": {
+        "gsm_symbolic": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 50
+        },
+        "blocksworld": {
+            "a_mem": 0.76,
+            "a_gen": 1.0,
+            "kug_ratio": 0.76,
+            "count": 50
+        },
+        "graph_reachability": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 50
+        }
+    },
+    "item_results": [
+        {
+            "id": "gsm_symbolic_3",
+            "category": "gsm_symbolic",
+            "target_entity": "4",
+            "pred_mem": "We need answer query. Need parse. User gives context, query asks \"What entity is this about?\" Answer: 4. Need infer? Maybe they expect answer \"bananas\"? But answer given 4? Let's inspect.\n\nContext: Jackson initially bought 28 bananas. It had rained heavily the night before. Jackson gave 26 bananas to Emma, and then multiplied their remaining bananas by 2.\nQuery: What entity is this about?\nAnswer: 4\n\nThis seems weird.",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Jackson have in total now?\"\n    *   Answer: \"4\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the context or a math word problem that",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_5",
+            "category": "gsm_symbolic",
+            "target_entity": "45",
+            "pred_mem": "We need answer to user. Need parse. They provide context, query, answer. Need maybe identify entity? Let's inspect. Context: Noah initially bought 26 mangoes. The market was located next to a quiet library. Noah gave 11 mangoes to Ava, and then multiplied their remaining mangoes by 3. Query: What entity is this about? Answer: 45. Hmm They ask \"What entity is this about?\" Answer given 45. Need maybe respond? We need",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Noah have in total now?\"\n    *   Answer: \"45\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just gives a query and an answer. Usually, in these types of prompts (like in instruction tuning datasets), the user wants me to generate the *context",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_6",
+            "category": "gsm_symbolic",
+            "target_entity": "110",
+            "pred_mem": "We need answer to user. Need parse. They provide context, query, answer. Need maybe identify entity? Let's inspect. Context: Emma initially bought 79 cherries. Note sun shining. Emma gave 24 cherries to Lucas, and then multiplied their remaining cherries by 2. Query: What entity is this about? Answer: 110. Hmm They ask \"What entity is this about?\" Answer given 110. Need maybe respond? Wait user gives context/query/answer.",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Emma have in total now?\"\n    *   Answer: \"110\"\n    *   Goal: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate a word problem or a scenario that fits the query and the answer, or perhaps they are testing if I can",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_2",
+            "category": "gsm_symbolic",
+            "target_entity": "102",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: Liam initially bought 46 oranges. The store manager was wearing a green apron. Liam gave 12 oranges to Noah, and then multiplied their remaining oranges by 3.\nQuery: What entity is this about?\nAnswer: 102\n\nWait, the answer provided is \"102\".\nLet's calculate the remaining oranges: 46 - 12 = 34.\nThen multiplied by 3: 34 * 3",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Liam have in total now?\"\n    *   Answer: \"102\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the context or a math word problem that",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_7",
+            "category": "gsm_symbolic",
+            "target_entity": "65",
+            "pred_mem": "The user wants to identify the entity the query is about based on the context.\nContext: Ethan initially bought 40 plums. The store manager was wearing a green apron. Ethan gave 27 plums to Isabella, and then multiplied their remaining plums by 5.\nQuery: What entity is this about?\nAnswer: 65\n\nWait, the answer provided is \"65\".\nLet's calculate the remaining plums: 40 - 27 = 13.\nThen multiplied by",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Ethan have in total now?\"\n    *   Answer: \"65\"\n    *   Goal: Provide a context/story that logically leads to this specific query and answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate the math word problem that corresponds to the query and answer, or perhaps they are testing if I",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_1",
+            "category": "gsm_symbolic",
+            "target_entity": "96",
+            "pred_mem": "We need answer to user. Need parse. They provide context, query, answer. Need maybe identify entity? Let's inspect. Context: Sophia initially bought 29 apples. Note sun shining. Sophia gave 5 apples to Olivia, and then multiplied their remaining apples by 4. Query: What entity is this about? Answer: 96. Hmm They ask \"What entity is this about?\" Answer: 96. Need respond? Maybe they expect answer? Let's understand task. It might",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Sophia have in total now?\"\n    *   Answer: \"96\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts (like in the GSM8K or similar math word problem datasets), the user is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_4",
+            "category": "gsm_symbolic",
+            "target_entity": "126",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: Olivia initially bought 69 peaches. They took a 15-minute coffee break in between. Olivia gave 6 peaches to Ethan, and then multiplied their remaining peaches by 2.\nQuery: What entity is this about?\nAnswer: 126\n\nWait, the answer is 126. Let's trace the math.\n69 peaches initially.\nGave 6 to Ethan -> 69 - 6 =",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Olivia have in total now?\"\n    *   Answer: \"126\"\n    *   Goal: Create a word problem that logically leads to this answer based on the query.\n\n2.  **Deconstruct the Query & Answer:**\n    *   Subject: Olivia\n    *   Object: Peaches\n    *   Question: How many in total *now*? (Implies a sequence",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_8",
+            "category": "gsm_symbolic",
+            "target_entity": "96",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Ava initially bought 43 pears. It had rained heavily the night before. Ava gave 19 pears to Sophia, and then multiplied their remaining pears by 4.\n    *   Query: What entity is this about?\n    *   Answer: 96\n    *   Goal: Understand the relationship between the context, query, and answer, and determine what \"entity\" the answer \"96\" refers",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Ava have in total now?\"\n    *   Answer: \"96\"\n    *   Goal: Provide a context/story that logically leads to this answer based on the query. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate the math word problem that corresponds to the query and answer, or perhaps they are testing if",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_9",
+            "category": "gsm_symbolic",
+            "target_entity": "-42",
+            "pred_mem": "We need answer query. Need parse. User gives context: Lucas initially bought 15 apples. They took a 15-minute coffee break in between. Lucas gave 29 apples to Liam, and then multiplied their remaining apples by 3. Query: What entity is this about? Answer: -42. Need respond? They likely ask to identify entity? They provide answer -42? Need infer maybe from context, entity is Lucas? But answer says -42. Need understand task. Maybe they want",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Lucas have in total now?\"\n    *   Answer: \"-42\"\n    *   Goal: Provide a response that fits the given query and answer. Wait, the prompt gives me a query and an answer, and I need to... what? Usually, in these types of prompts, I need to generate a short story or context that leads to this answer, or simply acknowledge it. Let me look",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_10",
+            "category": "gsm_symbolic",
+            "target_entity": "216",
+            "pred_mem": "We need answer query. Need parse. User gives context: Isabella initially bought 69 oranges. Market located next to quiet library. Isabella gave 15 oranges to Jackson, and then multiplied their remaining oranges by 4. Query: What entity is this about? Answer: 216. Need respond? They likely expect answer? Need determine entity? Hmm.\n\nWe need infer from context and answer. They provide \"Answer: 216\" maybe as target? Need maybe verify? Let's parse",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Isabella have in total now?\"\n    *   Answer: \"216\"\n    *   Goal: Create a word problem that logically leads to this specific query and answer.\n\n2.  **Deconstruct the Answer & Query:**\n    *   Target number: 216\n    *   Subject: Isabella\n    *   Object: Oranges\n    *   Context: \"in total now",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_11",
+            "category": "gsm_symbolic",
+            "target_entity": "92",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Sophia initially bought 34 bananas. Sun was shining. Sophia gave 11 bananas to Olivia, and then multiplied their remaining bananas by 4.\n    *   Query: What entity is this about?\n    *   Answer: 92\n\n2.  **Analyze the Context & Answer:**\n    *   Sophia bought 34 bananas.\n    *   Sophia gave 11 bananas to Olivia. Remaining bananas = 34",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Sophia have in total now?\"\n    *   Answer: \"92\"\n    *   Goal: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate a math word problem that fits the query and the answer, or perhaps they are testing if I can construct the missing",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_13",
+            "category": "gsm_symbolic",
+            "target_entity": "44",
+            "pred_mem": "The user wants to identify the entity the query is about based on the context.\nContext: Jackson initially bought 27 mangoes. It had rained heavily the night before. Jackson gave 16 mangoes to Emma, and then multiplied their remaining mangoes by 4.\nQuery: What entity is this about?\nAnswer: 44\n\nWait, the answer is 44. Let's calculate the remaining mangoes.\nJackson bought 27 mangoes.\nGave 16 to Emma.\nRemaining =",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Jackson have in total now?\"\n    *   Answer: \"44\"\n    *   Task: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate a word problem or a scenario that fits the query and the answer. Let me construct a plausible math word problem",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_12",
+            "category": "gsm_symbolic",
+            "target_entity": "105",
+            "pred_mem": "We need answer to user. Need parse. They provide context/query/answer? Need determine? Let's read carefully.\n\nContext: Liam initially bought 28 peaches. The store manager was wearing a green apron. Liam gave 7 peaches to Noah, and then multiplied their remaining peaches by 5.\nQuery: What entity is this about?\nAnswer: 105\n\nThis seems like a trick? They ask \"What entity is this about?\" Answer given 105. Need maybe identify",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Liam have in total now?\"\n    *   Answer: \"105\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate the math problem/context that fits the query and answer, or maybe they are just providing a few-shot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_14",
+            "category": "gsm_symbolic",
+            "target_entity": "36",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Olivia initially bought 48 cherries. They took a 15-minute coffee break in between. Olivia gave 30 cherries to Ethan, and then multiplied their remaining cherries by 2.\n    *   Query: What entity is this about?\n    *   Answer: 36\n\n2.  **Analyze the Context & Answer:**\n    *   Olivia starts with 48 cherries.\n    *   Gives",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Olivia have in total now?\"\n    *   Answer: \"36\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate the math word problem that corresponds to the query and answer, or perhaps they are just providing a few",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_15",
+            "category": "gsm_symbolic",
+            "target_entity": "102",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Noah initially bought 73 plums. The market was located next to a quiet library. Noah gave 22 plums to Ava, and then multiplied their remaining plums by 2.\n    *   Query: What entity is this about?\n    *   Answer: 102\n    *   Goal: Determine if the provided answer (102) is correct based on the context and query, or if I need to evaluate",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Noah have in total now?\"\n    *   Answer: \"102\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, I need to generate the context or reasoning that connects the query to the answer, or perhaps the user is providing a few-shot example",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_17",
+            "category": "gsm_symbolic",
+            "target_entity": "114",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Ethan initially bought 61 apples. The store manager was wearing a green apron. Ethan gave 23 apples to Isabella, and then multiplied their remaining apples by 3.\n    *   Query: What entity is this about?\n    *   Answer: 114\n    *   Goal: Determine if the provided answer (114) is correct based on the context and query, or if I need to generate the correct",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Ethan have in total now?\"\n    *   Answer: \"114\"\n    *   Goal: Provide a response that matches the given answer. Since this is a reverse-engineering or context-completion task (often seen in few-shot prompting or dataset generation), I need to construct a short story/scenario that logically leads to the answer \"114\".\n\n2.  **Determine the constraints & context:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_19",
+            "category": "gsm_symbolic",
+            "target_entity": "135",
+            "pred_mem": "The user wants to identify the entity the context is about.\nContext: Lucas initially bought 52 bananas. They took a 15-minute coffee break in between. Lucas gave 7 bananas to Liam, and then multiplied their remaining bananas by 3.\nQuery: What entity is this about?\nAnswer: 135\n\nWait, the answer is 135. Let's calculate the remaining bananas multiplied by 3.\n52 - 7 = 45.\n45 * 3 = 135.\nSo the",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Lucas have in total now?\"\n    *   Answer: \"135\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt format is just \"Query: [query] \\n Answer: [answer]\". Usually, this implies I need to generate the missing context or explain the math",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_16",
+            "category": "gsm_symbolic",
+            "target_entity": "224",
+            "pred_mem": "We need answer to user. Need parse. They provide context, query, answer. Need maybe identify entity? Let's inspect. Context: Emma initially bought 63 pears. Sun shining irrelevant. Emma gave 7 pears to Lucas, then multiplied their remaining pears by 4. Query: What entity is this about? Answer: 224. Hmm They ask \"What entity is this about?\" Answer: 224. Need maybe respond with entity? This seems like a task",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Emma have in total now?\"\n    *   Answer: \"224\"\n    *   Task: Provide a context/story that logically leads to this answer based on the query. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, I need to generate the math problem or context that fits the query and answer, or simply acknowledge it. Let me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_20",
+            "category": "gsm_symbolic",
+            "target_entity": "40",
+            "pred_mem": "We need answer query. Need parse. User gives context, query, answer? They ask \"What entity is this about? Answer: 40\" Hmm Need infer maybe they want identify entity? Let's inspect.\n\nContext: Isabella initially bought 27 peaches. The market was located next to a quiet library. Isabella gave 17 peaches to Jackson, and then multiplied their remaining peaches by 4.\nQuery: What entity is this about?\nAnswer: 40\n\nThis seems",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Isabella have in total now?\"\n    *   Answer: \"40\"\n    *   Goal: Provide a context/story that logically leads to this answer based on the query. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate a math word problem that fits the query and the answer, or perhaps they are testing",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_18",
+            "category": "gsm_symbolic",
+            "target_entity": "51",
+            "pred_mem": "We need answer query. Need parse context. \"What entity is this about?\" Answer: 51. Hmm They ask entity? Context: Ava initially bought 23 oranges. It had rained heavily the night before. Ava gave 6 oranges to Sophia, and then multiplied their remaining oranges by 3. Query: What entity is this about? Answer: 51. Need maybe identify entity? They gave answer 51, which is result of remaining oranges (23-6=17)*3",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Ava have in total now?\"\n    *   Answer: \"51\"\n    *   Task: Generate a math word problem that logically leads to this query and answer.\n\n2.  **Deconstruct the Problem Requirements:**\n    *   Character: Ava\n    *   Item: Oranges\n    *   Final state: Total number of oranges = 51\n    *   Action: \"now",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_22",
+            "category": "gsm_symbolic",
+            "target_entity": "76",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Liam initially bought 35 cherries. The store manager was wearing a green apron. Liam gave 16 cherries to Noah, and then multiplied their remaining cherries by 4.\n    *   Query: What entity is this about?\n    *   Answer: 76\n    *   Goal: Understand the relationship between the context, query, and answer, and determine if the answer is correct or what the prompt",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Liam have in total now?\"\n    *   Answer: \"76\"\n    *   Goal: Create a word problem or context that logically leads to this answer.\n\n2.  **Determine the constraints & context:**\n    *   The subject is \"Liam\".\n    *   The objects are \"cherries\".\n    *   The final answer must be exactly 76.\n    *",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_24",
+            "category": "gsm_symbolic",
+            "target_entity": "0",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Olivia initially bought 24 pears. They took a 15-minute coffee break in between. Olivia gave 24 pears to Ethan, and then multiplied their remaining pears by 3.\n    *   Query: What entity is this about?\n    *   Answer: 0\n    *   Goal: Understand why the answer is \"0\" and what the query is actually asking in the context of the provided text",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Olivia have in total now?\"\n    *   Answer: \"0\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this answer based on the query. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, this implies I need to write a short math word problem that fits the query and the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_23",
+            "category": "gsm_symbolic",
+            "target_entity": "60",
+            "pred_mem": "We need answer query. Need parse. User gives context, query, answer. Need maybe identify entity? They ask \"What entity is this about?\" Answer: 60. Need respond? Let's understand task. They provide context: Jackson initially bought 41 plums. It had rained heavily the night before. Jackson gave 26 plums to Emma, and then multiplied their remaining plums by 4. Query: What entity is this about? Answer: 60. We need maybe",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Jackson have in total now?\"\n    *   Answer: \"60\"\n    *   Goal: Create a word problem that logically leads to this answer based on the query.\n\n2.  **Deconstruct the components:**\n    *   Character: Jackson\n    *   Item: Plums\n    *   Final state: \"in total now\" (implies a sequence of events: starting",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_25",
+            "category": "gsm_symbolic",
+            "target_entity": "180",
+            "pred_mem": "We need answer query. Need parse. User gives context, query, answer. Need maybe identify entity? Let's inspect. Context: Noah initially bought 46 apples. The market was located next to a quiet library. Noah gave 10 apples to Ava, and then multiplied their remaining apples by 5. Query: What entity is this about? Answer: 180. Hmm They ask \"What entity is this about?\" Answer: 180. Need maybe respond? Wait likely task is to evaluate",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Noah have in total now?\"\n    *   Answer: \"180\"\n    *   Goal: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate a math word problem or a scenario that fits the query and the answer. Let me re-read carefully. Ah,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_26",
+            "category": "gsm_symbolic",
+            "target_entity": "150",
+            "pred_mem": "We need answer query. Need parse. User gives context: Emma initially bought 63 oranges. Note sun shining. Emma gave 13 oranges to Lucas, and then multiplied their remaining oranges by 3. Query: What entity is this about? Answer: 150. Need respond? They provide answer? We need likely identify entity? Let's understand task. They ask \"What entity is this about?\" Answer: 150. Hmm maybe they expect answer \"oranges\"? But answer says 150",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Emma have in total now?\"\n    *   Answer: \"150\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the context or a math word problem that",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_27",
+            "category": "gsm_symbolic",
+            "target_entity": "54",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Ethan initially bought 56 bananas. The store manager was wearing a green apron. Ethan gave 29 bananas to Isabella, and then multiplied their remaining bananas by 2.\n    *   Query: What entity is this about?\n    *   Answer: 54\n\n2.  **Analyze the Context & Answer:**\n    *   Ethan bought 56 bananas.\n    *   Gave 29 to Is",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Ethan have in total now?\"\n    *   Answer: \"54\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate a word problem or a context that fits the query and answer, or perhaps they are testing if I can",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_28",
+            "category": "gsm_symbolic",
+            "target_entity": "152",
+            "pred_mem": "The user wants to identify the entity the context is about, based on the provided context, query, and answer.\nContext: Ava initially bought 44 peaches. It had rained heavily the night before. Ava gave 6 peaches to Sophia, and then multiplied their remaining peaches by 4.\nQuery: What entity is this about?\nAnswer: 152\n\nWait, the answer is 152. Let's trace the math.\nAva bought 44 peaches.\nGave",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Ava have in total now?\"\n    *   Answer: \"152\"\n    *   Goal: Create a word problem or context that logically leads to this specific query and answer.\n\n2.  **Deconstruct the Elements:**\n    *   Character: Ava\n    *   Item: Peaches\n    *   Action: Acquiring/losing peaches (implied by \"in total now",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_29",
+            "category": "gsm_symbolic",
+            "target_entity": "106",
+            "pred_mem": "The user wants to identify the entity the context is about.\nContext: Lucas initially bought 66 mangoes. They took a 15-minute coffee break in between. Lucas gave 13 mangoes to Liam, and then multiplied their remaining mangoes by 2.\nQuery: What entity is this about?\nAnswer: 106\n\nWait, the answer is 106. Let's calculate the number of mangoes Lucas has at the end.\nInitial: 66\nGave 13 to Liam:",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Lucas have in total now?\"\n    *   Answer: \"106\"\n    *   Task: Generate a math word problem that logically leads to this query and answer.\n\n2.  **Determine the constraints & elements:**\n    *   Character: Lucas\n    *   Item: Mangoes\n    *   Final state: \"in total now\" (implies some transactions happened: gaining",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_30",
+            "category": "gsm_symbolic",
+            "target_entity": "76",
+            "pred_mem": "The user wants to identify the entity the query is asking about based on the provided context and answer.\nContext: Isabella initially bought 42 cherries. The market was located next to a quiet library. Isabella gave 23 cherries to Jackson, and then multiplied their remaining cherries by 4.\nQuery: What entity is this about?\nAnswer: 76\n\nWait, the answer is 76. Let's calculate the remaining cherries: 42 - 23 = 19.",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Isabella have in total now?\"\n    *   Answer: \"76\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, this implies I need to generate the missing context (a math word problem) that fits the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_31",
+            "category": "gsm_symbolic",
+            "target_entity": "85",
+            "pred_mem": "We need answer to user. Need parse. They provide context, query, answer. Need maybe identify entity? Let's inspect. Context: Sophia initially bought 42 plums. Note sun shining. Sophia gave 25 plums to Olivia, and then multiplied their remaining plums by 5. Query: What entity is this about? Answer: 85. Huh. They ask \"What entity is this about?\" Answer: 85. Need respond? Maybe they expect validation? We need",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Sophia have in total now?\"\n    *   Answer: \"85\"\n    *   Goal: Create a word problem that logically leads to this answer based on the query.\n\n2.  **Deconstruct the Query & Answer:**\n    *   Subject: Sophia\n    *   Object: Plums\n    *   Action/State: Has in total now (implies a sequence of events",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_33",
+            "category": "gsm_symbolic",
+            "target_entity": "60",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Jackson initially bought 33 apples. It had rained heavily the night before. Jackson gave 13 apples to Emma, and then multiplied their remaining apples by 3.\n    *   Query: What entity is this about?\n    *   Answer: 60\n    *   Goal: Understand the relationship between the context, query, and answer, and determine what \"entity\" refers to in this specific setup, or rather",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Jackson have in total now?\"\n    *   Answer: \"60\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the word problem or context that fits the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_21",
+            "category": "gsm_symbolic",
+            "target_entity": "192",
+            "pred_mem": "We need answer query. Need parse. User gives context: Sophia initially bought 73 mangoes. Note sun shining. Sophia gave 25 mangoes to Olivia, and then multiplied their remaining mangoes by 4. Query: What entity is this about? Answer: 192. Need respond? We need infer maybe they ask \"What entity is this about?\" Answer given 192. Need maybe identify entity? Let's parse.\n\nThis is weird. Context includes irrelevant sun. Sophia bought 73",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Sophia have in total now?\"\n    *   Answer: \"192\"\n    *   Task: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a query and an answer. Usually, in these types of prompts, the user wants me to generate a math word problem that fits the query and the answer, or perhaps they are testing if I can reverse-engine",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_32",
+            "category": "gsm_symbolic",
+            "target_entity": "200",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: Liam initially bought 65 pears. The store manager was wearing a green apron. Liam gave 25 pears to Noah, and then multiplied their remaining pears by 5.\nQuery: What entity is this about?\nAnswer: 200\n\nWait, the answer provided is \"200\".\nLet's calculate the remaining pears: 65 - 25 = 40.\nThen multiplied by 5:",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Liam have in total now?\"\n    *   Answer: \"200\"\n    *   Goal: Provide a response that matches the given answer. Wait, the prompt implies I need to generate a context or a math problem that leads to this answer, or simply acknowledge the answer. Let me re-read the prompt format. It looks like a few-shot prompt or a direct question-answer pair where the user",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_34",
+            "category": "gsm_symbolic",
+            "target_entity": "72",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Olivia initially bought 46 oranges. They took a 15-minute coffee break in between. Olivia gave 28 oranges to Ethan, and then multiplied their remaining oranges by 4.\n    *   Query: What entity is this about?\n    *   Answer: 72\n    *   Goal: Determine if the provided answer (72) is correct based on the context and query, or if I need to explain the relationship",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Olivia have in total now?\"\n    *   Answer: \"72\"\n    *   Task: Generate a math word problem that logically leads to this query and answer.\n\n2.  **Deconstruct the Problem:**\n    *   Character: Olivia\n    *   Item: Oranges\n    *   Final state: Total of 72 oranges.\n    *   Need to create a sequence of events",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_37",
+            "category": "gsm_symbolic",
+            "target_entity": "120",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext: Ethan initially bought 80 mangoes. The store manager was wearing a green apron. Ethan gave 20 mangoes to Isabella, and then multiplied their remaining mangoes by 2.\nQuery: What entity is this about?\nAnswer: 120\n\nWait, the answer provided is \"120\".\nLet's trace the math:\nEthan bought 80 mangoes.\nGave 20 to Isabella ->",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Ethan have in total now?\"\n    *   Answer: \"120\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate a word problem or a context that fits the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_35",
+            "category": "gsm_symbolic",
+            "target_entity": "230",
+            "pred_mem": "We need answer query. Need parse context. \"Noah initially bought 69 bananas. The market was located next to a quiet library. Noah gave 23 bananas to Ava, and then multiplied their remaining bananas by 5. What entity is this about? Answer: 230\" Need determine entity? They ask \"What entity is this about?\" Answer given 230. Need maybe identify entity in context? Let's inspect. Context: Noah initially bought 69 bananas. Market located next to quiet",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Noah have in total now?\"\n    *   Answer: \"230\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the context or a math word problem that",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_38",
+            "category": "gsm_symbolic",
+            "target_entity": "39",
+            "pred_mem": "The user wants to identify the entity the context is about.\nContext: Ava initially bought 21 cherries. It had rained heavily the night before. Ava gave 8 cherries to Sophia, and then multiplied their remaining cherries by 3.\nQuery: What entity is this about?\nAnswer: 39\n\nWait, the answer provided is \"39\". Let's calculate the remaining cherries.\nAva bought 21 cherries.\nGave 8 to Sophia.\nRemaining = 21",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Ava have in total now?\"\n    *   Answer: \"39\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate the context or the math problem that fits the query and answer. Let me re-read carefully. \"",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_40",
+            "category": "gsm_symbolic",
+            "target_entity": "30",
+            "pred_mem": "We need answer query. Need parse. User gives context, query, answer? They ask \"What entity is this about? Answer: 30\" Hmm Need infer maybe they want identify entity? Let's inspect.\n\nContext: Isabella initially bought 23 pears. The market was located next to a quiet library. Isabella gave 17 pears to Jackson, and then multiplied their remaining pears by 5.\nQuery: What entity is this about?\nAnswer: 30\n\nThis seems",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Isabella have in total now?\"\n    *   Answer: \"30\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate a word problem or a scenario that fits the query and the answer. Let me re-read carefully",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_41",
+            "category": "gsm_symbolic",
+            "target_entity": "212",
+            "pred_mem": "We need answer query. Need parse. User gives context: Sophia initially bought 74 apples. Note sun shining. Sophia gave 21 apples to Olivia, and then multiplied their remaining apples by 4. Query: What entity is this about? Answer: 212. Need respond? We need infer maybe they ask \"What entity is this about?\" Answer given 212. Need maybe validate? Let's parse.\n\nThis is weird. Context has math: Sophia bought 74 apples, gave 21",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Sophia have in total now?\"\n    *   Answer: \"212\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this answer. Wait, the prompt just says \"Query: ... Answer: ...\". Usually, in these types of prompts, the user wants me to generate the word problem or context that fits the query and",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_36",
+            "category": "gsm_symbolic",
+            "target_entity": "147",
+            "pred_mem": "We need answer query. Need parse. User gives context: Emma initially bought 61 peaches. Note sun shining. Emma gave 12 peaches to Lucas, and then multiplied their remaining peaches by 3. Query: What entity is this about? Answer: 147. Need respond? They likely ask identify entity? Need infer from context and answer given 147. We need produce answer maybe \"147 peaches\"? Let's inspect.\n\nWe are GLM, need answer to query.",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Emma have in total now?\"\n    *   Answer: \"147\"\n    *   Task: Generate a context/story that logically leads to this specific query and answer.\n\n2.  **Deconstruct the Query & Answer:**\n    *   Subject: Emma\n    *   Object: Peaches\n    *   Action/State: Has in total now (implies a sequence of events:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_39",
+            "category": "gsm_symbolic",
+            "target_entity": "25",
+            "pred_mem": "This is in-context learning. We should follow the format of given input rigorously. We should be in \"continuation mode\".\n\nThe user provides a context, a query, and an answer.\nContext: Lucas initially bought 35 plums. They took a 15-minute coffee break in between. Lucas gave 30 plums to Liam, and then multiplied their remaining plums by 5.\nQuery: What entity is this about?\nAnswer: 25\n\nWait, the answer is \"25",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Lucas have in total now?\"\n    *   Answer: \"25\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate the context/math problem that fits the query and answer, or maybe they are just providing a few-shot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_42",
+            "category": "gsm_symbolic",
+            "target_entity": "-20",
+            "pred_mem": "We need answer query. Need parse context. \"Liam initially bought 16 oranges. The store manager was wearing a green apron. Liam gave 26 oranges to Noah, and then multiplied their remaining oranges by 2. Query: What entity is this about? Answer: -20\"\n\nWe need infer? They ask \"What entity is this about?\" Answer given \"-20\". Need maybe identify entity? Hmm context includes irrelevant store manager. Liam bought 16 oranges, gave 26 to Noah",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Liam have in total now?\"\n    *   Answer provided: \"-20\"\n    *   Goal: Determine if the provided answer is correct based on the query, or if this is a prompt to generate a context where the answer makes sense. Wait, the prompt format is just \"Query: [query] \\n Answer: [answer]\". This looks like a few-shot prompt or a task where",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_45",
+            "category": "gsm_symbolic",
+            "target_entity": "32",
+            "pred_mem": "We need answer query. Need parse context. \"Noah initially bought 35 mangoes. The market was located next to a quiet library. Noah gave 19 mangoes to Ava, and then multiplied their remaining mangoes by 2. What entity is this about? Answer: 32\" Hmm They ask entity? Answer given 32? Need infer maybe they want answer to arithmetic? Let's parse.\n\nContext: Noah bought 35 mangoes. Gave 19 to Ava, remaining",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many mangoes does Noah have in total now?\"\n    *   Answer: \"32\"\n    *   Task: The user provides a query and an answer. I need to generate a context/story that logically leads to this query and answer. Wait, the prompt just gives a query and an answer. Usually, in these types of prompts (like in the BIG-bench or similar datasets), the user wants me to",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_44",
+            "category": "gsm_symbolic",
+            "target_entity": "75",
+            "pred_mem": "We need answer query. Need parse. User gives context: Olivia initially bought 29 peaches. They took a 15-minute coffee break in between. Olivia gave 14 peaches to Ethan, and then multiplied their remaining peaches by 5. Query: What entity is this about? Answer: 75.\n\nWe need respond? They provide answer? Need infer maybe ask \"What entity is this about?\" Answer: 75. We need maybe validate? Let's understand. They ask \"",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many peaches does Olivia have in total now?\"\n    *   Answer: \"75\"\n    *   Goal: Create a math word problem that logically leads to this answer.\n\n2.  **Deconstruct the Problem:**\n    *   Subject: Olivia\n    *   Object: Peaches\n    *   Final state: 75 peaches in total.\n    *   Need to construct a narrative with initial",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_47",
+            "category": "gsm_symbolic",
+            "target_entity": "284",
+            "pred_mem": "We need answer query. Need parse context. \"Ethan initially bought 79 plums. The store manager was wearing a green apron. Ethan gave 8 plums to Isabella, and then multiplied their remaining plums by 4. What entity is this about? Answer: 284\" Hmm They ask \"What entity is this about?\" Answer given 284. Need infer? Maybe they want identify entity? Let's inspect. Context: Ethan initially bought 79 plums",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many plums does Ethan have in total now?\"\n    *   Answer: \"284\"\n    *   Goal: Provide a context/story that logically leads to this answer based on the query. Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts (like GSM8k or similar math word problem datasets), the user provides a question and an answer, and expects the reasoning",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_48",
+            "category": "gsm_symbolic",
+            "target_entity": "165",
+            "pred_mem": "The user wants to identify the entity the context is about.\nContext: Ava initially bought 79 pears. It had rained heavily the night before. Ava gave 24 pears to Sophia, and then multiplied their remaining pears by 3.\nQuery: What entity is this about?\nAnswer: 165\n\nWait, the answer is 165. Let's calculate the remaining pears.\nAva bought 79 pears.\nGave 24 to Sophia.\nRemaining pears =",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many pears does Ava have in total now?\"\n    *   Answer: \"165\"\n    *   Goal: Create a word problem that logically leads to this answer based on the query.\n\n2.  **Deconstruct the Query & Answer:**\n    *   Subject: Ava\n    *   Object: Pears\n    *   Action/State: Has in total now (implies a sequence of events",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_46",
+            "category": "gsm_symbolic",
+            "target_entity": "81",
+            "pred_mem": "We need answer to user. Need parse. They provide context/query/answer? Need likely ask identify entity? Let's inspect. Context: Emma initially bought 48 cherries. Note sun shining. Emma gave 21 cherries to Lucas, and then multiplied their remaining cherries by 3. Query: What entity is this about? Answer: 81. Hmm They ask \"What entity is this about?\" Answer: 81. Need respond? Maybe they expect answer? Let's understand task",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many cherries does Emma have in total now?\"\n    *   Answer: \"81\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, I need to generate the story/context that fits the query and answer, or perhaps the user is just providing a few-shot example and",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_49",
+            "category": "gsm_symbolic",
+            "target_entity": "54",
+            "pred_mem": "We need answer query. Need parse. User gives context, query asks \"What entity is this about?\" Answer: 54. Need maybe identify entity? Hmm weird. Need respond? Let's inspect.\n\nContext: Lucas initially bought 34 apples. They took a 15-minute coffee break in between. Lucas gave 16 apples to Liam, and then multiplied their remaining apples by 3.\nQuery: What entity is this about?\nAnswer: 54\n\nThey provide answer 54. Maybe they",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many apples does Lucas have in total now?\"\n    *   Answer: \"54\"\n    *   Goal: Provide a context/story that logically leads to this answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate a math word problem that fits the query and answer, or perhaps they are testing if I can reverse-engineer a",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_50",
+            "category": "gsm_symbolic",
+            "target_entity": "-36",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: Isabella initially bought 15 oranges. The market was located next to a quiet library. Isabella gave 24 oranges to Jackson, and then multiplied their remaining oranges by 4.\n    *   Query: What entity is this about?\n    *   Answer: -36\n    *   Goal: Determine if the provided answer (-36) is correct based on the context and query, or if I need to provide a",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many oranges does Isabella have in total now?\"\n    *   Answer: \"-36\"\n    *   Goal: Generate a math word problem that logically leads to this query and answer.\n\n2.  **Deconstruct the Answer:**\n    *   The answer is -36. This implies a scenario involving debt, temperature, elevation, or a deficit of items (like owing oranges, which is a bit abstract but",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_51",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\n- Initial state: Block-Yellow on table, Block-Red on Block-Yellow, Block-Orange on table, Block-Blue on Block-Orange.\n- Step 1: Unstack Block-Red from Block-Yellow, place on table.\n- Step 2: Pick up Block-Orange, stack on Block-Red.\n- Step 3: Pick up Block-Blue, stack on Block-Yellow.",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Blue\". Need infer task? Maybe they want us to verify? We need respond maybe just answer? Let's parse. User says:\n\nQuery: Which block is directly on top of Block-Yellow in the final state?\nAnswer: Block-Blue\n\nThis looks like they are giving a query and answer. Maybe in these tasks, we need output answer only? But they already gave answer. We need maybe confirm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_52",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "We need answer to user. Need parse. They provide context and query \"What entity is this about?\" Answer: Block-Yellow. We need likely just answer? Need infer maybe they ask identify entity? They already gave answer. We need respond maybe \"Block-Yellow\". Need be careful. Let's inspect prompt. It says Context: ... Query: What entity is this about? Answer: Block-Yellow. This is maybe from dataset where answer given. We as assistant should output answer? The",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Yellow\". Maybe they expect just answer? Need parse. We are GLM, need respond maybe \"Block-Yellow\". But need ensure? Let's inspect. The prompt includes query and answer. Maybe they want us to verify? It says Query: ... Answer: ... We need maybe output answer only.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_53",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\n- Initial state: Block-Orange on table, Block-Red on Block-Orange, Block-Purple on table, Block-Green on Block-Purple.\n- Actions:\n  1. Unstack Block-Red from Block-Orange, place on table.\n  2. Pick up Block-Purple, stack on Block-Red.\n  3. Pick up Block-Green, stack on Block-Orange.",
+            "pred_gen": "The user wants to know which block is directly on top of Block-Orange in the final state.\nThe answer provided is \"Block-Green\".\nWait, the user provided the query and the answer. I need to output the answer? Or maybe I should just provide the answer as requested.\nLooking at the prompt: \"Query: Which block is directly on top of Block-Orange in the final state?\\nAnswer: Block-Green\"\nThis looks like a few-shot example or a direct question-answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_54",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Wait, let me carefully read the query and answer.\n\nThe context describes a series of actions with blocks: Block-Yellow, Block-Red, Block-Blue, Block-Orange.\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is: \"Block-Orange\"\n\nHmm, let me think about this. The context describes operations on multiple blocks. But the final action is \"pick up Block-Orange from the table and stack Block-Orange on top of Block-Yellow.\"",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Orange\". Need infer task? Maybe they want us to verify? We need respond maybe just answer. But we need know context? There is no prior conversation. The user gives query and answer. Maybe they expect final answer? We need maybe output \"Block-Orange\". But let's analyze.\n\nThe prompt: \"Query: Which block is directly on top of Block-Yellow in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_55",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer query. Need parse context. They ask \"What entity is this about?\" Answer given Block-Orange. We need maybe identify entity? Let's inspect. Context: Initial state: Purple table, Yellow on Purple, Blue table, Orange on Blue. First unstack Yellow from Purple and place Yellow on table. Next pick up Blue from table and stack Blue on top of Yellow. Finally pick up Orange from table and stack Orange on top of Purple. Query: What entity is this about",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? They ask \"Query: Which block is directly on top of Block-Purple in the final state? Answer: Block-Orange\". Maybe they expect us to verify? We need respond? We need parse: They provided query and answer. Maybe in dataset, we need answer with just block? The answer already given. We need produce final answer maybe \"Block-Orange\". But let's examine: The prompt says",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_57",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Blue, Green, Purple).\n    *   Initial state: Orange on table, Blue on Orange, Green on table, Purple on Green.\n    *   Actions:\n        1. Unstack Blue from Orange, put Blue on table.\n        2. Pick up Green, stack Green on Blue.\n        3. Pick up Purple, stack Purple on Orange.\n    *",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Purple\". Maybe they expect just answer? Need understand context. We have no blocks world details. They provided answer. We need maybe respond with answer. But as assistant, maybe need verify? Let's parse: Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-P",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_58",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Orange. Need produce answer? We need infer maybe from context? Let's parse. Initial: Purple table, Green on Purple, Yellow table, Orange on Yellow. First unstack Green from Purple and place Green on table. Next pick up Yellow from table and stack Yellow on Green. Finally pick up Orange from table and stack Orange on Purple. Query: What entity is",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? They ask \"Query: Which block is directly on top of Block-Purple in the final state? Answer: Block-Orange\". Maybe they expect us to verify? We need respond? We need parse: They provided query and answer. Maybe in dataset, we need answer with just block? The answer already given. We need produce final answer maybe \"Block-Orange\". But let's examine: The prompt says",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_59",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Wait, let me carefully read the query and answer.\n\nThe context describes a series of actions with blocks: Block-Yellow, Block-Red, Block-Blue, Block-Orange.\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is: \"Block-Orange\"\n\nHmm, let me think about this. The context describes operations on multiple blocks. But the final action is \"pick up Block-Orange from the table and stack Block-Orange on top of Block-Yellow.\"",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Orange\". Need infer task? Maybe they want us to verify? We need respond maybe just answer. But we need know context? There is no prior conversation. The user gives query and answer. Maybe they expect final answer? We need maybe output \"Block-Orange\". But let's analyze.\n\nThe prompt: \"Query: Which block is directly on top of Block-Yellow in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_60",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Wait, let me carefully read the query and context.\n\nThe context describes a series of actions involving blocks: Block-Red, Block-Green, Block-Purple, and Block-Orange.\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is \"Block-Orange\".\n\nHmm, let me think about this. The context describes actions involving multiple blocks. The final action is \"we pick up Block-Orange from the table and stack Block-Orange on top of Block-Red.\"",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Red in the final state?\nAnswer: Block-Orange\" They likely expect answer only? But as GLM, maybe need respond with answer. However we need ensure if there is hidden task? We only have this. Maybe from dataset where answer is given? We need output",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_62",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer to user. Need parse. They provide context and query \"What entity is this about?\" Answer: Block-Orange. We need likely just answer? Need maybe identify entity. We are GLM, should respond with answer. Need ensure no extra? The prompt includes \"Answer: Block-Orange\" maybe they expect that. We need produce final answer maybe \"Block-Orange\". Let's inspect. Context: Initial state... actions... Query: What entity is this about? Answer:",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Red in the final state?\nAnswer: Block-Orange\" They likely expect answer only? But as GLM, maybe need respond with answer. However we need ensure if there is hidden task? We only have this. Maybe from dataset where answer is given? We need output",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_56",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. Answer given: Block-Red. We need produce answer? The prompt includes Context, Query, Answer. Maybe we need verify? We are to respond with answer. Need infer entity? Let's parse.\n\nInitial: Orange on table, Purple on Orange, Yellow on table, Red on Yellow. Actions:\n1 unstack Purple from Orange and place Purple on table.\n2 pick up Yellow from table and stack Yellow on",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\". We need respond? Maybe they expect final answer only? We need parse context? There is no prior conversation. They provided query and answer. Maybe need verify? We need answer: Block-Red. But maybe as AI should just output answer. Need be careful: They might be asking to answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_61",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Blue, Purple, Red).\n    *   Initial state: Orange on table, Blue on Orange, Purple on table, Red on Purple.\n    *   Actions:\n        1. Unstack Blue from Orange, put Blue on table.\n        2. Pick up Purple, stack Purple on Blue.\n        3. Pick up Red from table, stack Red on Orange.",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\". We need respond? Maybe they expect final answer only? We need parse context? There is no prior conversation. They provided query and answer. Maybe need verify? We need answer: Block-Red. But maybe as AI should just output answer. Need be careful: They might be asking to answer",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_63",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Wait, let me carefully read the query and context.\n\nThe context describes a series of actions involving blocks: Block-Red, Block-Green, Block-Purple, and Block-Orange.\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is \"Block-Orange\".\n\nHmm, let me think about this. The context describes actions involving multiple blocks. The final action is \"we pick up Block-Orange from the table and stack Block-Orange on top of Block-Red.\"",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Red in the final state?\nAnswer: Block-Orange\" They likely expect answer only? But as GLM, maybe need respond with answer. However we need ensure if there is hidden task? We only have this. Maybe from dataset where answer is given? We need output",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_64",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Red. Need produce answer? We need infer maybe from context? Let's parse. Initial: Blue table, Green on Blue, Yellow table, Red on Yellow. Actions: unstack Green from Blue onto table. pick up Yellow from table and stack Yellow on Green. pick up Red from table and stack Red on Blue. Wait after first, Red still on Yellow?",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Red\". Need infer task? We need respond maybe just answer? We need parse context? There is no prior conversation. The user gives query and answer. Maybe they expect us to verify? We need produce final answer? Let's inspect: \"Query: Which block is directly on top of Block-Blue in the final state?\\nAnswer: Block-Red\". They might be asking us to answer query,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_65",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. Answer given: Block-Red. Need produce answer? We are to respond to user? They provided context, query, answer. Maybe need just answer? Let's parse. They ask \"What entity is this about?\" Answer: Block-Red. We need likely output answer. But maybe they expect identify entity in final action? Let's inspect.\n\nWe are GLM, need answer based on context. The query",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\". We need respond? Maybe they expect final answer only? We need parse context? There is no prior conversation. They provided query and answer. Maybe need verify? We need answer: Block-Red. But maybe as AI should just output answer. Need be careful: They might be asking to answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_66",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Answer given: Block-Red. We need produce answer? We are to respond to user? They provided context and query and answer. Maybe need just answer? Let's parse.\n\nThe user message: \n\"Context: Initial state: Block-Yellow is on the table, Block-Purple is on top of Block-Yellow, Block-Blue is on the table, and Block-Red is",
+            "pred_gen": "We need answer to user query. They provide \"Query: Which block is directly on top of Block-Yellow in the final state? Answer: Block-Red\". This seems maybe they want us to answer? But they already gave answer. Need infer task. Maybe this is from a dataset where we need produce answer only? The prompt includes query and answer. Maybe they expect us to confirm? We need respond with answer? Let's parse.\n\nUser says:\nQuery: Which block is directly on top",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_68",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "Wait, let me read the query and answer carefully.\n\nQuery: What entity is this about?\nAnswer: Block-Green\n\nHmm, the context describes a sequence of actions involving multiple blocks: Yellow, Purple, Red, Green.\n\nThe query asks \"What entity is this about?\" and the answer is \"Block-Green\".\n\nBut the context is about multiple blocks and their movements. Let me re-read.\n\nActually, looking at the final state: Block-Green is stacked on top of Block-Yellow",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Yellow in the final state?\nAnswer: Block-Green\" They likely expect answer only? But as GLM, maybe need respond with answer. However we need ensure if there is hidden task? We only have query and answer. Maybe they want us to answer based on some",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_67",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\n- Initial state: Block-Red on table, Block-Yellow on Block-Red, Block-Green on table, Block-Blue on Block-Green.\n- Action 1: Unstack Block-Yellow from Block-Red, place on table.\n- Action 2: Pick up Block-Green from table, stack on Block-Yellow.\n- Action 3: Pick up Block-Blue from table, stack on",
+            "pred_gen": "We need answer to user query. Need infer from? They provide \"Query: Which block is directly on top of Block-Red in the final state? Answer: Block-Blue\". Maybe they want us to respond? We need parse. The user message includes query and answer. Maybe they expect final answer? We need maybe just output answer? Let's inspect. They ask \"Query: Which block is directly on top of Block-Red in the final state? Answer: Block-Blue\". It",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_69",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Blue. Need produce answer? We need infer maybe from context? Let's parse. Initial: Purple table, Red on Purple, Orange table, Blue on Orange. Actions: unstack Red from Purple onto table. pick up Orange from table and stack Orange on Red. Finally pick up Blue from table and stack Blue on Purple. Query: What entity is this about?",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Which block is directly on top of Block-Purple in the final state? Answer: Block-Blue\". Maybe they expect just answer? Need parse context. We have no blocks world details. They provided query and answer. Maybe need respond with answer? We need maybe validate? Let's inspect. The prompt: \"Query: Which block is directly on top of Block-Purple in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_70",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Purple, Green, Red, Yellow).\n    *   Initial state: Purple on table, Green on Purple, Red on table, Yellow on Red.\n    *   Actions:\n        1. Unstack Green from Purple, put Green on table.\n        2. Pick up Red, stack Red on Green.\n        3. Pick up Yellow, stack Yellow on Purple.\n    *",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Which block is directly on top of Block-Purple in the final state? Answer: Block-Yellow\". Maybe they expect just answer? Need parse. We are GLM, need respond maybe \"Block-Yellow\". But need ensure if there is hidden context? We only have query and answer. Maybe this is from a dataset where we need verify? The prompt includes Query and Answer. We need maybe output answer",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_71",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. Answer given: Block-Red. Need produce answer? We are to respond to user? They provided context and query and answer. Maybe need just answer? Let's parse. They ask \"What entity is this about?\" with answer Block-Red. We need likely output entity. But maybe they expect identify entity in final action? Let's inspect.\n\nWe are GLM, user gives context, query, answer.",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Red\". Need infer task? We need respond maybe just answer? We need parse context? There is no prior conversation. The user gives query and answer. Maybe they expect us to verify? We need produce final answer? Let's inspect: \"Query: Which block is directly on top of Block-Blue in the final state?\\nAnswer: Block-Red\". They might be asking us to answer query,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_72",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Orange. Need maybe identify entity? We need respond with answer. But let's analyze if there is any trick. The context: Initial state: Block-Yellow on table, Block-Blue on top of Yellow, Green on table, Orange on top of Green. First unstack Blue from Yellow and place Blue on table. Next pick up Green from table and stack Green",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Orange\". Need infer task? Maybe they want us to verify? We need respond maybe just answer. But we need know context? There is no prior conversation. The user gives query and answer. Maybe they expect final answer? We need maybe output \"Block-Orange\". But let's analyze.\n\nThe prompt: \"Query: Which block is directly on top of Block-Yellow in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_73",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext:\n- Initial state: Block-Blue on table, Block-Red on Block-Blue, Block-Yellow on table, Block-Green on Block-Yellow.\n- Actions:\n  1. Unstack Block-Red from Block-Blue, place on table.\n  2. Pick up Block-Yellow, stack on Block-Red.\n  3. Pick up Block-Green, stack on Block-Blue",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Query: Which block is directly on top of Block-Blue in the final state? Answer: Block-Green\". Maybe they expect us to verify? We need respond? Let's parse. They provided query and answer. Maybe in dataset, we need answer with just block? The answer already given. We need maybe output \"Block-Green\". But as GLM, should answer the query. Need maybe no",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_43",
+            "category": "gsm_symbolic",
+            "target_entity": "80",
+            "pred_mem": "We need answer query. Need parse context. \"What entity is this about?\" They gave answer 80? Hmm Need infer maybe asking entity? Context: Jackson initially bought 49 bananas. It had rained heavily the night before. Jackson gave 29 bananas to Emma, and then multiplied their remaining bananas by 4. Query: What entity is this about? Answer: 80. We need respond? Maybe identify entity? Let's understand.\n\nThis seems like a dataset prompt? They provide context",
+            "pred_gen": "1.  **Analyze the Request:**\n    *   Query: \"How many bananas does Jackson have in total now?\"\n    *   Answer: \"80\"\n    *   Task: Provide a context/story that logically leads to this query and answer. (Wait, the prompt just gives a Query and an Answer. Usually, in these types of prompts, the user wants me to generate the context or a math word problem that fits the query and answer. Let me re-read carefully. Ah",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_74",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Red, Purple, Orange, Yellow).\n    *   Initial state: Red on table, Purple on Red, Orange on table, Yellow on Orange.\n    *   Actions:\n        1. Unstack Purple from Red, put Purple on table.\n        2. Pick up Orange, stack Orange on Purple.\n        3. Pick up Yellow, stack Yellow on Red.\n    *",
+            "pred_gen": "We need answer to user query. They already provide Query and Answer? Need infer task. We need respond maybe just answer? Let's parse. User says:\n\nQuery: Which block is directly on top of Block-Red in the final state?\nAnswer: Block-Yellow\n\nThis looks like they want maybe verify? We need produce final answer. But as GLM, maybe need answer \"Block-Yellow\". However we need be careful: There is no context about blocks final state. The user includes",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_75",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer to user. Need parse. They provide context and query \"What entity is this about?\" Answer: Block-Orange. We need likely just answer? Need infer maybe they ask identify entity? We are GLM, should respond with answer. But need be careful: The context says initial state and actions. Query asks \"What entity is this about?\" Answer given: Block-Orange. Maybe they expect answer only. We need produce final answer maybe \"Block-Orange\". Let's inspect",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Blue in the final state?\nAnswer: Block-Orange\" They likely expect answer only? But as GLM, maybe need respond with answer. However we need ensure if answer is correct? There is no context. Maybe this is from a blocks world task where final state known",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_76",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\nInitial state:\n- Block-Yellow on table\n- Block-Blue on Block-Yellow\n- Block-Purple on table\n- Block-Red on Block-Purple\n\nActions:\n1. Unstack Block-Blue from Block-Yellow, place on table.\n2. Pick up Block-Purple from table, stack on Block-Blue.\n3. Pick up Block-Red from table, stack on Block-Yellow.",
+            "pred_gen": "We need answer to user query. They provide \"Query: Which block is directly on top of Block-Yellow in the final state? Answer: Block-Red\". This seems maybe they want us to answer? But they already gave answer. Need infer task. Maybe this is from a dataset where we need produce answer only? The prompt includes query and answer. Maybe they expect us to confirm? We need respond with answer? Let's parse.\n\nUser: \"Query: Which block is directly on top",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_77",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Blue, Yellow, Red, Purple).\n    *   Initial state: Blue on table, Yellow on Blue, Red on table, Purple on Red.\n    *   Actions:\n        1. Unstack Yellow from Blue, put Yellow on table.\n        2. Pick up Red from table, stack Red on Yellow.\n        3. Pick up Purple from table, stack Purple on",
+            "pred_gen": "We need answer query. Need infer from? User gives only query and answer? We need maybe verify? We need produce final answer? Let's parse: \"Query: Which block is directly on top of Block-Blue in the final state?\nAnswer: Block-Purple\" They likely expect answer only? But as assistant, maybe need respond with answer. We need know context? There is no block world details. Maybe this is from dataset where prompt includes query and answer? They ask? Actually user",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_79",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Purple, Orange, Yellow, Red).\n    *   Initial state: Purple on table, Orange on Purple, Yellow on table, Red on Yellow.\n    *   Actions:\n        1. Unstack Orange from Purple, put Orange on table.\n        2. Pick up Yellow, stack Yellow on Orange.\n        3. Pick up Red (wait, Red was on Yellow,",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? They ask \"Query: Which block is directly on top of Block-Purple in the final state? Answer: Block-Red\". Maybe they expect us to verify? We need respond? We need parse. The prompt is a query and answer. We need maybe output answer? But they already gave answer. We need maybe final answer \"Block-Red\". Need consider if this is from a blocks world task where",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_80",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext describes a sequence of actions involving blocks: Block-Blue, Block-Green, Block-Purple, Block-Red.\nQuery: \"What entity is this about?\"\nAnswer: \"Block-Red\"\n\nWait, the prompt gives the context, query, and answer.\nLet me read the prompt again.\n\"Context: ... Query: What entity is this about? Answer: Block-Red\"\nIs the user asking me to output the",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Red\". Need infer task? We need respond maybe just answer? We need parse context? There is no prior conversation. The user gives query and answer. Maybe they expect us to verify? We need produce final answer? Let's inspect: \"Query: Which block is directly on top of Block-Blue in the final state?\\nAnswer: Block-Red\". They might be asking us to answer query,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_78",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\n- Initial state: Block-Green on table, Block-Yellow on Block-Green, Block-Purple on table, Block-Blue on Block-Purple.\n- Action 1: Unstack Block-Yellow from Block-Green, place on table.\n- Action 2: Pick up Block-Purple, stack on Block-Yellow.\n- Action 3: Pick up Block-Blue, stack on Block-Green.",
+            "pred_gen": "We need answer to user query. They already provide \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Blue\". We need respond? Need infer context? Maybe this is from some block stacking task. User gives query and answer. We need maybe just confirm? Let's parse.\n\nThe user message: \"Query: Which block is directly on top of Block-Green in the final state?\nAnswer: Block-Blue\"\n\nThey might be asking us",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_81",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext describes a sequence of actions involving blocks: Block-Orange, Block-Purple, Block-Red, Block-Green.\nInitial state:\n- Orange on table\n- Purple on Orange\n- Red on table\n- Green on Red\n\nActions:\n1. Unstack Purple from Orange, place on table.\n2. Pick up Red, stack on Purple.\n3. Pick up Green, stack on Orange.\n\nWait, the third action",
+            "pred_gen": "The user wants to know which block is directly on top of Block-Orange in the final state.\nThe answer provided is \"Block-Green\".\nWait, the user provided the query and the answer. I need to output the answer? Or maybe I should just provide the answer as requested.\nLooking at the prompt: \"Query: Which block is directly on top of Block-Orange in the final state?\\nAnswer: Block-Green\"\nThis looks like a few-shot example or a direct question-answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_82",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. Answer given: Block-Purple. Need produce answer? We are to respond to user? They provided context, query, answer. Maybe need just answer? We need infer maybe they ask to identify entity? The answer says Block-Purple. We should output that. But let's examine: The context: Initial state: Block-Green on table, Block-Red on top of Green, Orange on table, Purple",
+            "pred_gen": "We need answer to user query. They already provide \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Purple\". We need respond? We are GLM, need maybe just answer? Need infer from prompt? It seems they want answer maybe validate. We need produce final answer likely \"Block-Purple\". But let's examine: The user message includes query and answer. Maybe they expect us to answer? It might be from a dataset where we",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_85",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Red, Blue, Yellow).\n    *   Initial state: Orange on table, Red on Orange, Blue on table, Yellow on Blue.\n    *   Actions:\n        1. Unstack Red from Orange, put Red on table.\n        2. Pick up Blue, stack Blue on Red.\n        3. Pick up Yellow, stack Yellow on Orange.\n    *",
+            "pred_gen": "We need answer query. Need infer from? User gives \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Yellow\". They likely expect just answer? We need parse. Maybe this is from a blocks world task, but no context provided. They already gave answer. We need respond maybe \"Block-Yellow\". Need be careful. The prompt includes query and answer. Maybe they want us to verify? We need produce final answer. Since no state",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_86",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Red, Orange, Blue, Green) starting from an initial state and ending in a final state.\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"Block-Green\"\n    *   Goal: Determine if the provided answer is correct based on the context and query, or if I need to generate a response that aligns with the prompt's format.",
+            "pred_gen": "We need answer to user query. Need infer from? They provide \"Query: Which block is directly on top of Block-Red in the final state? Answer: Block-Green\". It seems they want maybe answer only? We need respond? Let's parse. User says Query and Answer. Maybe they expect us to verify? We need produce final answer maybe \"Block-Green\". But as assistant, maybe need answer the query. The prompt includes answer. We should just output answer. But need",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_87",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Red, Purple, Blue).\n    *   Initial state: Orange on table, Red on Orange, Purple on table, Blue on Purple.\n    *   Actions:\n        1. Unstack Red from Orange, put Red on table.\n        2. Pick up Purple, stack Purple on Red.\n        3. Pick up Blue, stack Blue on Orange.\n    *",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? We need maybe verify? We need respond? Let's parse: \"Query: Which block is directly on top of Block-Orange in the final state?\nAnswer: Block-Blue\" They likely expect answer only? But as GLM, maybe need provide final answer. However we need ensure if answer correct? We have no context. Maybe this is from a blocks world task where final state known? The user",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_88",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Blue. Need produce answer? We need infer maybe from context? Let's parse. Initial: Purple table, Orange on Purple, Green table, Blue on Green. First unstack Orange from Purple and place Orange on table. Next pick up Green from table and stack Green on Orange. Finally pick up Blue from table and stack Blue on Purple. Query: What entity is",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Which block is directly on top of Block-Purple in the final state? Answer: Block-Blue\". Maybe they expect just answer? Need parse context. We have no blocks world details. They provided query and answer. Maybe need respond with answer? We need maybe validate? Let's inspect. The prompt: \"Query: Which block is directly on top of Block-Purple in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_84",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "We need answer query. Need parse context. They ask \"What entity is this about?\" Answer given Block-Purple. We need maybe verify? We are to respond? The prompt includes context, query, answer. Maybe need produce answer? We need infer from context? Let's inspect. Initial: Orange table, Red on Orange, Blue table, Purple on Blue. Actions: unstack Red from Orange and place Red on table. Next, pick up Blue from table and stack Blue on top of",
+            "pred_gen": "We need answer query. Need infer from? User gives \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Purple\". They likely expect just answer? We need parse. Maybe this is from a blocks world task, final state not provided in prompt. But they already include answer. We need respond maybe \"Block-Purple\". Need be careful. The prompt says Query and Answer. Maybe they want us to verify? We have no context. But",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_91",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Green, Red, Orange, Blue).\n    *   Initial state: Green on table, Red on Green, Orange on table, Blue on Orange.\n    *   Actions:\n        1. Unstack Red from Green, put Red on table.\n        2. Pick up Orange, stack Orange on Red.\n        3. Pick up Blue, stack Blue on Green.\n    *",
+            "pred_gen": "We need answer to user query. They already provide \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Blue\". We need respond? Need infer context? Maybe this is from some block stacking task. User gives query and answer. We need maybe just confirm? Let's parse.\n\nThe user message: \"Query: Which block is directly on top of Block-Green in the final state?\nAnswer: Block-Blue\"\n\nThey might be asking us",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_92",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Purple, Red, Yellow).\n    *   Initial state: Orange on table, Purple on Orange, Red on table, Yellow on Red.\n    *   Actions:\n        1. Unstack Purple from Orange, put Purple on table.\n        2. Pick up Red, stack Red on Purple.\n        3. Pick up Yellow, stack Yellow on Orange.\n    *",
+            "pred_gen": "We need answer query. Need infer from? User gives \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Yellow\". They likely expect just answer? We need parse. Maybe this is from a blocks world task, but no context provided. They already gave answer. We need respond maybe \"Block-Yellow\". Need be careful. The prompt includes query and answer. Maybe they want us to verify? We need produce final answer. Since no state",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_90",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Orange. Need maybe identify entity? We need respond with answer. But let's analyze if there is any trick. The context: Initial state: Block-Yellow on table, Block-Blue on top of Yellow, Green on table, Orange on top of Green. First unstack Blue from Yellow and place Blue on table. Next pick up Green from table and stack Green",
+            "pred_gen": "We need answer to user query. They already provide \"Query: ... Answer: Block-Orange\". Need infer task? Maybe they want us to verify? We need respond maybe just answer. But we need know context? There is no prior conversation. The user gives query and answer. Maybe they expect final answer? We need maybe output \"Block-Orange\". But let's analyze.\n\nThe prompt: \"Query: Which block is directly on top of Block-Yellow in the final state?\nAnswer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_89",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "We need answer query. Need parse context. They ask \"What entity is this about?\" Answer given: Block-Yellow. Need maybe identify entity? We need respond with answer? The prompt includes context, query, answer. We need likely produce answer. But as assistant, maybe need explain? Let's inspect. User says:\nContext: Initial state...\nQuery: What entity is this about?\nAnswer: Block-Yellow\n\nThis looks like they want maybe verify? Actually they provide answer. We need",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Query: Which block is directly on top of Block-Blue in the final state? Answer: Block-Yellow\". We need respond? Maybe they expect validation? We need parse context? There is no prior conversation. They provide query and answer. We need maybe answer with just Block-Yellow? The prompt includes answer. We need produce final answer maybe \"Block-Yellow\". But need be careful: They might",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_95",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. They ask entity? Provided answer: Block-Purple. Need maybe identify entity? We need respond with answer. But let's analyze if there is any trick. The context: Initial state: Block-Green on table, Block-Blue on top of Green, Yellow on table, Purple on top of Yellow. First unstack Blue from Green and place Blue on table. Next pick up Yellow from table and stack Yellow",
+            "pred_gen": "We need answer to user query. They already provide \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Purple\". We need respond? We are GLM, need maybe just answer? Need infer from prompt? It seems they want answer maybe validate. We need produce final answer likely \"Block-Purple\". But let's examine: The user message includes query and answer. Maybe they expect us to answer? It might be from a dataset where we",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_93",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The context describes a series of actions involving blocks: Block-Orange, Block-Blue, Block-Green, and Block-Red.\nThe query asks: \"What entity is this about?\"\nThe answer provided is \"Block-Red\".\nWait, the prompt gives the context, query, and answer. I need to output the answer? No, the prompt is already giving the answer. Wait, let me read carefully.\nAh, this looks like a few-shot example or a direct prompt where the user",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\". We need respond? Maybe they expect final answer only? We need parse context? There is no prior conversation. They provided query and answer. Maybe need verify? We need answer: Block-Red. But maybe as AI should just output answer. Need be careful: They might be asking to answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_94",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user wants to identify the entity the context/query is about.\nContext:\n- Initial state: Block-Green on table, Block-Red on Block-Green, Block-Blue on table, Block-Yellow on Block-Blue.\n- Action 1: Unstack Block-Red from Block-Green, place on table.\n- Action 2: Pick up Block-Blue, stack on Block-Red.\n- Action 3: Pick up Block-Yellow, stack on Block-Green.",
+            "pred_gen": "We need answer query. Need infer from? User gives Query and Answer? They ask \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Yellow\". Maybe they expect just answer? Need parse. We are GLM, need respond maybe \"Block-Yellow\". But need ensure if there is hidden context? We only have query and answer. Maybe this is from a blocks world task where final state not provided. But user includes answer. We need",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_98",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "We need answer query: \"What entity is this about?\" Context describes blocks operations. Answer given: Block-Purple. Need produce answer? We are to respond to user? They provided context, query, answer. Maybe need just answer? We need infer maybe they ask to identify entity? The answer says Block-Purple. We should output that. But let's examine: The context: Initial state: Block-Green on table, Block-Red on top of Green, Orange on table, Purple",
+            "pred_gen": "We need answer to user query. They already provide \"Query: Which block is directly on top of Block-Green in the final state? Answer: Block-Purple\". We need respond? We are GLM, need maybe just answer? Need infer from prompt? It seems they want answer maybe validate. We need produce final answer likely \"Block-Purple\". But let's examine: The user message includes query and answer. Maybe they expect us to answer? It might be from a dataset where we",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_97",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "We need answer to user. Need parse. They provide context and query: \"What entity is this about?\" Answer: Block-Yellow. We need likely just answer? Need infer maybe they ask to identify entity? They already gave answer. We need respond maybe \"Block-Yellow\". Need be careful. Let's inspect prompt. Context: Initial state... actions... Query: What entity is this about? Answer: Block-Yellow. This seems like a few-shot? They want answer. We should",
+            "pred_gen": "We need answer query. Need infer from? User gives \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Yellow\". They likely expect just answer? We need parse. Maybe this is from a blocks world task, but no context provided. They already gave answer. We need respond maybe \"Block-Yellow\". Need be careful. The prompt includes query and answer. Maybe they want us to verify? We need produce final answer. Since no state",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_96",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Purple, Green, Red, Orange).\n    *   Initial state: Purple on table, Green on Purple, Red on table, Orange on Red.\n    *   Actions:\n        1. Unstack Green from Purple, put Green on table.\n        2. Pick up Red from table, stack Red on Green.\n        3. Pick up Orange from table, stack Orange on",
+            "pred_gen": "We need answer query. Need infer from some context? User gives only query and answer? They ask \"Query: Which block is directly on top of Block-Purple in the final state? Answer: Block-Orange\". Maybe they expect us to verify? We need respond? We need parse: They provided query and answer. Maybe in dataset, we need answer with just block? The answer already given. We need produce final answer maybe \"Block-Orange\". But let's examine: The prompt says",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_83",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "Wait, let me look at the query and answer carefully.\n\nThe context describes a series of actions with blocks:\n- Initial state: Block-Yellow on table, Block-Orange on top of Block-Yellow, Block-Blue on table, Block-Red on top of Block-Blue.\n- First action: unstack Block-Orange from Block-Yellow, place Block-Orange on table.\n- Second action: pick up Block-Blue from table, stack Block-Blue on top of Block-",
+            "pred_gen": "We need answer to user query. They provide \"Query: Which block is directly on top of Block-Yellow in the final state? Answer: Block-Red\". This seems maybe they want us to answer? But they already gave answer. Need infer task. Maybe this is from a dataset where we need produce answer only? The prompt includes query and answer. Maybe they expect us to confirm? We need respond with answer? Let's parse.\n\nUser says:\nQuery: Which block is directly on top",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_100",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The context describes a series of actions involving blocks: Block-Orange, Block-Blue, Block-Green, and Block-Red.\nThe query asks: \"What entity is this about?\"\nThe answer provided is \"Block-Red\".\nWait, the prompt gives the context, query, and answer. I need to output the answer? No, the prompt is already complete. Wait, the user provided a context, query, and answer. I should just acknowledge or maybe the user wants me to continue",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\". We need respond? Maybe they expect final answer only? We need parse context? There is no prior conversation. They provided query and answer. Maybe need verify? We need answer: Block-Red. But maybe as AI should just output answer. Need be careful: They might be asking to answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_101",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EpsilonPort -> ThetaValley -> DeltaMetro -> GammaVillage -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or direct",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\". They already provide answer? Need respond maybe just answer. But need ensure? Let's parse. Query: If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: AlphaCity\n\nThis looks like a",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_99",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of actions involving blocks (Orange, Blue, Green, Purple).\n    *   Initial state: Orange on table, Blue on Orange, Green on table, Purple on Green.\n    *   Actions:\n        1. Unstack Blue from Orange, put Blue on table.\n        2. Pick up Green, stack Green on Blue.\n        3. Pick up Purple, stack Purple on Orange.\n    *",
+            "pred_gen": "We need answer query. Need infer from? User gives query and answer? They ask \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Purple\". Maybe they expect just answer? Need understand context. We have no blocks world details. They provided answer. We need maybe respond with answer. But as assistant, maybe need verify? Let's parse: Query: Which block is directly on top of Block-Orange in the final state? Answer: Block-P",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_103",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: ZetaStation. We need likely respond with entity? Need infer task maybe from context/query/answer? They ask \"What entity is this about?\" and answer given? We as assistant need maybe output answer? Let's inspect. User message includes Context, Query, Answer. They might expect us to identify entity? But they already gave answer. We need produce final answer maybe \"",
+            "pred_gen": "We need answer to query. Need infer from some graph? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: ZetaStation\". They already provide answer? Need respond maybe just answer. But need understand context? We have no graph. Maybe this is from benchmark where answer given? Need produce final destination city. They say Answer: ZetaStation. We should answer ZetaStation. But let's",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_102",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (BetaTown -> ZetaStation -> DeltaMetro -> GammaVillage -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or zero-shot",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\" They already provide answer? Need respond maybe confirm? We need parse. It might be from dataset where query and answer given. We need produce final answer? The prompt includes \"Answer: AlphaCity\". Maybe they expect just answer. Need be careful.\n\nWe need understand context? There",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_106",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ZetaStation -> EpsilonPort -> EtaHarbor -> BetaTown -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer? We need maybe explain? We need know directed routes. Not provided in prompt. Maybe from previous context? We only have this. Need",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_105",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext:\n- Route 1: BetaTown -> AlphaCity\n- Route 2: AlphaCity -> ZetaStation\n- Route 3: ZetaStation -> ThetaValley\n- Route 4: ThetaValley -> EtaHarbor\n\nQuery: What entity is this about?\nAnswer: EtaHarbor\n\nWait, the prompt provides the context, query, and answer. I need to output the answer",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from BetaTown.\nThe answer provided is \"EtaHarbor\".\nWait, the user provided the query and the answer. I need to output the answer? Or maybe I just need to confirm it?\nLooking at the prompt: \"Query: ... Answer: EtaHarbor\"\nWait, usually in these prompts, the user provides the query and the answer, and I just need to output the answer or the reasoning.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_104",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> EpsilonPort -> ZetaStation -> DeltaMetro -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Determine if the provided answer is correct based on the context and query, or if I need to generate the answer. Wait, the prompt gives the context, query, and",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\" They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer to query. They include \"Answer: AlphaCity\" maybe expected answer. Need maybe just confirm? But maybe there is hidden graph in previous context? We only",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_108",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "We need answer to user? They provided context, query, answer. Need infer task? They ask \"What entity is this about?\" Answer AlphaCity. We need respond maybe just AlphaCity. But let's inspect. The context lists routes connecting stations. Query asks entity. Answer given AlphaCity. Maybe they expect answer extraction. We need produce final answer. But maybe need identify entity in query? Let's parse.\n\nContext: Route 1 connects ZetaStation directly to BetaTown. Route",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: AlphaCity\" They already provide answer? Need respond maybe just answer. But need ensure correct? We need parse. Maybe this is from a dataset where query includes answer? They ask and answer. We need maybe produce final destination city. They say Answer: AlphaCity. We should answer Alpha",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_110",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: ThetaValley. We need likely respond with entity? Need infer task maybe from context? They ask \"What entity is this about?\" and answer given? We as assistant should answer maybe ThetaValley. Need be careful. The prompt includes \"Answer: ThetaValley\" maybe they expect us to output that? Let's inspect. User message: \nContext: Route 1",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: ThetaValley\". They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM. User gives query and answer. Maybe wants us to solve? They include \"Answer: ThetaValley\". We need maybe produce final answer? But maybe there is hidden graph",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_107",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext:\n- Route 1: GammaVillage -> AlphaCity\n- Route 2: AlphaCity -> ThetaValley\n- Route 3: ThetaValley -> ZetaStation\n- Route 4: ZetaStation -> EtaHarbor\n\nQuery: What entity is this about?\nAnswer: EtaHarbor\n\nWait, the prompt provides the context, query, and answer. I need to output the",
+            "pred_gen": "We need answer to query. Need infer from some graph? User asks: \"If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city? Answer: EtaHarbor\" They already provide answer? Need respond maybe just answer. But we need understand context? It might be from benchmark where we need answer given graph. They include answer. We need maybe verify? We need produce final destination city. Since answer given EtaHarbor",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_109",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ZetaStation -> EtaHarbor -> EpsilonPort -> DeltaMetro -> BetaTown).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"BetaTown\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city? Answer: BetaTown\". They already provide answer? Need respond maybe just answer. But need ensure? We need parse. It might be from dataset where answer given. Need maybe explain? The prompt includes \"Query: ... Answer: BetaTown\". We need produce final answer likely BetaTown. But let",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_112",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (DeltaMetro -> GammaVillage -> BetaTown -> AlphaCity -> ThetaValley).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"ThetaValley\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query: ... Answer",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: ThetaValley\". They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM. User gives query and answer. Maybe wants us to solve? They include \"Answer: ThetaValley\". We need maybe produce final answer? But maybe there is hidden graph",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_111",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (AlphaCity -> BetaTown -> ZetaStation -> GammaVillage -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. The prompt is structured as \"Context: ... Query",
+            "pred_gen": "We need answer query. Need infer from some context? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They already provide answer? Need respond maybe just answer. But need understand if there is hidden graph? We only have query and answer. Maybe they expect final destination city. They gave answer DeltaMetro. Need maybe confirm. But as AI, should answer DeltaMetro. Need be careful",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_114",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> GammaVillage -> EtaHarbor -> BetaTown -> EpsilonPort).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EpsilonPort\"\n    *   Goal: Determine the relationship between the context, query, and answer, and provide the answer as requested. Wait, the prompt *already* provides the answer. Let",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need respond maybe just answer. But need ensure? We need parse. It seems a benchmark where query includes answer? Maybe they want final destination city. They already gave answer. We need maybe output \"EpsilonPort\". But let's not jump;",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_115",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: GammaVillage. We need likely respond with answer? Need infer task. They gave context, query, answer. Maybe want us to answer? The prompt includes \"Answer: GammaVillage\". We need maybe just output GammaVillage. But let's examine.\n\nUser: \nContext: Route 1 connects AlphaCity directly to ZetaStation. Route 2 connects Zeta",
+            "pred_gen": "We need answer to query. Need infer from some graph? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: GammaVillage\" They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer query. It says Query: ... Answer: GammaVillage. Maybe they expect final answer only? We need maybe explain? But no context of directed routes",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_117",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> ZetaStation -> EpsilonPort -> GammaVillage -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer only? We need maybe solve? We need know directed routes. Not provided in prompt. Maybe from hidden context? We only have query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_113",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "We need answer to user? They provided context, query, answer. Need infer maybe they ask \"What entity is this about?\" Answer given EpsilonPort. We need respond? Let's parse.\n\nUser message:\nContext: Route 1 connects AlphaCity directly to EtaHarbor. Route 2 connects EtaHarbor directly to DeltaMetro. Route 3 connects DeltaMetro directly to BetaTown. Route 4 connects BetaTown directly to EpsilonPort.\nQuery: What entity is this",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\" They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer to query. They include \"Answer: EpsilonPort\" maybe expected to output? Maybe they want final destination city. Need maybe compute based on directed routes.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_116",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A set of routes connecting various locations (EpsilonPort -> EtaHarbor -> AlphaCity -> GammaVillage -> ThetaValley).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"ThetaValley\"\n    *   Goal: Determine if the provided answer is correct based on the context and query, or if I need to generate a response. Wait, the prompt gives me the",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from EpsilonPort, following directed routes.\nThe answer provided is \"ThetaValley\".\nWait, I need to figure out the graph or the context. Is this a standard graph problem from a specific dataset?\nLet's search my knowledge base for \"EpsilonPort\" and \"ThetaValley\".\nAh, this looks like a graph traversal problem from a synthetic dataset, possibly \"Graphs\" or \"Web of Science",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_121",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> EpsilonPort -> BetaTown -> GammaVillage -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or direct",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer only? We need maybe solve? We need know directed routes. Not provided in prompt. Maybe from hidden context? We only have query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_120",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ZetaStation -> DeltaMetro -> EpsilonPort -> ThetaValley -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or zero",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: AlphaCity\" They already provide answer? Need respond maybe just answer. But need ensure correct? We need parse. Maybe this is from a dataset where query includes answer? They ask and answer. We need maybe produce final destination city. They say Answer: AlphaCity. We should answer Alpha",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_119",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting cities (AlphaCity -> ThetaValley -> EpsilonPort -> DeltaMetro -> GammaVillage).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"GammaVillage\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query: ...",
+            "pred_gen": "We need answer to query. Need infer from some graph? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: GammaVillage\" They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer query. It says Query: ... Answer: GammaVillage. Maybe they expect final answer only? We need maybe explain? But no context of directed routes",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_118",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting towns/villages/valleys/ports/harbors.\n        *   Route 1: BetaTown -> GammaVillage\n        *   Route 2: GammaVillage -> ThetaValley\n        *   Route 3: ThetaValley -> EpsilonPort\n        *   Route 4: EpsilonPort -> EtaHarbor\n    *   Query: What entity",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from BetaTown.\nThe answer provided is \"EtaHarbor\".\nWait, the user provided the query and the answer. I need to output the answer? Or maybe I just need to confirm it?\nLooking at the prompt: \"Query: ... Answer: EtaHarbor\"\nWait, usually in these prompts, the user provides the query and the answer, and I just need to output the answer or the reasoning.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_122",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> AlphaCity -> EpsilonPort -> ZetaStation -> BetaTown).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"BetaTown\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or zero",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: BetaTown\". They already provide answer? Need respond maybe confirm? We need parse. It might be from dataset where answer given. Need maybe just output final destination city. But we need ensure if answer is BetaTown. Let's analyze.\n\nWe have query: \"If you travel starting",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_125",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> GammaVillage -> DeltaMetro -> ThetaValley -> BetaTown).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"BetaTown\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or direct",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: BetaTown\". They already provide answer? Need respond maybe confirm? We need parse. It might be from dataset where answer given. Need maybe just output final destination city. But we need ensure if answer is BetaTown. Let's analyze.\n\nWe have query: \"If you travel starting",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_123",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ZetaStation -> DeltaMetro -> AlphaCity -> GammaVillage -> EpsilonPort).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EpsilonPort\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need maybe verify? We need respond? This is likely from dataset where question includes answer? Need maybe just answer EpsilonPort. But let's analyze if there is hidden context? We only have query and answer. Maybe they expect final answer only.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_126",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (DeltaMetro -> ThetaValley -> ZetaStation -> EtaHarbor -> BetaTown).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"BetaTown\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query: ...",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: BetaTown\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer BetaTown. But as assistant, maybe need solve? We need see if there is hidden context? The prompt includes \"Query: ... Answer:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_128",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EpsilonPort -> BetaTown -> DeltaMetro -> ThetaValley -> GammaVillage).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"GammaVillage\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer to query. Need parse. User asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city? Answer: GammaVillage\". They provide answer? Need maybe verify? We need respond? We need infer from some graph? We don't have routes. The prompt includes query and answer. Maybe they expect us to answer? Need maybe just confirm? Let's inspect. It says Query: ... Answer: Gamma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_127",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: GammaVillage. Need likely ask to identify entity? They already gave answer. We need respond maybe \"GammaVillage\". Need infer task? The prompt includes context, query, answer. Maybe they want us to produce answer? We should just answer GammaVillage. But let's examine: \"Context: Route 1 connects EpsilonPort directly to DeltaMetro. Route",
+            "pred_gen": "We need answer to query. Need parse. User asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city? Answer: GammaVillage\". They provide answer? Need maybe verify? We need respond? We need infer from some graph? We don't have routes. The prompt includes query and answer. Maybe they expect us to answer? Need maybe just confirm? Let's inspect. It says Query: ... Answer: Gamma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_129",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> DeltaMetro -> EtaHarbor -> BetaTown -> ZetaStation).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"ZetaStation\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: ZetaStation\". They already provide answer? Need respond maybe confirm. But we need understand context? We only have query and answer. Maybe they expect final answer only. Need maybe \"ZetaStation\". Let's parse: Query: If you travel starting from ThetaValley and follow the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_124",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (BetaTown -> ZetaStation -> GammaVillage -> EpsilonPort -> EtaHarbor).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EtaHarbor\"\n    *   Goal: Understand the relationship between the context, query, and answer, and provide a response that aligns with the given prompt format. Wait, the prompt *is",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from BetaTown.\nThe answer provided is \"EtaHarbor\".\nWait, the user provided the query and the answer. I need to output the answer? Or maybe I just need to confirm it?\nLooking at the prompt: \"Query: ... Answer: EtaHarbor\"\nWait, usually in these prompts, the user provides the query and the answer, and I just need to output the answer or the reasoning.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_130",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A list of routes connecting various locations (GammaVillage -> ZetaStation -> AlphaCity -> ThetaValley -> EpsilonPort).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EpsilonPort\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They already provide answer? Need respond maybe confirm? We need parse. It might be from dataset where answer given. We need produce final answer maybe \"EpsilonPort\". But let's not jump. Need understand if there is hidden graph? Query includes answer. Maybe they",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_131",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: ZetaStation. We need likely answer? Need infer maybe they ask to identify entity? We need respond with ZetaStation? Let's inspect. Context: Route 1 connects BetaTown directly to EtaHarbor. Route 2 connects EtaHarbor directly to ThetaValley. Route 3 connects ThetaValley directly to GammaVillage. Route 4 connects",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city? Answer: ZetaStation\". They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM. User gives query and answer. Maybe wants us to answer? It says Query: ... Answer: ZetaStation. Could be from dataset where answer included. We need maybe",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_132",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (DeltaMetro -> BetaTown -> AlphaCity -> ZetaStation -> EtaHarbor).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EtaHarbor\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query: ...",
+            "pred_gen": "We need answer query. Need parse. User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: EtaHarbor\" They provide answer? Need maybe verify? We need respond? This is likely from graph traversal. Need infer directed routes? We need know graph? Not provided in prompt. Maybe there is hidden context? We only have query and answer. Need produce final answer maybe \"EtaHarbor\".",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_133",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> EpsilonPort -> AlphaCity -> DeltaMetro -> EtaHarbor).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EtaHarbor\"\n    *   Goal: Understand the relationship between the context, query, and answer to determine what the prompt is asking or how to respond. Wait, the prompt *is* the context",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: EtaHarbor\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer only? We need maybe solve? We need know directed routes. Not provided in prompt. Maybe from previous context? We only have",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_135",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: EpsilonPort. We need likely respond with answer? Need infer task. They gave context, query, answer. Maybe want validate? We need produce final answer maybe \"EpsilonPort\". Let's inspect. The prompt: \nContext: Route 1 connects EtaHarbor directly to BetaTown. Route 2 connects BetaTown directly to ThetaValley. Route 3",
+            "pred_gen": "We need answer query. Need parse. User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need maybe verify? We need respond maybe just answer? Need infer from some graph? We don't have routes. Maybe this is from a dataset where query asks final destination after following directed routes 4 steps forward. They already include answer. Need maybe output answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_137",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting cities (AlphaCity -> EpsilonPort -> BetaTown -> ThetaValley -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or direct prompt",
+            "pred_gen": "We need answer query. Need infer from some context? User asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They already provide answer? Need respond maybe just answer. But need understand if there is hidden graph? We only have query and answer. Maybe they expect final destination city. They gave answer DeltaMetro. Need maybe confirm. But as AI, should answer DeltaMetro. Need be careful",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_138",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A set of routes connecting various locations (GammaVillage, EtaHarbor, DeltaMetro, EpsilonPort, ThetaValley).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"ThetaValley\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ...",
+            "pred_gen": "We need answer to user query. Need parse. They provide Query and Answer? Actually user says:\n\"Query: If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: ThetaValley\"\n\nMaybe they want us to respond? Need infer task. They gave query and answer. Maybe need verify? We need produce final answer? The prompt includes answer. We need maybe just confirm? Let's inspect. It might be from",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_139",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> EpsilonPort -> ZetaStation -> EtaHarbor -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Task: The user provides a context, query, and answer. I need to understand the implied task. Wait, the prompt format looks like a few-shot example or a",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from ThetaValley, following directed routes.\nThe answer provided is \"DeltaMetro\".\nI need to verify if this is correct based on the context (which is not provided, but I can assume there's a graph or a set of directed routes).\nWait, the user is giving me a query and an answer. I should just output the answer if it's a direct question, or maybe I need to generate the reasoning",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_134",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations: DeltaMetro -> ZetaStation -> EtaHarbor -> ThetaValley -> EpsilonPort.\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EpsilonPort\"\n    *   Goal: Determine the relationship between the context, query, and answer, and provide the answer based on the given context. Wait, the prompt *gives* the",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need respond maybe confirm? We need parse. It seems they ask and answer included. Maybe need produce final answer. But as GLM, maybe need solve? We need know directed routes. Not provided in prompt. Maybe from previous context? We only have",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_136",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A set of routes connecting different locations (EtaHarbor -> BetaTown -> ThetaValley -> EpsilonPort -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Understand the relationship between the context, query, and answer, and provide a response that aligns with the given prompt format. Wait, the prompt *is* the",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They provide answer? Need maybe verify? We need respond? This is likely from dataset where they expect answer. They already gave answer. Need maybe just output answer? Let's parse.\n\nWe need answer final destination city. They say Answer: DeltaMetro. Maybe we should",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_141",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EpsilonPort -> EtaHarbor -> BetaTown -> GammaVillage -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Determine if the provided answer is correct based on the context and query, or if I need to generate a response. Wait, the prompt format looks like a few-shot",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They provide answer? Need maybe verify? We need respond? The prompt includes Query and Answer. Maybe they expect us to answer? We need produce final destination city. They already say Answer: DeltaMetro. We need maybe just output DeltaMetro. But let's analyze if there",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_140",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: EpsilonPort. We need likely produce answer? Need infer task maybe from context? They ask \"Context: ... Query: What entity is this about? Answer: EpsilonPort\". Maybe they expect us to answer? But they already gave answer. We need respond maybe \"EpsilonPort\". Need be careful.\n\nLet's inspect: User message includes context, query, answer.",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need respond maybe just answer. But need ensure? We need parse. It seems a benchmark where query includes answer? Maybe they want final destination city. They already gave answer. We need maybe output \"EpsilonPort\". But let's not jump;",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_142",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user wants to identify the entity the context and query are about.\nContext:\nRoute 1: DeltaMetro -> GammaVillage\nRoute 2: GammaVillage -> ThetaValley\nRoute 3: ThetaValley -> AlphaCity\nRoute 4: AlphaCity -> EtaHarbor\n\nQuery: What entity is this about?\nAnswer: EtaHarbor\n\nWait, the prompt provides the context, query, and answer.\nI need to output the answer? Or maybe the",
+            "pred_gen": "We need answer query. Need parse. User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: EtaHarbor\" They provide answer? Need maybe verify? We need respond? This is likely from graph traversal. Need infer directed routes? We need know graph? Not provided in prompt. Maybe there is hidden context? We only have query and answer. Need produce final answer maybe \"EtaHarbor\".",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_143",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (DeltaMetro -> GammaVillage -> EtaHarbor -> ZetaStation -> AlphaCity).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"AlphaCity\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt format looks like a few-shot example or a",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: AlphaCity\" They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer to query. It includes \"Answer: AlphaCity\" maybe they expect final destination city. Need maybe just output AlphaCity. But let's not jump. Need understand",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_145",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "We need answer to user. Need parse. They provide context routes and query \"What entity is this about?\" Answer: GammaVillage. We need likely respond with answer? Need infer task. They gave context, query, answer. Maybe want us to produce answer? The prompt includes \"Answer: GammaVillage\" already. We need maybe just output GammaVillage. Need be careful. Let's inspect: User says:\nContext: Route 1 connects DeltaMetro directly to AlphaCity. Route",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city? Answer: GammaVillage\". They provide answer? Need maybe verify? We need respond? Let's parse.\n\nWe are GLM, need answer to query. It includes \"Answer: GammaVillage\" maybe they expect final answer. But maybe we need solve? Need know directed routes. Not provided in",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_144",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (GammaVillage -> BetaTown -> EtaHarbor -> DeltaMetro -> ZetaStation).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"ZetaStation\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query:",
+            "pred_gen": "We need answer to user query. They provide \"Query: If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: ZetaStation\". Need infer maybe they want answer? They already gave answer. We need respond maybe just ZetaStation. But need understand context? We have no graph. The prompt includes query and answer. Maybe they expect final answer. We should output final destination city. Need maybe no extra. Let",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_146",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A list of routes connecting various locations (ThetaValley -> DeltaMetro -> AlphaCity -> BetaTown -> EtaHarbor).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EtaHarbor\"\n    *   Task: The user provided a context, query, and answer. I need to understand what the user wants. Wait, the prompt is just \"Context: ... Query:",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: EtaHarbor\" They provide answer? Need maybe verify? We need respond? Let's parse. They ask query and answer. Maybe they expect final answer only? We need maybe solve? We need know directed routes. Not provided in prompt. Maybe from previous context? We only have",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_148",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> AlphaCity -> GammaVillage -> ZetaStation -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Determine the relationship between the context, query, and answer, and provide the appropriate response based on the prompt's implied task (which seems to be a few-shot or direct",
+            "pred_gen": "The user wants to find the final destination city after traveling 4 steps forward starting from ThetaValley, following directed routes.\nThe answer provided is \"DeltaMetro\".\nI need to verify if this is correct based on the context (which is not provided, but I can assume there's a graph or a set of directed routes).\nWait, the user is giving me a query and an answer. I should just output the answer if it's a direct question, or maybe I need to generate the reasoning",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_150",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (ThetaValley -> BetaTown -> GammaVillage -> DeltaMetro -> EpsilonPort).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"EpsilonPort\"\n    *   Task: The user provides a context, query, and answer. I need to understand the implied task. Wait, the prompt format looks like a few-shot example or a direct",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city? Answer: EpsilonPort\". They provide answer? Need respond maybe just answer. But need ensure? We need parse. It seems a benchmark where query includes answer? Maybe they want final destination city. They already gave answer. We need maybe output \"EpsilonPort\". But let's not jump;",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_147",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> ThetaValley -> EpsilonPort -> AlphaCity -> DeltaMetro).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"DeltaMetro\"\n    *   Goal: Understand the relationship between the context, query, and answer, and provide a response that fits the pattern or explains the answer. Wait, the prompt gives the Context, Query",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: DeltaMetro\" They provide answer? Need maybe verify? We need respond? This is likely from dataset where they expect answer. They already gave answer. Need maybe just output answer? Let's parse.\n\nWe need answer final destination city. They say Answer: DeltaMetro. Maybe we should",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_149",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "1.  **Analyze the Request:**\n    *   Context: A sequence of routes connecting locations (EtaHarbor -> EpsilonPort -> ZetaStation -> ThetaValley -> BetaTown).\n    *   Query: \"What entity is this about?\"\n    *   Answer: \"BetaTown\"\n    *   Goal: Provide the answer based on the context and query. Wait, the prompt already gives the answer. Let me re-read carefully. Ah, this is a few-shot or",
+            "pred_gen": "We need answer query. Need infer from some graph? User asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city? Answer: BetaTown\". They already provide answer? Need respond maybe confirm? We need parse. It might be from dataset where answer given. Need maybe just output final destination city. But we need ensure if answer is BetaTown. Let's analyze.\n\nWe have query: \"If you travel starting",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        }
+    ]
+}

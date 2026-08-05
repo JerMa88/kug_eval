@@ -1,0 +1,1378 @@
+{
+    "overall_a_mem": 0.9933333333333333,
+    "overall_a_gen": 1.0,
+    "kug_ratio": 0.9933333333333333,
+    "total_count": 150,
+    "category_summary": {
+        "gsm_symbolic": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 50
+        },
+        "blocksworld": {
+            "a_mem": 1.0,
+            "a_gen": 1.0,
+            "kug_ratio": 1.0,
+            "count": 50
+        },
+        "graph_reachability": {
+            "a_mem": 0.98,
+            "a_gen": 1.0,
+            "kug_ratio": 0.98,
+            "count": 50
+        }
+    },
+    "item_results": [
+        {
+            "id": "gsm_symbolic_3",
+            "category": "gsm_symbolic",
+            "target_entity": "4",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context: Jackson initially bought 28 bananas. It had rained heavily the night before. Jackson gave 26 bananas to Emma, and then multiplied their remaining bananas by 2.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: 4\n\nWait, this seems like a math word problem where the question is actually asking for a numerical answer. Let me compute:\n- Jackson starts",
+            "pred_gen": "The user has given me a query and an answer: \"How many bananas does Jackson have in total now?\" with the answer \"4\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem context (like \"Jackson had 2 bananas, then bought 2 more...\").\n\nThis appears to be a case where someone is testing or wants me to verify an answer, or perhaps they want",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_5",
+            "category": "gsm_symbolic",
+            "target_entity": "45",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nNoah initially bought 26 mangoes. He gave 11 to Ava, so he has 26 - 11 = 15 mangoes. Then multiplied by 3: 15 \u00d7 3 = 45.\n\nThe query asks \"What entity is this about?\" and the answer given is \"45\".\n\nWait, this seems like a strange format. The question asks what entity the problem is about, and the",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Noah have in total now?\" with the answer \"45\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_4",
+            "category": "gsm_symbolic",
+            "target_entity": "126",
+            "pred_mem": "The question asks: \"What entity is this about?\" and the answer given is \"126\".\n\nLet me work through the problem:\n- Olivia initially bought 69 peaches\n- Coffee break (irrelevant detail)\n- Gave 6 peaches to Ethan: 69 - 6 = 63\n- Multiplied remaining by 2: 63 \u00d7 2 = 126\n\nSo the answer 126 refers to the number of peaches Olivia has at the end. The entity this is about",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Olivia have in total now?\" with answer \"126\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM8",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_2",
+            "category": "gsm_symbolic",
+            "target_entity": "102",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nLiam initially bought 46 oranges.\nLiam gave 12 oranges to Noah: 46 - 12 = 34 oranges remaining.\nThen multiplied remaining oranges by 3: 34 \u00d7 3 = 102.\n\nThe query asks \"What entity is this about?\" and the answer given is 102.\n\nWait, the question is a bit odd. \"What entity is this about?\" - this seems like a question",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Liam have in total now?\" with answer \"102\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM8",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_1",
+            "category": "gsm_symbolic",
+            "target_entity": "96",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it.\n\nSophia initially bought 29 apples. The sun shining is irrelevant information. Sophia gave 5 apples to Olivia, so she has 29 - 5 = 24 apples. Then multiplied remaining apples by 4: 24 * 4 = 96.\n\nThe query asks \"What entity is this about?\" and the answer is 96.\n\nWait, the question is a bit odd. \"What entity is this about?\"",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Sophia have in total now?\" with the answer \"96\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem statement that would contain the details about how Sophia got her apples.\n\nThis appears to be a case where someone is testing me or wants me to verify an answer, but the problem context is missing. Without",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_7",
+            "category": "gsm_symbolic",
+            "target_entity": "65",
+            "pred_mem": "The user is asking about a math word problem. Let me work through it:\n\nEthan initially bought 40 plums.\nEthan gave 27 plums to Isabella: 40 - 27 = 13 plums remaining.\nThen multiplied their remaining plums by 5: 13 \u00d7 5 = 65.\n\nThe answer given is 65, which is correct.\n\nThe query asks \"What entity is this about?\" - this seems to be asking what the problem is about.",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Ethan have in total now?\" with answer \"65\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_8",
+            "category": "gsm_symbolic",
+            "target_entity": "96",
+            "pred_mem": "The question asks: \"What entity is this about?\" and the answer given is \"96\".\n\nLet me work through the math: Ava bought 43 pears, gave 19 to Sophia, so 43 - 19 = 24 remaining. Then multiplied by 4: 24 \u00d7 4 = 96.\n\nSo the answer 96 represents the number of pears Ava has after these operations. The entity this is about would be \"Ava\" \u2014 the problem is about Ava and her pears",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Ava have in total now?\" with the answer \"96\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer. This appears to be a case where someone wants me to either:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 96\n\nWithout the original problem context, I can't",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_9",
+            "category": "gsm_symbolic",
+            "target_entity": "-42",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context: Lucas initially bought 15 apples. They took a 15-minute coffee break. Lucas gave 29 apples to Liam, then multiplied remaining apples by 3.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: -42\n\nWait, this seems like a math problem where the answer -42 is computed:\n- Lucas starts with 15 apples\n- Gives 29 to",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Lucas have in total now?\" with the answer \"-42\".\n\nThis looks like a math word problem where the answer is given, but the problem itself is missing. This appears to be a task where I need to reconstruct or generate the word problem that would lead to this answer, OR the user is showing me a query-answer pair and wants me to verify or explain.\n\nActually, looking at this format, it seems like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_6",
+            "category": "gsm_symbolic",
+            "target_entity": "110",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nEmma initially bought 79 cherries.\nEmma gave 24 cherries to Lucas: 79 - 24 = 55 cherries remaining.\nThen multiplied remaining cherries by 2: 55 \u00d7 2 = 110.\n\nThe query asks \"What entity is this about?\" and the answer given is 110.\n\nWait, the question \"What entity is this about?\" seems odd. The answer 110 is the result of",
+            "pred_gen": "The user has given me a query and an answer: \"How many cherries does Emma have in total now?\" with the answer \"110\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_11",
+            "category": "gsm_symbolic",
+            "target_entity": "92",
+            "pred_mem": "The question asks: \"What entity is this about?\" with the answer \"92\".\n\nLet me work through the math: Sophia bought 34 bananas, gave 11 to Olivia, so 34 - 11 = 23 remaining. Then multiplied by 4: 23 \u00d7 4 = 92.\n\nSo the answer 92 represents the number of bananas Sophia has after these operations. The entity this is about would be \"bananas\" \u2014 specifically, the number of bananas Sophia has.\n\nThe",
+            "pred_gen": "The user has provided a query and an answer: \"How many bananas does Sophia have in total now?\" with the answer \"92\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only given me the question and the answer. This appears to be a case where someone is showing me a question-answer pair, possibly:\n\n1. They want me to verify the answer\n2. They want me to reconstruct the problem\n3. They're testing me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_13",
+            "category": "gsm_symbolic",
+            "target_entity": "44",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nJackson initially bought 27 mangoes. He gave 16 mangoes to Emma, so he has 27 - 16 = 11 mangoes left. Then he multiplied their remaining mangoes by 4: 11 \u00d7 4 = 44.\n\nThe query asks \"What entity is this about?\" and the answer given is 44.\n\nWait, this seems like a strange format. The query asks \"What entity",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Jackson have in total now?\" with answer \"44\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_14",
+            "category": "gsm_symbolic",
+            "target_entity": "36",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nOlivia initially bought 48 cherries.\nThey took a 15-minute coffee break (irrelevant information).\nOlivia gave 30 cherries to Ethan: 48 - 30 = 18 cherries remaining.\nThen multiplied their remaining cherries by 2: 18 \u00d7 2 = 36.\n\nThe query asks \"What entity is this about?\" and the answer given is 36.\n\nWait, the question \"What entity",
+            "pred_gen": "The user has given me a query and an answer: \"How many cherries does Olivia have in total now?\" with the answer \"36\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 36\n\nThis appears to be from a dataset like GSM8K or similar math word",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_10",
+            "category": "gsm_symbolic",
+            "target_entity": "216",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nIsabella initially bought 69 oranges.\nShe gave 15 oranges to Jackson: 69 - 15 = 54 oranges remaining.\nThen multiplied their remaining oranges by 4: 54 \u00d7 4 = 216.\n\nThe query asks \"What entity is this about?\" and the answer given is 216.\n\nWait, the question asks \"What entity is this about?\" but the answer is 216, which is a",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Isabella have in total now?\" with answer \"216\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or reconstruct the problem.\n\nActually, this format looks like it could be from a dataset like GSM8K where there's a question and answer. The user might want me to:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_16",
+            "category": "gsm_symbolic",
+            "target_entity": "224",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nEmma initially bought 63 pears.\nEmma gave 7 pears to Lucas: 63 - 7 = 56 pears remaining.\nThen multiplied their remaining pears by 4: 56 \u00d7 4 = 224.\n\nThe query asks \"What entity is this about?\" and the answer given is 224.\n\nWait, the question is a bit odd. \"What entity is this about?\" - this seems like a",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Emma have in total now?\" with answer \"224\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM8",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_18",
+            "category": "gsm_symbolic",
+            "target_entity": "51",
+            "pred_mem": "The question asks: \"What entity is this about?\" and the answer given is \"51\".\n\nLet me work through the problem: Ava initially bought 23 oranges. She gave 6 to Sophia, so 23 - 6 = 17. Then multiplied remaining by 3: 17 \u00d7 3 = 51.\n\nThe question \"What entity is this about?\" \u2014 the answer is 51, which represents the number of oranges Ava has after the operations. So the entity is oranges (",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Ava have in total now?\" with the answer \"51\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_17",
+            "category": "gsm_symbolic",
+            "target_entity": "114",
+            "pred_mem": "The user is asking about a math word problem. Let me parse it:\n\n- Ethan initially bought 61 apples\n- The store manager was wearing a green apron (irrelevant detail)\n- Ethan gave 23 apples to Isabella\n- Then multiplied their remaining apples by 3\n\nThe query asks \"What entity is this about?\" and the answer given is 114.\n\nLet me verify: 61 - 23 = 38, then 38 \u00d7 3 = 114. Yes",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Ethan have in total now?\" with answer \"114\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to want me to either:\n1. Verify the answer\n2. Reconstruct the problem\n3. Provide reasoning that leads to 114\n\nThis appears to be a common format from datasets like GSM8K where a problem is given and an answer needs to be",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_19",
+            "category": "gsm_symbolic",
+            "target_entity": "135",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nLucas initially bought 52 bananas. They took a 15-minute coffee break (irrelevant info). Lucas gave 7 bananas to Liam, so 52 - 7 = 45 bananas remaining. Then multiplied remaining by 3: 45 \u00d7 3 = 135.\n\nThe query asks \"What entity is this about?\" and the answer given is 135.\n\nWait, the question is \"What entity is",
+            "pred_gen": "The user has given me a query and an answer: \"How many bananas does Lucas have in total now?\" with the answer \"135\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nWithout the original problem context, I can't verify the answer directly. However",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_12",
+            "category": "gsm_symbolic",
+            "target_entity": "105",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\n- Liam initially bought 28 peaches\n- The store manager was wearing a green apron (distractor info)\n- Liam gave 7 peaches to Noah\n- Then multiplied remaining peaches by 5\n\nCalculation: (28 - 7) \u00d7 5 = 21 \u00d7 5 = 105\n\nThe answer given is 105.\n\nThe query asks \"What entity is this about?\"\n\nThe entity the problem",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Liam have in total now?\" with answer \"105\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM8",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_15",
+            "category": "gsm_symbolic",
+            "target_entity": "102",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nNoah initially bought 73 plums. He gave 22 to Ava, so he has 73 - 22 = 51 plums. Then multiplied by 2: 51 \u00d7 2 = 102.\n\nThe query asks \"What entity is this about?\" and the answer given is \"102\".\n\nWait, this seems like a strange format. The question asks what entity the problem is about, but the",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Noah have in total now?\" with the answer \"102\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or reconstruct the problem.\n\nThis appears to be from a dataset like GSM8K or similar math word problem datasets. Let me think about what the original problem might have been",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_20",
+            "category": "gsm_symbolic",
+            "target_entity": "40",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it:\n\nIsabella initially bought 27 peaches. She gave 17 peaches to Jackson, so she has 27 - 17 = 10 peaches left. Then she multiplied their remaining peaches by 4: 10 \u00d7 4 = 40.\n\nThe query asks \"What entity is this about?\" and the answer given is \"40\".\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\"",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Isabella have in total now?\" with the answer \"40\".\n\nThis looks like a task where I need to generate a word problem that would lead to this answer. This is a common format in some datasets where you're given a question and answer, and you need to create the problem context/story that would result in that answer.\n\nLet me think about what kind of problem would have Isabella with peaches totaling 40.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_21",
+            "category": "gsm_symbolic",
+            "target_entity": "192",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it.\n\nSophia initially bought 73 mangoes. The sun shining brightly is irrelevant information. Sophia gave 25 mangoes to Olivia, so she has 73 - 25 = 48 mangoes. Then multiplied remaining by 4: 48 \u00d7 4 = 192.\n\nThe query asks \"What entity is this about?\" and the answer is \"192\".\n\nWait, this seems like a strange format. The query asks what",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Sophia have in total now?\" with the answer \"192\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_25",
+            "category": "gsm_symbolic",
+            "target_entity": "180",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nNoah initially bought 46 apples. He gave 10 to Ava, leaving 36. Then multiplied by 5 = 180.\n\nThe query asks \"What entity is this about?\" and the answer given is \"180\".\n\nWait, this seems like a strange format. The question asks what entity the problem is about, and the answer is 180. But 180 is a number, not an entity.",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Noah have in total now?\" with the answer \"180\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem context (the setup describing what Noah did with apples).\n\nThis appears to be a case where someone is testing me or wants me to verify/reconstruct a problem. Common formats like this come from datasets like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_24",
+            "category": "gsm_symbolic",
+            "target_entity": "0",
+            "pred_mem": "The user is asking about a math word problem context. Let me parse this:\n\n- Olivia initially bought 24 pears\n- They took a 15-minute coffee break (irrelevant detail)\n- Olivia gave 24 pears to Ethan\n- Then multiplied their remaining pears by 3\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is \"0\".\n\nThis looks like a question about identifying the entity the problem is about. The problem is about pears. But the answer",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Olivia have in total now?\" with the answer \"0\".\n\nThis looks like a math word problem format, but there's no actual problem statement provided. The user has just given me a question and an answer of 0.\n\nThis seems like it could be:\n1. A test of whether I'll just accept the answer\n2. Part of a dataset where the problem context is missing\n3. The user wants me to verify",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_26",
+            "category": "gsm_symbolic",
+            "target_entity": "150",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nEmma initially bought 63 oranges.\nEmma gave 13 oranges to Lucas: 63 - 13 = 50 oranges remaining.\nThen multiplied their remaining oranges by 3: 50 \u00d7 3 = 150.\n\nThe query asks \"What entity is this about?\" and the answer given is 150.\n\nWait, this seems like a strange format. The query asks \"What entity is this about?\" but the",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Emma have in total now?\" with the answer \"150\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem statement/context that would lead to this answer.\n\nThis appears to be a case where someone might be:\n1. Testing me with an incomplete problem\n2. Wanting me to verify the answer\n3",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_23",
+            "category": "gsm_symbolic",
+            "target_entity": "60",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze:\n\nJackson initially bought 41 plums.\nJackson gave 26 plums to Emma.\nRemaining: 41 - 26 = 15 plums\nThen multiplied remaining by 4: 15 \u00d7 4 = 60\n\nThe query asks \"What entity is this about?\" and the answer given is 60.\n\nWait, this seems like a strange format. The query asks \"What entity is this about?\" but the answer",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Jackson have in total now?\" with the answer \"60\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nWithout the original problem context, I can't verify the answer directly.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_22",
+            "category": "gsm_symbolic",
+            "target_entity": "76",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context: Liam initially bought 35 cherries. The store manager was wearing a green apron. Liam gave 16 cherries to Noah, and then multiplied their remaining cherries by 4.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: 76\n\nWait, this seems like a task where the answer is a number, but the question asks about an entity. Let me think about this",
+            "pred_gen": "The user has given me a query and an answer: \"How many cherries does Liam have in total now?\" with the answer \"76\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 76\n\nWithout the original problem context, I can't verify if 76 is correct.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_28",
+            "category": "gsm_symbolic",
+            "target_entity": "152",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nAva initially bought 44 peaches.\nAva gave 6 peaches to Sophia: 44 - 6 = 38 peaches remaining.\nThen multiplied their remaining peaches by 4: 38 \u00d7 4 = 152.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: 152\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\" but",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Ava have in total now?\" with the answer \"152\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer. This appears to be a case where someone wants me to either:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to arrive at 152\n\nBut without the original problem context (like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_27",
+            "category": "gsm_symbolic",
+            "target_entity": "54",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context: Ethan initially bought 56 bananas. The store manager was wearing a green apron. Ethan gave 29 bananas to Isabella, and then multiplied their remaining bananas by 2.\n\nThe query: \"What entity is this about?\"\nThe answer given: 54\n\nWait, this seems like a math problem. Let me compute:\n- Ethan starts with 56 bananas\n- Gives 29 to Isabella",
+            "pred_gen": "The user has given me a query and an answer: \"How many bananas does Ethan have in total now?\" with the answer \"54\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem statement that would contain the details about how Ethan got the bananas.\n\nThis appears to be a case where someone is testing me or wants me to verify an answer, but the problem context is missing. Without",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_30",
+            "category": "gsm_symbolic",
+            "target_entity": "76",
+            "pred_mem": "The user is asking about a math word problem. Let me work through it:\n\nIsabella initially bought 42 cherries.\nShe gave 23 cherries to Jackson: 42 - 23 = 19 cherries remaining.\nThen multiplied remaining cherries by 4: 19 \u00d7 4 = 76.\n\nThe query asks \"What entity is this about?\" and the answer given is 76.\n\nThe question is asking what entity the problem is about. The problem is about Isabella (the main subject).",
+            "pred_gen": "The user has provided a query and an answer: \"How many cherries does Isabella have in total now?\" with the answer \"76\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only given me the question and the answer, but not the problem context (like \"Isabella had X cherries, she bought Y more...\" etc.).\n\nThis appears to be a case where someone might be testing me, or they want me to verify the answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_29",
+            "category": "gsm_symbolic",
+            "target_entity": "106",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nLucas initially bought 66 mangoes.\nThey took a 15-minute coffee break (irrelevant information).\nLucas gave 13 mangoes to Liam: 66 - 13 = 53 mangoes remaining.\nThen multiplied remaining mangoes by 2: 53 \u00d7 2 = 106.\n\nThe query asks \"What entity is this about?\" and the answer given is 106.\n\nWait, the question",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Lucas have in total now?\" with answer \"106\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or reconstruct the problem.\n\nThis appears to be a common format from math word problem datasets (like GSM8K style). The typical problem this matches is something like:\n\n\"Luc",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_31",
+            "category": "gsm_symbolic",
+            "target_entity": "85",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nSophia initially bought 42 plums. The sun shining is irrelevant context. Sophia gave 25 plums to Olivia, so she has 42 - 25 = 17 plums remaining. Then multiplied their remaining plums by 5: 17 \u00d7 5 = 85.\n\nThe query asks \"What entity is this about?\" and the answer is 85.\n\nWait, the question is a bit odd.",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Sophia have in total now?\" with the answer \"85\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_33",
+            "category": "gsm_symbolic",
+            "target_entity": "60",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it:\n\nJackson initially bought 33 apples. It had rained heavily the night before (this is irrelevant information). Jackson gave 13 apples to Emma, and then multiplied their remaining apples by 3.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: 60\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\" but the answer is \"60\" which is",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Jackson have in total now?\" with the answer \"60\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem statement that would contain the details about how Jackson got the apples.\n\nThis appears to be a case where someone is testing or wants me to verify an answer, or perhaps they want me to construct a problem",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_35",
+            "category": "gsm_symbolic",
+            "target_entity": "230",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context: Noah initially bought 69 bananas. The market was located next to a quiet library. Noah gave 23 bananas to Ava, and then multiplied their remaining bananas by 5.\n\nThe query: What entity is this about?\nAnswer: 230\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\" and the answer given is \"230\". \n\nLet me think",
+            "pred_gen": "The user has given me a query and an answer: \"How many bananas does Noah have in total now?\" with the answer \"230\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem context (like \"Noah had X bananas, bought Y more, gave away Z...\").\n\nThis appears to be a case where someone might be testing me, or they want me to verify the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_37",
+            "category": "gsm_symbolic",
+            "target_entity": "120",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\n- Ethan initially bought 80 mangoes\n- The store manager was wearing a green apron (irrelevant detail)\n- Ethan gave 20 mangoes to Isabella\n- Then multiplied their remaining mangoes by 2\n\nThe question asks \"What entity is this about?\" and the answer given is 120.\n\nLet me verify: 80 - 20 = 60, then 60 \u00d7 2 =",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Ethan have in total now?\" with answer \"120\".\n\nThis looks like a math word problem format, but there's no actual problem statement given. The user has just provided a query and an answer. This seems like it could be:\n1. A task where I'm supposed to verify the answer\n2. A task where I'm supposed to generate the problem that leads to this answer\n3. A task where I'm supposed to",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_36",
+            "category": "gsm_symbolic",
+            "target_entity": "147",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it.\n\nEmma initially bought 61 peaches. The sun shining is irrelevant context. Emma gave 12 peaches to Lucas, so she has 61 - 12 = 49 peaches. Then multiplied remaining by 3: 49 * 3 = 147.\n\nThe query asks \"What entity is this about?\" and the answer is \"147\".\n\nWait, that's odd. The question asks \"What entity is this about?\" but the",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Emma have in total now?\" with the answer \"147\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer. This appears to be a case where someone wants me to either:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 147\n\nBut without the original problem context (like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_38",
+            "category": "gsm_symbolic",
+            "target_entity": "39",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nAva initially bought 21 cherries.\nAva gave 8 cherries to Sophia: 21 - 8 = 13\nThen multiplied remaining by 3: 13 \u00d7 3 = 39\n\nThe query asks \"What entity is this about?\" and the answer given is 39.\n\nWait, the question \"What entity is this about?\" is asking about the entity/subject of the problem. The answer \"",
+            "pred_gen": "The user has given me a query and an answer: \"How many cherries does Ava have in total now?\" with the answer \"39\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like GSM",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_32",
+            "category": "gsm_symbolic",
+            "target_entity": "200",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nLiam initially bought 65 pears. He gave 25 pears to Noah, so he has 65 - 25 = 40 pears. Then multiplied by 5: 40 \u00d7 5 = 200.\n\nThe question asks \"What entity is this about?\" and the answer given is 200.\n\nThe entity the problem is about is Liam (the main subject). The answer 200 represents Liam's pears after",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Liam have in total now?\" with the answer \"200\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or reconstruct the problem.\n\nActually, this format looks like it could be from a dataset like GSM8K where there's a word problem, a question, and an answer. But",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_40",
+            "category": "gsm_symbolic",
+            "target_entity": "30",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it:\n\nIsabella initially bought 23 pears. She gave 17 pears to Jackson, so she has 23 - 17 = 6 pears remaining. Then she multiplied their remaining pears by 5: 6 \u00d7 5 = 30.\n\nThe query asks \"What entity is this about?\" and the answer given is \"30\".\n\nWait, this seems like a strange format. The question \"What entity is this about?\" with",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Isabella have in total now?\" with the answer \"30\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or reconstruct the problem.\n\nThis format is common in datasets like GSM8K where a word problem is given and the answer needs to be computed. But here, only the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_41",
+            "category": "gsm_symbolic",
+            "target_entity": "212",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nSophia initially bought 74 apples. She gave 21 apples to Olivia, so she has 74 - 21 = 53 apples. Then multiplied remaining apples by 4: 53 \u00d7 4 = 212.\n\nThe query asks \"What entity is this about?\" and the answer given is \"212\".\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\" but",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Sophia have in total now?\" with answer \"212\".\n\nThis looks like a math word problem format, but the actual word problem is missing. This appears to be a case where someone is presenting a query-answer pair, possibly asking me to verify, or perhaps this is a fragment of a larger task.\n\nWait, let me think about this. The format \"Query: ... Answer: ...\" suggests this might be:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_39",
+            "category": "gsm_symbolic",
+            "target_entity": "25",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\n- Lucas initially bought 35 plums\n- 15-minute coffee break (irrelevant detail)\n- Lucas gave 30 plums to Liam: 35 - 30 = 5 plums remaining\n- Multiplied remaining plums by 5: 5 \u00d7 5 = 25\n\nThe query asks \"What entity is this about?\" and the answer given is \"25\".\n\nWait, the question \"",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Lucas have in total now?\" with the answer \"25\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_43",
+            "category": "gsm_symbolic",
+            "target_entity": "80",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nJackson initially bought 49 bananas.\nJackson gave 29 bananas to Emma.\nRemaining: 49 - 29 = 20 bananas\nThen multiplied remaining by 4: 20 \u00d7 4 = 80\n\nThe query asks \"What entity is this about?\" and the answer given is \"80\".\n\nWait, this seems like a strange format. The question \"What entity is this about?\" with answer \"80\" -",
+            "pred_gen": "The user has given me a query and an answer: \"How many bananas does Jackson have in total now?\" with the answer \"80\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer. This appears to be a case where someone wants me to either:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 80\n\nBut without the original problem statement, I",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_42",
+            "category": "gsm_symbolic",
+            "target_entity": "-20",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it:\n\nLiam initially bought 16 oranges. The store manager was wearing a green apron (irrelevant detail). Liam gave 26 oranges to Noah, and then multiplied their remaining oranges by 2.\n\nThe query asks: \"What entity is this about?\"\nThe answer given is: -20\n\nWait, this seems like a math problem where the answer is -20. Let me compute:\n- Liam starts with 16 oranges",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Liam have in total now?\" with the answer \"-20\".\n\nThis looks like a math word problem where I need to figure out the context or verify the answer. But wait \u2014 there's no problem statement given. The query asks how many oranges Liam has \"in total now,\" which implies there was some prior context (like \"Liam had X oranges, gave away Y, bought Z...\").\n\nThe answer given is -",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_45",
+            "category": "gsm_symbolic",
+            "target_entity": "32",
+            "pred_mem": "The user is asking about a word problem. Let me analyze it:\n\nNoah initially bought 35 mangoes.\nNoah gave 19 mangoes to Ava.\nRemaining: 35 - 19 = 16\nThen multiplied remaining by 2: 16 \u00d7 2 = 32\n\nThe query asks \"What entity is this about?\" and the answer given is \"32\".\n\nWait, this seems like a strange format. The question asks \"What entity is this about?\" but the answer",
+            "pred_gen": "The user has given me a query and an answer: \"How many mangoes does Noah have in total now?\" with the answer \"32\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_46",
+            "category": "gsm_symbolic",
+            "target_entity": "81",
+            "pred_mem": "The user is asking about an entity in a math word problem. Let me analyze:\n\nEmma initially bought 48 cherries. She gave 21 to Lucas, so she has 48 - 21 = 27 cherries. Then multiplied by 3: 27 \u00d7 3 = 81.\n\nThe question asks \"What entity is this about?\" and the answer given is 81.\n\nThe entity the problem is about is Emma (the main subject). The answer 81 represents Emma's cherries after",
+            "pred_gen": "The user has given me a query and an answer: \"How many cherries does Emma have in total now?\" with the answer \"81\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Reconstruct the problem\n3. Explain how to get to 81\n\nWithout the original problem context, I can't verify the answer directly. This appears",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_48",
+            "category": "gsm_symbolic",
+            "target_entity": "165",
+            "pred_mem": "The question asks: \"What entity is this about?\" with the answer being 165.\n\nLet me work through the math: Ava bought 79 pears, gave 24 to Sophia, so 79 - 24 = 55 remaining. Then multiplied by 3: 55 \u00d7 3 = 165.\n\nSo the answer 165 represents the number of pears Ava has after these operations. The entity this is about is \"pears\" (or Ava's pears).\n\nThe question \"What entity",
+            "pred_gen": "The user has given me a query and an answer: \"How many pears does Ava have in total now?\" with the answer \"165\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nSince there's no actual problem context given, I can't verify the answer directly",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_47",
+            "category": "gsm_symbolic",
+            "target_entity": "284",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze:\n\nEthan initially bought 79 plums. He gave 8 plums to Isabella, so he has 79 - 8 = 71 plums. Then he multiplied by 4: 71 \u00d7 4 = 284.\n\nThe question asks \"What entity is this about?\" and the answer given is 284.\n\nThe entity this is about would be Ethan - he's the main subject of the problem.",
+            "pred_gen": "The user has given me a query and an answer: \"How many plums does Ethan have in total now?\" with the answer \"284\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem context (like \"Ethan had X plums, he bought Y more...\" etc.).\n\nThis appears to be a case where someone might be testing me, or they may have accidentally omitted the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_49",
+            "category": "gsm_symbolic",
+            "target_entity": "54",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nLucas initially bought 34 apples.\nThey took a 15-minute coffee break (irrelevant information).\nLucas gave 16 apples to Liam: 34 - 16 = 18 apples remaining.\nThen multiplied remaining apples by 3: 18 \u00d7 3 = 54.\n\nThe query asks \"What entity is this about?\" and the answer given is 54.\n\nWait, the question is a bit odd",
+            "pred_gen": "The user has given me a query and an answer: \"How many apples does Lucas have in total now?\" with the answer \"54\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user has only provided the question and the answer, but not the problem statement/context that would describe how Lucas got the apples.\n\nThis appears to be a case where someone might be:\n1. Testing me with an incomplete problem\n2. Wanting me to verify the answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_44",
+            "category": "gsm_symbolic",
+            "target_entity": "75",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it:\n\nOlivia initially bought 29 peaches. They took a 15-minute coffee break in between (this is irrelevant information). Olivia gave 14 peaches to Ethan, and then multiplied their remaining peaches by 5.\n\nThe question asks \"What entity is this about?\" and the answer given is 75.\n\nLet me verify: 29 - 14 = 15, then 15 \u00d7 5 = 75. Yes,",
+            "pred_gen": "The user has given me a query and an answer: \"How many peaches does Olivia have in total now?\" with the answer \"75\".\n\nThis looks like a GSM8K-style math word problem format, but the actual word problem is missing. The user seems to be presenting a query-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate a problem that matches this answer\n3. Explain the reasoning\n\nActually, this format looks like it could be from a dataset",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_53",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Orange is on the table\n- Block-Red is on top of Block-Orange\n- Block-Purple is on the table\n- Block-Green is on top of Block-Purple\n\nActions:\n1. Unstack Block-Red from Block-Orange, place Block-Red on the table.\n2. Pick up Block-Purple from the table and stack Block-Purple on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Green\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nWait, looking at this more carefully - the user has given",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_51",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n- Block-Orange is on the table\n- Block-Blue is on top of Block-Orange\n\nStep 1: Unstack Block-Red from Block-Yellow and place Block-Red on the table.\n- Now: Block-Yellow on table, Block-Red on table, Block-Orange on table, Block-Blue on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Blue\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions/moves performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format they want me to work with.\n\nWait, let me re",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_55",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Purple is on the table\n- Block-Yellow is on top of Block-Purple\n- Block-Blue is on the table\n- Block-Orange is on top of Block-Blue\n\nStep 1: Unstack Block-Yellow from Block-Purple, place Block-Yellow on the table.\n- Now: Block-Purple on table (clear), Block-Yellow on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_52",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Green is on the table\n- Block-Blue is on top of Block-Green\n- Block-Red is on the table\n- Block-Yellow is on top of Block-Red\n\nActions:\n1. Unstack Block-Blue from Block-Green, place Block-Blue on the table\n2. Pick up Block-Red from the table and stack Block-Red on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Green in the final state?\" with the answer \"Block-Yellow\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_54",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is asking about a block-stacking scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n- Block-Blue is on the table\n- Block-Orange is on top of Block-Blue\n\nStep 1: Unstack Block-Red from Block-Yellow, place Block-Red on the table.\n- Now: Block-Yellow on table (clear), Block-Red on",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Orange\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions/moves performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format example, or they want me to explain the reasoning.\n\nWithout",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_56",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Orange is on the table\n- Block-Purple is on top of Block-Orange\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n\nStep 1: Unstack Block-Purple from Block-Orange, place Block-Purple on the table.\n- Block-Orange on table (clear)\n- Block-Purple on table (",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Red\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context \u2014 there's no initial state description, no sequence of actions, nothing. The user has just given me a query and an answer.\n\nWhat might the user want here? This looks like it could be:\n1. A verification task \u2014 they want me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_58",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Purple is on the table\n- Block-Green is on top of Block-Purple\n- Block-Yellow is on the table\n- Block-Orange is on top of Block-Yellow\n\nStep 1: Unstack Block-Green from Block-Purple and place Block-Green on the table.\n- Now: Block-Purple on table, Block-Green on table, Block-Yellow on table, Block-Orange on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_60",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and asks \"What entity is this about?\" with the answer \"Block-Orange\".\n\nWait, let me re-read. The query is \"What entity is this about?\" and the answer given is \"Block-Orange\". This seems like a task where I need to verify or provide the answer. Actually, the format suggests this is a question-answering task where the answer is already provided, or perhaps I'm being asked to confirm.",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Red in the final state? Answer: Block-Orange\"\n\nThis appears to be a blocks world problem, but I don't have any context about the initial state or the sequence of moves. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or this could be part of a task where I'm supposed to evaluate or explain the answer.\n\nWait, looking at this more",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_57",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Purple\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Purple\". So it seems like the user is showing me an example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, this appears to be a task",
+            "pred_gen": "The user has provided a query and an answer. This looks like a block-stacking puzzle question. The query asks \"Which block is directly on top of Block-Orange in the final state?\" and the answer given is \"Block-Purple\".\n\nHowever, there's no context provided - no initial state, no sequence of moves, no description of the blocks world scenario. The user seems to be presenting a question-answer pair, possibly:\n1. Asking me to verify the answer\n2. Providing",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_59",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Orange\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Orange\". So this looks like the user is showing me an example or asking me to verify?\n\nActually, looking at this more carefully, it seems like the user is presenting a task where the answer is",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Orange\"\n\nThis appears to be a blocks world problem, but there's no context given \u2014 no initial state, no sequence of actions, no description of the scenario. The user has just given me a query and an answer.\n\nWhat might the user want here? Possibilities:\n1. They want me to verify the answer is correct \u2014 but I have no",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_34",
+            "category": "gsm_symbolic",
+            "target_entity": "72",
+            "pred_mem": "The user is asking about a math word problem. Let me analyze it.\n\nOlivia initially bought 46 oranges.\nThey took a 15-minute coffee break (irrelevant information).\nOlivia gave 28 oranges to Ethan: 46 - 28 = 18 oranges remaining.\nThen multiplied remaining by 4: 18 \u00d7 4 = 72.\n\nThe query asks \"What entity is this about?\" and the answer given is 72.\n\nWait, the question is a bit odd.",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Olivia have in total now?\" with the answer \"72\".\n\nThis looks like a math word problem format, but the actual word problem is missing. The user seems to be presenting a question-answer pair, possibly wanting me to:\n1. Verify the answer\n2. Generate the problem that would lead to this answer\n3. Explain the reasoning\n\nThis appears to be from a dataset like GSM8K (grade school",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_64",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Blue is on the table\n- Block-Green is on top of Block-Blue\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n\nStep 1: Unstack Block-Green from Block-Blue, place Block-Green on the table.\n- Block-Blue on table (clear)\n- Block-Green on table (",
+            "pred_gen": "The user has provided a query and an answer. The query asks \"Which block is directly on top of Block-Blue in the final state?\" and the answer given is \"Block-Red\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for evaluation or verification purposes. However, there's no context provided - no image, no description of blocks, no initial state or sequence of moves described.\n\nWithout any context about the blocks, their arrangement, or any sequence of",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_62",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query \"What entity is this about?\" with the answer \"Block-Orange\".\n\nWait, let me re-read. The user is presenting this as a question-answer pair. It seems like they want me to verify or explain the answer, or perhaps they're showing me an example format.\n\nActually, looking at this more carefully, it seems like the user has given me a context, a query, and an answer. This might be",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Red in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have any context about the initial state or the sequence of actions that led to a \"final state.\" The user seems to be presenting a question-answer pair, possibly:\n1. Testing me to see if I'll just accept the answer\n2. Wanting me to verify",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_63",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Red is on the table\n- Block-Green is on top of Block-Red\n- Block-Purple is on the table\n- Block-Orange is on top of Block-Purple\n\nStep 1: Unstack Block-Green from Block-Red, place Block-Green on the table.\n- Block-Red on table (clear)\n- Block-Green on table (",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Red in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have any context about the initial state or the sequence of moves. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nWait, looking at this more carefully - the user has given me a query and",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_66",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Purple is on top of Block-Yellow\n- Block-Blue is on the table\n- Block-Red is on top of Block-Blue\n\nStep 1: Unstack Block-Purple from Block-Yellow, place Block-Purple on the table.\n- Now: Block-Yellow on table (clear), Block-Purple on table",
+            "pred_gen": "The user has given me a query and an answer:\n- Query: \"Which block is directly on top of Block-Yellow in the final state?\"\n- Answer: \"Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context (initial state, actions, etc.). The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nSince there's no explicit instruction, the most likely intent is that",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_67",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user is presenting a context about blocks being moved, and a query \"What entity is this about?\" with the answer \"Block-Blue\".\n\nWait, let me re-read. The user gives a context, a query, and an answer. It seems like they want me to verify or explain the answer? Or perhaps they're showing me a format and want me to respond?\n\nActually, looking at this format, it seems like a task where the question is \"What entity is this about?\" and the",
+            "pred_gen": "The user has provided a query and an answer:\n- Query: \"Which block is directly on top of Block-Red in the final state?\"\n- Answer: \"Block-Blue\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions/moves performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_65",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Red\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Red\". So this looks like the user is showing me an example or asking me to verify/explain?\n\nActually, looking at this more carefully, it seems like the user is presenting a task where the",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or this might be part of a task where I'm supposed to evaluate or explain the answer.\n\nWithout the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_61",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Red\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Red\". So this looks like the user is showing me an example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, this appears to be a task",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWithout the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "gsm_symbolic_50",
+            "category": "gsm_symbolic",
+            "target_entity": "-36",
+            "pred_mem": "The user is asking about an entity in a word problem. Let me analyze this.\n\nThe context says:\n- Isabella initially bought 15 oranges\n- The market was located next to a quiet library\n- Isabella gave 24 oranges to Jackson\n- Then multiplied their remaining oranges by 4\n\nThe query asks: \"What entity is this about?\"\n\nThe answer given is -36.\n\nLet me verify the math:\n- Isabella starts with 15 oranges\n- Gives 24 to",
+            "pred_gen": "The user has given me a query and an answer: \"How many oranges does Isabella have in total now?\" with the answer \"-36\".\n\nThis looks like it might be from a math word problem dataset (like GSM8K or similar), where typically there's a problem statement followed by a question. But here, I only have the question and a proposed answer of -36.\n\nThe issue is: having -36 oranges is physically impossible. You can't have a negative number of oranges. This answer doesn't",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_69",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Purple is on the table\n- Block-Red is on top of Block-Purple\n- Block-Orange is on the table\n- Block-Blue is on top of Block-Orange\n\nStep 1: Unstack Block-Red from Block-Purple and place Block-Red on the table.\n- Block-Purple is on the table (now clear)\n- Block-Red is on the table\n- Block-Orange is",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Blue\".\n\nThis appears to be a task where I'm being given a question-answer pair, possibly to verify, explain, or work with. But there's no context provided - no initial state, no sequence of moves, no description of the blocks world scenario.\n\nWait, let me think about this. The format suggests this might be from a blocks",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_70",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user is asking about a blocks world scenario. The query is \"What entity is this about?\" and the answer given is \"Block-Yellow\".\n\nWait, let me re-read. The user provides a context, a query, and an answer. It seems like they want me to confirm or explain the answer? Or perhaps this is a task where I need to determine what entity the question is about.\n\nActually, looking at the format, it seems like the user is presenting a completed QA pair.",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Yellow\".\n\nThis appears to be a task where I'm given a question-answer pair, likely from some block-stacking puzzle or planning domain. But there's no context provided \u2014 no initial state, no sequence of actions, no description of the blocks world.\n\nWait, let me think about what the user might want here. The format is:\n-",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_73",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Blue is on the table\n- Block-Red is on top of Block-Blue\n- Block-Yellow is on the table\n- Block-Green is on top of Block-Yellow\n\nStep 1: Unstack Block-Red from Block-Blue and place Block-Red on the table.\n- Block-Blue is on the table (now clear)\n- Block-Red is on the table\n- Block-Yellow is",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Blue in the final state? Answer: Block-Green\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_68",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and asks \"What entity is this about?\" with the answer \"Block-Green\".\n\nWait, let me re-read. The query is \"What entity is this about?\" and the answer given is \"Block-Green\". This seems like a task where I need to verify or provide the answer. Actually, looking at the format, it seems like the user is giving me a context, a query, and an answer \u2014 perhaps they want me",
+            "pred_gen": "The user has given me a query and an answer:\n- Query: Which block is directly on top of Block-Yellow in the final state?\n- Answer: Block-Green\n\nThis appears to be a task where I'm given a question-answer pair, likely from some block-stacking scenario. But there's no context provided \u2014 no initial state, no sequence of moves, no description of the blocks world.\n\nThe format suggests this might be a verification task, or the user might want me to explain/",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_71",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Blue is on the table\n- Block-Purple is on top of Block-Blue\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n\nActions:\n1. Unstack Block-Purple from Block-Blue, place Block-Purple on the table\n2. Pick up Block-Yellow from the table and stack Block-Yellow on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Blue in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have any context about the initial state or the sequence of actions. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me an example format.\n\nWait, looking at this more carefully - the user has given me a query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_72",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Blue is on top of Block-Yellow\n- Block-Green is on the table\n- Block-Orange is on top of Block-Green\n\nStep 1: Unstack Block-Blue from Block-Yellow and place Block-Blue on the table.\n- Now: Block-Yellow on table, Block-Blue on table, Block-Green on table, Block-Orange on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Orange\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate whether the answer is correct.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_74",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Red is on the table\n- Block-Purple is on top of Block-Red\n- Block-Orange is on the table\n- Block-Yellow is on top of Block-Orange\n\nActions:\n1. Unstack Block-Purple from Block-Red, place Block-Purple on the table\n2. Pick up Block-Orange from the table and stack Block-Orange on top",
+            "pred_gen": "The user has given me a query and an answer:\n- Query: Which block is directly on top of Block-Red in the final state?\n- Answer: Block-Yellow\n\nThis appears to be a task where I'm given a question-answer pair, likely from some block-stacking puzzle or planning domain. But there's no context provided \u2014 no initial state, no sequence of actions, no description of the blocks world.\n\nThe format suggests this might be a verification task, or the user might want me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_76",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Blue is on top of Block-Yellow\n- Block-Purple is on the table\n- Block-Red is on top of Block-Purple\n\nSo we have two stacks:\n- Stack 1: Block-Yellow (bottom), Block-Blue (top)\n- Stack 2: Block-Purple (bottom), Block-Red (top)\n\nStep 1: Unstack Block-",
+            "pred_gen": "The user has given me a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_77",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Purple\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Purple\". So this looks like the user is showing me a completed example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at the structure, it seems like the user has",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Blue in the final state?\" with the answer \"Block-Purple\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_78",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Green is on the table\n- Block-Yellow is on top of Block-Green\n- Block-Purple is on the table\n- Block-Blue is on top of Block-Purple\n\nWait, there's an inconsistency here. If Block-Blue is on top of Block-Purple, then Block-Blue is NOT on the table. But the third action says \"we pick up Block-Blue from the table.\"\n\nLet me",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Green in the final state? Answer: Block-Blue\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_79",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Purple is on the table\n- Block-Orange is on top of Block-Purple\n- Block-Yellow is on the table\n- Block-Red is on top of Block-Yellow\n\nStep 1: Unstack Block-Orange from Block-Purple, place Block-Orange on the table.\n- Now: Block-Purple on table (clear), Block-Orange on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Red\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the sequence of moves, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or this could be part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_82",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user is asking about a block-stacking scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Green is on the table\n- Block-Red is on top of Block-Green\n- Block-Orange is on the table\n- Block-Purple is on top of Block-Orange\n\nActions:\n1. Unstack Block-Red from Block-Green, place Block-Red on the table.\n   - Now: Block-Green on table (clear), Block-Red",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Green in the final state? Answer: Block-Purple\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context \u2014 there's no initial state description, no sequence of moves, nothing. The user has just given me a query and an answer.\n\nWhat might they want? Possibilities:\n1. They want me to verify the answer is correct \u2014 but I can't verify without",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_80",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Blue is on the table\n- Block-Green is on top of Block-Blue\n- Block-Purple is on the table\n- Block-Red is on top of Block-Purple\n\nStep 1: Unstack Block-Green from Block-Blue and place Block-Green on the table.\n- Block-Blue is on the table (now clear)\n- Block-Green is on the table\n- Block-Purple is",
+            "pred_gen": "The user has given me a query and an answer: \"Which block is directly on top of Block-Blue in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context \u2014 there's no initial state description, no sequence of actions, nothing. The user has just provided a query and an answer.\n\nWhat might the user want? This looks like it could be:\n1. A verification task \u2014 they want me to verify whether",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_75",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Orange\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Orange\". So this looks like the user is showing me an example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, it seems like the user has",
+            "pred_gen": "The user has given me a query and an answer: \"Which block is directly on top of Block-Blue in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to explain the reasoning, or",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_83",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "The user is asking about a block-stacking scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Yellow on table\n- Block-Orange on top of Block-Yellow\n- Block-Blue on table\n- Block-Red on top of Block-Blue\n\nStep 1: Unstack Block-Orange from Block-Yellow, place Block-Orange on table.\n- Block-Yellow on table (clear)\n- Block-Orange on table\n- Block-Blue on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Red\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions/moves performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format they want me to work with.\n\nWait, let me re",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_85",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Orange is on the table\n- Block-Red is on top of Block-Orange\n- Block-Blue is on the table\n- Block-Yellow is on top of Block-Blue\n\nActions:\n1. Unstack Block-Red from Block-Orange, place Block-Red on the table\n2. Pick up Block-Blue from the table and stack Block-Blue on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Yellow\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format they want me to work with.\n\nWait, let me",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_84",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me parse the context:\n\nInitial state:\n- Block-Orange is on the table\n- Block-Red is on top of Block-Orange\n- Block-Blue is on the table\n- Block-Purple is on top of Block-Blue\n\nActions:\n1. Unstack Block-Red from Block-Orange, place Block-Red on the table\n2. Pick up Block-Blue from the table and stack Block-Blue on top",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Purple\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_87",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Orange is on the table\n- Block-Red is on top of Block-Orange\n- Block-Purple is on the table\n- Block-Blue is on top of Block-Purple\n\nStep 1: Unstack Block-Red from Block-Orange, place Block-Red on the table.\n- Now: Block-Orange on table (clear), Block-Red on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Blue\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWithout the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_89",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Blue is on the table\n- Block-Green is on top of Block-Blue\n- Block-Purple is on the table\n- Block-Yellow is on top of Block-Purple\n\nStep 1: Unstack Block-Green from Block-Blue, place Block-Green on the table.\n- Block-Blue on table (clear)\n- Block-Green on table (",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Blue in the final state? Answer: Block-Yellow\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format they want me to work with.\n\nWait, let me re-read",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_81",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Green\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Green\". So perhaps the user wants me to verify or explain this answer? Or maybe this is a task where I need to determine what entity the final action is about?\n\nLet me think about this.",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Green\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context \u2014 no initial state, no sequence of actions, no description of the blocks or their movements. The user has just given me a query and an answer.\n\nWhat might the user want here? A few possibilities:\n1. They want me to verify",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_86",
+            "category": "blocksworld",
+            "target_entity": "Block-Green",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Green\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Green\". So this looks like the user is showing me a completed example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, this appears to be a",
+            "pred_gen": "The user has given me a query and an answer:\n- Query: Which block is directly on top of Block-Red in the final state?\n- Answer: Block-Green\n\nThis looks like a task where I'm being given a question-answer pair, possibly to verify, explain, or work with. But there's no context provided \u2014 no initial state, no sequence of block movements, no description of the blocks world scenario.\n\nThis appears to be a blocks world planning/reasoning problem, but the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_91",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Green is on the table\n- Block-Red is on top of Block-Green\n- Block-Orange is on the table\n- Block-Blue is on top of Block-Orange\n\nAction 1: Unstack Block-Red from Block-Green, place Block-Red on the table.\n- Now: Block-Green on table (clear), Block-Red on table",
+            "pred_gen": "The user has provided a query and an answer. This looks like a blocks world problem. The query asks \"Which block is directly on top of Block-Green in the final state?\" and the answer given is \"Block-Blue\".\n\nBut wait - there's no context here. There's no initial state, no sequence of moves, no description of the blocks world scenario. The user has just given me a query and an answer.\n\nThis seems like the user might be:\n1. Testing me with a query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_90",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Yellow is on the table\n- Block-Blue is on top of Block-Yellow\n- Block-Green is on the table\n- Block-Orange is on top of Block-Green\n\nAction 1: Unstack Block-Blue from Block-Yellow, place Block-Blue on the table.\n- Now: Block-Yellow on table (clear), Block-Blue on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Yellow in the final state? Answer: Block-Orange\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format example, or they want me to explain the reasoning.\n\nWithout the",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_92",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Yellow\".\n\nThis looks like a task where I need to verify or provide the answer. The format suggests this is a question-answering task where the answer is already given as \"Block-Yellow\".\n\nWait, let me re-read. The user gave:\n- Context: description of block movements\n- Query: What entity is this about?\n- Answer",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state? Answer: Block-Yellow\"\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_93",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Orange is on the table\n- Block-Blue is on top of Block-Orange\n- Block-Green is on the table\n- Block-Red is on top of Block-Green\n\nStep 1: Unstack Block-Blue from Block-Orange and place Block-Blue on the table.\n- Block-Orange is on the table (now clear)\n- Block-Blue is on the table\n- Block-Green is",
+            "pred_gen": "The user has given me a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Red\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or this could be part of a task where I'm supposed to explain the reasoning, or confirm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_94",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Yellow\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Yellow\". So this looks like the user is showing me a completed example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, this appears to be a",
+            "pred_gen": "The user has given me a query and an answer: \"Which block is directly on top of Block-Green in the final state? Answer: Block-Yellow\"\n\nThis looks like a task from a block-stacking puzzle dataset (like the \"blocksworld\" or similar reasoning tasks). The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or generate the reasoning that leads to this answer.\n\nHowever, there's no context provided \u2014 no initial state, no",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_95",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Purple\".\n\nWait, let me re-read this. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Purple\". So this looks like the user is showing me a completed example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at the structure, it seems like the user has",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Green in the final state? Answer: Block-Purple\"\n\nThis looks like a blocks world problem, but there's no initial state or sequence of actions provided. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nWait, let me re-read. The format is:\n\"Query: Which block is directly on top of Block-Green",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_88",
+            "category": "blocksworld",
+            "target_entity": "Block-Blue",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Purple is on the table\n- Block-Orange is on top of Block-Purple\n- Block-Green is on the table\n- Block-Blue is on top of Block-Green\n\nStep 1: Unstack Block-Orange from Block-Purple, place Block-Orange on the table.\n- Now: Block-Purple on table (clear), Block-Orange on table",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Blue\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the actions/moves performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to evaluate or explain the answer",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_96",
+            "category": "blocksworld",
+            "target_entity": "Block-Orange",
+            "pred_mem": "The user is asking about a blocks world scenario. Let me trace through the actions:\n\nInitial state:\n- Block-Purple on table\n- Block-Green on top of Block-Purple\n- Block-Red on table\n- Block-Orange on top of Block-Red\n\nStep 1: Unstack Block-Green from Block-Purple, place Block-Green on table.\n- Now: Block-Purple on table (clear), Block-Green on table, Block-Red on table with",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Purple in the final state?\" with the answer \"Block-Orange\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or this could be part of a dataset where I'm expected to confirm or explain the answer.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_98",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Green is on the table\n- Block-Red is on top of Block-Green\n- Block-Orange is on the table\n- Block-Purple is on top of Block-Orange\n\nStep 1: Unstack Block-Red from Block-Green and place Block-Red on the table.\n- Now: Block-Green on table (clear), Block-Red on table, Block-Orange on table, Block-Purple",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Green in the final state?\" with the answer \"Block-Purple\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format.\n\nWait, looking at this more carefully - the user",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_99",
+            "category": "blocksworld",
+            "target_entity": "Block-Purple",
+            "pred_mem": "The user is presenting a context about blocks being moved around, and then asks \"What entity is this about?\" with the answer \"Block-Purple\".\n\nWait, let me re-read. The format seems to be: Context, Query, Answer. The answer is already given as \"Block-Purple\". So this looks like the user is showing me a completed example, or perhaps they want me to verify/explain the answer?\n\nActually, looking at this more carefully, this appears to be a task where",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Purple\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions performed, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps this is part of a task where I'm supposed to explain the reasoning, or confirm",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_101",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"AlphaCity\".\n\nWait, let me re-read. The user message contains:\n- Context: routes\n- Query: What entity is this about?",
+            "pred_gen": "The user has given me a query and an answer. The query is: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"AlphaCity\".\n\nThis looks like a task where I need to verify or explain the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm or reason about it. But there's no graph/map provided in the conversation. Hmm.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_97",
+            "category": "blocksworld",
+            "target_entity": "Block-Yellow",
+            "pred_mem": "The user has provided a context about blocks being moved around, and a query asking \"What entity is this about?\" with the answer \"Block-Yellow\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format suggests this is from a dataset like bAbI or similar question-answering tasks about entity tracking.\n\nThe question \"What entity is this about?\" with answer \"Block-Yellow\" \u2014 this seems to be asking which",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Yellow\".\n\nThis appears to be a blocks world problem, but I don't have the actual problem context - the initial state, the moves/actions taken, etc. The user seems to be presenting a question-answer pair, possibly asking me to verify it, or perhaps they're showing me a format they want me to work with.\n\nWait, looking at",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "blocksworld_100",
+            "category": "blocksworld",
+            "target_entity": "Block-Red",
+            "pred_mem": "Let me analyze this problem carefully.\n\nInitial state:\n- Block-Orange is on the table\n- Block-Blue is on top of Block-Orange\n- Block-Green is on the table\n- Block-Red is on top of Block-Green\n\nStep 1: Unstack Block-Blue from Block-Orange and place Block-Blue on the table.\n- Block-Orange is on the table (now clear)\n- Block-Blue is on the table\n- Block-Green is",
+            "pred_gen": "The user has provided a query and an answer: \"Which block is directly on top of Block-Orange in the final state?\" with the answer \"Block-Red\".\n\nThis appears to be a blocks world problem, but I don't have any context about the initial state or the sequence of actions. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nWait, looking at this more carefully - the user has given me a query and",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_102",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"AlphaCity\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting BetaTown \u2192 ZetaStation \u2192 DeltaMetro \u2192",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"AlphaCity\".\n\nThis looks like a task where I'm given a question-answer pair, possibly from a dataset, and I need to... hmm. Actually, the format suggests this might be a verification task, or perhaps I'm being asked to confirm/explain the answer, or generate the reasoning.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_103",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "The user has given me a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"ZetaStation\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate something. Let me think about what the user wants.\n\nThe format is:\n- Context: describes routes between places\n- Query: \"What entity is this about?\"\n- Answer: ZetaStation\n\nThis seems like it could be:\n1. A task where",
+            "pred_gen": "The user has provided a query and an answer:\n- Query: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\"\n- Answer: \"ZetaStation\"\n\nThis looks like a task where I need to verify or explain the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm, explain, or work through it.\n\nThe problem is: there's no graph or route map provided. The query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_106",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has provided a context about routes connecting various stations/ports/harbors/towns, and a query \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format is:\n- Context: describes routes\n- Query: What entity is this about?\n- Answer: DeltaMetro\n\nIt seems like the user is presenting this as a completed question-answer pair. Perhaps",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"DeltaMetro\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly from a graph traversal task. But there's no graph provided in this conversation. The user seems to be presenting this as if I should verify, explain, or respond to this Q&A pair.\n\nWait \u2014",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_104",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"AlphaCity\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting ThetaValley \u2192 EpsilonPort \u2192 Z",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from ThetaValley following directed routes 4 steps forward, and the answer given is AlphaCity.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification, or perhaps I'm being asked to confirm or evaluate this answer. But there's no graph or map provided showing the directed routes between cities.\n\nWait, let me re-read this. The format is:\n- Query: If you travel",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_107",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has given me a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/understand something. Actually, looking at the format, it seems like the user is presenting a completed question-answer pair. The query asks \"What entity is this about?\" and the answer given is \"EtaHarbor\".\n\nWait, let me think about",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EtaHarbor\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification, or perhaps the user wants me to confirm/explain the answer. But there's no map or graph provided showing the directed routes between cities.\n\nWait, this",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_109",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "The user has given me a context about routes connecting various stations/ports, and a query \"What entity is this about?\" with the answer \"BetaTown\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"BetaTown\".\n\nWait, let me re-read. The user message contains:\n- Context: routes\n- Query: What entity is this",
+            "pred_gen": "The user has given me a query and an answer. The query asks: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"BetaTown\".\n\nThis looks like a task where I need to verify or explain the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm it. But there's no graph or route map provided in the conversation. Without the actual directed",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_108",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various stations/towns, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a few-shot example format, possibly from a dataset like a question-answering task. The user seems to be showing me an example of a task format. But there's no actual new query for me to answer \u2014 the message ends with \"Answer: AlphaCity\".\n\nWait, let me re-read. The message contains:",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from ZetaStation following directed routes 4 steps forward, and the answer given is AlphaCity.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for evaluation or verification. But there's no context provided - no map, no graph, no routes described. The query references \"directed routes\" but no actual route information is given to me.\n\nWait, let me think about this format.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_110",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"ThetaValley\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format is:\n- Context: a series of route connections\n- Query: What entity is this about?\n- Answer: ThetaValley\n\nThis appears to be a reading comprehension / entity identification task. The question \"What entity is",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"ThetaValley\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification or as part of a dataset. But there's no actual map or graph provided to me. The user seems to be presenting this as a completed Q&A pair.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_105",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has given me a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or asked to verify/produce an answer. The format is:\n- Context: a set of facts\n- Query: a question\n- Answer: the expected answer\n\nThe user has provided the answer already. So what are they asking me to do? This appears to be a task",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EtaHarbor\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The answer \"EtaHarbor\" is given.\n\nThis",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_111",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has provided a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate/confirm something. Let me think about what the user is actually asking.\n\nThe format appears to be:\n- Context: A set of facts about routes\n- Query: \"What entity is this about?\"\n- Answer: DeltaMetro\n\nThis could be:\n1. A",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"DeltaMetro\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The user just gave me a query and an answer.\n\nWhat might",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_112",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"ThetaValley\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"ThetaValley\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting DeltaMetro \u2192 GammaVillage \u2192 Beta",
+            "pred_gen": "The user has given me a query and an answer. The query is: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"ThetaValley\".\n\nThis looks like a task where I'm being asked to verify or confirm an answer, or perhaps this is a format where I should respond with the answer. The structure \"Query: ... Answer: ...\" suggests this might be a test of whether I can",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_115",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"GammaVillage\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"GammaVillage\".\n\nWait, let me re-read. The user message contains:\n- Context: routes\n- Query: What entity is this about",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"GammaVillage\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The format suggests this might be from a dataset where there's an",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_117",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example, or perhaps I'm being asked to verify/confirm the answer. Let me think about what's happening here.\n\nThe context describes:\n- Route 1: EtaHarbor \u2192 ZetaStation\n- Route 2: ZetaStation \u2192 EpsilonPort\n- Route 3: Epsilon",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"AlphaCity\".\n\nThis appears to be a task where I need to verify or evaluate the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm it, or maybe they want me to explain the reasoning.\n\nWait, looking at this",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_114",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"EpsilonPort\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting places\n- Query: What entity is this about",
+            "pred_gen": "The user has given me a query and an answer:\n- Query: If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\n- Answer: EpsilonPort\n\nThis appears to be a graph traversal problem, but I don't have the actual graph/map data. The user seems to be presenting a question-answer pair, possibly asking me to verify, explain, or work with this.\n\nSince there's no explicit instruction, the most likely",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_116",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"ThetaValley\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"ThetaValley\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting places\n- Query: What entity is",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"ThetaValley\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for evaluation or verification. But there's no context provided - no graph, no map, no routes listed. The query references \"directed routes\" but no actual route",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_113",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has given me a context about routes connecting cities, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"EpsilonPort\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting cities\n- Query: What entity is this about?",
+            "pred_gen": "The user has given me a query and an answer. The query asks: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EpsilonPort\".\n\nThis looks like a task where I need to verify or explain the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm or reason about it. But there's no graph provided! There's no map of directed routes between cities",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_118",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has given me a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/evaluate something. Let me think about what the actual task is here.\n\nThe format is:\n- Context: describes routes between places\n- Query: \"What entity is this about?\"\n- Answer: EtaHarbor\n\nThis seems like it could be",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"EtaHarbor\".\n\nThis looks like a graph traversal problem, but I don't have the actual graph/map data. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or work through this problem.\n\nWait, let me re-read. The format is:\n-",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_120",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various stations/cities, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a few-shot example format, possibly from a dataset like a question-answering task. The user seems to be showing me an example of a task format. But there's no actual new question for me to answer \u2014 they've provided the context, query, and answer all together.\n\nWait, let me re-read. The message",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"AlphaCity\".\n\nThis looks like a task where I'm given a question-answer pair, possibly to verify, explain, or work with. But there's no graph or route information provided. The query references \"directed routes\" from \"ZetaStation\" but no actual route map is given.\n\nThis",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_119",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "The user has provided a context about routes connecting various cities, and a query asking \"What entity is this about?\" with the answer \"GammaVillage\".\n\nThis looks like a task where I need to evaluate or confirm the answer, or perhaps the user is showing me an example format. Let me think about what's being asked here.\n\nActually, looking at this more carefully, it seems like the user is presenting a completed question-answer pair. The format is:\n- Context: describes routes between cities",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"GammaVillage\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly from a dataset. The user hasn't actually asked me anything explicitly \u2014 they've just presented a query and its answer. \n\nWhat might they want? This format resembles tasks where:\n1. They want me to",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_121",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"AlphaCity\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting EtaHarbor \u2192 EpsilonPort \u2192 Beta",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"AlphaCity\".\n\nThis looks like a task where I need to verify or explain the answer, or perhaps the user is showing me a question-answer pair and wants me to confirm or reason about it. But there's no graph provided! There's no information about the directed routes between cities.\n\nWait,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_122",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query asking \"What entity is this about?\" with the answer \"BetaTown\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"BetaTown\".\n\nWait, let me re-read. The user message contains:\n- Context: routes connecting places\n- Query: What entity is this",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"BetaTown\".\n\nThis appears to be a task where I'm given a question and an answer, and I need to... what exactly? The format suggests this might be a verification task, or perhaps I'm supposed to confirm/explain the answer. But there's no map or graph",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_123",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has provided a context about routes connecting various stations/cities, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate something. Let me think about what's being asked here.\n\nThe format is:\n- Context: describes routes\n- Query: \"What entity is this about?\"\n- Answer: EpsilonPort\n\nThis seems like it could be a few things:\n1. The user",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from ZetaStation and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"EpsilonPort\".\n\nThis looks like a graph traversal problem, but I don't have the actual graph/map data. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or reason about it.\n\nWait, let me re-read. The format is:\nQuery:",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_124",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query asking \"What entity is this about?\" with the answer \"EtaHarbor\".\n\nThis looks like a task where I need to evaluate or confirm the answer, or perhaps the user is showing me an example format. Let me think about what's being asked here.\n\nActually, looking at this more carefully, it seems like the user is presenting a completed question-answer pair. The context describes a chain of routes:\n- Route 1",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"EtaHarbor\".\n\nThis looks like a graph traversal problem, but I don't have the actual graph/map data. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or reason about it.\n\nSince I don't have access to the underlying graph data (the directed",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_126",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"BetaTown\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"BetaTown\".\n\nWait, let me re-read. The user message contains:\n- Context: routes connecting DeltaMetro \u2192 ThetaValley \u2192 Z",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"BetaTown\".\n\nThis appears to be a task where I'm being shown a query-answer pair, possibly for evaluation or verification. But there's no context provided - no map, no graph, no routes listed. The user just gave me a query and an answer.\n\nWait, this",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_125",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"BetaTown\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"BetaTown\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting places\n- Query: What entity is this about",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"BetaTown\".\n\nThis appears to be a task where I'm being shown a query-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The city names (EtaHarbor, BetaTown",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_128",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"GammaVillage\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"GammaVillage\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting places\n- Query: What entity is",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"GammaVillage\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly to verify, evaluate, or explain. But there's no explicit instruction. Let me think about what the user might want.\n\nThis format resembles tasks from graph traversal benchmarks where you're",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_127",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "The user has provided a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"GammaVillage\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate something. Let me think about what's being asked here.\n\nThe format is:\n- Context: describes routes between cities\n- Query: \"What entity is this about?\"\n- Answer: GammaVillage\n\nThis seems like it could be:\n1. A task where I",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"GammaVillage\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, evaluate, or explain. But there's no context given \u2014 no map, no graph, no list of directed routes. The user just gave me a query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_129",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"ZetaStation\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"ZetaStation\".\n\nWait, let me re-read. The user message contains:\n- Context: routes description\n- Query: What entity is this",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"ZetaStation\".\n\nThis appears to be a task where I'm being shown a query-answer pair, possibly for verification, or perhaps this is part of a dataset where I need to confirm or explain the answer. But there's no map or graph provided showing the directed routes",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_132",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has provided a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"EtaHarbor\".\n\nThis looks like a task where I need to evaluate or verify the answer, or perhaps the user is showing me an example format. Let me think about what's being asked here.\n\nActually, looking at this format, it seems like the user is presenting a completed question-answer pair. The query asks \"What entity is this about?\" and the answer given",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EtaHarbor\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no explicit instruction. Let me think about what the user might want.\n\nThis looks like it could be from a dataset",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_130",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has given me a context describing routes connecting various locations, a query asking \"What entity is this about?\", and an answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate something. Let me think about what's happening here.\n\nThe context describes:\n- Route 1: GammaVillage \u2192 ZetaStation\n- Route 2: ZetaStation \u2192 AlphaCity\n- Route 3: AlphaCity \u2192 ThetaValley\n-",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from GammaVillage following directed routes 4 steps forward, and the answer given is EpsilonPort.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification or as part of a dataset. The user hasn't actually asked me a question - they've just presented a query and its answer.\n\nWait, let me re-read. The format is:\n\"Query: If you travel starting from Gamma",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_135",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task where I need to determine what entity the context is about. The context describes a chain of routes:\n- Route 1: EtaHarbor \u2192 BetaTown\n- Route 2: BetaTown \u2192 ThetaValley\n- Route 3: ThetaValley \u2192 AlphaCity\n- Route 4: Alpha",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"EpsilonPort\".\n\nThis looks like a task where I need to verify or explain the answer. But wait \u2014 there's no graph or route information provided in the conversation. The query references \"directed routes\" but no map/graph is given.\n\nHmm, this appears to be a format where the user",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_133",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has given me a context describing routes connecting various cities, a query asking \"What entity is this about?\", and an answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or asked to evaluate something. Let me think about what's being asked here.\n\nThe context describes:\n- Route 1: ThetaValley \u2192 EpsilonPort\n- Route 2: EpsilonPort \u2192 AlphaCity\n- Route 3: AlphaCity \u2192 DeltaMetro\n-",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from ThetaValley following directed routes 4 steps forward, and the answer given is EtaHarbor.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with it. But there's no actual map or graph provided showing the directed routes between cities.\n\nWait, let me think about this. The format is:\n- Query: [question about graph traversal",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_131",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "The user has provided a context about routes connecting various places, and a query asking \"What entity is this about?\" with the answer \"ZetaStation\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format suggests this might be from a dataset like WikiHop or similar reading comprehension tasks where you need to identify the entity that the query is about.\n\nLet me analyze the context:\n- Route 1: BetaTown \u2192 EtaHar",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from BetaTown and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"ZetaStation\".\n\nThis looks like a graph traversal problem, but I don't have the actual graph/map data. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or work with this.\n\nWait, let me re-read. The format is:\n\"Query",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_138",
+            "category": "graph_reachability",
+            "target_entity": "ThetaValley",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"ThetaValley\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: given a context and a query, produce an answer. The answer is already given as \"ThetaValley\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting places\n-",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"ThetaValley\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with it. But there's no map or graph provided showing the directed routes between cities. The answer is simply given as \"ThetaVal",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_136",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"DeltaMetro\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting EtaHarbor \u2192 BetaTown \u2192 Theta",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from EtaHarbor following directed routes 4 steps forward, and the answer given is DeltaMetro.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification, or perhaps the user wants me to confirm/explain the answer. But there's no map or graph provided showing the routes between cities.\n\nWait, let me think about this. The format looks like it could be from a dataset",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_139",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has provided a context about routes connecting various locations, and a query asking \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format suggests this might be from a dataset like a question-answering task where the question is asking which entity the context is \"about.\"\n\nLet me think about this. The context describes a chain of routes:\n- Route 1",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"DeltaMetro\".\n\nThis looks like a graph traversal problem, but I don't have the actual graph data. The user seems to be presenting a query-answer pair, possibly asking me to verify, explain, or work through this problem.\n\nWait, let me re-read. The format is:\n-",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_134",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has provided a context about routes connecting various stations/ports, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. Actually, looking at the format, it seems like the user is presenting a completed QA pair \u2014 Context, Query, and Answer are all provided. \n\nWait, let me re-read. The user message contains:\n- Context: routes",
+            "pred_gen": "The user has given me a query and an answer: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" with the answer \"EpsilonPort\".\n\nThis looks like a task where I'm being asked to verify or explain the answer, or perhaps this is a format where I need to reason about a graph traversal problem. The problem is that I don't have the actual graph/route data. The query references \"directed routes\" between cities like",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_137",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has given me a context about routes connecting various cities, and a query \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"DeltaMetro\".\n\nWait, let me re-read. The user provided:\n- Context: descriptions of routes\n- Query: What entity is this about",
+            "pred_gen": "The user has given me a query and an answer. The query is: \"If you travel starting from AlphaCity and follow the directed routes 4 steps forward, what is your final destination city?\" and the answer is \"DeltaMetro\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly to verify, explain, or evaluate it. But there's no map or graph provided showing the directed routes between cities. The question references \"directed routes\" which implies there's some underlying",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_141",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format suggests this is from a dataset-like task where given a context and query, I need to provide the answer.\n\nThe query asks \"What entity is this about?\" \u2014 the context describes a chain of routes: EpsilonPort \u2192 E",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EpsilonPort and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"DeltaMetro\".\n\nThis appears to be a task where I need to verify or evaluate the answer, or perhaps the user is showing me a question-answer pair. But there's no map or graph provided showing the directed routes between cities. Without the actual route map/graph, I",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_142",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"EtaHarbor\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting DeltaMetro \u2192 GammaVillage \u2192 The",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EtaHarbor\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The answer is simply given as \"EtaHarbor\".",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_140",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has provided a context about routes connecting various places, a query asking \"What entity is this about?\", and an answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to evaluate something. Let me think about what's happening here.\n\nThe context describes a chain of routes:\n- Route 1: ThetaValley \u2192 BetaTown\n- Route 2: BetaTown \u2192 ZetaStation\n- Route 3: ZetaStation \u2192 DeltaMetro",
+            "pred_gen": "The user has provided a query and an answer. The query asks about traveling from ThetaValley following directed routes 4 steps forward, and the answer given is EpsilonPort.\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with it. But there's no actual map or graph provided showing the directed routes between cities.\n\nWait, let me re-read. The format is:\n\"Query: If you travel starting from Theta",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_145",
+            "category": "graph_reachability",
+            "target_entity": "GammaVillage",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"GammaVillage\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format is:\n- Context: a set of facts\n- Query: a question\n- Answer: the expected answer\n\nThe user has already provided the answer \"GammaVillage\". So what are they asking me to do? It",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"GammaVillage\".\n\nThis appears to be a task where I'm being shown a query-answer pair, possibly for verification, or perhaps this is part of a dataset evaluation. But there's no map or graph provided showing the directed routes between cities. Without the underlying graph/map data,",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_146",
+            "category": "graph_reachability",
+            "target_entity": "EtaHarbor",
+            "pred_mem": "The user has provided a context about routes connecting various cities, and a query asking \"What entity is this about?\" with the answer \"EtaHarbor\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be:\n- Context: a set of facts\n- Query: a question\n- Answer: the expected answer\n\nThe user has already provided the answer \"EtaHarbor\". So what are they asking me to do",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EtaHarbor\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification or as part of a dataset. But there's no map or graph provided showing the directed routes between cities. Without the underlying graph/map data, I cannot",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_147",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has provided a context about routes connecting various cities, and a query asking \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task where I need to verify or understand the answer. Let me think about what's happening here. The format suggests this might be a question-answering task where the answer is already given, and perhaps I'm being asked to confirm, explain, or evaluate it.\n\nActually, looking at this more carefully, it seems like the user",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"DeltaMetro\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The format suggests this might be from a dataset where",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_143",
+            "category": "graph_reachability",
+            "target_entity": "AlphaCity",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"AlphaCity\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/understand something. Let me think about what's happening here.\n\nThe context describes a chain of routes:\n- Route 1: DeltaMetro \u2192 GammaVillage\n- Route 2: GammaVillage \u2192 EtaHarbor\n- Route 3: E",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from DeltaMetro and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"AlphaCity\".\n\nThis appears to be a task where I'm being shown a query-answer pair, possibly for verification, or perhaps this is part of a dataset evaluation. The user hasn't given me the underlying graph/map data, so I can't actually verify whether AlphaCity is correct.",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_148",
+            "category": "graph_reachability",
+            "target_entity": "DeltaMetro",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"DeltaMetro\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format seems to be: Context, Query, Answer. The answer is already given as \"DeltaMetro\".\n\nWait, let me re-read. The user provided:\n- Context: routes connecting ThetaValley \u2192 AlphaCity \u2192 GammaV",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"DeltaMetro\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for evaluation or verification. But there's no map or graph provided showing the directed routes between cities. Without the underlying graph/map data, I cannot verify whether DeltaMetro is",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_150",
+            "category": "graph_reachability",
+            "target_entity": "EpsilonPort",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"EpsilonPort\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/understand something. Actually, looking at this more carefully, it seems like the user is presenting a completed question-answer pair. The query asks \"What entity is this about?\" and the answer given is \"EpsilonPort\".\n\nHmm, but wait - the context",
+            "pred_gen": "The user has given me a query and an answer. The query asks: \"If you travel starting from ThetaValley and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"EpsilonPort\".\n\nThis looks like a task where I'm being shown a question-answer pair, possibly to verify, explain, or work with. But there's no map or graph provided showing the directed routes between cities. The format suggests this might be from a dataset where",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_149",
+            "category": "graph_reachability",
+            "target_entity": "BetaTown",
+            "pred_mem": "The user has given me a context about routes connecting various places, and a query \"What entity is this about?\" with the answer \"BetaTown\".\n\nThis looks like a task format where I'm being shown an example or being asked to verify/produce an answer. The format is:\n- Context: description of routes\n- Query: What entity is this about?\n- Answer: BetaTown\n\nIt seems like the user is presenting this as a completed QA pair. Perhaps they want me to confirm the answer",
+            "pred_gen": "The user has provided a query and an answer. The query asks: \"If you travel starting from EtaHarbor and follow the directed routes 4 steps forward, what is your final destination city?\" And the answer given is \"BetaTown\".\n\nThis appears to be a task where I'm being shown a question-answer pair, possibly for verification, or perhaps this is part of a dataset evaluation. The format suggests I might need to verify whether the answer is correct, or perhaps I'm being asked to",
+            "acc_mem": 1.0,
+            "acc_gen": 1.0
+        },
+        {
+            "id": "graph_reachability_144",
+            "category": "graph_reachability",
+            "target_entity": "ZetaStation",
+            "pred_mem": "",
+            "pred_gen": "The user has given me a query and an answer:\n\nQuery: If you travel starting from GammaVillage and follow the directed routes 4 steps forward, what is your final destination city?\nAnswer: ZetaStation\n\nThis looks like a task where I'm given a question-answer pair, possibly to verify, explain, or work with. But there's no explicit instruction about what to do. The format suggests this might be from a dataset where I need to either:\n1. Verify the answer\n2",
+            "acc_mem": 0.0,
+            "acc_gen": 1.0
+        }
+    ]
+}
