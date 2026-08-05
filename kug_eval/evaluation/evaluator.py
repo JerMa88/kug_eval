@@ -244,7 +244,9 @@ class APIModelEvaluator(BaseEvaluator):
 
         res = self._http_post_json(url, headers, payload)
         if res and "choices" in res and len(res["choices"]) > 0:
-            return res["choices"][0]["message"]["content"].strip()
+            msg = res["choices"][0].get("message", {})
+            text = msg.get("content") or msg.get("reasoning_content") or ""
+            return text.strip() if isinstance(text, str) else ""
         return ""
 
     def _call_gemini_api(self, prompt: str) -> str:
