@@ -351,9 +351,16 @@ class APIModelEvaluator(BaseEvaluator):
                     logger.error(f"[{self.model_name}] Non-retryable HTTP {e.code}. "
                                  f"Check API key / model ID. body={error_body[:300]}")
                     return None
-                sleep_time = (4 * (attempt + 1)) if e.code == 429 else (2 ** attempt)
-                logger.warning(f"[{self.model_name}] HTTP {e.code} attempt {attempt+1}/{max_retries}. "
-                               f"Sleeping {sleep_time}s ...")
+                # gpt-5.x / o-series have strict RPM limits (~50 RPM).
+                # Use aggressive back-off: 60s base + 30s per retry attempt for 429.
+                if e.code == 429:
+                    sleep_time = 60 + (30 * attempt)
+                    logger.warning(f"[{self.model_name}] HTTP 429 Rate Limit — "
+                                   f"sleeping {sleep_time}s (attempt {attempt+1}/{max_retries}) ...")
+                else:
+                    sleep_time = 2 ** attempt
+                    logger.warning(f"[{self.model_name}] HTTP {e.code} attempt {attempt+1}/{max_retries}. "
+                                   f"Sleeping {sleep_time}s ...")
                 if attempt < max_retries - 1:
                     time.sleep(sleep_time)
 
@@ -411,7 +418,9 @@ class APIModelEvaluator(BaseEvaluator):
 
         res = self._http_post_json(url, headers, payload, item_id=item_id,
                                    prompt_type=prompt_type)
-        time.sleep(0.1)  # conservative rate limit buffer
+        # gpt-5.6-sol rate limit is ~50 RPM. With 1 thread and 1.5s sleep we stay
+        # at ~40 RPM — safely under budget. Do NOT use multiple threads for gpt-5.x.
+        time.sleep(1.5)
         if res and "choices" in res and res["choices"]:
             return res["choices"][0]["message"]["content"].strip()
         return ""

@@ -54,8 +54,12 @@ def main():
     )
     parser.add_argument(
         "--data_path", type=str,
-        default="data/tasks/sota_generalization_benchmark.jsonl",
-        help="Path to input JSONL benchmark file.",
+        default="data/tasks/eval_1000_sample.jsonl",
+        help=(
+            "Path to benchmark JSONL. Default: eval_1000_sample.jsonl — the "
+            "LOCKED 1000-item stratified sample (200/category, seed=42). "
+            "ALL models must run on this same file for results to be comparable."
+        ),
     )
     parser.add_argument(
         "--model_name", type=str, default="gpt-5.6-sol",
@@ -80,8 +84,11 @@ def main():
         help="Directory to write results JSON and logs.",
     )
     parser.add_argument(
-        "--max_workers", type=int, default=5,
-        help="Thread pool size for concurrent API calls.",
+        "--max_workers", type=int, default=1,
+        help=(
+            "Thread pool size. KEEP AT 1 for gpt-5.6-sol (strict ~50 RPM limit). "
+            "Fireworks/Gemini models can handle 3-5."
+        ),
     )
 
     args = parser.parse_args()
