@@ -351,9 +351,17 @@ class APIModelEvaluator(BaseEvaluator):
                     logger.error(f"[{self.model_name}] Non-retryable HTTP {e.code}. "
                                  f"Check API key / model ID. body={error_body[:300]}")
                     return None
-                # gpt-5.x / o-series have strict RPM limits (~50 RPM).
-                # Use aggressive back-off: 60s base + 30s per retry attempt for 429.
                 if e.code == 429:
+                    # Distinguish billing exhaustion from transient rate limiting.
+                    err_code = raw_response.get("error", {}).get("code", "") if raw_response else ""
+                    if err_code in ("credit_balance_exhausted", "insufficient_quota", "billing_hard_limit_reached"):
+                        logger.error(
+                            f"[{self.model_name}] FATAL: Account has no credits remaining "
+                            f"(code={err_code}). Top up at platform.openai.com/billing. "
+                            f"Aborting — no point retrying."
+                        )
+                        raise RuntimeError(f"OpenAI billing exhausted: {err_code}")
+                    # True rate limit — use aggressive back-off.
                     sleep_time = 60 + (30 * attempt)
                     logger.warning(f"[{self.model_name}] HTTP 429 Rate Limit — "
                                    f"sleeping {sleep_time}s (attempt {attempt+1}/{max_retries}) ...")
